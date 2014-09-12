@@ -1,5 +1,4 @@
-#include <iostream>
-#include <cstdio>
+
 #include "Game.h"
 #include "Table.h"
 
@@ -149,14 +148,14 @@ int Game::SetPlayers()
 	int choice;
 	switch (GetGameType())
 	{
-	case 1: maxPlayers = 9;
-		break;
-	case 2: maxPlayers = 9;
-		break;
-	case 3:	maxPlayers = 7;
-		break;
-	case 4: maxPlayers = 8;
-		break;
+		case 1: maxPlayers = 9;
+			break;
+		case 2: maxPlayers = 9;
+			break;
+		case 3:	maxPlayers = 7;
+			break;
+		case 4: maxPlayers = 8;
+			break;
 	};
 	while (true)
 	{
@@ -169,6 +168,40 @@ int Game::SetPlayers()
 		}
 		cout << "\n-Error Cannot Compute---Wrong Choice-\n\n";
 		continue;
+	}
+};
+
+
+int Game::getLegitInt() const
+{
+	
+	int input = 0;
+	string str;
+	while (true)
+	{
+
+		stringstream ss(str); //create a stringstream 
+		//object based on that sring
+		ss >> input;          // parse the object
+		if (!ss) //report an error
+		{
+			if (cin.eof())
+			{
+				cout << "End of file found." << endl;
+				cin.clear();
+			}
+			else
+			{
+				cout << "Error parsing " << ss.str() << endl;
+			}
+		}
+		else
+		{
+			if (input >= 0)
+			{
+				return input;
+			}
+		}
 	}
 };
 

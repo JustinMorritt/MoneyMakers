@@ -1,11 +1,11 @@
-﻿Build started 9/11/2014 7:02:34 PM.
-     1>Project "B:\!C++PROJECTS\MoneyMakers\PokerV2\PokerV2.vcxproj" on node 2 (Build target(s)).
+﻿Build started 9/12/2014 11:43:35 AM.
+     1>Project "C:\Users\Justin\Desktop\MoneyMakers\PokerV2\PokerV2.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         B:\VisualStudio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
          Game.cpp
-     1>b:\!c++projects\moneymakers\pokerv2\game.cpp(103): warning C4715: 'Game::CreateTable' : not all control paths return a value
+     1>c:\users\justin\desktop\moneymakers\pokerv2\game.cpp(102): warning C4715: 'Game::CreateTable' : not all control paths return a value
        Link:
-         B:\VisualStudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"B:\!C++PROJECTS\MoneyMakers\PokerV2\Debug\PokerV2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"B:\!C++PROJECTS\MoneyMakers\PokerV2\Debug\PokerV2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"B:\!C++PROJECTS\MoneyMakers\PokerV2\Debug\PokerV2.lib" /MACHINE:X86 Debug\card.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Justin\Desktop\MoneyMakers\PokerV2\Debug\PokerV2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Justin\Desktop\MoneyMakers\PokerV2\Debug\PokerV2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Justin\Desktop\MoneyMakers\PokerV2\Debug\PokerV2.lib" /MACHINE:X86 Debug\card.obj
          Debug\deal.obj
          Debug\Dealer.obj
          Debug\deck.obj
@@ -13,9 +13,9 @@
          Debug\randgen.obj
          Debug\Table.obj
          Debug\test.obj
-         PokerV2.vcxproj -> B:\!C++PROJECTS\MoneyMakers\PokerV2\Debug\PokerV2.exe
-     1>Done Building Project "B:\!C++PROJECTS\MoneyMakers\PokerV2\PokerV2.vcxproj" (Build target(s)).
+         PokerV2.vcxproj -> C:\Users\Justin\Desktop\MoneyMakers\PokerV2\Debug\PokerV2.exe
+     1>Done Building Project "C:\Users\Justin\Desktop\MoneyMakers\PokerV2\PokerV2.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.40
+Time Elapsed 00:00:01.59
