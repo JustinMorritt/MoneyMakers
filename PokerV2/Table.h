@@ -7,6 +7,7 @@ using namespace std;
 class Table
 {
 public:
+	//Table(){};
 	virtual void Play() = 0;
 	virtual ~Table();
 };
@@ -14,7 +15,7 @@ public:
 class DrawTable : public Table
 {
 public:
-	DrawTable(){};
+	DrawTable();
 	virtual void Play();
 	virtual ~DrawTable();
 };
@@ -23,7 +24,7 @@ class StudTable : public Table
 {
 public:
 
-	StudTable(){};
+	StudTable();
 	virtual void Play();
 	virtual ~StudTable();
 };
@@ -31,7 +32,7 @@ public:
 class OmahaTable : public Table
 {
 public:
-	OmahaTable(){};
+	OmahaTable();
 	virtual void Play();
 	virtual ~OmahaTable();
 };
@@ -39,7 +40,7 @@ public:
 class TexasTable : public Table
 {
 public:
-	TexasTable(){};
+	TexasTable();
 	virtual void Play();
 	virtual ~TexasTable();
 };

@@ -66,6 +66,7 @@
   <ItemGroup>
     <ClInclude Include="card.h" />
     <ClInclude Include="deal.h" />
+    <ClInclude Include="Dealer.h" />
     <ClInclude Include="deck.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="randgen.h" />
@@ -74,6 +75,7 @@
   <ItemGroup>
     <ClCompile Include="card.cpp" />
     <ClCompile Include="deal.cpp" />
+    <ClCompile Include="Dealer.cpp" />
     <ClCompile Include="deck.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="randgen.cpp" />
