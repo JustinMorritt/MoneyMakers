@@ -17,7 +17,7 @@ public:
 	int SetPlayers();
 	void TableMenu();
 	//MAKE A CHECK INPUT FOR INT 
-	int getLegitInt() const;
+	int getLegitInt(int low, int high) const;
 	void GoodBye() const;
 	void GameTitle() const;
 	int GetGameType() const;

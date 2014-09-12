@@ -59,15 +59,10 @@ int Game::MainMenu()
 			<< "(4) Five Card Draw\n"
 			<< "(0) Quit\n"
 			<< "\nGameType:";
-		cin >> choice;
+		choice = getLegitInt(0, 4);
 		if (choice >= 0 && choice < 5)
 		{
 			break;
-		}
-		else
-		{
-			cout << "\n\n<Error> --Wrong Option--\n\n";
-			continue;
 		}
 	}
 	this->_gameType = choice;
@@ -112,7 +107,7 @@ void Game::TableMenu()
 		cout << "\n(0) Quit\n"
 			<< "(1) Main Menu\n"
 			<< "(2) Re-Play ! ";
-		cin >> choice;
+		choice = getLegitInt(0, 2);
 		if (choice == 1) //Break to main menu 
 		{
 			_players = 0;
@@ -157,52 +152,32 @@ int Game::SetPlayers()
 		case 4: maxPlayers = 8;
 			break;
 	};
-	while (true)
-	{
-		cout << "Please enter the number of players (" << minPlayers << " - " << maxPlayers << ")  \n";
-		cin >> choice;
-		if (choice >= minPlayers && choice <= maxPlayers)
-		{
-			_players = choice;
-			return choice;
-		}
-		cout << "\n-Error Cannot Compute---Wrong Choice-\n\n";
-		continue;
-	}
+	cout << "Please enter the number of players (" << minPlayers << " - " << maxPlayers << ")  \n";
+	choice = getLegitInt(minPlayers, maxPlayers); //PASS MIN/MAX players to Is legit function 
+	return choice;
 };
 
 
-int Game::getLegitInt() const
-{
-	
-	int input = 0;
-	string str;
-	while (true)
+int Game::getLegitInt(int low, int high) const
+{	
+	int ret;
+	do
 	{
-
-		stringstream ss(str); //create a stringstream 
-		//object based on that sring
-		ss >> input;          // parse the object
-		if (!ss) //report an error
+		std::string str;
+		std::getline(std::cin, str);
+		std::stringstream ss(str);
+		ss >> ret;
+		if ((ss) && (ret >= low && ret <= high))
 		{
-			if (cin.eof())
-			{
-				cout << "End of file found." << endl;
-				cin.clear();
-			}
-			else
-			{
-				cout << "Error parsing " << ss.str() << endl;
-			}
+			break;
 		}
 		else
 		{
-			if (input >= 0)
-			{
-				return input;
-			}
+			std::cout << "-<error>--wrong option--choose(" << low << " - " << high << ")--" << std::endl;
+			continue;
 		}
-	}
+	}while (true);
+	return ret;
 };
 
 
