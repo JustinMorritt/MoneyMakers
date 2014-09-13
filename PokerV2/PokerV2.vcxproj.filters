@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="card.cpp">
+      <Filter>SOURCE CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="deal.cpp">
+      <Filter>SOURCE CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dealer.cpp">
+      <Filter>SOURCE CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="deck.cpp">
+      <Filter>SOURCE CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>SOURCE CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="randgen.cpp">
+      <Filter>SOURCE CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>SOURCE CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>SOURCE CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="card.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="deal.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="Dealer.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="deck.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="randgen.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="HEADERS">
+      <UniqueIdentifier>{cfbb70cd-4b14-4b5b-b4d2-1a6a10c47444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOURCE CPP">
+      <UniqueIdentifier>{aec10de5-72d0-4b03-8a98-8fce4d086ef8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
