@@ -2,23 +2,31 @@
 #include "Dealer.h"
 
 //CONSTRUCTORS
-TexasTable::TexasTable()
+TexasTable::TexasTable(int players, int gametype)
 {
+	_gameType = gametype;
+	_players = players;
 	cout << "\nCreating Texas Hold'em Dealer and Texas Hold'em players";
 };
 
-OmahaTable::OmahaTable()
+OmahaTable::OmahaTable(int players, int gametype)
 {
+	_gameType = gametype;
+	_players = players;
 	cout << "\nCreating Ohmaha High Dealer and Ohmaha High players\n";
 };
 
-DrawTable::DrawTable()
+DrawTable::DrawTable(int players, int gametype)
 {
+	_gameType = gametype;
+	_players = players;
 	cout << "\nCreating 5 Card Draw Dealer and 5 card draw players\n";
 };
 
-StudTable::StudTable()
+StudTable::StudTable(int players, int gametype)
 {
+	_gameType = gametype;
+	_players = players;
 	cout << "\nCreating a 7 Card Stud Dealer & 7 Card Stud Players\n";
 };
 

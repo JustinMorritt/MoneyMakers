@@ -75,13 +75,13 @@ Table* Game::CreateTable(int gametype)
 	switch (gametype)
 	{
 	case 1:
-		return new  TexasTable;
+		return new  TexasTable(_players,_gameType); //Pass by Value ..players and gametype.
 	case 2:
-		return new OmahaTable;
+		return new OmahaTable(_players, _gameType);
 	case 3:
-		return new StudTable;
+		return new StudTable(_players, _gameType);
 	case 4:
-		return new DrawTable;
+		return new DrawTable(_players, _gameType);
 	}
 }
 
@@ -94,8 +94,8 @@ void Game::TableMenu()
 	while (true)
 	{
 		cout << "\n(0) Quit\n"
-			<< "(1) Main Menu\n"
-			<< "(2) Re-Play ! ";
+			 << "(1) Main Menu\n"
+		     << "(2) Re-Play ! ";
 		choice = getLegitInt(0, 2);
 		if (choice == 1) //Break to main menu 
 		{
@@ -112,11 +112,6 @@ void Game::TableMenu()
 			_players = 0;
 			_gameType = 0;
 			break;
-		}
-		else
-		{
-			cout << "\n\n<Error> --wrong choice--\n\n";
-			continue;
 		}
 	}
 
@@ -194,7 +189,7 @@ void Game::GoodBye() const
 	cout << "\nThanks For Playing...\n"
 		<< " .88888.                          dP  888888ba                       dP\n"
 		<< "d8'   `88                         88  88    `8b                      88\n"
-		<< "88        .d8888b. .d8888b. .d888b88 a88aaaa8P' dP    dP .d8888b.    88\n"
+		<< "88        .d8888b. .d8888b. .d888b88  88aaaa8P' dP    dP .d8888b.    88\n"
 		<< "88   YP88 88'  `88 88'  `88 88'  `88  88   `8b. 88    88 88ooood8    dP\n"
 		<< "Y8.   .88 88.  .88 88.  .88 88.  .88  88    .88 88.  .88 88.  ...      \n"
 		<< " `88888'  `88888P' `88888P' `88888P8  88888888P `8888P88 `88888P'    oo\n"
