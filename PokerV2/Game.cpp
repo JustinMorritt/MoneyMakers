@@ -138,6 +138,7 @@ int Game::SetPlayers()
 	};
 	cout << "Please enter the number of players (" << minPlayers << " - " << maxPlayers << ")  \n";
 	choice = getLegitInt(minPlayers, maxPlayers); //PASS MIN/MAX players to Is legit function 
+	_players = choice;
 	return choice;
 };
 
