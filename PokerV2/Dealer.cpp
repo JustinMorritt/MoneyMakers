@@ -1,23 +1,27 @@
 #include "Dealer.h"
 
 //CONSTRUCTORS
-TexasDealer::TexasDealer()
+TexasDealer::TexasDealer(int players)
 {
+	_players = players;
 	cout << "Made Texas Hold'em Dealer \n";
 };
 
-OmahaDealer::OmahaDealer()
+OmahaDealer::OmahaDealer(int players)
 {
+	_players = players;
 	cout << "Made Ohmaha High Dealer\n";
 };
 
-DrawDealer::DrawDealer()
+DrawDealer::DrawDealer(int players)
 {
+	_players = players;
 	cout << "Made 5 Card Draw Dealer \n";
 };
 
-StudDealer::StudDealer()
+StudDealer::StudDealer(int players)
 {
+	_players = players;
 	cout << "Made a 7 Card Stud Dealer \n";
 };
 
@@ -25,22 +29,23 @@ StudDealer::StudDealer()
 
 void TexasDealer::Deal()
 {
-	cout << "\nTexas Table Played\n";
+	cout << "Dealt cards to: " << _players << " players.\n";
+
 };
 
 void DrawDealer::Deal()
 {
-	cout << "\nDraw Table Played\n";
+	cout << "Dealt cards to: " << _players << " players.\n";
 };
 
 void StudDealer::Deal()
 {
-	cout << "\nStud Table Played\n";
+	cout << "Dealt cards to: " << _players << " players.\n";
 };
 
 void OmahaDealer::Deal()
 {
-	cout << "\nOmaha Table Played\n";
+	cout << "Dealt cards to: " << _players << " players.\n";
 };
 
 

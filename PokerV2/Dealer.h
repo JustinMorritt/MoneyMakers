@@ -15,34 +15,42 @@ public:
 class DrawDealer : public Dealer
 {
 public:
-	DrawDealer();
+	DrawDealer(int players);
 	virtual void Deal();
 	virtual ~DrawDealer();
+private:
+	int _players;
 };
 
 class StudDealer : public Dealer
 {
 public:
 
-	StudDealer();
+	StudDealer(int players);
 	virtual void Deal();
 	virtual ~StudDealer();
+private:
+	int _players;
 };
 
 class OmahaDealer : public Dealer
 {
 public:
-	OmahaDealer();
+	OmahaDealer(int players);
 	virtual void Deal();
 	virtual ~OmahaDealer();
+private:
+	int _players;
 };
 
 class TexasDealer : public Dealer
 {
 public:
-	TexasDealer();
+	TexasDealer(int players);
 	virtual void Deal();
 	virtual ~TexasDealer();
+private:
+	int _players;
 };
 
 

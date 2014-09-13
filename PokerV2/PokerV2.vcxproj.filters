@@ -23,7 +23,7 @@
       <Filter>SOURCE CPP</Filter>
     </ClCompile>
     <ClCompile Include="test.cpp">
-      <Filter>SOURCE CPP</Filter>
+      <Filter>aMAIN</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -55,6 +55,9 @@
     </Filter>
     <Filter Include="SOURCE CPP">
       <UniqueIdentifier>{aec10de5-72d0-4b03-8a98-8fce4d086ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aMAIN">
+      <UniqueIdentifier>{8401e1a0-4539-48db-b8f2-a94ef270f0c9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
