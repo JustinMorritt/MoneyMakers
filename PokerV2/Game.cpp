@@ -1,4 +1,3 @@
-
 #include "Game.h"
 #include "Table.h"
 
@@ -33,20 +32,7 @@ void Game::StartGame()
 	};
 }
 
-void Game::GameTitle() const
-{
-	cout << "\t|***************************************|\n"
-		<< "\t|---JUSTIN---------&-----------LEVI's---|"
-		<< "\n\t|---------------------------------------|\n"
-		<< " ooooooooo.    .oooooo.   oooo    oooo oooooooooooo  ooooooooo.  \n"
-		<< " 888   `Y88. d8P     Y8b  888   .8P'    888'    `8  `888   `Y88.\n"
-		<< " 888   .d88' 888      888  888  d8'     888          888   .d88'\n"
-		<< " 888ooo88P'  888      888  88888[       888oooo8     888ooo88P' \n"
-		<< " 888         888      888  888`88b.     888    '     888  88b. \n"
-		<< " 888         `88b    d88'  888  `88b.   888       o  888  `88b. \n"
-		<< "o888o          Y8bood8P'  o888o  o888o o888ooooood8 o888o  o888o\n\n"
-		<< "Please Enter one of the following options :\n";
-};
+
 
 int Game::MainMenu()
 {
@@ -69,6 +55,8 @@ int Game::MainMenu()
 	return choice;
 };
 
+
+
 //Getters
 int Game::GetGameType() const
 {
@@ -78,6 +66,7 @@ int Game::GetPlayers() const
 {
 	return _players;
 };
+
 
 
 
@@ -178,6 +167,24 @@ int Game::getLegitInt(int low, int high) const
 		}
 	}while (true);
 	return ret;
+};
+
+
+
+
+void Game::GameTitle() const
+{
+	cout << "\t|***************************************|\n"
+		<< "\t|---JUSTIN---------&-----------LEVI's---|"
+		<< "\n\t|---------------------------------------|\n"
+		<< " ooooooooo.    .oooooo.   oooo    oooo oooooooooooo  ooooooooo.  \n"
+		<< " 888   `Y88. d8P     Y8b  888   .8P'    888'    `8  `888   `Y88.\n"
+		<< " 888   .d88' 888      888  888  d8'     888          888   .d88'\n"
+		<< " 888ooo88P'  888      888  88888[       888oooo8     888ooo88P' \n"
+		<< " 888         888      888  888`88b.     888    '     888  88b. \n"
+		<< " 888         `88b    d88'  888  `88b.   888       o  888  `88b. \n"
+		<< "o888o          Y8bood8P'  o888o  o888o o888ooooood8 o888o  o888o\n\n"
+		<< "Please Enter one of the following options :\n";
 };
 
 
