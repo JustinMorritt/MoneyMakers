@@ -186,7 +186,6 @@ void Game::GameTitle() const
 
 void Game::GoodBye() const
 {
-	char bye;
 	cout << "\nThanks For Playing...\n"
 		<< " .88888.                          dP  888888ba                       dP\n"
 		<< "d8'   `88                         88  88    `8b                      88\n"
@@ -195,8 +194,6 @@ void Game::GoodBye() const
 		<< "Y8.   .88 88.  .88 88.  .88 88.  .88  88    .88 88.  .88 88.  ...      \n"
 		<< " `88888'  `88888P' `88888P' `88888P8  88888888P `8888P88 `88888P'    oo\n"
 		<< "                                                     .88               \n"
-		<< "                                                 d8888P                \n\n\n"
-		<< "(enter any key to exit program)";
-cin >> bye;
-
+		<< "                                                 d8888P                \n\n\n";
+	system("pause");
 };
