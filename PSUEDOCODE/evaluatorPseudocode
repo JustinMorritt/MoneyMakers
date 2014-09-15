@@ -1,0 +1,162 @@
+//BRUTE FORCE APPROACH TO A POKER HAND EVALUATOR 
+
+int CompareCues(const CUE& cl, Const CUE&c2)
+{
+	bool f1 = isFlush(c1);
+	bool f2 = isFlush(c2);
+	bool st1 = isStraight(c1);
+	bool st2 = isStraight(c2);
+	
+	if(f1 && st1) //c1 is a straight flush
+	}
+		if(f2 && c2)//c2 is a straight flush
+		{
+			return compareStraightFlushes(c1,c2);
+		}
+		return 1;
+	}
+	if(f2 && st2)
+	{
+		return -1;
+	}
+	// neither hand is a straight flush ... next FOUR OF A KIND
+	bool q1 = isQuad(c1);
+	bool q2 = isQuad(c2);
+	
+	if (q1)
+	{
+		if(q2)
+		{
+			return compareQuads(c1,c2);
+		}
+	return 1; //hand 1 is greater
+	}
+	if (q2)
+	{
+		return -1;
+	}
+	
+	bool boat1 = IsBoat(c1);
+	bool boat2 = IsBoat(c2);
+	
+	if (boat1)
+	{
+		if(boat2)
+		{
+			return compareBoats(c1,c2);
+		}
+		return 1;
+	}
+	if(boat2)
+	{
+		return -1;
+	}
+	
+		
+	bool F1 = IsFlush(c1);
+	bool F2 = IsFlush(c2);
+		if(f1)
+		{
+			if(c2)
+			{
+			return CompareFlushs(c1,c2)
+			}
+			return 1;
+		}
+		if(f2)
+		{
+			return -1;
+		}
+		
+		
+	bool st1 = IsStraight(c1);
+	bool st2 = IsStraight(c2);
+		if (st1)
+		{
+			if(st2)
+				{
+					return compareStraights(c1,c2)
+				}
+			return 1;
+		}
+		if (st2)
+		{
+			return -1
+		}
+		
+	bool trips1 = IsTrips(c1);
+	bool trips2 = IsTrips(c2);
+	if(trips1)
+	{
+		if(trips2)
+			{
+				return CompareTrips(c1,c2);
+			}
+		return 1;
+	}
+	if(trips2)
+	{
+		return -1
+	}
+
+	bool twop1 = IsTwoPair(c1);
+	bool twop2 = IsTwoPair(c2);
+
+	if(twop1)
+	{
+		if(twop2)
+			{
+				return CompareTwoPairs(c1,c2);
+			}
+		return 1;
+	}
+	if(twop2)
+	{
+		return -1
+	}
+
+	bool onep1 = IsOnePair(c1);
+	bool onep2 = IsOnePair(c2);
+
+	if(onep1)
+	{
+		if(onep2)
+			{
+				return CompareOnePairs(c1,c2);
+			}
+		return 1;
+	}
+	if(onep2)
+	{
+		return -1
+	}
+return compareKickers(c1,c2); //COMPARE HIGH CARD IF NO HANDS
+}
+
+	
+
+
+int CompareStraightFlushes(const CUE& c1, const CUE& c2)
+bool isFlush()(const CUE& c);
+bool isStraight()(const CUE& c);
+bool isQuad(const CUE& c)
+int CompareQuads(const CUE& c);
+bool IsBoat(const CUE& c)
+int compareBoats(const CUE& c1, const CUE& c2);
+
+bool IsFlush(const CUE& c)
+int compareFlushs(const CUE& c1, const CUE& c2);
+
+bool IsStraight(const CUE& c)
+int compareStraights(const CUE& c1, const CUE& c2);
+
+bool IsTrips(const CUE& c)
+int compareTrips(const CUE& c1, const CUE& c2);
+
+bool IsTwoPair(const CUE& c)
+int compareTwoPair(const CUE& c1, const CUE& c2);
+
+bool IsOnePair(const CUE& c)
+int compareOnePair(const CUE& c1, const CUE& c2);
+
+int compareKickers(const CUE& c1, const CUE& c2);  //COMPARE KICKER CARDS
