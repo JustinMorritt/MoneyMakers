@@ -12,8 +12,7 @@ using namespace std;
 
 int main()
 {
-	//OUR NICE CLEAN MAIN :P DELETE ME WHEN READ ..Gives  u git practice lmao ... testing again
-
+	
 	Game g;
 	g.GoodBye();
 
