@@ -1,10 +1,26 @@
 #include "Dealer.h"
+#include "deal.h"
+#include "card.h"
 
 //CONSTRUCTORS
 TexasDealer::TexasDealer(int players)
 {
+	const int MAXCARDS = 2;
 	_players = players;
 	cout << "Made Texas Hold'em Dealer \n";
+	Deal d; //Create DEAL
+	for (int i = 0; i < _players; ++i)
+	{
+		vector<const Card*> p_cards;
+		for (int j = 0; j <= MAXCARDS; ++j)
+		{
+			const Card* p = d.OneCard();
+			m_cards.pop_back();
+		}
+
+		//cout << "player #" << i << " has : " << p_cards << endl;
+	}
+
 };
 
 OmahaDealer::OmahaDealer(int players)
@@ -15,6 +31,7 @@ OmahaDealer::OmahaDealer(int players)
 
 DrawDealer::DrawDealer(int players)
 {
+	
 	_players = players;
 	cout << "Made 5 Card Draw Dealer \n";
 };
@@ -27,23 +44,24 @@ StudDealer::StudDealer(int players)
 
 
 
-void TexasDealer::Deal()
+void TexasDealer::deal()
 {
+	
 	cout << "Dealt cards to: " << _players << " players.\n";
 
 };
 
-void DrawDealer::Deal()
+void DrawDealer::deal()
 {
 	cout << "Dealt cards to: " << _players << " players.\n";
 };
 
-void StudDealer::Deal()
+void StudDealer::deal()
 {
 	cout << "Dealt cards to: " << _players << " players.\n";
 };
 
-void OmahaDealer::Deal()
+void OmahaDealer::deal()
 {
 	cout << "Dealt cards to: " << _players << " players.\n";
 };
