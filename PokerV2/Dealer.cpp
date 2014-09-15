@@ -11,7 +11,7 @@ TexasDealer::TexasDealer(int players)
 	Deal d; //Create DEAL
 	for (int i = 0; i < _players; ++i)
 	{
-		vector<const Card*> p_cards;
+		vector<const Card*> p_cards; //NEEDS MEGA WORK IN HERE >>
 		for (int j = 0; j <= MAXCARDS; ++j)
 		{
 			const Card* p = d.OneCard();
