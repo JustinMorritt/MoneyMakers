@@ -12,12 +12,9 @@ using namespace std;
 
 int main()
 {
-	
 	Game g;
 	g.GoodBye();
-
 	//Deal d;
 	//d.Populate(d);
-	
 	return 0;
 }

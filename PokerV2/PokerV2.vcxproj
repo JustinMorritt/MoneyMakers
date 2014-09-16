@@ -71,6 +71,7 @@
     <ClInclude Include="deck.h" />
     <ClInclude Include="Evaluator.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="randgen.h" />
     <ClInclude Include="Table.h" />
   </ItemGroup>
@@ -82,6 +83,7 @@
     <ClCompile Include="deck.cpp" />
     <ClCompile Include="Evaluator.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="randgen.cpp" />
     <ClCompile Include="Table.cpp" />
     <ClCompile Include="test.cpp" />
