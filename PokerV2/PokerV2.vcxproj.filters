@@ -25,6 +25,12 @@
     <ClCompile Include="test.cpp">
       <Filter>aMAIN</Filter>
     </ClCompile>
+    <ClCompile Include="cue.cpp">
+      <Filter>SOURCE CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Evaluator.cpp">
+      <Filter>SOURCE CPP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="card.h">
@@ -46,6 +52,12 @@
       <Filter>HEADERS</Filter>
     </ClInclude>
     <ClInclude Include="Table.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="cue.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="Evaluator.h">
       <Filter>HEADERS</Filter>
     </ClInclude>
   </ItemGroup>

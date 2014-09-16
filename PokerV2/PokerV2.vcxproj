@@ -65,18 +65,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="card.h" />
+    <ClInclude Include="cue.h" />
     <ClInclude Include="deal.h" />
     <ClInclude Include="Dealer.h" />
     <ClInclude Include="deck.h" />
+    <ClInclude Include="Evaluator.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="randgen.h" />
     <ClInclude Include="Table.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="card.cpp" />
+    <ClCompile Include="cue.cpp" />
     <ClCompile Include="deal.cpp" />
     <ClCompile Include="Dealer.cpp" />
     <ClCompile Include="deck.cpp" />
+    <ClCompile Include="Evaluator.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="randgen.cpp" />
     <ClCompile Include="Table.cpp" />

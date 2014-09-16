@@ -8,6 +8,8 @@ TexasDealer::TexasDealer(int players)
 	const int MAXCARDS = 2;
 	_players = players;
 	cout << "Made Texas Hold'em Dealer \n";
+
+	/*
 	Deal d; //Create DEAL
 	for (int i = 0; i < _players; ++i)
 	{
@@ -20,6 +22,7 @@ TexasDealer::TexasDealer(int players)
 
 		//cout << "player #" << i << " has : " << p_cards << endl;
 	}
+	*/
 
 };
 
