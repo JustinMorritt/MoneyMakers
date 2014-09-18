@@ -8,51 +8,61 @@
 TexasDealer::TexasDealer(int players)
 {
 	const int MAXCARDS = 2;
+	m_DealerCards = new Deal;
 	_players = players;
 	cout << "Made Texas Hold'em Dealer \n";
 };
 
 OmahaDealer::OmahaDealer(int players)
 {
+	m_DealerCards = new Deal;
 	_players = players;
 	cout << "Made Ohmaha High Dealer\n";
 };
 
 DrawDealer::DrawDealer(int players)
 {
-	
+	m_DealerCards = new Deal;
 	_players = players;
 	cout << "Made 5 Card Draw Dealer \n";
 };
 
 StudDealer::StudDealer(int players)
 {
+	m_DealerCards = new Deal;
 	_players = players;
 	cout << "Made a 7 Card Stud Dealer \n";
 };
 
 
 
-void TexasDealer::deal()
-{
-	
-	cout << "Dealt cards to: " << _players << " players.\n";
 
+const Card* TexasDealer::deal()
+{
+	const Card* ret = m_DealerCards->OneCard();
+	cout << "Dealt a card.\n";
+	return ret;
 };
 
-void DrawDealer::deal()
+const Card* DrawDealer::deal()
 {
-	cout << "Dealt cards to: " << _players << " players.\n";
+	const Card* ret = m_DealerCards->OneCard();
+	cout << "Dealt a card.\n";
+	return ret;
 };
 
-void StudDealer::deal()
+const Card* StudDealer::deal()
 {
-	cout << "Dealt cards to: " << _players << " players.\n";
+	const Card* ret = m_DealerCards->OneCard();
+	cout << "Dealt a card.\n";
+	return ret;
 };
 
-void OmahaDealer::deal()
+const Card* OmahaDealer::deal()
 {
-	cout << "Dealt cards to: " << _players << " players.\n";
+	const Card* ret = m_DealerCards->OneCard();
+	cout << "Dealt a card.\n";
+	return ret;
 };
 
 

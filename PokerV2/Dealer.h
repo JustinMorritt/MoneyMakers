@@ -3,6 +3,7 @@
 #include <vector>
 #include <iostream>
 #include "card.h"
+#include "deal.h"
 
 
 
@@ -12,7 +13,7 @@ class Dealer
 {
 public:
 
-	virtual void deal() = 0;
+	virtual const Card* deal() = 0;
 	virtual ~Dealer();
 };
 
@@ -20,11 +21,11 @@ class DrawDealer : public Dealer
 {
 public:
 	DrawDealer(int players);
-	virtual void deal();
+	virtual const Card* deal();
 	virtual ~DrawDealer();
 private:
 	int _players;
-	vector<const Card*> m_cards;
+	Deal* m_DealerCards;
 };
 
 class StudDealer : public Dealer
@@ -32,33 +33,33 @@ class StudDealer : public Dealer
 public:
 
 	StudDealer(int players);
-	virtual void deal();
+	virtual const Card* deal();
 	virtual ~StudDealer();
 private:
 	int _players;
-	vector<const Card*> m_cards;
+	Deal* m_DealerCards;
 };
 
 class OmahaDealer : public Dealer
 {
 public:
 	OmahaDealer(int players);
-	virtual void deal();
+	virtual const Card* deal();
 	virtual ~OmahaDealer();
 private:
 	int _players;
-	vector<const Card*> m_cards;
+	Deal* m_DealerCards;
 };
 
 class TexasDealer : public Dealer
 {
 public:
 	TexasDealer(int players);
-	virtual void deal();
+	virtual const Card* deal();
 	virtual ~TexasDealer();
 private:
 	int _players;
-	vector<const Card*> m_cards;
+	Deal* m_DealerCards;
 };
 
 
