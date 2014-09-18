@@ -173,40 +173,48 @@ void OmahaTable::Play()
 //DESTRUCTORS
 DrawTable::~DrawTable()
 {
-	cout << "DrawTable destructor called\n";
-	for (int i = 0; i < _players; i++)
+	//cout << "DrawTable destructor called\n";
+	int player = 1;
+	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
 	{
-		delete m_players[i];
-		std::cout << "player: " << i + 1 << " Killed\n";
+		delete *p_it;
+		std::cout << "player: " << player << " Killed\n";
+		player++;
 	}
 };
 
 StudTable::~StudTable()
 {
-	cout << "StudTable destructor called\n";
-	for (int i = 0; i < _players; i++)
+	//cout << "StudTable destructor called\n";
+	int player = 1;
+	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
 	{
-		delete m_players[i];
-		std::cout << "player: " << i + 1 << " Killed\n";
+		delete *p_it;
+		std::cout << "player: " << player << " Killed\n";
+		player++;
 	}
 }
 
 OmahaTable::~OmahaTable()
 {
-	cout << "OmahaTable destructor called\n";
-	for (int i = 0; i < _players; i++)
+	//cout << "OmahaTable destructor called\n";
+	int player = 1;
+	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
 	{
-		delete m_players[i];
-		std::cout << "player: " << i + 1 << " Killed\n";
+		delete *p_it;
+		std::cout << "player: " << player << " Killed\n";
+		player++;
 	}
 }
 
 TexasTable::~TexasTable()
 {
-	cout << "TexasTable destructor called\n";
-	for (int i = 0; i < _players; i++)
+	//cout << "TexasTable destructor called\n";
+	int player = 1;
+	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
 	{
-		delete m_players[i];
-		std::cout << "player: " << i+1 << " Killed\n";
+		delete *p_it;
+		std::cout << "player: " << player << " Killed\n";
+		player++;
 	}
 }
