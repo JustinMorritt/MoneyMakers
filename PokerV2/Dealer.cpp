@@ -47,7 +47,7 @@ const Card* TexasDealer::deal()
 const Card* DrawDealer::deal()
 {
 	const Card* ret = m_DealerCards->OneCard();
-	cout << "Dealt a card.\n";
+	//cout << "Dealt a card.\n";
 	return ret;
 };
 
