@@ -10,6 +10,7 @@ class Table
 public:
 	virtual void Play() = 0;
 	virtual ~Table();
+	friend class Dealer;
 };
 
 
@@ -23,6 +24,7 @@ public:
 
 	virtual void Play();
 	virtual ~DrawTable();
+	friend class Dealer;
 private:
 	int _gameType;
 	int _players;
@@ -36,6 +38,7 @@ public:
 	StudTable(int players, int gametype);
 	virtual void Play();
 	virtual ~StudTable();
+	friend class Dealer;
 private:
 	int _gameType;
 	int _players;
@@ -49,6 +52,7 @@ public:
 	OmahaTable(int players, int gametype);
 	virtual void Play();
 	virtual ~OmahaTable();
+	friend class Dealer;
 private:
 	int _gameType;
 	int _players;
@@ -62,6 +66,7 @@ public:
 	TexasTable(int players, int gametype);
 	virtual void Play();
 	virtual ~TexasTable();
+	friend class Dealer;
 private:
 	int _gameType;
 	int _players;

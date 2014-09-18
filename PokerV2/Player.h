@@ -9,21 +9,20 @@ using namespace std;
 class Player
 {
 public:
-
 	virtual void ShowCards() = 0;
-	virtual ~Player();
-
+	virtual ~Player(){};
 };
 
 
 class DrawPlayer : public Player
 {
 public:
-	DrawPlayer();
+	DrawPlayer(){};
 	virtual void ShowCards();
-	virtual ~DrawPlayer();
+	virtual ~DrawPlayer(){};
 private:
-	vector<const Card*> m_cards;
+	vector<const Card*> m_Hand;
+
 };
 
 
@@ -31,33 +30,35 @@ class StudPlayer : public Player
 {
 public:
 
-	StudPlayer();
+	StudPlayer(){};
 	virtual void ShowCards();
-	virtual ~StudPlayer();
+	virtual ~StudPlayer(){};
 private:
-	vector<const Card*> m_cards;
+	vector<const Card*> m_Hand;
+
 };
 
 class OmahaPlayer : public Player
 {
 public:
-	OmahaPlayer();
+	OmahaPlayer(){};
 	virtual void ShowCards();
-	virtual ~OmahaPlayer();
+	
+	virtual ~OmahaPlayer(){};
 private:
-	vector<const Card*> m_cards;
+	vector<const Card*> m_Hand;
+
 };
 
 class TexasPlayer : public Player
 {
 public:
 	TexasPlayer(){};
-	virtual void ShowCards(){
-		std::cout << "played ..." << std::endl;
-	};
+	virtual void ShowCards();
 	virtual ~TexasPlayer(){};
 private:
-	vector<const Card*> m_cards;
+	vector<const Card*> m_Hand;
+
 };
 
 

@@ -1,6 +1,8 @@
+#include <vector>
 #include "Dealer.h"
 #include "deal.h"
 #include "card.h"
+#include "Table.h"
 
 //CONSTRUCTORS
 TexasDealer::TexasDealer(int players)

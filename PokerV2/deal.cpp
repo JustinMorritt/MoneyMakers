@@ -50,5 +50,4 @@ void Deal::Populate(Deal& d) const
 			cout << endl;
 		}
 	}
-	std::cin.get();
 }
