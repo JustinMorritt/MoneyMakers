@@ -9,7 +9,7 @@ class Table
 {
 public:
 	virtual void Play() = 0;
-	virtual ~Table();
+	virtual ~Table(){};
 	friend class Dealer;
 };
 
@@ -28,7 +28,8 @@ public:
 private:
 	int _gameType;
 	int _players;
-	vector<const Player*> m_players;
+	const int _maxCards = 5;
+	vector<Player*> m_players;
 };
 
 class StudTable : public Table
@@ -42,7 +43,8 @@ public:
 private:
 	int _gameType;
 	int _players;
-	vector<const Player*> m_players;
+	const int _maxCards = 5;
+	vector<Player*> m_players;
 };
 
 class OmahaTable : public Table
@@ -56,7 +58,8 @@ public:
 private:
 	int _gameType;
 	int _players;
-	vector<const Player*> m_players;
+	const int _maxCards = 5;
+	vector<Player*> m_players;
 };
 
 class TexasTable : public Table
@@ -70,7 +73,8 @@ public:
 private:
 	int _gameType;
 	int _players;
-	vector<const Player*> m_players;
+	const int _maxCards = 5;
+	vector<Player*> m_players;
 };
 
 

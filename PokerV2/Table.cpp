@@ -1,24 +1,42 @@
 #include "Table.h"
 #include "vector"
 #include "Dealer.h"
-
 //CONSTRUCTORS
 TexasTable::TexasTable(int players, int gametype)
 {
 	_gameType = gametype;
 	_players = players;
-	cout << "\nCreating Texas Hold'em Dealer and, " << _players << " Texas Hold'em players\n";
 	//CREATE TEXAS DEALER
 	Dealer* d = new TexasDealer(_players);
+	
+	//CREATE PLAYERS
 	for (int i = 1; i <= _players; i++)
 	{
 		Player* p = new TexasPlayer;
 		m_players.push_back(p);
-		//p->ShowCards();
-		std::cout << "player: " << i << " created\n";
+		//std::cout << "player: " << i << " created\n";
 	}
-	d->deal(); //MAKE NEW DEALER DEAL
-	delete d;
+
+	//DEAL CARDS TO PLAYER VECTORS
+	cout << "Dealing Hands...\n" << endl;
+	for (int i = 0; i < _maxCards; i++)
+	{
+		for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
+		{
+			(*p_it)->AddToHand(d->deal()); //DEAL 1 card a person ( the correct way)
+		}
+	}
+
+	//PLAYERS SHOW THIER CARDS
+	int player = 1;
+	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
+	{
+		cout << "Player " << player << " Hand : ";
+		(*p_it)->ShowCards();
+		player++;
+		cout << endl;
+	}
+	delete d; //DELETE DEALER WHEN DONE WITH HIM 
 };
 
 OmahaTable::OmahaTable(int players, int gametype)
@@ -31,11 +49,29 @@ OmahaTable::OmahaTable(int players, int gametype)
 	{
 		Player* p = new OmahaPlayer;
 		m_players.push_back(p);
-		//p->ShowCards();
-		std::cout << "player: " << i << " created\n";
+		//std::cout << "player: " << i << " created\n";
 	}
-	d->deal(); //MAKE NEW DEALER DEAL
-	delete d;
+
+	//DEAL CARDS TO PLAYER VECTORS
+	cout << "Dealing Hands...\n" << endl;
+	for (int i = 0; i < _maxCards; i++)
+	{
+		for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
+		{
+			(*p_it)->AddToHand(d->deal()); //DEAL 1 card a person ( the correct way)
+		}
+	}
+
+	//PLAYERS SHOW THIER CARDS
+	int player = 1;
+	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
+	{
+		cout << "Player " << player << " Hand : ";
+		(*p_it)->ShowCards();
+		player++;
+		cout << endl;
+	}
+	delete d; //DELETE DEALER WHEN DONE WITH HIM 
 };
 
 DrawTable::DrawTable(int players, int gametype)
@@ -48,11 +84,29 @@ DrawTable::DrawTable(int players, int gametype)
 	{
 		Player* p = new DrawPlayer;
 		m_players.push_back(p);
-		//p->ShowCards();
-		std::cout << "player: " << i << " created\n";
+		//std::cout << "player: " << i << " created\n";
 	}
-	d->deal(); //MAKE NEW DEALER DEAL
-	delete d;
+
+	//DEAL CARDS TO PLAYER VECTORS
+	cout << "Dealing Hands...\n" << endl;
+	for (int i = 0; i < _maxCards; i++)
+	{
+		for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
+		{
+			(*p_it)->AddToHand(d->deal()); //DEAL 1 card a person ( the correct way)
+		}
+	}
+
+	//PLAYERS SHOW THIER CARDS
+	int player = 1;
+	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
+	{
+		cout << "Player " << player << " Hand : ";
+		(*p_it)->ShowCards();
+		player++;
+		cout << endl;
+	}
+	delete d; //DELETE DEALER WHEN DONE WITH HIM 
 };
 
 StudTable::StudTable(int players, int gametype)
@@ -65,11 +119,29 @@ StudTable::StudTable(int players, int gametype)
 	{
 		Player* p = new StudPlayer;
 		m_players.push_back(p);
-		//p->ShowCards();
-		std::cout << "player: " << i << " created\n";
+		//std::cout << "player: " << i << " created\n";
 	}
-	d->deal(); //MAKE NEW DEALER DEAL
-	delete d;
+
+	//DEAL CARDS TO PLAYER VECTORS
+	cout << "Dealing Hands...\n" << endl;
+	for (int i = 0; i < _maxCards; i++)
+	{
+		for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
+		{
+			(*p_it)->AddToHand(d->deal()); //DEAL 1 card a person ( the correct way)
+		}
+	}
+
+	//PLAYERS SHOW THIER CARDS
+	int player = 1;
+	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
+	{
+		cout << "Player " << player << " Hand : ";
+		(*p_it)->ShowCards();
+		player++;
+		cout << endl;
+	}
+	delete d; //DELETE DEALER WHEN DONE WITH HIM 
 };
 
 
@@ -99,11 +171,6 @@ void OmahaTable::Play()
 
 
 //DESTRUCTORS
-Table::~Table()
-{
-	cout << "Table destructor called\n";
-};
-
 DrawTable::~DrawTable()
 {
 	cout << "DrawTable destructor called\n";

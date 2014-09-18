@@ -40,7 +40,7 @@ StudDealer::StudDealer(int players)
 const Card* TexasDealer::deal()
 {
 	const Card* ret = m_DealerCards->OneCard();
-	cout << "Dealt a card.\n";
+	//cout << "Dealt a card.\n";
 	return ret;
 };
 
@@ -54,14 +54,14 @@ const Card* DrawDealer::deal()
 const Card* StudDealer::deal()
 {
 	const Card* ret = m_DealerCards->OneCard();
-	cout << "Dealt a card.\n";
+	//cout << "Dealt a card.\n";
 	return ret;
 };
 
 const Card* OmahaDealer::deal()
 {
 	const Card* ret = m_DealerCards->OneCard();
-	cout << "Dealt a card.\n";
+	//cout << "Dealt a card.\n";
 	return ret;
 };
 

@@ -17,7 +17,6 @@ public:
 	{
 		return (m_cards.size() == 0);
 	}
-	friend class Dealer;
 private:
 	void Shuffle();
 	vector<const Card*> m_cards;
