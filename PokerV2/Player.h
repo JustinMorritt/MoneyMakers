@@ -1,5 +1,6 @@
 #if !defined(PLAYER_H__)
 #define PLAYER_H__
+#include <iostream>
 #include <vector>
 #include "card.h"
 
@@ -9,8 +10,9 @@ class Player
 {
 public:
 
-	virtual void play() = 0;
+	virtual void ShowCards() = 0;
 	virtual ~Player();
+
 };
 
 
@@ -18,7 +20,7 @@ class DrawPlayer : public Player
 {
 public:
 	DrawPlayer();
-	virtual void deal();
+	virtual void ShowCards();
 	virtual ~DrawPlayer();
 private:
 	vector<const Card*> m_cards;
@@ -30,7 +32,7 @@ class StudPlayer : public Player
 public:
 
 	StudPlayer();
-	virtual void play();
+	virtual void ShowCards();
 	virtual ~StudPlayer();
 private:
 	vector<const Card*> m_cards;
@@ -40,7 +42,7 @@ class OmahaPlayer : public Player
 {
 public:
 	OmahaPlayer();
-	virtual void deal();
+	virtual void ShowCards();
 	virtual ~OmahaPlayer();
 private:
 	vector<const Card*> m_cards;
@@ -49,9 +51,11 @@ private:
 class TexasPlayer : public Player
 {
 public:
-	TexasPlayer();
-	virtual void deal();
-	virtual ~TexasPlayer();
+	TexasPlayer(){};
+	virtual void ShowCards(){
+		std::cout << "played ..." << std::endl;
+	};
+	virtual ~TexasPlayer(){};
 private:
 	vector<const Card*> m_cards;
 };

@@ -1,4 +1,5 @@
 #include "Table.h"
+#include "vector"
 #include "Dealer.h"
 
 //CONSTRUCTORS
@@ -9,6 +10,13 @@ TexasTable::TexasTable(int players, int gametype)
 	cout << "\nCreating Texas Hold'em Dealer and, " << _players << " Texas Hold'em players\n";
 	//CREATE TEXAS DEALER
 	Dealer* d = new TexasDealer(_players);
+	for (int i = 0; i < _players; i++)
+	{
+		Player* p = new TexasPlayer;
+		m_players.push_back(p);
+		p->play();
+		std::cout << "player: " << i << " created\n";
+	}
 	d->deal(); //MAKE NEW DEALER DEAL
 	delete d;
 };
@@ -19,6 +27,7 @@ OmahaTable::OmahaTable(int players, int gametype)
 	_players = players;
 	cout << "\nCreating Ohmaha High Dealer and, " << _players << "  Ohmaha High players\n";
 	Dealer* d = new OmahaDealer(_players);
+
 	d->deal(); //MAKE NEW DEALER DEAL
 	delete d;
 };

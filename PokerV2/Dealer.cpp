@@ -8,22 +8,6 @@ TexasDealer::TexasDealer(int players)
 	const int MAXCARDS = 2;
 	_players = players;
 	cout << "Made Texas Hold'em Dealer \n";
-
-	/*
-	Deal d; //Create DEAL
-	for (int i = 0; i < _players; ++i)
-	{
-		vector<const Card*> p_cards; //NEEDS MEGA WORK IN HERE >>
-		for (int j = 0; j <= MAXCARDS; ++j)
-		{
-			const Card* p = d.OneCard();
-			m_cards.pop_back();
-		}
-
-		//cout << "player #" << i << " has : " << p_cards << endl;
-	}
-	*/
-
 };
 
 OmahaDealer::OmahaDealer(int players)

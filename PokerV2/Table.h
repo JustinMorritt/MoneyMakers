@@ -1,6 +1,7 @@
 #if !defined(TABLE_H__)
 #define TABLE_H__
 #include <iostream>
+#include "Player.h"
 
 using namespace std;
 
@@ -25,6 +26,7 @@ public:
 private:
 	int _gameType;
 	int _players;
+	vector<const Player*> m_players;
 };
 
 class StudTable : public Table
@@ -37,6 +39,7 @@ public:
 private:
 	int _gameType;
 	int _players;
+	vector<const Player*> m_players;
 };
 
 class OmahaTable : public Table
@@ -49,6 +52,7 @@ public:
 private:
 	int _gameType;
 	int _players;
+	vector<const Player*> m_players;
 };
 
 class TexasTable : public Table
@@ -61,6 +65,7 @@ public:
 private:
 	int _gameType;
 	int _players;
+	vector<const Player*> m_players;
 };
 
 
