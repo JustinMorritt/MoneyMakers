@@ -7,7 +7,6 @@
 //CONSTRUCTORS
 TexasDealer::TexasDealer(int players)
 {
-	const int MAXCARDS = 2;
 	m_DealerCards = new Deal;
 	_players = players;
 	cout << "Made Texas Hold'em Dealer \n";
@@ -94,3 +93,28 @@ TexasDealer::~TexasDealer()
 {
 	cout << "TexasDealer destructor called\n";
 }
+
+
+const Card* TexasDealer::burn()
+{
+	const Card* ret = m_DealerCards->OneCard();
+	return ret;
+};
+
+const Card* DrawDealer::burn()
+{
+	const Card* ret = m_DealerCards->OneCard();
+	return ret;
+};
+
+const Card* StudDealer::burn()
+{
+	const Card* ret = m_DealerCards->OneCard();
+	return ret;
+};
+
+const Card* OmahaDealer::burn()
+{
+	const Card* ret = m_DealerCards->OneCard();
+	return ret;
+};

@@ -2,6 +2,8 @@
 #include "vector"
 #include "Dealer.h"
 //CONSTRUCTORS
+
+
 TexasTable::TexasTable(int players, int gametype)
 {
 	_gameType = gametype;
@@ -10,12 +12,7 @@ TexasTable::TexasTable(int players, int gametype)
 	Dealer* d = new TexasDealer(_players);
 	
 	//CREATE PLAYERS
-	for (int i = 1; i <= _players; i++)
-	{
-		Player* p = new TexasPlayer;
-		m_players.push_back(p);
-		//std::cout << "player: " << i << " created\n";
-	}
+	AddPlayers();
 
 	//DEAL CARDS TO PLAYER VECTORS
 	cout << "Dealing Hands...\n" << endl;
@@ -26,6 +23,45 @@ TexasTable::TexasTable(int players, int gametype)
 			(*p_it)->AddToHand(d->deal()); //DEAL 1 card a person ( the correct way)
 		}
 	}
+	//BURN ONE CARD
+	m_burnPile.push_back(d->burn());
+	//FLOP OF 3 CARDS
+	m_communityCards.push_back(d->deal());
+	m_communityCards.push_back(d->deal());
+	m_communityCards.push_back(d->deal());
+	//BURN ONE MORE
+	m_burnPile.push_back(d->burn());
+	//TURN
+	m_communityCards.push_back(d->deal());
+	//BURN 
+	m_burnPile.push_back(d->burn());
+	//RIVER
+	m_communityCards.push_back(d->deal());
+	//DISPLAY COMMUNTITY CARDS
+	int c_card = 1;
+	cout << "\nThe Flop :";
+	for (vector<const Card*>::iterator c_it = m_communityCards.begin(); c_it != m_communityCards.end(); ++c_it)
+	{
+		const Card* p = *c_it;
+		if (c_card <= 3)
+		{
+			cout << " " << p->ToString() << "";
+			++c_card;
+		}
+		else if (c_card == 4)
+		{
+			cout << "   Turn :";
+			cout << " " << p->ToString() << "";
+			++c_card;
+		}
+		else
+		{
+			cout << "   River :";
+			cout << " " << p->ToString() << " \n";
+			++c_card;
+		}
+	}
+
 	//**********************************************************
 	//ADD A SORT IN HERE SO THE PLAYER SORTS HIS HAND ace high..
 	//**********************************************************
@@ -50,12 +86,8 @@ OmahaTable::OmahaTable(int players, int gametype)
 	_players = players;
 	cout << "\nCreating Ohmaha High Dealer and, " << _players << "  Ohmaha High players\n";
 	Dealer* d = new OmahaDealer(_players);
-	for (int i = 1; i <= _players; i++)
-	{
-		Player* p = new OmahaPlayer;
-		m_players.push_back(p);
-		//std::cout << "player: " << i << " created\n";
-	}
+	//ADD PLAYERS TO PLAYER VECTOR
+	AddPlayers();
 
 	//DEAL CARDS TO PLAYER VECTORS
 	cout << "Dealing Hands...\n" << endl;
@@ -66,7 +98,44 @@ OmahaTable::OmahaTable(int players, int gametype)
 			(*p_it)->AddToHand(d->deal()); //DEAL 1 card a person ( the correct way)
 		}
 	}
-
+	//BURN ONE CARD
+	m_burnPile.push_back(d->burn());
+	//FLOP OF 3 CARDS
+	m_communityCards.push_back(d->deal());
+	m_communityCards.push_back(d->deal());
+	m_communityCards.push_back(d->deal());
+	//BURN ONE MORE
+	m_burnPile.push_back(d->burn());
+	//TURN
+	m_communityCards.push_back(d->deal());
+	//BURN 
+	m_burnPile.push_back(d->burn());
+	//RIVER
+	m_communityCards.push_back(d->deal());
+	//DISPLAY COMMUNTITY CARDS
+	int c_card = 1;
+	cout << "\nThe Flop :";
+	for (vector<const Card*>::iterator c_it = m_communityCards.begin(); c_it != m_communityCards.end(); ++c_it)
+	{
+		const Card* p = *c_it;
+		if (c_card <= 3)
+		{
+			cout << " " << p->ToString() << "";
+			++c_card;
+		}
+		else if (c_card == 4)
+		{
+			cout << "   Turn :";
+			cout << " " << p->ToString() << "";
+			++c_card;
+		}
+		else 
+		{
+			cout << "   River :";
+			cout << " " << p->ToString() << " \n";
+			++c_card;
+		}
+	}
 	//PLAYERS SHOW THIER CARDS
 	int player = 1;
 	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
@@ -85,12 +154,8 @@ DrawTable::DrawTable(int players, int gametype)
 	_players = players;
 	cout << "\nCreating 5 Card Draw Dealer and, " << _players << "  5 card draw players\n";
 	Dealer* d = new DrawDealer(_players);
-	for (int i = 1; i <= _players; i++)
-	{
-		Player* p = new DrawPlayer;
-		m_players.push_back(p);
-		//std::cout << "player: " << i << " created\n";
-	}
+	//ADD PLAYERS TO PLAYER VECTOR
+	AddPlayers();
 
 	//DEAL CARDS TO PLAYER VECTORS
 	cout << "Dealing Hands...\n" << endl;
@@ -120,12 +185,8 @@ StudTable::StudTable(int players, int gametype)
 	_players = players;
 	cout << "\nCreating a 7 Card Stud Dealer and, " << _players << "  Seven Card Stud Players\n";
 	Dealer* d = new StudDealer(_players);
-	for (int i = 1; i <= _players; i++)
-	{
-		Player* p = new StudPlayer;
-		m_players.push_back(p);
-		//std::cout << "player: " << i << " created\n";
-	}
+	//ADD PLAYERS TO PLAYER VECTOR
+	AddPlayers();
 
 	//DEAL CARDS TO PLAYER VECTORS
 	cout << "Dealing Hands...\n" << endl;
@@ -154,22 +215,18 @@ void TexasTable::Play()
 {
 	cout << "\nTexas Table Played\n";
 };
-
 void DrawTable::Play()
 {
 	cout << "\nDraw Table Played\n";
 };
-
 void StudTable::Play()
 {
 	cout << "\nStud Table Played\n";
 };
-
 void OmahaTable::Play()
 {
 	cout << "\nOmaha Table Played\n";
 };
-
 
 //DESTRUCTORS
 DrawTable::~DrawTable()
@@ -183,7 +240,6 @@ DrawTable::~DrawTable()
 		player++;
 	}
 };
-
 StudTable::~StudTable()
 {
 	//cout << "StudTable destructor called\n";
@@ -195,7 +251,6 @@ StudTable::~StudTable()
 		player++;
 	}
 }
-
 OmahaTable::~OmahaTable()
 {
 	//cout << "OmahaTable destructor called\n";
@@ -207,7 +262,6 @@ OmahaTable::~OmahaTable()
 		player++;
 	}
 }
-
 TexasTable::~TexasTable()
 {
 	//cout << "TexasTable destructor called\n";
@@ -219,3 +273,43 @@ TexasTable::~TexasTable()
 		player++;
 	}
 }
+
+//ADD PLAYERS
+void TexasTable::AddPlayers()
+{
+	for (int i = 1; i <= _players; i++)
+	{
+		Player* p = new TexasPlayer;
+		m_players.push_back(p);
+		//std::cout << "player: " << i << " created\n";
+	}
+};
+void DrawTable::AddPlayers()
+{
+	for (int i = 1; i <= _players; i++)
+	{
+		Player* p = new DrawPlayer;
+		m_players.push_back(p);
+		//std::cout << "player: " << i << " created\n";
+	}
+};
+void StudTable::AddPlayers()
+{
+	for (int i = 1; i <= _players; i++)
+	{
+		Player* p = new StudPlayer;
+		m_players.push_back(p);
+		//std::cout << "player: " << i << " created\n";
+	}
+};
+void OmahaTable::AddPlayers()
+{
+	for (int i = 1; i <= _players; i++)
+	{
+		Player* p = new OmahaPlayer;
+		m_players.push_back(p);
+		//std::cout << "player: " << i << " created\n";
+	}
+};
+
+

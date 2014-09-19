@@ -128,13 +128,13 @@ int Game::SetPlayers()
 	int choice;
 	switch (GetGameType())
 	{
-		case 1: maxPlayers = 9;
+		case 1: maxPlayers = 22; //Texas
 			break;
-		case 2: maxPlayers = 9;
+		case 2: maxPlayers = 9; // Omaha 
 			break;
-		case 3:	maxPlayers = 7;
+		case 3:	maxPlayers = 7; // Stud
 			break;
-		case 4: maxPlayers = 8;
+		case 4: maxPlayers = 8; // Draw
 			break;
 	};
 	cout << "Please enter the number of players (" << minPlayers << " - " << maxPlayers << ")  \n";
