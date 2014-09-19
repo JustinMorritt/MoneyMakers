@@ -30,6 +30,7 @@ void Game::StartGame()
 		};
 		if (GetGameType() == 0){ break; };
 	};
+	GoodBye();
 }
 
 

@@ -12,9 +12,8 @@ using namespace std;
 
 int main()
 {
-	Game g;
-	g.GoodBye();
-	//Deal d;
-	//d.Populate(d);
+	Game* g = new Game;
+	delete g;
 	return 0;
+
 }
