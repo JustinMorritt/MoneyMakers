@@ -150,7 +150,6 @@ StudTable::StudTable(int players, int gametype)
 };
 
 
-
 void TexasTable::Play()
 {
 	cout << "\nTexas Table Played\n";
@@ -170,9 +169,6 @@ void OmahaTable::Play()
 {
 	cout << "\nOmaha Table Played\n";
 };
-
-
-
 
 
 //DESTRUCTORS

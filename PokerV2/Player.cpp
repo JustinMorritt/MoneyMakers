@@ -15,8 +15,6 @@ void Player::Show(vector<const Card*> cards)
 }
 
 
-
-
 void DrawPlayer::SortHand()
 {
 	m_Hand = Sort(m_Hand);
@@ -35,29 +33,22 @@ void TexasPlayer::SortHand()
 };
 
 
-
-
 void DrawPlayer::ShowCards()
 {
 	Player::Show(m_Hand);
 };
-
 void StudPlayer::ShowCards()
 {
 	Player::Show(m_Hand);
 };
-
 void OmahaPlayer::ShowCards()
 {
 	Player::Show(m_Hand);
 };
-
 void TexasPlayer::ShowCards()
 {
 	Player::Show(m_Hand);
 };
-
-
 
 
 void TexasPlayer::AddToHand(const Card* c)
@@ -65,19 +56,16 @@ void TexasPlayer::AddToHand(const Card* c)
 	m_Hand.push_back(c);
 	//cout << " added card to hand\n";
 };
-
 void OmahaPlayer::AddToHand(const Card* c)
 {
 	m_Hand.push_back(c);
 	//cout << " added card to hand\n";
 };
-
 void StudPlayer::AddToHand(const Card* c)
 {
 	m_Hand.push_back(c);
 	//cout << " added card to hand\n";
 };
-
 void DrawPlayer::AddToHand(const Card* c)
 {
 	m_Hand.push_back(c);
