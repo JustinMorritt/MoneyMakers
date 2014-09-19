@@ -26,12 +26,17 @@ TexasTable::TexasTable(int players, int gametype)
 			(*p_it)->AddToHand(d->deal()); //DEAL 1 card a person ( the correct way)
 		}
 	}
+	//**********************************************************
+	//ADD A SORT IN HERE SO THE PLAYER SORTS HIS HAND ace high..
+	//**********************************************************
 
 	//PLAYERS SHOW THIER CARDS
 	int player = 1;
 	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
 	{
 		cout << "Player " << player << " Hand : ";
+		//SORTCARDS RIGHT BEFORE SHOW ..for now i guess..
+		//(*p_it)->SortHand();
 		(*p_it)->ShowCards();
 		player++;
 		cout << endl;
