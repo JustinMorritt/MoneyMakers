@@ -9,28 +9,28 @@ TexasDealer::TexasDealer(int players)
 {
 	m_DealerCards = new Deal;
 	_players = players;
-	cout << "Made Texas Hold'em Dealer \n";
+	//cout << "Made Texas Hold'em Dealer \n";
 };
 
 OmahaDealer::OmahaDealer(int players)
 {
 	m_DealerCards = new Deal;
 	_players = players;
-	cout << "Made Ohmaha High Dealer\n";
+	//cout << "Made Ohmaha High Dealer\n";
 };
 
 DrawDealer::DrawDealer(int players)
 {
 	m_DealerCards = new Deal;
 	_players = players;
-	cout << "Made 5 Card Draw Dealer \n";
+	//cout << "Made 5 Card Draw Dealer \n";
 };
 
 StudDealer::StudDealer(int players)
 {
 	m_DealerCards = new Deal;
 	_players = players;
-	cout << "Made a 7 Card Stud Dealer \n";
+	//cout << "Made a 7 Card Stud Dealer \n";
 };
 
 
@@ -71,27 +71,27 @@ const Card* OmahaDealer::deal()
 //DESTRUCTORS
 Dealer::~Dealer()
 {
-	cout << "Dealer destructor called\n";
+	//cout << "Dealer destructor called\n";
 };
 
 DrawDealer::~DrawDealer()
 {
-	cout << "DrawDealer destructor called\n";
+	//cout << "DrawDealer destructor called\n";
 };
 
 StudDealer::~StudDealer()
 {
-	cout << "StudDealer destructor called\n";
+	//cout << "StudDealer destructor called\n";
 }
 
 OmahaDealer::~OmahaDealer()
 {
-	cout << "OmahaDealer destructor called\n";
+	//cout << "OmahaDealer destructor called\n";
 }
 
 TexasDealer::~TexasDealer()
 {
-	cout << "TexasDealer destructor called\n";
+	//cout << "TexasDealer destructor called\n";
 }
 
 

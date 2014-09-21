@@ -168,7 +168,7 @@ void OmahaTable::AddPlayers()
 //DEAL CARDS TO PLAYERS
 void TexasTable::DealToPlayers()
 {
-	std::cout << "Dealing Hands...\n" << endl;
+	std::cout << "\nDealing Hands...\n" << endl;
 	for (int i = 0; i < _maxCards; i++)
 	{
 		for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
@@ -179,7 +179,7 @@ void TexasTable::DealToPlayers()
 };
 void DrawTable::DealToPlayers()
 {
-	std::cout << "Dealing Hands...\n" << endl;
+	std::cout << "\nDealing Hands...\n" << endl;
 	for (int i = 0; i < _maxCards; i++)
 	{
 		for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
@@ -190,7 +190,7 @@ void DrawTable::DealToPlayers()
 };
 void StudTable::DealToPlayers()
 {
-	std::cout << "Dealing Hands...\n" << endl;
+	std::cout << "\nDealing Hands...\n" << endl;
 	for (int i = 0; i < _maxCards; i++)
 	{
 		for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
@@ -201,7 +201,7 @@ void StudTable::DealToPlayers()
 };
 void OmahaTable::DealToPlayers()
 {
-	std::cout << "Dealing Hands...\n" << endl;
+	std::cout << "\nDealing Hands...\n" << endl;
 	for (int i = 0; i < _maxCards; i++)
 	{
 		for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
