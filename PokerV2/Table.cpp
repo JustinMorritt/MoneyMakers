@@ -283,7 +283,7 @@ void TexasTable::AddPlayers()
 		{
 			Player* p = new TexasPlayer;
 			m_players.push_back(p);
-			if (m_players.size() > _players || m_players.size() < 2)
+			if (m_players.size() > _players || _players < 2)
 			{ 
 				throw PlayerException("\n<error> --wrong amount of players!\n");
 			}
@@ -301,7 +301,7 @@ try{
 		{
 			Player* p = new DrawPlayer;
 			m_players.push_back(p);
-			if (m_players.size() > _players || m_players.size() < 2)
+			if (m_players.size() > _players || _players < 2)
 			{
 				throw PlayerException("\n<error> --wrong amount of players!\n");
 			}
@@ -319,7 +319,7 @@ void StudTable::AddPlayers()
 		{
 			Player* p = new StudPlayer;
 			m_players.push_back(p);
-			if (m_players.size() > _players || m_players.size() < 2)
+			if (m_players.size() > _players || _players < 2)
 			{
 				throw PlayerException("\n<error> --wrong amount of players!\n");
 			}
@@ -338,7 +338,7 @@ void OmahaTable::AddPlayers()
 		{
 			Player* p = new OmahaPlayer;
 			m_players.push_back(p);
-			if (m_players.size() > _players || m_players.size() < 2)
+			if (m_players.size() > _players || _players < 2)
 			{
 				throw PlayerException("\n<error> --wrong amount of players!\n");
 			}
