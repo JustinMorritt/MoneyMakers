@@ -1,6 +1,7 @@
 #include "Table.h"
 #include "vector"
 #include "Dealer.h"
+
 //CONSTRUCTORS
 
 
@@ -277,38 +278,76 @@ TexasTable::~TexasTable()
 //ADD PLAYERS
 void TexasTable::AddPlayers()
 {
-	for (int i = 1; i <= _players; i++)
+	try{
+		for (int i = 0; i < _players; i++)
+		{
+			Player* p = new TexasPlayer;
+			m_players.push_back(p);
+			if (m_players.size() > _players || m_players.size() < 2)
+			{ 
+				throw PlayerException("\n<error> --wrong amount of players!\n");
+			}
+			//std::cout << "player: " << i << " created\n";
+		}
+	}catch (PlayerException ex)
 	{
-		Player* p = new TexasPlayer;
-		m_players.push_back(p);
-		//std::cout << "player: " << i << " created\n";
+		cout << ex.what() << endl;
 	}
 };
 void DrawTable::AddPlayers()
 {
-	for (int i = 1; i <= _players; i++)
-	{
-		Player* p = new DrawPlayer;
-		m_players.push_back(p);
-		//std::cout << "player: " << i << " created\n";
-	}
+try{
+		for (int i = 0; i < _players; i++)
+		{
+			Player* p = new DrawPlayer;
+			m_players.push_back(p);
+			if (m_players.size() > _players || m_players.size() < 2)
+			{
+				throw PlayerException("\n<error> --wrong amount of players!\n");
+			}
+			//std::cout << "player: " << i << " created\n";
+		}
+	}catch (PlayerException ex)
+		{
+			cout << ex.what() << endl;
+		}
 };
 void StudTable::AddPlayers()
 {
-	for (int i = 1; i <= _players; i++)
+	try{
+		for (int i = 0; i < _players; i++)
+		{
+			Player* p = new StudPlayer;
+			m_players.push_back(p);
+			if (m_players.size() > _players || m_players.size() < 2)
+			{
+				throw PlayerException("\n<error> --wrong amount of players!\n");
+			}
+			//std::cout << "player: " << i << " created\n";
+		}
+	}
+	catch (PlayerException ex)
 	{
-		Player* p = new StudPlayer;
-		m_players.push_back(p);
-		//std::cout << "player: " << i << " created\n";
+		cout << ex.what() << endl;
 	}
 };
 void OmahaTable::AddPlayers()
 {
-	for (int i = 1; i <= _players; i++)
+	try{
+		for (int i = 0; i < _players; i++)
+		{
+			Player* p = new OmahaPlayer;
+			m_players.push_back(p);
+			if (m_players.size() > _players || m_players.size() < 2)
+			{
+				throw PlayerException("\n<error> --wrong amount of players!\n");
+			}
+			//std::cout << "player: " << i << " created\n";
+		}
+	}
+	catch (PlayerException ex)
 	{
-		Player* p = new OmahaPlayer;
-		m_players.push_back(p);
-		//std::cout << "player: " << i << " created\n";
+		cout << ex.what() << endl;
 	}
 };
 

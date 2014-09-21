@@ -1,6 +1,7 @@
 #if !defined(TABLE_H__)
 #define TABLE_H__
 #include <iostream>
+#include <exception>
 #include "Player.h"
 
 using namespace std;
@@ -77,6 +78,7 @@ public:
 	virtual void Play();
 	void AddPlayers();
 	virtual ~TexasTable();
+	
 
 private:
 	int _gameType;
@@ -87,4 +89,34 @@ private:
 	vector<Player*> m_players;
 };
 
+
+
+class PlayerException : public logic_error
+{
+public:
+	PlayerException(const char* r) : std::logic_error(r){};
+};
+
+//USE THE STUFF BELOW IF YOU ARE GOING TO THROW IN A CUSTOM EXCEPTION SOMEWHERE
+//REMEMBER TO USE throw PlayerException("\n  ERROR MESSAGE IN HERE  \n");
+
+/*
+try{
+
+}
+catch (PlayerException ex)
+{
+cout << ex.what() << endl;
+}*/
+
+
+
+
+
+
+
+
 #endif
+
+
+
