@@ -22,9 +22,6 @@
     <ClCompile Include="Table.cpp">
       <Filter>SOURCE CPP</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
-      <Filter>aMAIN</Filter>
-    </ClCompile>
     <ClCompile Include="cue.cpp">
       <Filter>SOURCE CPP</Filter>
     </ClCompile>
@@ -33,6 +30,9 @@
     </ClCompile>
     <ClCompile Include="Player.cpp">
       <Filter>SOURCE CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>aMAIN</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

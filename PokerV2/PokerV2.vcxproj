@@ -86,7 +86,7 @@
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="randgen.cpp" />
     <ClCompile Include="Table.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -23,8 +23,7 @@ void Game::StartGame()
 
 		while (GetPlayers() != 0)
 		{
-			Table* p = CreateTable(GetGameType());	//Create table child object assigned to Pointer* p 
-			p->Play();								//activate Virtual Play() 
+			Table* p = CreateTable(GetGameType());	//Create table child object assigned to Pointer* p 								//activate Virtual Play() 
 			delete p;								//delete the pointer.
 			this->TableMenu();						//Menu after Table has been displayed.
 		};

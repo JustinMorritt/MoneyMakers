@@ -2,6 +2,7 @@
 #define TABLE_H__
 #include <iostream>
 #include <exception>
+#include "Dealer.h"
 #include "Player.h"
 
 using namespace std;
@@ -9,10 +10,7 @@ using namespace std;
 class Table
 {
 public:
-	virtual void Play() = 0;
-	virtual ~Table(){};
-	friend class Dealer;
-	
+	virtual ~Table(){};	
 };
 
 
@@ -21,14 +19,16 @@ class DrawTable : public Table
 public:
 	DrawTable(){};
 	DrawTable(int players, int gametype);
-	virtual void Play();
+	void DealToPlayers();
 	void AddPlayers();
+	void PlayersShowCards(); //note .. tried to make const but iterator prevented that ...
 	virtual ~DrawTable();
 
 private:
 	int _gameType;
 	int _players;
 	const int _maxCards = 5;
+	Dealer * m_dealer;
 	vector<const Card*> m_communityCards;
 	vector<const Card*> m_burnPile;
 	vector<Player*> m_players;
@@ -39,13 +39,15 @@ class StudTable : public Table
 public:
 	StudTable(){};
 	StudTable(int players, int gametype);
-	virtual void Play();
 	void AddPlayers();
+	void DealToPlayers();
+	void PlayersShowCards();
 	virtual ~StudTable();
 
 private:
 	int _gameType;
 	int _players;
+	Dealer * m_dealer;
 	const int _maxCards = 7;
 	vector<const Card*> m_communityCards;
 	vector<const Card*> m_burnPile;
@@ -57,14 +59,17 @@ class OmahaTable : public Table
 public:
 	OmahaTable(){};
 	OmahaTable(int players, int gametype);
-	virtual void Play();
 	void AddPlayers();
+	void DealToPlayers();
+	void Flop();
+	void PlayersShowCards();
 	virtual ~OmahaTable();
 
 private:
 	int _gameType;
 	int _players;
 	const int _maxCards = 4;
+	Dealer * m_dealer;
 	vector<const Card*> m_communityCards;
 	vector<const Card*> m_burnPile;
 	vector<Player*> m_players;
@@ -75,8 +80,12 @@ class TexasTable : public Table
 public:
 	TexasTable(){};
 	TexasTable(int players, int gametype);
-	virtual void Play();
 	void AddPlayers();
+	void DealToPlayers();
+	void Flop();
+	void PlayersShowCards();
+
+
 	virtual ~TexasTable();
 	
 
@@ -84,6 +93,7 @@ private:
 	int _gameType;
 	int _players;
 	const int _maxCards = 2;
+	Dealer * m_dealer;
 	vector<const Card*> m_communityCards;
 	vector<const Card*> m_burnPile;
 	vector<Player*> m_players;

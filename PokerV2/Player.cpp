@@ -1,7 +1,10 @@
+#include <algorithm>
 #include "Player.h"
 
 vector<const Card*> Player::Sort(vector<const Card*> cards)
 {
+	sort(cards.begin(), cards.end());
+	cout << "\nSorted Hand ! \n";
 	return cards;
 };
 
