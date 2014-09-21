@@ -3,8 +3,24 @@
 
 vector<const Card*> Player::Sort(vector<const Card*> cards)
 {
-	sort(cards.begin(), cards.end());
-	cout << "\nSorted Hand ! \n";
+	//SORT FUNCTION I MADE FROM SCRATCH :P ALL BRAIN POWER AT 12:30 AM :D
+	vector<const Card*> newHand; //CREATE TEMP HAND
+	int card = 0;
+	for (int i = 0; i <= 12 && newHand.size() != cards.size(); ++i) //ITERATES THROUGH EACH PIP VALUE STARTING WITH LOWEST ---> ACE
+	{
+		for (vector<const Card*>::iterator c_it = cards.begin(); c_it != cards.end(); ++c_it)
+		{
+			const Card* p = *c_it;
+			if (p->GetPip() == card)
+			{
+				newHand.push_back(p);
+			}
+		}
+		card++;
+	}
+	cards = newHand; //Assign cards the NEW SORTED HAND
+	newHand.erase(newHand.begin(), newHand.end()); //Erase the temp hand
+	cout << "Sorted Hand ! ---->";
 	return cards;
 };
 
