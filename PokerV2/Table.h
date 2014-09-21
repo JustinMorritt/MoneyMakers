@@ -29,8 +29,6 @@ private:
 	int _players;
 	const int _maxCards = 5;
 	Dealer * m_dealer;
-	vector<const Card*> m_communityCards;
-	vector<const Card*> m_burnPile;
 	vector<Player*> m_players;
 };
 
@@ -49,8 +47,6 @@ private:
 	int _players;
 	Dealer * m_dealer;
 	const int _maxCards = 7;
-	vector<const Card*> m_communityCards;
-	vector<const Card*> m_burnPile;
 	vector<Player*> m_players;
 };
 

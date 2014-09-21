@@ -10,6 +10,7 @@ class Player
 {
 public:
 	vector<const Card*> Sort(vector<const Card*> cards);
+
 	virtual void AddToHand(const Card*) = 0;
 	virtual void SortHand() = 0;
 	virtual void ShowCards() = 0;
@@ -28,6 +29,7 @@ public:
 	virtual ~DrawPlayer(){};
 private:
 	vector<const Card*> m_Hand;
+	string m_HandName;
 
 };
 
@@ -42,7 +44,7 @@ public:
 	virtual ~StudPlayer(){};
 private:
 	vector<const Card*> m_Hand;
-
+	string m_HandName;
 };
 
 class OmahaPlayer : public Player
@@ -55,6 +57,7 @@ public:
 	virtual ~OmahaPlayer(){};
 private:
 	vector<const Card*> m_Hand;
+	string m_HandName;
 
 };
 
@@ -68,6 +71,7 @@ public:
 	virtual ~TexasPlayer(){};
 private:
 	vector<const Card*> m_Hand;
+	string m_HandName;
 
 };
 

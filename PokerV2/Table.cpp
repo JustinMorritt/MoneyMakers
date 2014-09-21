@@ -4,8 +4,6 @@
 #include "Dealer.h"
 
 //CONSTRUCTORS
-
-
 TexasTable::TexasTable(int players, int gametype) : 
 m_dealer(new TexasDealer(players)),		//CREATE NEW DEALER
 _gameType(gametype),					//ASSIGN GAMETYPE
@@ -20,16 +18,13 @@ _players(players)						//ASSIGN PLAYERS
 	//THE FLOP
 	Flop();
 
-	//**********************************************************
-	//ADD A SORT IN HERE SO THE PLAYER SORTS HIS HAND ace high..
-	//**********************************************************
+
 
 	//PLAYERS SHOW THIER CARDS
 	PlayersShowCards();
 	
 
 };
-
 OmahaTable::OmahaTable(int players, int gametype):
 m_dealer(new TexasDealer(players)),		//CREATE NEW DEALER
 _gameType(gametype),					//ASSIGN GAMETYPE
@@ -49,7 +44,6 @@ _players(players)						//ASSIGN PLAYERS
 	
 
 };
-
 DrawTable::DrawTable(int players, int gametype):
 m_dealer(new TexasDealer(players)),		//CREATE NEW DEALER
 _gameType(gametype),					//ASSIGN GAMETYPE
@@ -66,7 +60,6 @@ _players(players)						//ASSIGN PLAYERS
 
 
 };
-
 StudTable::StudTable(int players, int gametype):
 m_dealer(new TexasDealer(players)),		//CREATE NEW DEALER
 _gameType(gametype),					//ASSIGN GAMETYPE
@@ -83,8 +76,6 @@ _players(players)						//ASSIGN PLAYERS
 	
 
 };
-
-
 
 
 //ADD PLAYERS
