@@ -1,6 +1,8 @@
 #include <algorithm>
 #include "Player.h"
 
+
+
 vector<const Card*> Player::Sort(vector<const Card*> cards)
 {
 	vector<const Card*> newHand; //CREATE TEMP HAND
@@ -23,7 +25,7 @@ vector<const Card*> Player::Sort(vector<const Card*> cards)
 	return cards;
 };
 
-void Player::Show(vector<const Card*> cards)
+void Player::Show(vector<const Card*>& cards) const
 {
 	for (vector<const Card*>::iterator c_it = cards.begin(); c_it != cards.end(); ++c_it)
 	{
@@ -48,6 +50,24 @@ void OmahaPlayer::SortHand()
 void TexasPlayer::SortHand()
 {
 	m_Hand = Sort(m_Hand);
+};
+
+
+void DrawPlayer::GetBestHand()
+{
+
+};
+void StudPlayer::GetBestHand()
+{
+
+};
+void OmahaPlayer::GetBestHand()
+{
+
+};
+void TexasPlayer::GetBestHand()
+{
+
 };
 
 
