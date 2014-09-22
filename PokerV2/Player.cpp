@@ -3,7 +3,6 @@
 
 vector<const Card*> Player::Sort(vector<const Card*> cards)
 {
-	//SORT FUNCTION I MADE FROM SCRATCH :P ALL BRAIN POWER AT 12:30 AM :D
 	vector<const Card*> newHand; //CREATE TEMP HAND
 	int card = 0;
 	for (int i = 0; i <= 12 && newHand.size() != cards.size(); ++i) //ITERATES THROUGH EACH PIP VALUE STARTING WITH LOWEST ---> ACE
