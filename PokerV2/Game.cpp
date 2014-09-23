@@ -32,8 +32,6 @@ void Game::StartGame()
 	GoodBye();
 }
 
-
-
 int Game::MainMenu()
 {
 	int choice;
@@ -55,8 +53,6 @@ int Game::MainMenu()
 	return choice;
 };
 
-
-
 //Getters
 int Game::GetGameType() const
 {
@@ -66,9 +62,6 @@ int Game::GetPlayers() const
 {
 	return _players;
 };
-
-
-
 
 Table* Game::CreateTable(int gametype)
 {
@@ -84,9 +77,6 @@ Table* Game::CreateTable(int gametype)
 		return new DrawTable(_players, _gameType);
 	}
 }
-
-
-
 
 void Game::TableMenu() 
 {
@@ -117,9 +107,6 @@ void Game::TableMenu()
 
 };
 
-
-
-
 int Game::SetPlayers()
 {
 	int maxPlayers;
@@ -141,7 +128,6 @@ int Game::SetPlayers()
 	_players = choice;
 	return choice;
 };
-
 
 int Game::getLegitInt(int low, int high) const
 {	
@@ -165,9 +151,6 @@ int Game::getLegitInt(int low, int high) const
 	return ret;
 };
 
-
-
-
 void Game::GameTitle() const
 {
 	cout << "\t|***************************************|\n"
@@ -182,7 +165,6 @@ void Game::GameTitle() const
 		<< "o888o          Y8bood8P'  o888o  o888o o888ooooood8 o888o  o888o\n\n"
 		<< "Please Enter one of the following options :\n";
 };
-
 
 void Game::GoodBye() const
 {

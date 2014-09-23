@@ -34,8 +34,6 @@ StudDealer::StudDealer(int players)
 };
 
 
-
-
 const Card* TexasDealer::deal()
 {
 	const Card* ret = m_DealerCards->OneCard();
@@ -66,8 +64,6 @@ const Card* OmahaDealer::deal()
 
 
 
-
-
 //DESTRUCTORS
 Dealer::~Dealer()
 {
@@ -94,7 +90,7 @@ TexasDealer::~TexasDealer()
 	//cout << "TexasDealer destructor called\n";
 }
 
-
+//BURN CARD
 const Card* TexasDealer::burn()
 {
 	const Card* ret = m_DealerCards->OneCard();
