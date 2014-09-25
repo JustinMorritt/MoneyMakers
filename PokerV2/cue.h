@@ -9,7 +9,7 @@ class Evaluator;
 
 using namespace std;
 
-class CUE : public vector<const Card*>
+class CUE 
 {
 public:
 	CUE(vector<const Card*> cards);

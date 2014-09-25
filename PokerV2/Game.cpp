@@ -76,6 +76,7 @@ Table* Game::CreateTable(int gametype)
 	case 4:
 		return new DrawTable(_players, _gameType);
 	}
+	return NULL;
 }
 
 void Game::TableMenu() 

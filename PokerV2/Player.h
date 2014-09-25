@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 #include "card.h"
+#include "cue.h"
 
 using namespace std;
 
@@ -12,6 +13,7 @@ public:
 	vector<const Card*> Sort(vector<const Card*> cards);
 
 	virtual void AddToHand(const Card*) = 0;
+	virtual void GetBestCUE()= 0;
 	virtual void SortHand() = 0;
 	virtual void ShowCards() = 0;
 	virtual void Show(vector<const Card*>& cards) const;
@@ -24,11 +26,12 @@ class DrawPlayer : public Player
 public:
 	DrawPlayer(){};
 	virtual void AddToHand(const Card*);
-	void GetBestHand();
+	virtual void GetBestCUE();
 	virtual void SortHand();
 	virtual void ShowCards();
 	virtual ~DrawPlayer(){};
 private:
+	vector<CUE> m_Cues;
 	vector<const Card*> m_Hand;
 	string m_HandName;
 
@@ -40,7 +43,7 @@ class StudPlayer : public Player
 public:
 	StudPlayer(){};
 	virtual void AddToHand(const Card*);
-	void GetBestHand();
+	void GetBestCUE();
 	virtual void SortHand();
 	virtual void ShowCards();
 	virtual ~StudPlayer(){};
@@ -54,7 +57,7 @@ class OmahaPlayer : public Player
 public:
 	OmahaPlayer(){};
 	virtual void AddToHand(const Card*);
-	void GetBestHand();
+	void GetBestCUE();
 	virtual void ShowCards();
 	virtual void SortHand();
 	virtual ~OmahaPlayer(){};
@@ -69,7 +72,7 @@ class TexasPlayer : public Player
 public:
 	TexasPlayer(){};
 	virtual void AddToHand(const Card*);
-	void GetBestHand();
+	void GetBestCUE();
 	virtual void ShowCards();
 	virtual void SortHand();
 	virtual ~TexasPlayer(){};

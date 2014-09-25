@@ -53,19 +53,20 @@ void TexasPlayer::SortHand()
 };
 
 
-void DrawPlayer::GetBestHand()
+void DrawPlayer::GetBestCUE()
+{
+	CUE c(m_Hand);
+	m_Cues.push_back(c);
+};
+void StudPlayer::GetBestCUE()
 {
 
 };
-void StudPlayer::GetBestHand()
+void OmahaPlayer::GetBestCUE()
 {
 
 };
-void OmahaPlayer::GetBestHand()
-{
-
-};
-void TexasPlayer::GetBestHand()
+void TexasPlayer::GetBestCUE()
 {
 
 };
@@ -73,7 +74,7 @@ void TexasPlayer::GetBestHand()
 
 void DrawPlayer::ShowCards()
 {
-	Player::Show(m_Hand);
+	//Player::Show(m_Hand);
 };
 void StudPlayer::ShowCards()
 {

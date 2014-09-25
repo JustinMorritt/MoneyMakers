@@ -9,9 +9,11 @@
 class Table
 {
 public:
-	Table(){};
+	Table(unsigned players): _players(players){};
 	virtual ~Table(){};	
 private:
+protected:
+	unsigned _players;
 
 };
 
@@ -19,7 +21,7 @@ private:
 class DrawTable : public Table
 {
 public:
-	DrawTable(){};
+	//DrawTable(){};
 	DrawTable(int players, int gametype);
 	void DealToPlayers();
 	void AddPlayers();
@@ -28,7 +30,7 @@ public:
 
 private:
 	int _gameType;
-	int _players;
+
 	const int _maxCards = 5;
 	Dealer * m_dealer;
 	vector<Player*> m_players;
@@ -38,7 +40,7 @@ private:
 class StudTable : public Table
 {
 public:
-	StudTable(){};
+	//StudTable(): Table(0){};
 	StudTable(int players, int gametype);
 	void AddPlayers();
 	void DealToPlayers();
@@ -47,7 +49,7 @@ public:
 
 private:
 	int _gameType;
-	int _players;
+	
 	Dealer * m_dealer;
 	const int _maxCards = 7;
 	vector<Player*> m_players;
@@ -57,7 +59,7 @@ private:
 class OmahaTable : public Table
 {
 public:
-	OmahaTable(){};
+	//OmahaTable(){};
 	OmahaTable(int players, int gametype);
 	void AddPlayers();
 	void DealToPlayers();
@@ -67,7 +69,7 @@ public:
 
 private:
 	int _gameType;
-	int _players;
+
 	const int _maxCards = 4;
 	Dealer * m_dealer;
 	vector<const Card*> m_communityCards;
@@ -79,7 +81,7 @@ private:
 class TexasTable : public Table
 {
 public:
-	TexasTable(){};
+	//TexasTable(){};
 	TexasTable(int players, int gametype);
 	void AddPlayers();
 	void DealToPlayers();
@@ -92,7 +94,7 @@ public:
 
 private:
 	int _gameType;
-	int _players;
+	
 	const int _maxCards = 2;
 	Dealer * m_dealer;
 	vector<const Card*> m_communityCards;

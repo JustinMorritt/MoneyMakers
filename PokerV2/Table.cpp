@@ -7,10 +7,10 @@ using namespace std;
 
 
 //CONSTRUCTORS
-TexasTable::TexasTable(int players, int gametype) : 
+TexasTable::TexasTable(int players, int gametype) :
+Table(players),
 m_dealer(new TexasDealer(players)),		//CREATE NEW DEALER
-_gameType(gametype),					//ASSIGN GAMETYPE
-_players(players)						//ASSIGN PLAYERS
+_gameType(gametype)					//ASSIGN GAMETYP					//ASSIGN PLAYERS
 {
 	//CREATE PLAYERS
 	AddPlayers();
@@ -26,10 +26,11 @@ _players(players)						//ASSIGN PLAYERS
 	
 
 };
-OmahaTable::OmahaTable(int players, int gametype):
+OmahaTable::OmahaTable(int players, int gametype) :
+Table(players),
 m_dealer(new TexasDealer(players)),		//CREATE NEW DEALER
-_gameType(gametype),					//ASSIGN GAMETYPE
-_players(players)						//ASSIGN PLAYERS
+_gameType(gametype)					//ASSIGN GAMETYPE
+					//ASSIGN PLAYERS
 {
 	//ADD PLAYERS TO PLAYER VECTOR
 	AddPlayers();
@@ -46,9 +47,10 @@ _players(players)						//ASSIGN PLAYERS
 
 };
 DrawTable::DrawTable(int players, int gametype):
+Table(players),
 m_dealer(new TexasDealer(players)),		//CREATE NEW DEALER
-_gameType(gametype),					//ASSIGN GAMETYPE
-_players(players)						//ASSIGN PLAYERS
+_gameType(gametype)					//ASSIGN GAMETYPE
+					//ASSIGN PLAYERS
 {
 	//ADD PLAYERS TO PLAYER VECTOR
 	AddPlayers();
@@ -62,9 +64,10 @@ _players(players)						//ASSIGN PLAYERS
 
 };
 StudTable::StudTable(int players, int gametype):
+Table(players),
 m_dealer(new TexasDealer(players)),		//CREATE NEW DEALER
-_gameType(gametype),					//ASSIGN GAMETYPE
-_players(players)						//ASSIGN PLAYERS
+_gameType(gametype)					//ASSIGN GAMETYPE
+						//ASSIGN PLAYERS
 {
 	//ADD PLAYERS TO PLAYER VECTOR
 	AddPlayers();
@@ -83,7 +86,7 @@ _players(players)						//ASSIGN PLAYERS
 void TexasTable::AddPlayers()
 {
 	try{
-		for (int i = 0; i < _players; i++)
+		for (unsigned i = 0; i < _players; i++)
 		{
 			Player* p = new TexasPlayer;
 			m_players.push_back(p);
@@ -102,7 +105,7 @@ void TexasTable::AddPlayers()
 void DrawTable::AddPlayers()
 {
 	try{
-		for (int i = 0; i < _players; i++)
+		for (unsigned i = 0; i < _players; i++)
 		{
 			Player* p = new DrawPlayer;
 			m_players.push_back(p);
@@ -121,7 +124,7 @@ void DrawTable::AddPlayers()
 void StudTable::AddPlayers()
 {
 	try{
-		for (int i = 0; i < _players; i++)
+		for (unsigned i = 0; i < _players; i++)
 		{
 			Player* p = new StudPlayer;
 			m_players.push_back(p);
@@ -140,7 +143,7 @@ void StudTable::AddPlayers()
 void OmahaTable::AddPlayers()
 {
 	try{
-		for (int i = 0; i < _players; i++)
+		for (unsigned i = 0; i < _players; i++)
 		{
 			Player* p = new OmahaPlayer;
 			m_players.push_back(p);
@@ -306,7 +309,8 @@ void DrawTable::PlayersShowCards()
 	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
 	{
 		cout << "Player " << player << " Hand : ";
-		(*p_it)->SortHand(); //SORT
+		//(*p_it)->SortHand(); //SORT
+		(*p_it)->GetBestCUE();
 		(*p_it)->ShowCards();
 		player++;
 		cout << endl;
