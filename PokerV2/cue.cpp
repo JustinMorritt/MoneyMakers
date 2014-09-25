@@ -1,12 +1,12 @@
 #include "cue.h"
 #include <algorithm>
 
-CUE::CUE(vector<const Card*> cards)
+CUE::CUE(vector<const Card*> cards) 
 {
 	try{
 		if (cards.size() == 5)
 		{
-			cout << "\nBEFORE SORT\n" << endl;
+			cout << "\nBEFORE SORT : ";
 			for (vector<const Card*>::iterator c_it = cards.begin(); c_it != cards.end(); ++c_it)
 			{
 				const Card* p = *c_it;
@@ -14,8 +14,7 @@ CUE::CUE(vector<const Card*> cards)
 			}
 			
 			sort(cards.begin(), cards.end(), HigherCard());
-			m_CUECards = cards;
-			cout << "\nAFTER SORT" << endl;
+			cout << "\nAFTER SORT  : ";
 			for (vector<const Card*>::iterator c_it = cards.begin(); c_it != cards.end(); ++c_it)
 			{
 				const Card* p = *c_it;

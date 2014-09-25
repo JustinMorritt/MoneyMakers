@@ -5,12 +5,10 @@
 using namespace std;
 
 
-
 //CONSTRUCTORS
 TexasTable::TexasTable(int players, int gametype) :
 Table(players),
-m_dealer(new TexasDealer(players)),		//CREATE NEW DEALER
-_gameType(gametype)					//ASSIGN GAMETYP					
+m_dealer(new TexasDealer(players))	//CREATE NEW DEALER				
 {
 	//CREATE PLAYERS
 	AddPlayers();
@@ -23,14 +21,10 @@ _gameType(gametype)					//ASSIGN GAMETYP
 
 	//PLAYERS SHOW THIER CARDS
 	PlayersShowCards();
-	
-
 };
 OmahaTable::OmahaTable(int players, int gametype) :
 Table(players),
-m_dealer(new TexasDealer(players)),		//CREATE NEW DEALER
-_gameType(gametype)					//ASSIGN GAMETYPE
-					//ASSIGN PLAYERS
+m_dealer(new TexasDealer(players))		//CREATE NEW DEALER
 {
 	//ADD PLAYERS TO PLAYER VECTOR
 	AddPlayers();
@@ -43,14 +37,10 @@ _gameType(gametype)					//ASSIGN GAMETYPE
 
 	//PLAYERS SHOW THIER CARDS
 	PlayersShowCards();
-	
-
 };
 DrawTable::DrawTable(int players, int gametype):
 Table(players),
-m_dealer(new TexasDealer(players)),		//CREATE NEW DEALER
-_gameType(gametype)					//ASSIGN GAMETYPE
-					//ASSIGN PLAYERS
+m_dealer(new TexasDealer(players))		//CREATE NEW DEALER			
 {
 	//ADD PLAYERS TO PLAYER VECTOR
 	AddPlayers();
@@ -60,14 +50,11 @@ _gameType(gametype)					//ASSIGN GAMETYPE
 
 	//PLAYERS SHOW THIER CARDS
 	PlayersShowCards();
-
 
 };
 StudTable::StudTable(int players, int gametype):
 Table(players),
-m_dealer(new TexasDealer(players)),		//CREATE NEW DEALER
-_gameType(gametype)					//ASSIGN GAMETYPE
-						//ASSIGN PLAYERS
+m_dealer(new TexasDealer(players))	//CREATE NEW DEALER
 {
 	//ADD PLAYERS TO PLAYER VECTOR
 	AddPlayers();
@@ -77,8 +64,6 @@ _gameType(gametype)					//ASSIGN GAMETYPE
 
 	//PLAYERS SHOW THIER CARDS
 	PlayersShowCards();
-	
-
 };
 
 

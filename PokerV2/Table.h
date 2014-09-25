@@ -29,7 +29,7 @@ public:
 	virtual ~DrawTable();
 
 private:
-	int _gameType;
+
 
 	const int _maxCards = 5;
 	Dealer * m_dealer;

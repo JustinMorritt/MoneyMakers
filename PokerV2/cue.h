@@ -9,14 +9,14 @@ class Evaluator;
 
 using namespace std;
 
-class CUE 
+class CUE : public vector<const Card*>
 {
 public:
 	CUE(vector<const Card*> cards);
 	~CUE();
 	
 private:
-	vector<const Card*> m_CUECards;
+	//vector<const Card*> m_CUECards;
 };
 
 
