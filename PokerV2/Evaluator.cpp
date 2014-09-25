@@ -10,9 +10,6 @@ Evaluator::~Evaluator()
 {
 }
 
-//BRUTE FORCE APPROACH TO A POKER HAND EVALUATOR 
-//WHEN BUILDING CUE DEFINETLY PASS TO ISVALID() function
-
 //COMPARES ALL THE SUITS , RETURNS true if all the same
 
 /*

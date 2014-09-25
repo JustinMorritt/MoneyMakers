@@ -5,12 +5,14 @@
 #include "Dealer.h"
 #include "Player.h"
 
-using namespace std;
 
 class Table
 {
 public:
+	Table(){};
 	virtual ~Table(){};	
+private:
+
 };
 
 
@@ -30,6 +32,7 @@ private:
 	const int _maxCards = 5;
 	Dealer * m_dealer;
 	vector<Player*> m_players;
+
 };
 
 class StudTable : public Table
@@ -48,6 +51,7 @@ private:
 	Dealer * m_dealer;
 	const int _maxCards = 7;
 	vector<Player*> m_players;
+
 };
 
 class OmahaTable : public Table
@@ -69,6 +73,7 @@ private:
 	vector<const Card*> m_communityCards;
 	vector<const Card*> m_burnPile;
 	vector<Player*> m_players;
+
 };
 
 class TexasTable : public Table
@@ -93,6 +98,7 @@ private:
 	vector<const Card*> m_communityCards;
 	vector<const Card*> m_burnPile;
 	vector<Player*> m_players;
+
 };
 
 

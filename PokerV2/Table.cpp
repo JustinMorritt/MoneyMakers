@@ -2,6 +2,7 @@
 #include "Table.h"
 #include "vector"
 #include "Dealer.h"
+using namespace std;
 
 //CONSTRUCTORS
 TexasTable::TexasTable(int players, int gametype) : 
@@ -17,8 +18,6 @@ _players(players)						//ASSIGN PLAYERS
 	
 	//THE FLOP
 	Flop();
-
-
 
 	//PLAYERS SHOW THIER CARDS
 	PlayersShowCards();

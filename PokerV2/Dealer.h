@@ -12,10 +12,12 @@ using namespace std;
 class Dealer
 {
 public:
-
+	Dealer(){};
 	virtual const Card* deal() = 0;
 	virtual const Card* burn() = 0;
 	virtual ~Dealer();
+private:
+
 };
 
 class DrawDealer : public Dealer
@@ -28,6 +30,7 @@ public:
 private:
 	int _players;
 	Deal* m_DealerCards;
+
 };
 
 class StudDealer : public Dealer
@@ -41,6 +44,7 @@ public:
 private:
 	int _players;
 	Deal* m_DealerCards;
+
 };
 
 class OmahaDealer : public Dealer
@@ -53,6 +57,7 @@ public:
 private:
 	int _players;
 	Deal* m_DealerCards;
+
 };
 
 class TexasDealer : public Dealer
@@ -65,6 +70,7 @@ public:
 private:
 	int _players;
 	Deal* m_DealerCards;
+
 };
 
 
