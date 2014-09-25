@@ -4,6 +4,8 @@
 #include "Dealer.h"
 using namespace std;
 
+//GERGERGERGERGERGERGER
+
 //CONSTRUCTORS
 TexasTable::TexasTable(int players, int gametype) : 
 m_dealer(new TexasDealer(players)),		//CREATE NEW DEALER
