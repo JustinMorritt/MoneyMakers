@@ -10,7 +10,7 @@ using namespace std;
 TexasTable::TexasTable(int players, int gametype) :
 Table(players),
 m_dealer(new TexasDealer(players)),		//CREATE NEW DEALER
-_gameType(gametype)					//ASSIGN GAMETYP					//ASSIGN PLAYERS
+_gameType(gametype)					//ASSIGN GAMETYP					
 {
 	//CREATE PLAYERS
 	AddPlayers();

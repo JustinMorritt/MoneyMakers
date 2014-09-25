@@ -40,7 +40,7 @@ private:
 class StudTable : public Table
 {
 public:
-	//StudTable(): Table(0){};
+
 	StudTable(int players, int gametype);
 	void AddPlayers();
 	void DealToPlayers();
@@ -59,7 +59,7 @@ private:
 class OmahaTable : public Table
 {
 public:
-	//OmahaTable(){};
+
 	OmahaTable(int players, int gametype);
 	void AddPlayers();
 	void DealToPlayers();
@@ -81,7 +81,7 @@ private:
 class TexasTable : public Table
 {
 public:
-	//TexasTable(){};
+
 	TexasTable(int players, int gametype);
 	void AddPlayers();
 	void DealToPlayers();
