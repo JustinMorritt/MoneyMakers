@@ -4,8 +4,7 @@
 #include "Dealer.h"
 using namespace std;
 
-//GERGERGERGERGERGERGER
-//HAHAHAHAH
+
 
 //CONSTRUCTORS
 TexasTable::TexasTable(int players, int gametype) : 
