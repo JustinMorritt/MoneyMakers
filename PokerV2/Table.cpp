@@ -5,6 +5,7 @@
 using namespace std;
 
 //GERGERGERGERGERGERGER
+//HAHAHAHAH
 
 //CONSTRUCTORS
 TexasTable::TexasTable(int players, int gametype) : 
