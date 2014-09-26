@@ -11,6 +11,11 @@ Evaluator::~Evaluator()
 }
 
 //COMPARES ALL THE SUITS , RETURNS true if all the same
+bool Evaluator::IsQuad(const  CUE& c)
+{
+	return  (c[0]->GetSuit() == c[3]->GetSuit()) ||
+			(c[1]->GetSuit() == c[4]->GetSuit());
+};
 
 
 bool Evaluator::IsFlush(const CUE& c)
@@ -81,7 +86,7 @@ bool Evaluator::IsOnePair(const CUE& c)
 
 
 
-/*
+
 int Evaluator::CompareCues(const CUE& c1, const CUE& c2)
 {
 	bool f1 = IsFlush(c1);
@@ -216,6 +221,8 @@ int Evaluator::CompareCues(const CUE& c1, const CUE& c2)
 	return CompareKickers(c1, c2); //COMPARE HIGH CARD IF NO HANDS
 };
 
+
+
 int Evaluator::CompareKickers(const CUE& c1, const CUE& c2)
 {
 	for (int i = 4; i >= 0; --i)
@@ -230,6 +237,11 @@ int Evaluator::CompareKickers(const CUE& c1, const CUE& c2)
 		}
 	}
 	return 0;  //BOTH ARE THE SAME 
+};
+
+int Evaluator::CompareStraightFlushes(const CUE& c1, const CUE& c2)
+{
+	return CompareStraights(c1, c2);
 };
 
 int Evaluator::CompareStraights(const CUE& c1, const CUE& c2)
@@ -349,4 +361,3 @@ Card::PIP Evaluator::GetPipValueofOnePair(const CUE& c)  //Helper function
 }
 
 
-*/

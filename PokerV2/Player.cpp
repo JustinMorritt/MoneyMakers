@@ -72,6 +72,12 @@ void DrawPlayer::GetBestCUE()
 	}
 
 
+
+
+
+	//Evaluator E;
+		//E.CompareCues(,)
+
 	//Player::
 
 	//ASSIGN thier best hand a name .
