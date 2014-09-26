@@ -1,5 +1,8 @@
 #include <algorithm>
 #include "Player.h"
+#include "Evaluator.h"
+
+
 
 
 
@@ -53,19 +56,38 @@ void TexasPlayer::SortHand()
 };
 
 
-void DrawPlayer::GetBestHand()
+void DrawPlayer::GetBestCUE()
+{
+	CUE c(m_Hand);
+	m_Cues.push_back(c);
+	//NOW we mus evaluate the hand ...get his best hand .. this case only one hand to judge
+	//therfore this hand is his best :P
+	
+	vector<CUE>::iterator c_it = m_Cues.begin();
+	vector<const Card*> tempBest = *c_it; //create a temp best hand..
+	
+	for (c_it ; c_it != m_Cues.end(); ++c_it)
+	{
+		cout << "Loop working ...YAE!\n\n";
+	}
+
+
+	//Player::
+
+	//ASSIGN thier best hand a name .
+
+
+
+};
+void StudPlayer::GetBestCUE()
 {
 
 };
-void StudPlayer::GetBestHand()
+void OmahaPlayer::GetBestCUE()
 {
 
 };
-void OmahaPlayer::GetBestHand()
-{
-
-};
-void TexasPlayer::GetBestHand()
+void TexasPlayer::GetBestCUE()
 {
 
 };
@@ -73,7 +95,7 @@ void TexasPlayer::GetBestHand()
 
 void DrawPlayer::ShowCards()
 {
-	Player::Show(m_Hand);
+	//Player::Show(m_Hand);
 };
 void StudPlayer::ShowCards()
 {
