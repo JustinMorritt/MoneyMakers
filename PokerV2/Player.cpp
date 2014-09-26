@@ -1,64 +1,101 @@
+#include <iostream>
 #include <algorithm>
 #include "Player.h"
 #include "Evaluator.h"
 
 
-
-
-
-vector<const Card*> Player::Sort(vector<const Card*> cards)
+void Player::ShowBestHand(vector<const Card*>& c)
 {
-	vector<const Card*> newHand; //CREATE TEMP HAND
-	int card = 0;
-	for (int i = 0; i <= 12 && newHand.size() != cards.size(); ++i) //ITERATES THROUGH EACH PIP VALUE STARTING WITH LOWEST ---> ACE
-	{
-		for (vector<const Card*>::iterator c_it = cards.begin(); c_it != cards.end(); ++c_it)
+	try{
+		if (c.size() == 5)
 		{
-			const Card* p = *c_it;
-			if (p->GetPip() == card)
+			sort(c.begin(), c.end(), HigherCard());
+			cout << " Sorted:";
+			for (vector<const Card*>::iterator c_it = c.begin(); c_it != c.end(); ++c_it)
 			{
-				newHand.push_back(p);
+				const Card* p = *c_it;
+				cout << "" << p->ToString() << " ";
 			}
 		}
-		card++;
+		else
+			throw CUEException("NOT 5 CARDS IN CUE");
 	}
-	cards = newHand; //Assign cards the NEW SORTED HAND
-	newHand.erase(newHand.begin(), newHand.end()); //Erase the temp hand
-	cout << "Sorted Hand ! ---->";
-	return cards;
-};
+	catch (CUEException ex)
+	{
+		cout << ex.what() << endl;
+	}
+}
+
+string Player::GetCUEName(const CUE& c)
+{
+	Evaluator E;
+	string cueName;
+	if (E.IsStraight(c))
+	{
+		cueName = "Straight ";
+		return cueName;
+	}
+	if (E.IsWheelStraight(c))
+	{
+		cueName = "Wheel Straight ";
+		return cueName;
+	}
+	if (E.IsFlush(c))
+	{
+		//char value = c[3]->;
+		cueName = "Flush ";
+		return cueName;
+	}
+	if (E.IsQuad(c))
+	{
+		char value = c[3]->GetPip();
+		cueName = "Four-o-Kind ";
+		return cueName;
+	}
+	if (E.IsTrips(c))
+	{
+		char value = c[3]->GetPip();
+		cueName = "Three-o-Kind ";
+		return cueName;
+	}
+	if (E.IsTwoPair(c))
+	{
+		cueName = "Two Pair ";
+		return cueName;
+	}
+	if (E.IsOnePair(c))
+	{
+		char value = E.GetPipValueofOnePair(c);
+		cueName = "One Pair ";
+		return cueName;
+	}
+
+	else
+	{
+		cueName = "High Card";
+		return cueName;
+	}
+}
 
 void Player::Show(vector<const Card*>& cards) const
 {
 	for (vector<const Card*>::iterator c_it = cards.begin(); c_it != cards.end(); ++c_it)
 	{
 		const Card* p = *c_it;
-		cout << " " << p->ToString() << " ";
+		cout << "" << p->ToString() << " ";
 	}
 }
 
 
-void DrawPlayer::SortHand()
-{
-	m_Hand = Sort(m_Hand);
-};
-void StudPlayer::SortHand()
-{
-	m_Hand = Sort(m_Hand);
-};
-void OmahaPlayer::SortHand()
-{
-	m_Hand = Sort(m_Hand);
-};
-void TexasPlayer::SortHand()
-{
-	m_Hand = Sort(m_Hand);
-};
-
-
 void DrawPlayer::GetBestCUE()
 {
-	CUE c(m_Hand);
+	vector<const Card*> newCue;
+	CUE c(newCue);
+	//HAD TO MANUALLY PUSH ON THE m_Hand Cards 
+	for (unsigned i = 0; i < 5; ++i)
+	{
+		c.push_back(m_Hand[i]);
+	}
 	m_Cues.push_back(c);
 	//NOW we mus evaluate the hand ...get his best hand .. this case only one hand to judge
 	//therfore this hand is his best :P
@@ -66,23 +103,21 @@ void DrawPlayer::GetBestCUE()
 	vector<CUE>::iterator c_it = m_Cues.begin();
 	vector<const Card*> tempBest = *c_it; //create a temp best hand..
 	
+	
+	m_BestHand = c;
+	ShowCards();
+	ShowBestHand(m_BestHand);
+
+	string Cardname = Player::GetCUEName(c);
+	cout << " = " << Cardname << endl;
+	
+	
+	
+
 	for (c_it ; c_it != m_Cues.end(); ++c_it)
 	{
-		cout << "Loop working ...YAE!\n\n";
+	//cout << "Loop working ...YAE!\n\n";
 	}
-
-
-
-
-
-	//Evaluator E;
-		//E.CompareCues(,)
-
-	//Player::
-
-	//ASSIGN thier best hand a name .
-
-
 
 };
 void StudPlayer::GetBestCUE()
@@ -98,10 +133,33 @@ void TexasPlayer::GetBestCUE()
 
 };
 
+string DrawPlayer::GetCUEName(const CUE& c)
+{
+	return Player::GetCUEName(c);
+};
+string StudPlayer::GetCUEName(const CUE& c)
+{
+	return Player::GetCUEName(c);
+};
+string OmahaPlayer::GetCUEName(const CUE& c)
+{
+	return Player::GetCUEName(c);
+};
+string TexasPlayer::GetCUEName(const CUE& c)
+{
+	return Player::GetCUEName(c);
+};
+
+void DrawPlayer::ShowBestHand(vector<const Card*>& c)
+{
+	Player::ShowBestHand(c);
+}
+
+
 
 void DrawPlayer::ShowCards()
 {
-	//Player::Show(m_Hand);
+	Player::Show(m_Hand);
 };
 void StudPlayer::ShowCards()
 {

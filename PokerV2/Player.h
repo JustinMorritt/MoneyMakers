@@ -1,6 +1,8 @@
 #if !defined(PLAYER_H__)
 #define PLAYER_H__
 #include <iostream>
+#include <algorithm>
+#include <exception>
 #include <vector>
 #include "card.h"
 #include "cue.h"
@@ -14,10 +16,10 @@ public:
 
 
 
-
+	virtual string GetCUEName(const CUE& c);
+	virtual void ShowBestHand(vector<const Card*>& c);
 	virtual void AddToHand(const Card*) = 0;
 	virtual void GetBestCUE()= 0;
-	virtual void SortHand() = 0;
 	virtual void ShowCards() = 0;
 	virtual void Show(vector<const Card*>& cards) const;
 	virtual ~Player(){};
@@ -31,11 +33,13 @@ public:
 	virtual void AddToHand(const Card*);
 	virtual void GetBestCUE();  //  ----v
 // THIS will have to create all the cues and run through assigning the best cue to m_Hand..not so hard for this type of player but the rest it will be.
-	virtual void SortHand();
+	virtual string GetCUEName(const CUE& c);
+	virtual void ShowBestHand(vector<const Card*>& c);
 	virtual void ShowCards();
 	virtual ~DrawPlayer(){};
 private:
 	vector<CUE> m_Cues;
+	vector<const Card*> m_BestHand;
 	vector<const Card*> m_Hand;
 	string m_HandName;
 
@@ -48,7 +52,7 @@ public:
 	StudPlayer(){};
 	virtual void AddToHand(const Card*);
 	void GetBestCUE();
-	virtual void SortHand();
+	virtual string GetCUEName(const CUE& c);
 	virtual void ShowCards();
 	virtual ~StudPlayer(){};
 private:
@@ -61,9 +65,9 @@ class OmahaPlayer : public Player
 public:
 	OmahaPlayer(){};
 	virtual void AddToHand(const Card*);
+	virtual string GetCUEName(const CUE& c);
 	void GetBestCUE();
 	virtual void ShowCards();
-	virtual void SortHand();
 	virtual ~OmahaPlayer(){};
 private:
 	vector<const Card*> m_Hand;
@@ -77,8 +81,8 @@ public:
 	TexasPlayer(){};
 	virtual void AddToHand(const Card*);
 	void GetBestCUE();
+	virtual string GetCUEName(const CUE& c);
 	virtual void ShowCards();
-	virtual void SortHand();
 	virtual ~TexasPlayer(){};
 private:
 	vector<const Card*> m_Hand;
@@ -87,6 +91,34 @@ private:
 };
 
 
+
+class HigherCard
+{
+public:
+	bool operator()(const Card* c1, const Card* c2) const
+	{
+		return c1->GetPip() < c2->GetPip();
+	}
+};
+
+class CUEException : public logic_error
+{
+public:
+	CUEException(const char* r) : std::logic_error(r){};
+};
+
+
+//USE THE STUFF BELOW IF YOU ARE GOING TO THROW IN A CUSTOM EXCEPTION SOMEWHERE
+//REMEMBER TO USE throw PlayerException("\n  ERROR MESSAGE IN HERE  \n");
+
+/*
+try{
+
+}
+catch (PlayerException ex)
+{
+cout << ex.what() << endl;
+}*/
 
 
 #endif

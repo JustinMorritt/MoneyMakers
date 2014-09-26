@@ -29,7 +29,7 @@ public:
 	int CompareTwoPair(const CUE& c1, const CUE& c2);
 	int CompareOnePair(const CUE& c1, const CUE& c2);
 	int CompareKickers(const CUE& c1, const CUE& c2);
-	Card::PIP GetPipValueofOnePair(const CUE& c);
+	int GetPipValueofOnePair(const CUE& c);
 };
 
 #endif

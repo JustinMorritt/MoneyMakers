@@ -1,5 +1,5 @@
 #include "Evaluator.h"
-
+#include <vector>
 
 Evaluator::Evaluator()
 {
@@ -35,7 +35,7 @@ bool Evaluator::IsStraight(const CUE& c)
 	Card::PIP p = c[0]->GetPip();
 	for (unsigned i = 1; i < c.size(); ++i)
 	{
-		if (p != c[1]->GetPip())
+		if (p != c[i]->GetPip())
 		{
 			return false;
 		}
@@ -45,11 +45,11 @@ bool Evaluator::IsStraight(const CUE& c)
 
 bool Evaluator::IsWheelStraight(const CUE& c)
 {
-	return 	(c[0]->GetPip() == '_2') &&
-			(c[1]->GetPip() == '_3') &&
-			(c[2]->GetPip() == '_4') &&
-			(c[3]->GetPip() == '_5') &&
-			(c[4]->GetPip() == '_A');		//RETURNS TRUE IF IT IS A WHEEL STRAIGHT , 
+	return 	(c[0]->GetPip() == 0) &&
+			(c[1]->GetPip() == 1) &&
+			(c[2]->GetPip() == 2) &&
+			(c[3]->GetPip() == 3) &&
+			(c[4]->GetPip() == 12);		//RETURNS TRUE IF IT IS A WHEEL STRAIGHT , 
 }											//means that Ace is in last position
 	
 //ONLY HAVe to check 1st and 4th and 2nd and 5th spot because its aranged..
@@ -337,7 +337,7 @@ int Evaluator::CompareOnePair(const CUE& c1, const CUE& c2)
 }
 
 //WARNING DO NOT CALL ON ANY HAND THAT IS NOT A ONE PAIR
-Card::PIP Evaluator::GetPipValueofOnePair(const CUE& c)  //Helper function 
+int Evaluator::GetPipValueofOnePair(const CUE& c)  //Helper function 
 {
 	if (c[0]->GetPip() == c[1]->GetPip())
 	{
@@ -357,7 +357,7 @@ Card::PIP Evaluator::GetPipValueofOnePair(const CUE& c)  //Helper function
 	}
 	//NEED TO RETURN A DUMMY VALUE OR ERROR ...Logic error
 	throw std::logic_error("calling GetPipValueofOnePair() on a hand that is not a one pair");
-	return c[3]->GetPip(); //Returns ace.. dummy value
+	return 12; //Returns ace.. dummy value
 }
 
 
