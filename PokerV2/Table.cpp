@@ -48,6 +48,8 @@ m_dealer(new TexasDealer(players))		//CREATE NEW DEALER
 	//DEAL CARDS TO PLAYER VECTORS
 	DealToPlayers();
 
+	//EVALUATE BEST HANDS 
+
 	//PLAYERS SHOW THIER CARDS
 	PlayersShowCards();
 

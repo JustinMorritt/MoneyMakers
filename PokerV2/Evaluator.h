@@ -4,7 +4,6 @@
 #include "cue.h"
 
 
-
 class Evaluator
 {
 public:
@@ -13,13 +12,13 @@ public:
 
 	bool IsWheelStraight(const CUE& c);
 	bool IsStraight(const CUE& c);	
-	bool IsQuad(const CUE& c);
+	bool IsQuad(const  CUE& c);
 	bool IsBoat(const CUE& c); //FULL HOUSE 
 	bool IsFlush(const CUE& c);	
 	bool IsTrips(const CUE& c);
 	bool IsTwoPair(const CUE& c);
 	bool IsOnePair(const CUE& c);
-
+	
 	int CompareCues(const CUE& cl, const CUE& c2);
 	int CompareStraightFlushes(const CUE& c1, const CUE& c2);
 	int CompareQuads(const CUE& c1, const CUE& c2);
@@ -30,6 +29,7 @@ public:
 	int CompareTwoPair(const CUE& c1, const CUE& c2);
 	int CompareOnePair(const CUE& c1, const CUE& c2);
 	int CompareKickers(const CUE& c1, const CUE& c2);
+	Card::PIP GetPipValueofOnePair(const CUE& c);
 };
 
 #endif

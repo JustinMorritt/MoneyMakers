@@ -12,13 +12,13 @@ Evaluator::~Evaluator()
 
 //COMPARES ALL THE SUITS , RETURNS true if all the same
 
-/*
+
 bool Evaluator::IsFlush(const CUE& c)
 {
-	return  (c[0].GetSuit() == c[1].GetSuit()) &&
-		(c[0].GetSuit() == c[2].GetSuit()) &&
-		(c[0].GetSuit() == c[3].GetSuit()) &&
-		(c[0].GetSuit() == c[4].GetSuit());  //CHECKS IF ALL 5 CARDS ARE THE SAME ,RETUR TRUE IF SO
+	return  (c[0]->GetSuit() == c[1]->GetSuit()) &&
+			(c[0]->GetSuit() == c[2]->GetSuit()) &&
+			(c[0]->GetSuit() == c[3]->GetSuit()) &&
+			(c[0]->GetSuit() == c[4]->GetSuit());  //CHECKS IF ALL 5 CARDS ARE THE SAME ,RETUR TRUE IF SO
 }
 
 bool Evaluator::IsStraight(const CUE& c)
@@ -27,10 +27,10 @@ bool Evaluator::IsStraight(const CUE& c)
 	{
 		return true;
 	}
-	Card::PIP p = c[0].GetPip();
+	Card::PIP p = c[0]->GetPip();
 	for (unsigned i = 1; i < c.size(); ++i)
 	{
-		if (p != c[1].GetPip())
+		if (p != c[1]->GetPip())
 		{
 			return false;
 		}
@@ -40,69 +40,61 @@ bool Evaluator::IsStraight(const CUE& c)
 
 bool Evaluator::IsWheelStraight(const CUE& c)
 {
-	return 	(c[0].GetPip() == _2) &&
-		(c[1].GetPip() == _3) &&
-		(c[2].GetPip() == _4) &&
-		(c[3].GetPip() == _5) &&
-		(c[4].GetPip() == _A);  //RETURNS TRUE IF IT IS A WHEEL STRAIGHT , 
-}									//means that Ace is in last position
-
+	return 	(c[0]->GetPip() == '_2') &&
+			(c[1]->GetPip() == '_3') &&
+			(c[2]->GetPip() == '_4') &&
+			(c[3]->GetPip() == '_5') &&
+			(c[4]->GetPip() == '_A');		//RETURNS TRUE IF IT IS A WHEEL STRAIGHT , 
+}											//means that Ace is in last position
+	
 //ONLY HAVe to check 1st and 4th and 2nd and 5th spot because its aranged..
 bool Evaluator::IsBoat(const CUE& c)
 {
-	return	(c[0].GetPip() == c[3].GetPip()) ||
-		(c[1].GetPip() == c[4].GetPip());    //only works because the hands have been sorted
-}
-
-bool Evaluator::IsBoat(const CUE& c)
-{
-	return 		(c[0].getPip() == c[2].GetPip()) &&
-		(c[3].getPip() == c[4].GetPip()) ||
-		(c[0].getPip() == c[1].GetPip()) &&
-		(c[2].getPip() == c[4].GetPip());
+	return	(c[0]->GetPip() == c[3]->GetPip()) ||
+			(c[1]->GetPip() == c[4]->GetPip());    //only works because the hands have been sorted
 }
 
 bool Evaluator::IsTrips(const CUE& c)
 {
-	return 	(c[0].getPip() == c[2].GetPip()) ||  	//if first and 3rd are same 
-		(c[1].getPip() == c[3].GetPip()) ||		//if 2nd and 4th are same 
-		(c[2].getPip() == c[4].GetPip());		//if 3rd and 5th are the same
+	return 	(c[0]->GetPip() == c[2]->GetPip()) ||		//if first and 3rd are same 
+			(c[1]->GetPip() == c[3]->GetPip()) ||		//if 2nd and 4th are same 
+			(c[2]->GetPip() == c[4]->GetPip());			//if 3rd and 5th are the same
 }
 
 bool Evaluator::IsTwoPair(const CUE& c)
 {
-	return 	(c[0].getPip() == c[1].GetPip()) &&
-		(c[2].getPip() == c[3].GetPip()) ||
-		(c[0].getPip() == c[1].GetPip()) &&
-		(c[3].getPip() == c[4].GetPip()) ||
-		(c[1].getPip() == c[2].GetPip()) &&
-		(c[3].getPip() == c[4].GetPip())
+	return 	(c[0]->GetPip() == c[1]->GetPip()) &&
+			(c[2]->GetPip() == c[3]->GetPip()) ||
+			(c[0]->GetPip() == c[1]->GetPip()) &&
+			(c[3]->GetPip() == c[4]->GetPip()) ||
+			(c[1]->GetPip() == c[2]->GetPip()) &&
+			(c[3]->GetPip() == c[4]->GetPip());
 }
 
 bool Evaluator::IsOnePair(const CUE& c)
 {
-return 	(c[0].GetPip() == c[1].GetPip()) ||
-		(c[1].GetPip() == c[2].GetPip()) ||
-		(c[2].GetPip() == c[3].GetPip()) ||
-		(c[3].GetPip() == c[4].GetPip());
+	return 	(c[0]->GetPip() == c[1]->GetPip()) ||
+			(c[1]->GetPip() == c[2]->GetPip()) ||
+			(c[2]->GetPip() == c[3]->GetPip()) ||
+			(c[3]->GetPip() == c[4]->GetPip());
 }
 
 
 
-
+/*
 int Evaluator::CompareCues(const CUE& c1, const CUE& c2)
 {
-	bool f1 = isFlush(c1);
-	bool f2 = isFlush(c2);
-	bool st1 = isStraight(c1);
-	bool st2 = isStraight(c2);
+	bool f1 = IsFlush(c1);
+	bool f2 = IsFlush(c2);
+	bool st1 = IsStraight(c1);
+	bool st2 = IsStraight(c2);
 
 
 	if (f1 && st1) //c1 is a straight flush
 	{
-		if (f2 && c2)//c2 is a straight flush
+		if (f2 && st2)//c2 is a straight flush
 		{
-			return compareStraightFlushes(c1, c2);
+			return CompareStraightFlushes(c1, c2);
 		}
 		return 1;
 	}
@@ -111,14 +103,14 @@ int Evaluator::CompareCues(const CUE& c1, const CUE& c2)
 		return -1;
 	}
 	// neither hand is a straight flush ... next FOUR OF A KIND
-	bool q1 = isQuad(c1);
-	bool q2 = isQuad(c2);
+	bool q1 = IsQuad(c1);
+	bool q2 = IsQuad(c2);
 
 	if (q1)
 	{
 		if (q2)
 		{
-			return compareQuads(c1, c2);
+			return CompareQuads(c1, c2);
 		}
 		return 1; //hand 1 is greater
 	}
@@ -134,7 +126,7 @@ int Evaluator::CompareCues(const CUE& c1, const CUE& c2)
 	{
 		if (boat2)
 		{
-			return compareBoats(c1, c2);
+			return CompareBoats(c1, c2);
 		}
 		return 1;
 	}
@@ -148,9 +140,9 @@ int Evaluator::CompareCues(const CUE& c1, const CUE& c2)
 	bool F2 = IsFlush(c2);
 	if (F1)
 	{
-		if (c2)
+		if (F1 && F2)
 		{
-			return CompareFlushs(c1, c2)
+			return CompareFlushs(c1, c2);
 		}
 		return 1;
 	}
@@ -160,19 +152,19 @@ int Evaluator::CompareCues(const CUE& c1, const CUE& c2)
 	}
 
 
-	bool st1 = IsStraight(c1);
-	bool st2 = IsStraight(c2);
-	if (st1)
+	bool str1 = IsStraight(c1);
+	bool str2 = IsStraight(c2);
+	if (str1)
 	{
-		if (st2)
+		if (str2)
 		{
-			return compareStraights(c1, c2)
+			return CompareStraights(c1, c2);
 		}
 		return 1;
 	}
-	if (st2)
+	if (str2)
 	{
-		return -1
+		return -1;
 	}
 
 	bool trips1 = IsTrips(c1);
@@ -187,7 +179,7 @@ int Evaluator::CompareCues(const CUE& c1, const CUE& c2)
 	}
 	if (trips2)
 	{
-		return -1
+		return -1;
 	}
 
 	bool twop1 = IsTwoPair(c1);
@@ -197,13 +189,13 @@ int Evaluator::CompareCues(const CUE& c1, const CUE& c2)
 	{
 		if (twop2)
 		{
-			return CompareTwoPairs(c1, c2);
+			return CompareTwoPair(c1, c2);
 		}
 		return 1;
 	}
 	if (twop2)
 	{
-		return -1
+		return -1;
 	}
 
 	bool onep1 = IsOnePair(c1);
@@ -213,26 +205,26 @@ int Evaluator::CompareCues(const CUE& c1, const CUE& c2)
 	{
 		if (onep2)
 		{
-			return CompareOnePairs(c1, c2);
+			return CompareOnePair(c1, c2);
 		}
 		return 1;
 	}
 	if (onep2)
 	{
-		return -1
+		return -1;
 	}
-	return compareKickers(c1, c2); //COMPARE HIGH CARD IF NO HANDS
+	return CompareKickers(c1, c2); //COMPARE HIGH CARD IF NO HANDS
 };
 
 int Evaluator::CompareKickers(const CUE& c1, const CUE& c2)
 {
 	for (int i = 4; i >= 0; --i)
 	{
-		if (c1[i].getPiP > c2[i].GetPiP())
+		if (c1[i]->GetPip() > c2[i]->GetPip())
 		{
 			return 1; //C1 is greater
 		}
-		if (c1[i].getPiP < c2[i].GetPiP())
+		if (c1[i]->GetPip() < c2[i]->GetPip())
 		{
 			return -1;   //C2 is greater
 		}
@@ -257,11 +249,11 @@ int Evaluator::CompareStraights(const CUE& c1, const CUE& c2)
 		return 1;
 	}
 
-	if (c1[0].GetPip() < c2[0].getPip())
+	if (c1[0]->GetPip() < c2[0]->GetPip())
 	{
 		return -2; //any negative number .. C2 is greater
 	}
-	if (c1[0].GetPip() > c2[0].getPip())
+	if (c1[0]->GetPip() > c2[0]->GetPip())
 	{
 		return 10; //any positive number.. C1 is greater 
 	}
@@ -270,16 +262,16 @@ int Evaluator::CompareStraights(const CUE& c1, const CUE& c2)
 
 int Evaluator::CompareQuads(const CUE& c1, const CUE& c2)
 {
-	if (c1[2].GetPip() < c2[2].GetPip())
+	if (c1[2]->GetPip() < c2[2]->GetPip())
 	{
-		return -1
+		return -1;
 	}
 
-	if (c1[2].GetPip() > c2[2].GetPip())
+	if (c1[2]->GetPip() > c2[2]->GetPip())
 	{
 		return 1;
 	}
-	return compareKickers(c1, c2);
+	return CompareKickers(c1, c2);
 }
 
 int Evaluator::CompareBoats(const CUE& c1, const CUE& c2)
@@ -299,20 +291,20 @@ int Evaluator::CompareTrips(const CUE& c1, const CUE& c2)
 
 int Evaluator::CompareTwoPair(const CUE& c1, const CUE& c2)
 {
-	if (c1[3].GetPip() < c2[3].getPip())
+	if (c1[3]->GetPip() < c2[3]->GetPip())
 	{
 		return 1; //second hand higher
 	}
-	if (c1[3].GetPip() > c2[3].getPip())
+	if (c1[3]->GetPip() > c2[3]->GetPip())
 	{
 		return -1;
 	}
 	//BOTH HIGHER PAIRS ARE SAME THEN -->
-	if (c1[1].GetPip() < c2[1].getPip())
+	if (c1[1]->GetPip() < c2[1]->GetPip())
 	{
 		return 1;
 	}
-	if (c1[1].GetPip() > c2[1].getPip())
+	if (c1[1]->GetPip() > c2[1]->GetPip())
 	{
 		return -1;
 	}
@@ -333,29 +325,28 @@ int Evaluator::CompareOnePair(const CUE& c1, const CUE& c2)
 }
 
 //WARNING DO NOT CALL ON ANY HAND THAT IS NOT A ONE PAIR
-Card::PIP GetPipValueofOnePair(const CUE& c)  //Helper function 
+Card::PIP Evaluator::GetPipValueofOnePair(const CUE& c)  //Helper function 
 {
-	if (c[0].GetPip() == c[1].GetPip())
+	if (c[0]->GetPip() == c[1]->GetPip())
 	{
-		return c[0].GetPiP();
+		return c[0]->GetPip();
 	}
-	if (c[1].GetPip() == c[2].GetPip())
+	if (c[1]->GetPip() == c[2]->GetPip())
 	{
-		return c[1].GetPiP();
+		return c[1]->GetPip();
 	}
-	if (c[2].GetPip() == c[3].GetPip())
+	if (c[2]->GetPip() == c[3]->GetPip())
 	{
-		return c[2].GetPiP();
+		return c[2]->GetPip();
 	}
-	if (c[3].GetPip() == c[4].GetPip())
+	if (c[3]->GetPip() == c[4]->GetPip())
 	{
-		return c[3].GetPiP();
+		return c[3]->GetPip();
 	}
 	//NEED TO RETURN A DUMMY VALUE OR ERROR ...Logic error
 	throw std::logic_error("calling GetPipValueofOnePair() on a hand that is not a one pair");
-	return _A; //Returns ace.. dummy value
+	return c[3]->GetPip(); //Returns ace.. dummy value
 }
-
 
 
 */

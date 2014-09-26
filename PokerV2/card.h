@@ -2,7 +2,6 @@
 #define CARD_H__
 #include <string>
 
-class CUE;
 
 class Card
 {

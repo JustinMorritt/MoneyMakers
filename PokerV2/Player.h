@@ -12,6 +12,9 @@ class Player
 public:
 	vector<const Card*> Sort(vector<const Card*> cards);
 
+
+
+
 	virtual void AddToHand(const Card*) = 0;
 	virtual void GetBestCUE()= 0;
 	virtual void SortHand() = 0;
@@ -26,7 +29,8 @@ class DrawPlayer : public Player
 public:
 	DrawPlayer(){};
 	virtual void AddToHand(const Card*);
-	virtual void GetBestCUE();
+	virtual void GetBestCUE();  //  ----v
+// THIS will have to create all the cues and run through assigning the best cue to m_Hand..not so hard for this type of player but the rest it will be.
 	virtual void SortHand();
 	virtual void ShowCards();
 	virtual ~DrawPlayer(){};
