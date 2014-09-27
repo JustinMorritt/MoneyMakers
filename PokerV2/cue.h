@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 #include "card.h"
-//#include "Player.h"
+
 
 
 
@@ -21,8 +21,6 @@ public:
 	CUE(vector<const Card*> cards);
 	~CUE();
 };
-
-
 
 
 

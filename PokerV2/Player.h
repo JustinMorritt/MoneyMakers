@@ -17,12 +17,14 @@ public:
 
 
 	virtual string GetCUEName(const CUE& c);
+	virtual int SetHandStrength(const CUE& c);
 	virtual void ShowBestHand(vector<const Card*>& c);
 	virtual void AddToHand(const Card*) = 0;
 	virtual void GetBestCUE()= 0;
 	virtual void ShowCards() = 0;
 	virtual void Show(vector<const Card*>& cards) const;
 	virtual ~Player(){};
+
 };
 
 
@@ -34,6 +36,7 @@ public:
 	virtual void GetBestCUE();  //  ----v
 // THIS will have to create all the cues and run through assigning the best cue to m_Hand..not so hard for this type of player but the rest it will be.
 	virtual string GetCUEName(const CUE& c);
+	virtual int SetHandStrength(const CUE& c);
 	virtual void ShowBestHand(vector<const Card*>& c);
 	virtual void ShowCards();
 	virtual ~DrawPlayer(){};
@@ -42,6 +45,7 @@ private:
 	vector<const Card*> m_BestHand;
 	vector<const Card*> m_Hand;
 	string m_HandName;
+	int	m_HandStrength;
 
 };
 
@@ -53,11 +57,13 @@ public:
 	virtual void AddToHand(const Card*);
 	void GetBestCUE();
 	virtual string GetCUEName(const CUE& c);
+	virtual int SetHandStrength(const CUE& c);
 	virtual void ShowCards();
 	virtual ~StudPlayer(){};
 private:
 	vector<const Card*> m_Hand;
 	string m_HandName;
+	int	m_HandStrength;
 };
 
 class OmahaPlayer : public Player
@@ -67,11 +73,13 @@ public:
 	virtual void AddToHand(const Card*);
 	virtual string GetCUEName(const CUE& c);
 	void GetBestCUE();
+	virtual int SetHandStrength(const CUE& c);
 	virtual void ShowCards();
 	virtual ~OmahaPlayer(){};
 private:
 	vector<const Card*> m_Hand;
 	string m_HandName;
+	int	m_HandStrength;
 
 };
 
@@ -81,14 +89,16 @@ public:
 	TexasPlayer(){};
 	virtual void AddToHand(const Card*);
 	void GetBestCUE();
+	virtual int SetHandStrength(const CUE& c);
 	virtual string GetCUEName(const CUE& c);
 	virtual void ShowCards();
 	virtual ~TexasPlayer(){};
 private:
 	vector<const Card*> m_Hand;
 	string m_HandName;
-
+	int	m_HandStrength;
 };
+
 
 
 
@@ -119,6 +129,7 @@ catch (PlayerException ex)
 {
 cout << ex.what() << endl;
 }*/
+
 
 
 #endif

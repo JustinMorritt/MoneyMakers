@@ -283,7 +283,7 @@ void TexasTable::PlayersShowCards()
 	int player = 1;
 	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
 	{
-		cout << "Player " << player << " Hand : ";
+		cout << "Player" << player << " Hand: ";
 		(*p_it)->ShowCards();
 		player++;
 		cout << endl;
@@ -294,7 +294,7 @@ void DrawTable::PlayersShowCards()
 	int player = 1;
 	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
 	{
-		cout << "Player " << player << " Hand : ";
+		cout << "Player" << player << " Hand: ";
 		(*p_it)->GetBestCUE();
 		player++;
 		cout << endl;
@@ -305,7 +305,7 @@ void StudTable::PlayersShowCards()
 	int player = 1;
 	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
 	{
-		cout << "Player " << player << " Hand : ";
+		cout << "Player" << player << " Hand: ";
 		(*p_it)->ShowCards();
 		player++;
 		cout << endl;
@@ -316,7 +316,7 @@ void OmahaTable::PlayersShowCards()
 	int player = 1;
 	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
 	{
-		cout << "Player " << player << " Hand : ";
+		cout << "Player" << player << " Hand: ";
 		(*p_it)->ShowCards();
 		player++;
 		cout << endl;

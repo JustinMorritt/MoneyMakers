@@ -13,8 +13,8 @@ Evaluator::~Evaluator()
 //COMPARES ALL THE SUITS , RETURNS true if all the same
 bool Evaluator::IsQuad(const  CUE& c)
 {
-	return  (c[0]->GetSuit() == c[3]->GetSuit()) ||
-			(c[1]->GetSuit() == c[4]->GetSuit());
+	return  (c[0]->GetPip() == c[3]->GetPip()) ||
+			(c[1]->GetPip() == c[4]->GetPip());
 };
 
 
