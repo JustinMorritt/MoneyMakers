@@ -31,14 +31,45 @@ string Player::GetCUEName(const CUE& c)
 {
 	Evaluator E;
 	string cueName;
-	if (E.IsStraight(c))
+	if (E.IsStraight(c) && E.IsFlush(c))
 	{
 		char value = c[0]->GetPip();
 		char value2 = c[4]->GetPip();
-		cueName = "Straight ";
+		char value3 = c[3]->GetSuit();
+		cueName = "Straight Flush ";
 		cueName += Card::PIP_CHARS[value];
 		cueName += " to ";
 		cueName += Card::PIP_CHARS[value2];
+		cueName += " ";
+		cueName += Card::SUIT_CHARS[value];
+		cueName += "'s";
+		return cueName;
+	}
+	if (E.IsQuad(c))
+	{
+		char value = c[3]->GetPip();
+		cueName = "Four-o-Kind ";
+		cueName += Card::PIP_CHARS[value];
+		cueName += "'s";
+		return cueName;
+	}
+	if (E.IsBoat(c))
+	{
+		char value = c[0]->GetPip();
+		char value2 = c[3]->GetPip();
+		cueName = "Full House ";
+		cueName += Card::PIP_CHARS[value];
+		cueName += "'s & ";
+		cueName += Card::PIP_CHARS[value2];
+		cueName += "'s";
+		return cueName;
+	}
+	if (E.IsFlush(c))
+	{
+		char value = c[3]->GetSuit();
+		cueName = "Flush ";
+		cueName += Card::SUIT_CHARS[value];
+		cueName += "'s";
 		return cueName;
 	}
 	if (E.IsWheelStraight(c))
@@ -51,20 +82,14 @@ string Player::GetCUEName(const CUE& c)
 		cueName += Card::PIP_CHARS[value2];
 		return cueName;
 	}
-	if (E.IsFlush(c))
+	if (E.IsStraight(c))
 	{
-		char value = c[3]->GetSuit();
-		cueName = "Flush ";
-		cueName += Card::SUIT_CHARS[value];
-		cueName += "'s";
-		return cueName;
-	}
-	if (E.IsQuad(c))
-	{
-		char value = c[3]->GetPip();
-		cueName = "Four-o-Kind ";
+		char value = c[0]->GetPip();
+		char value2 = c[4]->GetPip();
+		cueName = "Straight ";
 		cueName += Card::PIP_CHARS[value];
-		cueName += "'s";
+		cueName += " to ";
+		cueName += Card::PIP_CHARS[value2];
 		return cueName;
 	}
 	if (E.IsTrips(c))
@@ -94,7 +119,6 @@ string Player::GetCUEName(const CUE& c)
 		cueName += "'s";
 		return cueName;
 	}
-
 	else
 	{
 		c[4]->ToString();
@@ -108,21 +132,29 @@ int Player::SetHandStrength(const CUE& c)
 {
 	Evaluator E;
 	string cueName;
-	if (E.IsStraight(c))
+	if (E.IsStraight(c) && E.IsFlush(c))
 	{
-		return 8;
-	}
-	if (E.IsWheelStraight(c))
-	{
-		return 7;
-	}
-	if (E.IsFlush(c))
-	{
-		return 6;	
+		return 10;
 	}
 	if (E.IsQuad(c))
 	{
+		return 9;
+	}
+	if (E.IsBoat(c))
+	{
+		return 8;
+	}
+	if (E.IsFlush(c))
+	{
+		return 7;
+	}
+	if (E.IsWheelStraight(c))
+	{
 		return 5;
+	}
+	if (E.IsStraight(c))
+	{
+		return 6;
 	}
 	if (E.IsTrips(c))
 	{
