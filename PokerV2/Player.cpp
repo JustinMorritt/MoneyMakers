@@ -236,17 +236,14 @@ void DrawPlayer::GetHandName()
 {
 	std::cout << m_HandName;
 };
-
 void StudPlayer::GetHandName()
 {
 	std::cout << m_HandName;
 };
-
 void OmahaPlayer::GetHandName()
 {
 	std::cout << m_HandName;
 };
-
 void TexasPlayer::GetHandName()
 {
 	std::cout << m_HandName;

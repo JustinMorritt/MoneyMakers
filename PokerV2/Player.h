@@ -41,6 +41,7 @@ public:
 private:
 	vector<CUE> m_Cues;
 	vector<const Card*> m_Hand;
+
 	string m_HandName;
 };
 

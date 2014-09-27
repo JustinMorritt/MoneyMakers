@@ -297,9 +297,9 @@ void DrawTable::PlayersShowCards()
 	//GET WINNER
 	Evaluator E;
 	vector<Player*>::iterator p_it = m_players.begin();
-	//vector<CUE> currentBest;
-	//const CUE& a = (*p_it)->GetBestCUE();
-	//currentBest.push_back(a);
+	vector<CUE> currentBest;
+	const CUE& a = (*p_it)->GetBestCUE();
+	currentBest.push_back(a);
 	int winner = 1;
 	for (p_it ; p_it != m_players.end(); p_it++)
 	{
