@@ -1,7 +1,10 @@
 #include <iostream>
+#include <vector>
 #include "Table.h"
 #include "vector"
 #include "Dealer.h"
+#include "Evaluator.h"
+#include "cue.h"
 using namespace std;
 
 
@@ -292,16 +295,32 @@ void TexasTable::PlayersShowCards()
 void DrawTable::PlayersShowCards() 
 {
 	//GET WINNER
-	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
+	Evaluator E;
+	vector<Player*>::iterator p_it = m_players.begin();
+	//vector<CUE> currentBest;
+	//const CUE& a = (*p_it)->GetBestCUE();
+	//currentBest.push_back(a);
+	int winner = 1;
+	for (p_it ; p_it != m_players.end(); p_it++)
 	{
-
+		const CUE& c = (*p_it)->GetBestCUE();
+		
 	}
 
 	int player = 1;
 	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
 	{
+		//if (currentBest[0] == (*p_it)->GetBestCUE())
+		//{
+		//	cout << "Player" << player << " Hand: ";
+		//	(*p_it)->ShowCards();
+		//	cout << "WINNER!";
+		//}
 		cout << "Player" << player << " Hand: ";
 		(*p_it)->GetBestCUE();
+		(*p_it)->ShowCards();
+		cout << "---->";
+		(*p_it)->GetHandName();
 		player++;
 		cout << endl;
 	}

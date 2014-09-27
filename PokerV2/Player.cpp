@@ -36,7 +36,7 @@ string Player::GetCUEName(const CUE& c)
 		char value = c[0]->GetPip();
 		char value2 = c[4]->GetPip();
 		char value3 = c[3]->GetSuit();
-		cueName = "Straight Flush ";
+		cueName = "Straight Flush: ";
 		cueName += Card::PIP_CHARS[value];
 		cueName += " to ";
 		cueName += Card::PIP_CHARS[value2];
@@ -48,7 +48,7 @@ string Player::GetCUEName(const CUE& c)
 	if (E.IsQuad(c))
 	{
 		char value = c[3]->GetPip();
-		cueName = "Four-o-Kind ";
+		cueName = "Four-o-Kind: ";
 		cueName += Card::PIP_CHARS[value];
 		cueName += "'s";
 		return cueName;
@@ -57,7 +57,7 @@ string Player::GetCUEName(const CUE& c)
 	{
 		char value = c[0]->GetPip();
 		char value2 = c[3]->GetPip();
-		cueName = "Full House ";
+		cueName = "Full House: ";
 		cueName += Card::PIP_CHARS[value];
 		cueName += "'s & ";
 		cueName += Card::PIP_CHARS[value2];
@@ -67,7 +67,7 @@ string Player::GetCUEName(const CUE& c)
 	if (E.IsFlush(c))
 	{
 		char value = c[3]->GetSuit();
-		cueName = "Flush ";
+		cueName = "Flush: ";
 		cueName += Card::SUIT_CHARS[value];
 		cueName += "'s";
 		return cueName;
@@ -76,7 +76,7 @@ string Player::GetCUEName(const CUE& c)
 	{
 		char value = c[0]->GetPip();
 		char value2 = c[4]->GetPip();
-		cueName = "Wheel Straight ";
+		cueName = "Wheel Straight: ";
 		cueName += Card::PIP_CHARS[value];
 		cueName += " to ";
 		cueName += Card::PIP_CHARS[value2];
@@ -86,7 +86,7 @@ string Player::GetCUEName(const CUE& c)
 	{
 		char value = c[0]->GetPip();
 		char value2 = c[4]->GetPip();
-		cueName = "Straight ";
+		cueName = "Straight: ";
 		cueName += Card::PIP_CHARS[value];
 		cueName += " to ";
 		cueName += Card::PIP_CHARS[value2];
@@ -95,7 +95,7 @@ string Player::GetCUEName(const CUE& c)
 	if (E.IsTrips(c))
 	{
 		char value = c[2]->GetPip();
-		cueName = "Three-o-Kind ";
+		cueName = "Three-o-Kind: ";
 		cueName += Card::PIP_CHARS[value];
 		cueName += "'s";
 		return cueName;
@@ -104,7 +104,7 @@ string Player::GetCUEName(const CUE& c)
 	{
 		char value = c[1]->GetPip();
 		char value2 = c[3]->GetPip();
-		cueName = "Two Pair ";
+		cueName = "Two Pair: ";
 		cueName += Card::PIP_CHARS[value];
 		cueName += "'s & ";
 		cueName += Card::PIP_CHARS[value2];
@@ -122,57 +122,12 @@ string Player::GetCUEName(const CUE& c)
 	else
 	{
 		c[4]->ToString();
-		cueName = "High Card  : " + c[4]->ToString();
+		cueName = "High Card: " + c[4]->ToString();
 		cueName += "'s";
 		return cueName;
 	}
 }
 
-int Player::SetHandStrength(const CUE& c)
-{
-	Evaluator E;
-	string cueName;
-	if (E.IsStraight(c) && E.IsFlush(c))
-	{
-		return 10;
-	}
-	if (E.IsQuad(c))
-	{
-		return 9;
-	}
-	if (E.IsBoat(c))
-	{
-		return 8;
-	}
-	if (E.IsFlush(c))
-	{
-		return 7;
-	}
-	if (E.IsWheelStraight(c))
-	{
-		return 5;
-	}
-	if (E.IsStraight(c))
-	{
-		return 6;
-	}
-	if (E.IsTrips(c))
-	{
-		return 4;
-	}
-	if (E.IsTwoPair(c))
-	{
-		return 3;
-	}
-	if (E.IsOnePair(c))
-	{
-		return 2;
-	}
-	else
-	{
-		return 1;
-	}
-}
 
 void Player::Show(vector<const Card*>& cards) const
 {
@@ -184,7 +139,7 @@ void Player::Show(vector<const Card*>& cards) const
 }
 
 
-void DrawPlayer::GetBestCUE()
+const CUE& DrawPlayer::GetBestCUE()
 {
 	vector<const Card*> newCue;
 	CUE c(newCue);
@@ -195,16 +150,15 @@ void DrawPlayer::GetBestCUE()
 	}
 	sort(c.begin(), c.end(), HigherCard());
 	m_Cues.push_back(c);
-	m_BestHand = c;
-	m_HandStrength = SetHandStrength(c); //Assign hand strength
 	
-	ShowCards();
-	ShowBestHand(m_BestHand);
+	//ShowCards(); //shows original hand.
+	m_HandName = Player::GetCUEName(c); //USED TO GET CUE NAME
+	//cout << " = " << Cardname << endl;
 
-	string Cardname = Player::GetCUEName(c);
-	cout << " = " << Cardname << endl;
-	cout << "HandStrength:" << m_HandStrength << endl;
+	return c;	
+	
 
+	/*
 	//ALL USED FOR MULTIPLE CUES ----v
 	vector<CUE>::iterator c_it = m_Cues.begin();
 	vector<const Card*> tempBest = *c_it; //create a temp best hand..
@@ -212,19 +166,46 @@ void DrawPlayer::GetBestCUE()
 	{
 	//cout << "Loop working ...YAE!\n\n";
 	}
-
+	*/
 };
-void StudPlayer::GetBestCUE()
+const CUE& StudPlayer::GetBestCUE()
 {
-
+	vector<const Card*> newCue;
+	CUE c(newCue);
+	//HAD TO MANUALLY PUSH ON THE m_Hand Cards 
+	for (unsigned i = 0; i < 5; ++i)
+	{
+		c.push_back(m_Hand[i]);
+	}
+	sort(c.begin(), c.end(), HigherCard());
+	m_Cues.push_back(c); 
+	return c;
 };
-void OmahaPlayer::GetBestCUE()
+const CUE& OmahaPlayer::GetBestCUE()
 {
-
+	vector<const Card*> newCue;
+	CUE c(newCue);
+	//HAD TO MANUALLY PUSH ON THE m_Hand Cards 
+	for (unsigned i = 0; i < 5; ++i)
+	{
+		c.push_back(m_Hand[i]);
+	}
+	sort(c.begin(), c.end(), HigherCard());
+	m_Cues.push_back(c);
+	return c;
 };
-void TexasPlayer::GetBestCUE()
+const CUE& TexasPlayer::GetBestCUE()
 {
-
+	vector<const Card*> newCue;
+	CUE c(newCue);
+	//HAD TO MANUALLY PUSH ON THE m_Hand Cards 
+	for (unsigned i = 0; i < 5; ++i)
+	{
+		c.push_back(m_Hand[i]);
+	}
+	sort(c.begin(), c.end(), HigherCard());
+	m_Cues.push_back(c);
+	return c;
 };
 
 string DrawPlayer::GetCUEName(const CUE& c)
@@ -251,23 +232,28 @@ void DrawPlayer::ShowBestHand(vector<const Card*>& c)
 }
 
 
+void DrawPlayer::GetHandName()
+{
+	std::cout << m_HandName;
+};
 
-int  DrawPlayer::SetHandStrength(const CUE& c)
+void StudPlayer::GetHandName()
 {
-	return Player::SetHandStrength(c);
+	std::cout << m_HandName;
 };
-int  StudPlayer::SetHandStrength(const CUE& c)
+
+void OmahaPlayer::GetHandName()
 {
-	return Player::SetHandStrength(c);
+	std::cout << m_HandName;
 };
-int  OmahaPlayer::SetHandStrength(const CUE& c)
+
+void TexasPlayer::GetHandName()
 {
-	return Player::SetHandStrength(c);
+	std::cout << m_HandName;
 };
-int  TexasPlayer::SetHandStrength(const CUE& c)
-{
-	return Player::SetHandStrength(c);
-};
+
+
+
 
 void DrawPlayer::ShowCards()
 {
