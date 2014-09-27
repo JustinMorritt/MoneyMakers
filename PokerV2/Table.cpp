@@ -291,6 +291,12 @@ void TexasTable::PlayersShowCards()
 }
 void DrawTable::PlayersShowCards() 
 {
+	//GET WINNER
+	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
+	{
+
+	}
+
 	int player = 1;
 	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
 	{

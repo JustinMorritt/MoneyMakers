@@ -94,7 +94,7 @@ string Player::GetCUEName(const CUE& c)
 	}
 	if (E.IsTrips(c))
 	{
-		char value = c[3]->GetPip();
+		char value = c[2]->GetPip();
 		cueName = "Three-o-Kind ";
 		cueName += Card::PIP_CHARS[value];
 		cueName += "'s";
@@ -197,12 +197,12 @@ void DrawPlayer::GetBestCUE()
 	m_Cues.push_back(c);
 	m_BestHand = c;
 	m_HandStrength = SetHandStrength(c); //Assign hand strength
+	
 	ShowCards();
 	ShowBestHand(m_BestHand);
 
 	string Cardname = Player::GetCUEName(c);
 	cout << " = " << Cardname << endl;
-
 	cout << "HandStrength:" << m_HandStrength << endl;
 
 	//ALL USED FOR MULTIPLE CUES ----v
