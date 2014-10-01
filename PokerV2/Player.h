@@ -17,7 +17,8 @@ public:
 	virtual string GetCUEName(const CUE& c);
 	virtual void ShowBestHand(vector<const Card*>& c);
 	virtual void AddToHand(const Card*) = 0;
-	virtual void GetBestCUE()= 0;
+	virtual vector<CUE> BuildCUEs() = 0;
+	virtual CUE& GetBestCUE() = 0;
 	virtual void ShowCards() = 0;
 	virtual void GetHandName() = 0;
 	virtual void Show(vector<const Card*>& cards) const;
@@ -31,17 +32,18 @@ class DrawPlayer : public Player
 public:
 	DrawPlayer(){};
 	virtual void AddToHand(const Card*);
-	virtual void GetBestCUE();  //  ----v
-// THIS will have to create all the cues and run through assigning the best cue to m_Hand..not so hard for this type of player but the rest it will be.
+	virtual vector<CUE> BuildCUEs();
+	virtual CUE& GetBestCUE();  
 	virtual string GetCUEName(const CUE& c);
 	virtual void ShowBestHand(vector<const Card*>& c);
 	virtual void GetHandName();
 	virtual void ShowCards();
 	virtual ~DrawPlayer(){};
 private:
-	vector<CUE> m_Cues;
 	vector<const Card*> m_Hand;
-	string m_HandName;
+	vector<CUE> m_Cues = BuildCUEs();
+	CUE _bestCUE;
+	string m_HandName = GetCUEName(_bestCUE);
 };
 
 
@@ -50,14 +52,15 @@ class StudPlayer : public Player
 public:
 	StudPlayer(){};
 	virtual void AddToHand(const Card*);
-	virtual void GetBestCUE();
+	virtual vector<CUE> BuildCUEs();
+	virtual CUE& GetBestCUE();
 	virtual void GetHandName();
 	virtual string GetCUEName(const CUE& c);
 	virtual void ShowCards();
 	virtual ~StudPlayer(){};
 private:
 	vector<const Card*> m_Hand;
-	
+	CUE _bestCUE;
 	vector<CUE> m_Cues;
 	string m_HandName;
 };
@@ -67,15 +70,15 @@ class OmahaPlayer : public Player
 public:
 	OmahaPlayer(){};
 	virtual void AddToHand(const Card*);
-	
+	virtual vector<CUE> BuildCUEs();
 	virtual string GetCUEName(const CUE& c);
-	virtual void GetBestCUE();
+	virtual CUE& GetBestCUE();
 	virtual void ShowCards();
 	virtual void GetHandName();
 	virtual ~OmahaPlayer(){};
 private:
 	vector<const Card*> m_Hand;
-	
+	CUE _bestCUE;
 	string m_HandName;
 	vector<CUE> m_Cues;
 };
@@ -84,8 +87,9 @@ class TexasPlayer : public Player
 {
 public:
 	TexasPlayer(){};
-	virtual void AddToHand(const Card*);
-	virtual void GetBestCUE();
+	virtual void AddToHand(const Card*); 
+	virtual vector<CUE> BuildCUEs();
+	virtual CUE& GetBestCUE();
 	virtual string GetCUEName(const CUE& c);
 	virtual void ShowCards();
 	virtual void GetHandName();
@@ -93,6 +97,7 @@ public:
 private:
 	vector<const Card*> m_Hand;
 	vector<CUE> m_Cues;
+	CUE _bestCUE;
 	string m_HandName;
 };
 

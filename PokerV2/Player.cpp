@@ -138,46 +138,51 @@ void Player::Show(vector<const Card*>& cards) const
 }
 
 
-void DrawPlayer::GetBestCUE()
+vector<CUE> DrawPlayer::BuildCUEs()
+{
+	CUE c = m_Hand;
+	/*for (unsigned i = 0; i < 5; ++i)
+	{
+		c.push_back(m_Hand[i]);
+	}*/
+	sort(c.begin(), c.end(), HigherCard());
+
+	m_Cues.push_back(c);
+	
+	
+	return m_Cues;
+};
+vector<CUE> StudPlayer::BuildCUEs()
+{
+
+	vector<const Card*> newCue;
+	CUE c(newCue);
+	m_Cues.push_back(c);
+	return m_Cues;
+};
+vector<CUE> OmahaPlayer::BuildCUEs()
 {
 	vector<const Card*> newCue;
 	CUE c(newCue);
-	//HAD TO MANUALLY PUSH ON THE m_Hand Cards 
-	for (unsigned i = 0; i < 5; ++i)
-	{
-		c.push_back(m_Hand[i]);
-	}
-
-	sort(c.begin(), c.end(), HigherCard());
 	m_Cues.push_back(c);
+	return m_Cues;
 
-	/*
-	for (int i = 0; i < c.size(); ++i)
-	{
-		cout << " " << c[i]->ToString() << endl;
-	}
-	*/
-
-	
-
-
-	//ShowCards(); //shows original hand.
-	m_HandName = Player::GetCUEName(c); //USED TO GET CUE NAME
-	//cout << " = " << Cardname << endl;
-
-	
-
-	/*
-	//ALL USED FOR MULTIPLE CUES ----v
-	vector<CUE>::iterator c_it = m_Cues.begin();
-	vector<const Card*> tempBest = *c_it; //create a temp best hand..
-	for (c_it ; c_it != m_Cues.end(); ++c_it)
-	{
-	//cout << "Loop working ...YAE!\n\n";
-	}
-	*/
 };
-void StudPlayer::GetBestCUE()
+vector<CUE> TexasPlayer::BuildCUEs()
+{
+	vector<const Card*> newCue;
+	CUE c(newCue);
+	m_Cues.push_back(c);
+	return m_Cues;
+};
+
+CUE& DrawPlayer::GetBestCUE()
+{
+	_bestCUE = m_Cues[0];
+	//FOR OTHERS .. EVALUATE THROUGH m_CUES
+	return _bestCUE;
+};
+CUE& StudPlayer::GetBestCUE()
 {
 	vector<const Card*> newCue;
 	CUE c(newCue);
@@ -188,9 +193,9 @@ void StudPlayer::GetBestCUE()
 	}
 	sort(c.begin(), c.end(), HigherCard());
 	m_Cues.push_back(c); 
-
+	return _bestCUE;
 };
-void OmahaPlayer::GetBestCUE()
+CUE& OmahaPlayer::GetBestCUE()
 {
 	vector<const Card*> newCue;
 	CUE c(newCue);
@@ -201,9 +206,9 @@ void OmahaPlayer::GetBestCUE()
 	}
 	sort(c.begin(), c.end(), HigherCard());
 	m_Cues.push_back(c);
-
+	return _bestCUE;
 };
-void TexasPlayer::GetBestCUE()
+CUE& TexasPlayer::GetBestCUE()
 {
 	vector<const Card*> newCue;
 	CUE c(newCue);
@@ -214,7 +219,7 @@ void TexasPlayer::GetBestCUE()
 	}
 	sort(c.begin(), c.end(), HigherCard());
 	m_Cues.push_back(c);
-
+	return _bestCUE;
 };
 
 string DrawPlayer::GetCUEName(const CUE& c)

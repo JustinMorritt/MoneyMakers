@@ -27,7 +27,7 @@ m_dealer(new TexasDealer(players))	//CREATE NEW DEALER
 };
 OmahaTable::OmahaTable(int players, int gametype) :
 Table(players),
-m_dealer(new TexasDealer(players))		//CREATE NEW DEALER
+m_dealer(new OmahaDealer(players))		//CREATE NEW DEALER
 {
 	//ADD PLAYERS TO PLAYER VECTOR
 	AddPlayers();
@@ -43,7 +43,7 @@ m_dealer(new TexasDealer(players))		//CREATE NEW DEALER
 };
 DrawTable::DrawTable(int players, int gametype):
 Table(players),
-m_dealer(new TexasDealer(players))		//CREATE NEW DEALER			
+m_dealer(new DrawDealer(players))		//CREATE NEW DEALER			
 {
 	//ADD PLAYERS TO PLAYER VECTOR
 	AddPlayers();
@@ -59,7 +59,7 @@ m_dealer(new TexasDealer(players))		//CREATE NEW DEALER
 };
 StudTable::StudTable(int players, int gametype):
 Table(players),
-m_dealer(new TexasDealer(players))	//CREATE NEW DEALER
+m_dealer(new StudDealer(players))	//CREATE NEW DEALER
 {
 	//ADD PLAYERS TO PLAYER VECTOR
 	AddPlayers();
@@ -299,7 +299,7 @@ void DrawTable::PlayersShowCards()
 	
 	vector<Player*>::iterator p_it = m_players.begin();
 	vector<const Card*> Best;
-	//CUE bestCue;
+	
 	//cout << Best[0] << endl;
 
 
@@ -308,7 +308,14 @@ void DrawTable::PlayersShowCards()
 	for (p_it ; p_it != m_players.end(); p_it++)
 	{
 		cout << "Player" << player << " Hand: ";
-		(*p_it)->GetBestCUE();
+		//BUILD CUES
+	/* comparedCUE = (*p_it)->GetBestCUE();
+		if (E.CompareCues(Best, comparedCUE) != 1)
+		{
+			bestCue = comparedCUE;
+		} 
+	*/
+		//CUE& bestCue = (*p_it)->GetBestCUE();
 		(*p_it)->ShowCards();
 		cout << "---->";
 		(*p_it)->GetHandName();

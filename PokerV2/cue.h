@@ -10,6 +10,7 @@ using namespace std;
 class CUE: public vector<const Card*>
 {
 public:
+	CUE(){};
 	CUE(vector<const Card*> cards);
 	CUE& operator=(const CUE& cue);
 	CUE(const CUE& cue);
