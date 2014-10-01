@@ -140,16 +140,15 @@ void Player::Show(vector<const Card*>& cards) const
 
 vector<CUE> DrawPlayer::BuildCUEs()
 {
-	CUE c = m_Hand;
-	/*for (unsigned i = 0; i < 5; ++i)
+	CUE c;
+	for (vector<const Card*>::iterator c_it = m_Hand.begin(); c_it != m_Hand.end(); ++c_it)
 	{
-		c.push_back(m_Hand[i]);
-	}*/
+		const Card* p = *c_it;
+		c.push_back(p);
+	}
 	sort(c.begin(), c.end(), HigherCard());
 
 	m_Cues.push_back(c);
-	
-	
 	return m_Cues;
 };
 vector<CUE> StudPlayer::BuildCUEs()
@@ -178,9 +177,13 @@ vector<CUE> TexasPlayer::BuildCUEs()
 
 CUE& DrawPlayer::GetBestCUE()
 {
-	_bestCUE = m_Cues[0];
+	
+	m_Cues = BuildCUEs();						//BUILD
+	_bestCUE = m_Cues[0];						//ASSIGN BEST CUE
+	m_HandName = GetCUEName(_bestCUE);			//ASSIGN HANDNAME
+	
 	//FOR OTHERS .. EVALUATE THROUGH m_CUES
-	return _bestCUE;
+	return _bestCUE;							//RETURN BEST CUE
 };
 CUE& StudPlayer::GetBestCUE()
 {

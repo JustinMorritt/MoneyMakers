@@ -296,29 +296,38 @@ void DrawTable::PlayersShowCards()
 {
 	//GET WINNER
 	Evaluator E;
-	
 	vector<Player*>::iterator p_it = m_players.begin();
-	vector<const Card*> Best;
+	CUE bestCue = (*p_it)->GetBestCUE();
 	
-	//cout << Best[0] << endl;
+	
+	for (p_it = m_players.begin() +1; p_it != m_players.end(); p_it++)
+	{
+		//BUILD CUES
+		CUE& comparedCUE = (*p_it)->GetBestCUE();
+		
+		int Compare = E.CompareCues(bestCue, comparedCUE);
+		cout << "Compaired :" << Compare << "\n";
+		if (Compare != 1)
+		{
+			bestCue = comparedCUE;
+		}
+		//bestCue.clear();
 
+
+	}
 
 
 	int player = 1;
-	for (p_it ; p_it != m_players.end(); p_it++)
+	for (p_it = m_players.begin(); p_it != m_players.end(); p_it++)
 	{
 		cout << "Player" << player << " Hand: ";
 		//BUILD CUES
-	/* comparedCUE = (*p_it)->GetBestCUE();
-		if (E.CompareCues(Best, comparedCUE) != 1)
-		{
-			bestCue = comparedCUE;
-		} 
-	*/
-		//CUE& bestCue = (*p_it)->GetBestCUE();
+	
+		CUE& diffCue = (*p_it)->GetBestCUE();
 		(*p_it)->ShowCards();
 		cout << "---->";
 		(*p_it)->GetHandName();
+		
 		//if (WINNER)
 		//{
 		//	cout << " <---WINNER!";

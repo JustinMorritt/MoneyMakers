@@ -41,9 +41,9 @@ public:
 	virtual ~DrawPlayer(){};
 private:
 	vector<const Card*> m_Hand;
-	vector<CUE> m_Cues = BuildCUEs();
+	vector<CUE> m_Cues;
 	CUE _bestCUE;
-	string m_HandName = GetCUEName(_bestCUE);
+	string m_HandName;
 };
 
 
