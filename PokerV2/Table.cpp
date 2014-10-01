@@ -21,7 +21,7 @@ m_dealer(new TexasDealer(players))	//CREATE NEW DEALER
 	
 	//THE FLOP
 	Flop();
-
+	cout << "\n";
 	//PLAYERS SHOW THIER CARDS
 	PlayersShowCards();
 };
@@ -37,7 +37,7 @@ m_dealer(new OmahaDealer(players))		//CREATE NEW DEALER
 
 	//THE FLOP
 	Flop();
-
+	cout << "\n";
 	//PLAYERS SHOW THIER CARDS
 	PlayersShowCards();
 };
@@ -215,7 +215,7 @@ void TexasTable::Flop()
 	m_communityCards.push_back(m_dealer->deal());
 	//DISPLAY COMMUNTITY CARDS
 	int c_card = 1;
-	std::cout << "\nThe Flop :";
+	std::cout << "\n**********_____The Flop :";
 	for (vector<const Card*>::iterator c_it = m_communityCards.begin(); c_it != m_communityCards.end(); ++c_it)
 	{
 		const Card* p = *c_it;
@@ -226,14 +226,14 @@ void TexasTable::Flop()
 		}
 		else if (c_card == 4)
 		{
-			cout << "   Turn :";
+			//cout << "   Turn :";
 			cout << " " << p->ToString() << "";
 			++c_card;
 		}
 		else
 		{
-			cout << "   River :";
-			cout << " " << p->ToString() << " \n";
+			//cout << "   River :";
+			cout << " " << p->ToString() << "_____************* \n";
 			++c_card;
 		}
 	}
@@ -256,7 +256,7 @@ void OmahaTable::Flop()
 	m_communityCards.push_back(m_dealer->deal());
 	//DISPLAY COMMUNTITY CARDS
 	int c_card = 1;
-	std::cout << "\nThe Flop :";
+	std::cout << "\n**********_____The Flop :";
 	for (vector<const Card*>::iterator c_it = m_communityCards.begin(); c_it != m_communityCards.end(); ++c_it)
 	{
 		const Card* p = *c_it;
@@ -267,38 +267,27 @@ void OmahaTable::Flop()
 		}
 		else if (c_card == 4)
 		{
-			cout << "   Turn :";
+			//cout << "   Turn :";
 			cout << " " << p->ToString() << "";
 			++c_card;
 		}
 		else
 		{
-			cout << "   River :";
-			cout << " " << p->ToString() << " \n";
+			//cout << "   River :";
+			cout << " " << p->ToString() << "_____************* \n";
 			++c_card;
 		}
 	}
 };
 
 //PLAYER SHOW HAND
-void TexasTable::PlayersShowCards() 
-{
-	int player = 1;
-	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
-	{
-		cout << "Player" << player << " Hand: ";
-		(*p_it)->ShowCards();
-		player++;
-		cout << endl;
-	}
-}
+
 void DrawTable::PlayersShowCards() 
 {
 	//GET WINNER
 	Evaluator E;
 	vector<Player*>::iterator p_it = m_players.begin();
 	CUE bestCue = (*p_it)->GetBestCUE();
-	
 	
 	for (p_it = m_players.begin() +1; p_it != m_players.end(); p_it++)
 	{
@@ -312,18 +301,59 @@ void DrawTable::PlayersShowCards()
 		}
 	}
 
+	int player = 1;
+	for (p_it = m_players.begin(); p_it != m_players.end(); p_it++)
+	{
+		cout << "\n_________________________Player " << player << "___________________________\n";
+		//BUILD CUES
+		CUE& diffCue = (*p_it)->GetBestCUE();
+		cout << "Dealt: ";
+		(*p_it)->ShowCards();
+		cout << "\n";
+		(*p_it)->ShowBestHand(diffCue);
+		cout << "---------->";
+		(*p_it)->GetHandName();
+		
+		if (E.CompareCues(bestCue, diffCue) == 0)
+		{
+			cout << " <------WINNER-";
+		}
+		player++;
+		cout << endl;
+	}
+}
+void StudTable::PlayersShowCards() 
+{
+	//GET WINNER
+	Evaluator E;
+	vector<Player*>::iterator p_it = m_players.begin();
+	CUE bestCue = (*p_it)->GetBestCUE();
+
+	for (p_it = m_players.begin() + 1; p_it != m_players.end(); p_it++)
+	{
+		CUE& comparedCUE = (*p_it)->GetBestCUE();
+		int Compare = E.CompareCues(bestCue, comparedCUE);
+		//cout << "Compaired :" << Compare << "\n";
+		if (Compare != 1)
+		{
+			bestCue.clear();
+			bestCue = comparedCUE;
+		}
+	}
 
 	int player = 1;
 	for (p_it = m_players.begin(); p_it != m_players.end(); p_it++)
 	{
-		cout << "Player" << player << " Hand: ";
+		cout << "\n_________________________Player " << player << "___________________________\n";
 		//BUILD CUES
-	
 		CUE& diffCue = (*p_it)->GetBestCUE();
+		cout << "Dealt: ";
 		(*p_it)->ShowCards();
-		cout << "---->";
+		cout << "\n";
+		(*p_it)->ShowBestHand(diffCue);
+		cout << "---------->";
 		(*p_it)->GetHandName();
-		
+
 		if (E.CompareCues(bestCue, diffCue) == 0)
 		{
 			cout << " <---WINNER!";
@@ -332,24 +362,88 @@ void DrawTable::PlayersShowCards()
 		cout << endl;
 	}
 }
-void StudTable::PlayersShowCards() 
+void OmahaTable::PlayersShowCards() 
 {
-	int player = 1;
-	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
+	//GET WINNER
+	Evaluator E;
+	vector<Player*>::iterator p_it = m_players.begin();
+	(*p_it)->GetComCards(m_communityCards);
+	CUE bestCue = (*p_it)->GetBestCUE();
+
+
+	for (p_it = m_players.begin() + 1; p_it != m_players.end(); p_it++)
 	{
-		cout << "Player" << player << " Hand: ";
+		(*p_it)->GetComCards(m_communityCards);
+		CUE& comparedCUE = (*p_it)->GetBestCUE();
+		int Compare = E.CompareCues(bestCue, comparedCUE);
+		//cout << "Compaired :" << Compare << "\n";
+		if (Compare != 1)
+		{
+			bestCue.clear();
+			bestCue = comparedCUE;
+		}
+	}
+
+	int player = 1;
+	for (p_it = m_players.begin(); p_it != m_players.end(); p_it++)
+	{
+		cout << "\n_________________________Player " << player << "___________________________\n";
+		//BUILD CUES
+		CUE& diffCue = (*p_it)->GetBestCUE();
+		cout << "Dealt: ";
 		(*p_it)->ShowCards();
+		cout << "\n";
+		(*p_it)->ShowBestHand(diffCue);
+		cout << "---------->";
+		(*p_it)->GetHandName();
+
+		if (E.CompareCues(bestCue, diffCue) == 0)
+		{
+			cout << " <---WINNER!";
+		}
 		player++;
 		cout << endl;
 	}
 }
-void OmahaTable::PlayersShowCards() 
+void TexasTable::PlayersShowCards() 
 {
-	int player = 1;
-	for (vector<Player*>::iterator p_it = m_players.begin(); p_it != m_players.end(); p_it++)
+	//GET WINNER
+	Evaluator E;
+	vector<Player*>::iterator p_it = m_players.begin();
+	(*p_it)->GetComCards(m_communityCards);
+	CUE bestCue = (*p_it)->GetBestCUE();
+
+
+	for (p_it = m_players.begin() + 1; p_it != m_players.end(); p_it++)
 	{
-		cout << "Player" << player << " Hand: ";
+		(*p_it)->GetComCards(m_communityCards);
+		CUE& comparedCUE = (*p_it)->GetBestCUE();
+		int Compare = E.CompareCues(bestCue, comparedCUE);
+		//cout << "Compaired :" << Compare << "\n";
+		if (Compare != 1)
+		{
+			bestCue.clear();
+			bestCue = comparedCUE;
+		}
+	}
+
+	int player = 1;
+	for (p_it = m_players.begin(); p_it != m_players.end(); p_it++)
+	{
+		cout << "\n_________________________Player " << player << "___________________________\n";
+		//BUILD CUES
+		CUE& diffCue = (*p_it)->GetBestCUE();
+		cout << "Dealt: ";
 		(*p_it)->ShowCards();
+		cout << "\n";
+		(*p_it)->ShowBestHand(diffCue);
+		cout << "---------->";
+		(*p_it)->GetHandName();
+
+		if (E.CompareCues(bestCue, diffCue) == 0)
+		{
+			cout << " <---WINNER!";
+		}
 		player++;
 		cout << endl;
 	}

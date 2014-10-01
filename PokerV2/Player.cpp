@@ -5,25 +5,14 @@
 #include "Evaluator.h"
 
 
-void Player::ShowBestHand(vector<const Card*>& c)
+void Player::ShowBestHand(const CUE& c)
 {
-	try{
-		if (c.size() == 5)
-		{
-			sort(c.begin(), c.end(), HigherCard());
-			cout << " Built:";
-			for (vector<const Card*>::iterator c_it = c.begin(); c_it != c.end(); ++c_it)
-			{
-				const Card* p = *c_it;
-				cout << "" << p->ToString() << " ";
-			}
-		}
-		else
-			throw CUEException("NOT 5 CARDS IN CUE");
-	}
-	catch (CUEException ex)
+	const CUE& Cue = c;
+	cout << "Built:";
+	for (int i = 0; i < 5; ++i)
 	{
-		cout << ex.what() << endl;
+		const Card* p = Cue[i] ;
+		cout << " " << p->ToString();
 	}
 }
 
@@ -153,25 +142,91 @@ vector<CUE> DrawPlayer::BuildCUEs()
 };
 vector<CUE> StudPlayer::BuildCUEs()
 {
-
-	vector<const Card*> newCue;
-	CUE c(newCue);
-	m_Cues.push_back(c);
+	for (int pointer1 = 0; pointer1 < 6; ++pointer1)
+	{
+		for (int pointer2 = pointer1 + 1; pointer2 < 7; ++pointer2)
+		{
+			CUE c;
+			for (int i = 0; i < 7; ++i)
+			{
+				if (i != pointer1 && i != pointer2)
+				{
+					c.push_back(m_Hand[i]);
+				}
+			}
+			sort(c.begin(), c.end(), HigherCard());
+			m_Cues.push_back(c);
+		}
+	}
 	return m_Cues;
 };
 vector<CUE> OmahaPlayer::BuildCUEs()
 {
-	vector<const Card*> newCue;
-	CUE c(newCue);
-	m_Cues.push_back(c);
-	return m_Cues;
+	vector<const Card*> CUEBuilder;
+	for (int i = 0; i < m_Hand.size(); ++i)
+	{
+		CUEBuilder.push_back(m_Hand[i]);
+	}
 
+	for (int i = 0; i < m_CommunityCards.size(); ++i)
+	{
+		CUEBuilder.push_back(m_CommunityCards[i]);
+	}
+
+	for (int pointer1 = 0; pointer1 < 6; ++pointer1)
+	{
+		for (int pointer2 = pointer1 + 1; pointer1 < 7; ++pointer1)
+		{
+			for (int pointer3 = pointer1 + 2; pointer1 < 8; ++pointer1)
+			{
+				for (int pointer4 = pointer1 + 3; pointer2 < 9; ++pointer2)
+				{
+					CUE c;
+					for (int i = 0; i < 7; ++i)
+					{
+						if (i != pointer1 && i != pointer2)
+						{
+							c.push_back(CUEBuilder[i]);
+						}
+					}
+					sort(c.begin(), c.end(), HigherCard());
+					m_Cues.push_back(c);
+				}
+			}
+		}
+	}
+	return m_Cues;
 };
 vector<CUE> TexasPlayer::BuildCUEs()
 {
-	vector<const Card*> newCue;
-	CUE c(newCue);
-	m_Cues.push_back(c);
+	vector<const Card*> CUEBuilder;
+	for (int i = 0; i < m_Hand.size(); ++i)
+	{
+		CUEBuilder.push_back(m_Hand[i]);
+	}
+
+	for (int i = 0; i < m_CommunityCards.size(); ++i)
+	{
+		CUEBuilder.push_back(m_CommunityCards[i]);
+	}
+	
+
+	for (int pointer1 = 0; pointer1 < 6; ++pointer1)
+	{
+		for (int pointer2 = pointer1 + 1; pointer2 < 7; ++pointer2)
+		{
+			CUE c;
+			for (int i = 0; i < 7; ++i)
+			{
+				if (i != pointer1 && i != pointer2)
+				{
+					c.push_back(CUEBuilder[i]);
+				}
+			}
+			sort(c.begin(), c.end(), HigherCard());
+			m_Cues.push_back(c);
+		}
+	}
 	return m_Cues;
 };
 
@@ -187,41 +242,71 @@ CUE& DrawPlayer::GetBestCUE()
 };
 CUE& StudPlayer::GetBestCUE()
 {
-	vector<const Card*> newCue;
-	CUE c(newCue);
-	//HAD TO MANUALLY PUSH ON THE m_Hand Cards 
-	for (unsigned i = 0; i < 5; ++i)
+	m_Cues = BuildCUEs();
+	Evaluator E;
+	vector<CUE>::iterator p_it = m_Cues.begin();
+	CUE bestCue = m_Cues[0];
+
+	for (p_it = m_Cues.begin() + 1; p_it != m_Cues.end(); p_it++)
 	{
-		c.push_back(m_Hand[i]);
+		CUE& comparedCUE = *p_it;
+		int Compare = E.CompareCues(bestCue, comparedCUE);
+		//cout << "Compaired :" << Compare << "\n";
+		if (Compare != 1)
+		{
+			bestCue.clear();
+			bestCue = comparedCUE;
+		}
 	}
-	sort(c.begin(), c.end(), HigherCard());
-	m_Cues.push_back(c); 
+	_bestCUE = bestCue;
+	m_HandName = GetCUEName(_bestCUE);
+
 	return _bestCUE;
 };
 CUE& OmahaPlayer::GetBestCUE()
 {
-	vector<const Card*> newCue;
-	CUE c(newCue);
-	//HAD TO MANUALLY PUSH ON THE m_Hand Cards 
-	for (unsigned i = 0; i < 5; ++i)
+	m_Cues = BuildCUEs();
+	Evaluator E;
+	vector<CUE>::iterator p_it = m_Cues.begin();
+	CUE bestCue = m_Cues[0];
+
+	for (p_it = m_Cues.begin() + 1; p_it != m_Cues.end(); p_it++)
 	{
-		c.push_back(m_Hand[i]);
+		CUE& comparedCUE = *p_it;
+		int Compare = E.CompareCues(bestCue, comparedCUE);
+		//cout << "Compaired :" << Compare << "\n";
+		if (Compare != 1)
+		{
+			bestCue.clear();
+			bestCue = comparedCUE;
+		}
 	}
-	sort(c.begin(), c.end(), HigherCard());
-	m_Cues.push_back(c);
+	_bestCUE = bestCue;
+	m_HandName = GetCUEName(_bestCUE);
+
 	return _bestCUE;
 };
 CUE& TexasPlayer::GetBestCUE()
 {
-	vector<const Card*> newCue;
-	CUE c(newCue);
-	//HAD TO MANUALLY PUSH ON THE m_Hand Cards 
-	for (unsigned i = 0; i < 5; ++i)
+	m_Cues = BuildCUEs();
+	Evaluator E;
+	vector<CUE>::iterator p_it = m_Cues.begin();
+	CUE bestCue = m_Cues[0];
+
+	for (p_it = m_Cues.begin() + 1; p_it != m_Cues.end(); p_it++)
 	{
-		c.push_back(m_Hand[i]);
+		CUE& comparedCUE = *p_it;
+		int Compare = E.CompareCues(bestCue, comparedCUE);
+		//cout << "Compaired :" << Compare << "\n";
+		if (Compare != 1)
+		{
+			bestCue.clear();
+			bestCue = comparedCUE;
+		}
 	}
-	sort(c.begin(), c.end(), HigherCard());
-	m_Cues.push_back(c);
+	_bestCUE = bestCue;
+	m_HandName = GetCUEName(_bestCUE);
+
 	return _bestCUE;
 };
 
@@ -243,11 +328,22 @@ string TexasPlayer::GetCUEName(const CUE& c)
 };
 
 
-void DrawPlayer::ShowBestHand(vector<const Card*>& c)
+void DrawPlayer::ShowBestCue(const CUE& c)
 {
 	Player::ShowBestHand(c);
 }
-
+void StudPlayer::ShowBestCue(const CUE& c)
+{
+	Player::ShowBestHand(c);
+}
+void OmahaPlayer::ShowBestCue(const CUE& c)
+{
+	Player::ShowBestHand(c);
+}
+void TexasPlayer::ShowBestCue(const CUE& c)
+{
+	Player::ShowBestHand(c);
+}
 
 
 
@@ -310,3 +406,28 @@ void DrawPlayer::AddToHand(const Card* c)
 	m_Hand.push_back(c);
 	//cout << " added card to hand\n";
 };
+
+
+
+void DrawPlayer::GetComCards(vector<const Card*> cards)
+{
+
+}
+void StudPlayer::GetComCards(vector<const Card*> cards)
+{
+
+}
+void TexasPlayer::GetComCards(vector<const Card*> cards)
+{
+	for (int i = 0; i < cards.size(); ++i)
+	{
+		m_CommunityCards.push_back(cards[i]);
+	}
+}
+void OmahaPlayer::GetComCards(vector<const Card*> cards)
+{
+	for (int i = 0; i < cards.size(); ++i)
+	{
+		m_CommunityCards.push_back(cards[i]);
+	}
+}
