@@ -302,18 +302,14 @@ void DrawTable::PlayersShowCards()
 	
 	for (p_it = m_players.begin() +1; p_it != m_players.end(); p_it++)
 	{
-		//BUILD CUES
 		CUE& comparedCUE = (*p_it)->GetBestCUE();
-		
 		int Compare = E.CompareCues(bestCue, comparedCUE);
 		cout << "Compaired :" << Compare << "\n";
 		if (Compare != 1)
 		{
+			bestCue.clear();
 			bestCue = comparedCUE;
 		}
-		//bestCue.clear();
-
-
 	}
 
 
@@ -328,10 +324,10 @@ void DrawTable::PlayersShowCards()
 		cout << "---->";
 		(*p_it)->GetHandName();
 		
-		//if (WINNER)
-		//{
-		//	cout << " <---WINNER!";
-		//}
+		if (E.CompareCues(bestCue, diffCue) == 0)
+		{
+			cout << " <---WINNER!";
+		}
 		player++;
 		cout << endl;
 	}
