@@ -175,11 +175,11 @@ vector<CUE> OmahaPlayer::BuildCUEs()
 
 	for (int pointer1 = 0; pointer1 < 6; ++pointer1)
 	{
-		for (int pointer2 = pointer1 + 1; pointer1 < 7; ++pointer1)
+		for (int pointer2 = pointer1 + 1; pointer2 < 7; ++pointer2)
 		{
-			for (int pointer3 = pointer1 + 2; pointer1 < 8; ++pointer1)
+			for (int pointer3 = pointer1 + 2; pointer3 < 8; ++pointer3)
 			{
-				for (int pointer4 = pointer1 + 3; pointer2 < 9; ++pointer2)
+				for (int pointer4 = pointer1 + 3; pointer4 < 9; ++pointer4)
 				{
 					CUE c;
 					for (int i = 0; i < 7; ++i)
