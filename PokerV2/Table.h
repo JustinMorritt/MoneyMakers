@@ -29,8 +29,6 @@ public:
 	virtual ~DrawTable();
 
 private:
-
-
 	const int _maxCards = 5;
 	Dealer * m_dealer;
 	vector<Player*> m_players;
@@ -40,7 +38,6 @@ private:
 class StudTable : public Table
 {
 public:
-
 	StudTable(int players, int gametype);
 	void AddPlayers();
 	void DealToPlayers();
@@ -49,11 +46,9 @@ public:
 
 private:
 	int _gameType;
-	
 	Dealer * m_dealer;
 	const int _maxCards = 7;
 	vector<Player*> m_players;
-
 };
 
 class OmahaTable : public Table

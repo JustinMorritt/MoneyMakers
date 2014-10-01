@@ -12,17 +12,16 @@ public:
 	Game();
 	~Game();
 	
+	void GameTitle() const;
 	void StartGame();
 	int MainMenu();
-	int SetPlayers();
-	void TableMenu();
-	//MAKE A CHECK INPUT FOR INT 
 	int getLegitInt(int low, int high) const;
-	void GoodBye() const;
-	void GameTitle() const;
 	int GetGameType() const;
+	int SetPlayers();
 	int GetPlayers() const;
 	Table* CreateTable(int gametype);
+	void TableMenu();
+	void GoodBye() const;
 
 private:
 	int _gameType;

@@ -68,7 +68,7 @@ Table* Game::CreateTable(int gametype)
 	switch (gametype)
 	{
 	case 1:
-		return new  TexasTable(_players,_gameType); //Pass by Value ..players and gametype.
+		return new  TexasTable(_players, _gameType); //Pass by Value ..players and gametype.
 	case 2:
 		return new OmahaTable(_players, _gameType);
 	case 3:

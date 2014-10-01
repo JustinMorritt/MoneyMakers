@@ -147,18 +147,18 @@ void DrawPlayer::GetBestCUE()
 	{
 		c.push_back(m_Hand[i]);
 	}
+
 	sort(c.begin(), c.end(), HigherCard());
 	m_Cues.push_back(c);
-	
 
-
-	//PUSHBACK THE BEST CUE
-	for (unsigned i = 0; i < c.size(); ++i)
+	/*
+	for (int i = 0; i < c.size(); ++i)
 	{
-		m_BestHand.push_back(c[i]);
-		cout << m_BestHand[i];
+		cout << " " << c[i]->ToString() << endl;
 	}
+	*/
 
+	
 
 
 	//ShowCards(); //shows original hand.
@@ -241,44 +241,6 @@ void DrawPlayer::ShowBestHand(vector<const Card*>& c)
 }
 
 
-vector<const Card*>& DrawPlayer::GetBestHand(vector<const Card*>& c)
-{
-	
-	for (unsigned i = 0; i < m_BestHand.size(); ++i)
-	{
-		c.push_back(m_BestHand[i]);
-		std::cout << c[i] << endl;
-	}
-		
-	return c;
-}
-vector<const Card*>& StudPlayer::GetBestHand(vector<const Card*>& c)
-{
-	for (unsigned i = 0; i < m_BestHand.size(); ++i)
-	{
-		c.push_back(m_BestHand[i]);
-	}
-
-	return c;
-}
-vector<const Card*>& OmahaPlayer::GetBestHand(vector<const Card*>& c)
-{
-	for (unsigned i = 0; i < m_BestHand.size(); ++i)
-	{
-		c.push_back(m_BestHand[i]);
-	}
-
-	return c;
-}
-vector<const Card*>& TexasPlayer::GetBestHand(vector<const Card*>& c)
-{
-	for (unsigned i = 0; i < m_BestHand.size(); ++i)
-	{
-		c.push_back(m_BestHand[i]);
-	}
-
-	return c;
-}
 
 
 

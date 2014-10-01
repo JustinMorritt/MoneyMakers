@@ -299,9 +299,9 @@ void DrawTable::PlayersShowCards()
 	
 	vector<Player*>::iterator p_it = m_players.begin();
 	vector<const Card*> Best;
-	(*p_it)->GetBestHand(Best);
-	
+	//CUE bestCue;
 	//cout << Best[0] << endl;
+
 
 
 	int player = 1;
@@ -309,11 +309,13 @@ void DrawTable::PlayersShowCards()
 	{
 		cout << "Player" << player << " Hand: ";
 		(*p_it)->GetBestCUE();
-		
-		
 		(*p_it)->ShowCards();
 		cout << "---->";
 		(*p_it)->GetHandName();
+		//if (WINNER)
+		//{
+		//	cout << " <---WINNER!";
+		//}
 		player++;
 		cout << endl;
 	}
