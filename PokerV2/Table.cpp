@@ -71,7 +71,6 @@ m_dealer(new StudDealer(players))	//CREATE NEW DEALER
 	PlayersShowCards();
 };
 
-
 //ADD PLAYERS
 void TexasTable::AddPlayers()
 {
@@ -281,7 +280,6 @@ void OmahaTable::Flop()
 };
 
 //PLAYER SHOW HAND
-
 void DrawTable::PlayersShowCards() 
 {
 	//GET WINNER

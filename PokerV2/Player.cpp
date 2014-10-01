@@ -210,7 +210,6 @@ vector<CUE> TexasPlayer::BuildCUEs()
 		CUEBuilder.push_back(m_CommunityCards[i]);
 	}
 	
-
 	for (int pointer1 = 0; pointer1 < 6; ++pointer1)
 	{
 		for (int pointer2 = pointer1 + 1; pointer2 < 7; ++pointer2)
@@ -346,8 +345,6 @@ void TexasPlayer::ShowBestCue(const CUE& c)
 }
 
 
-
-
 void DrawPlayer::GetHandName()
 {
 	std::cout << m_HandName;
@@ -364,8 +361,6 @@ void TexasPlayer::GetHandName()
 {
 	std::cout << m_HandName;
 };
-
-
 
 
 void DrawPlayer::ShowCards()
