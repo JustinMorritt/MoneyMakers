@@ -182,7 +182,7 @@ vector<CUE> OmahaPlayer::BuildCUEs()
 				for (int pointer4 = pointer1 + 3; pointer4 < 9; ++pointer4)
 				{
 					CUE c;
-					for (int i = 0; i < 7; ++i)
+					for (int i = 0; i < CUEBuilder.size(); ++i)
 					{
 						if (i != pointer1 && i != pointer2)
 						{
@@ -215,7 +215,7 @@ vector<CUE> TexasPlayer::BuildCUEs()
 		for (int pointer2 = pointer1 + 1; pointer2 < 7; ++pointer2)
 		{
 			CUE c;
-			for (int i = 0; i < 7; ++i)
+			for (int i = 0; i < CUEBuilder.size(); ++i)
 			{
 				if (i != pointer1 && i != pointer2)
 				{
