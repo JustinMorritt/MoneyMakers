@@ -75,9 +75,12 @@ string Player::GetCUEName(const CUE& c)
 	if (E.IsFlush(c))
 	{
 		char value = c[3]->GetSuit();
+		char value2 = c[3]->GetSuit();
 		cueName = "Flush: ";
 		cueName += Card::SUIT_CHARS[value];
-		cueName += "'s";
+		cueName += "'s    ";
+		cueName += Card::PIP_CHARS[value2];
+		cueName += " High";
 		return cueName;
 	}
 	if (E.IsWheelStraight(c))

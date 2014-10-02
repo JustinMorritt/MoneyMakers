@@ -286,14 +286,17 @@ void DrawTable::PlayersShowCards()
 	Evaluator E;
 	vector<Player*>::iterator p_it = m_players.begin();
 	CUE bestCue = (*p_it)->GetBestCUE();
-	
+	CUE tieCue;
 	for (p_it = m_players.begin() +1; p_it != m_players.end(); p_it++)
 	{
 		CUE& comparedCUE = (*p_it)->GetBestCUE();
 		int Compare = E.CompareCues(bestCue, comparedCUE);
-		//cout << "Compaired :" << Compare << "\n";
 		if (Compare != 1)
 		{
+			if (Compare == 0)
+			{
+				tieCue = comparedCUE;
+			}
 			bestCue.clear();
 			bestCue = comparedCUE;
 		}
@@ -312,8 +315,12 @@ void DrawTable::PlayersShowCards()
 		cout << "---------->";
 		(*p_it)->GetHandName();
 		
-		if (E.CompareCues(bestCue, diffCue) == 0)
+		if (E.CompareCues(bestCue, diffCue) == 0 )
 		{
+			if (tieCue.size() != 0 && E.CompareCues(tieCue, diffCue) == 0)
+			{
+				cout << " <------WINNER- TIE";
+			}
 			cout << " <------WINNER-";
 		}
 		player++;
@@ -393,7 +400,6 @@ void OmahaTable::PlayersShowCards()
 		(*p_it)->ShowBestHand(diffCue);
 		cout << "---------->";
 		(*p_it)->GetHandName();
-
 		if (E.CompareCues(bestCue, diffCue) == 0)
 		{
 			cout << " <---WINNER!";
@@ -409,7 +415,6 @@ void TexasTable::PlayersShowCards()
 	vector<Player*>::iterator p_it = m_players.begin();
 	(*p_it)->GetComCards(m_communityCards);
 	CUE bestCue = (*p_it)->GetBestCUE();
-
 
 	for (p_it = m_players.begin() + 1; p_it != m_players.end(); p_it++)
 	{
