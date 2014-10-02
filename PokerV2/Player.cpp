@@ -75,7 +75,7 @@ string Player::GetCUEName(const CUE& c)
 	if (E.IsFlush(c))
 	{
 		char value = c[3]->GetSuit();
-		char value2 = c[3]->GetSuit();
+		char value2 = c[4]->GetPip();
 		cueName = "Flush: ";
 		cueName += Card::SUIT_CHARS[value];
 		cueName += "'s    ";

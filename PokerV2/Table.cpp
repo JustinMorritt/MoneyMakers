@@ -286,17 +286,13 @@ void DrawTable::PlayersShowCards()
 	Evaluator E;
 	vector<Player*>::iterator p_it = m_players.begin();
 	CUE bestCue = (*p_it)->GetBestCUE();
-	CUE tieCue;
+
 	for (p_it = m_players.begin() +1; p_it != m_players.end(); p_it++)
 	{
 		CUE& comparedCUE = (*p_it)->GetBestCUE();
 		int Compare = E.CompareCues(bestCue, comparedCUE);
 		if (Compare != 1)
 		{
-			if (Compare == 0)
-			{
-				tieCue = comparedCUE;
-			}
 			bestCue.clear();
 			bestCue = comparedCUE;
 		}
@@ -317,10 +313,6 @@ void DrawTable::PlayersShowCards()
 		
 		if (E.CompareCues(bestCue, diffCue) == 0 )
 		{
-			if (tieCue.size() != 0 && E.CompareCues(tieCue, diffCue) == 0)
-			{
-				cout << " <------WINNER- TIE";
-			}
 			cout << " <------WINNER-";
 		}
 		player++;
