@@ -184,7 +184,7 @@ vector<CUE> OmahaPlayer::BuildCUEs()
 					CUE c;
 					for (int i = 0; i < CUEBuilder.size(); ++i)
 					{
-						if (i != pointer1 && i != pointer2)
+						if (i != pointer1 && i != pointer2)//WOW NEED TO FIX THIS NOT TAKING IN CONSIDERATION OTHER POINTERS...
 						{
 							c.push_back(CUEBuilder[i]);
 						}
