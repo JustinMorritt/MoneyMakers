@@ -291,7 +291,7 @@ void DrawTable::PlayersShowCards()
 	{
 		CUE& comparedCUE = (*p_it)->GetBestCUE();
 		int Compare = E.CompareCues(bestCue, comparedCUE);
-		cout << "Compaired :" << Compare << "\n";
+		//cout << "Compaired :" << Compare << "\n";
 		if (Compare != 1)
 		{
 			bestCue.clear();
@@ -367,7 +367,6 @@ void OmahaTable::PlayersShowCards()
 	vector<Player*>::iterator p_it = m_players.begin();
 	(*p_it)->GetComCards(m_communityCards);
 	CUE bestCue = (*p_it)->GetBestCUE();
-
 
 	for (p_it = m_players.begin() + 1; p_it != m_players.end(); p_it++)
 	{

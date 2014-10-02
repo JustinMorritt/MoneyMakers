@@ -25,13 +25,32 @@ string Player::GetCUEName(const CUE& c)
 		char value = c[0]->GetPip();
 		char value2 = c[4]->GetPip();
 		char value3 = c[3]->GetSuit();
+		
+		cueName = "Wheel Straight Flush: ";
+		cueName += Card::PIP_CHARS[value];
+		cueName += " to ";
+		cueName += Card::PIP_CHARS[value2];
+		cueName += " ";
+		cueName += Card::SUIT_CHARS[value3];
+		cueName += "'s  ";
+		cueName += " High Card:";
+		cueName += Card::PIP_CHARS[value2];
+		return cueName;
+	}
+	if (E.IsStraight(c) && E.IsFlush(c))
+	{
+		char value = c[0]->GetPip();
+		char value2 = c[4]->GetPip();
+		char value3 = c[3]->GetSuit();
 		cueName = "Straight Flush: ";
 		cueName += Card::PIP_CHARS[value];
 		cueName += " to ";
 		cueName += Card::PIP_CHARS[value2];
 		cueName += " ";
-		cueName += Card::SUIT_CHARS[value];
-		cueName += "'s";
+		cueName += Card::SUIT_CHARS[value3];
+		cueName += "'s  ";
+		cueName += " High Card:";
+		cueName += Card::PIP_CHARS[value2];
 		return cueName;
 	}
 	if (E.IsQuad(c))
@@ -102,10 +121,13 @@ string Player::GetCUEName(const CUE& c)
 	}
 	if (E.IsOnePair(c))
 	{
+		char value2 = c[4]->GetPip();
 		int value = E.GetPipValueofOnePair(c);
 		cueName = "One Pair: ";
 		cueName += Card::PIP_CHARS[value]; 
-		cueName += "'s";
+		cueName += "'s  ";
+		cueName += Card::PIP_CHARS[value2];
+		cueName += " High";
 		return cueName;
 	}
 	else
