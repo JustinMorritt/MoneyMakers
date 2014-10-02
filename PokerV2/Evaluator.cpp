@@ -55,8 +55,10 @@ bool Evaluator::IsWheelStraight(const CUE& c)
 //ONLY HAVe to check 1st and 4th and 2nd and 5th spot because its aranged..
 bool Evaluator::IsBoat(const CUE& c)
 {
-	return	(c[0]->GetPip() == c[3]->GetPip()) ||
-			(c[1]->GetPip() == c[4]->GetPip());    //only works because the hands have been sorted
+	return	(c[0]->GetPip() == c[1]->GetPip()) &&
+			(c[2]->GetPip() == c[4]->GetPip()) ||
+			(c[0]->GetPip() == c[2]->GetPip()) &&   //only works because the hands have been sorted
+			(c[3]->GetPip() == c[4]->GetPip());
 }
 
 bool Evaluator::IsTrips(const CUE& c)
