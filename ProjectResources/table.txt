@@ -1,0 +1,7462 @@
+330	0	High Card: 7
+462	1	High Card: 7
+770	2	High Card: 7
+1155	3	High Card: 7
+390	4	High Card: 8
+546	5	High Card: 8
+910	6	High Card: 8
+1365	7	High Card: 8
+2730	8	High Card: 8
+858	9	High Card: 8
+1430	10	High Card: 8
+2145	11	High Card: 8
+4290	12	High Card: 8
+2002	13	High Card: 8
+3003	14	High Card: 8
+6006	15	High Card: 8
+5005	16	High Card: 8
+10010	17	High Card: 8
+510	18	High Card: 9
+714	19	High Card: 9
+1190	20	High Card: 9
+1785	21	High Card: 9
+3570	22	High Card: 9
+1122	23	High Card: 9
+1870	24	High Card: 9
+2805	25	High Card: 9
+5610	26	High Card: 9
+2618	27	High Card: 9
+3927	28	High Card: 9
+7854	29	High Card: 9
+6545	30	High Card: 9
+13090	31	High Card: 9
+19635	32	High Card: 9
+1326	33	High Card: 9
+2210	34	High Card: 9
+3315	35	High Card: 9
+6630	36	High Card: 9
+3094	37	High Card: 9
+4641	38	High Card: 9
+9282	39	High Card: 9
+7735	40	High Card: 9
+15470	41	High Card: 9
+23205	42	High Card: 9
+4862	43	High Card: 9
+7293	44	High Card: 9
+14586	45	High Card: 9
+12155	46	High Card: 9
+24310	47	High Card: 9
+36465	48	High Card: 9
+17017	49	High Card: 9
+34034	50	High Card: 9
+51051	51	High Card: 9
+570	52	High Card: T
+798	53	High Card: T
+1330	54	High Card: T
+1995	55	High Card: T
+3990	56	High Card: T
+1254	57	High Card: T
+2090	58	High Card: T
+3135	59	High Card: T
+6270	60	High Card: T
+2926	61	High Card: T
+4389	62	High Card: T
+8778	63	High Card: T
+7315	64	High Card: T
+14630	65	High Card: T
+21945	66	High Card: T
+1482	67	High Card: T
+2470	68	High Card: T
+3705	69	High Card: T
+7410	70	High Card: T
+3458	71	High Card: T
+5187	72	High Card: T
+10374	73	High Card: T
+8645	74	High Card: T
+17290	75	High Card: T
+25935	76	High Card: T
+5434	77	High Card: T
+8151	78	High Card: T
+16302	79	High Card: T
+13585	80	High Card: T
+27170	81	High Card: T
+40755	82	High Card: T
+19019	83	High Card: T
+38038	84	High Card: T
+57057	85	High Card: T
+95095	86	High Card: T
+1938	87	High Card: T
+3230	88	High Card: T
+4845	89	High Card: T
+9690	90	High Card: T
+4522	91	High Card: T
+6783	92	High Card: T
+13566	93	High Card: T
+11305	94	High Card: T
+22610	95	High Card: T
+33915	96	High Card: T
+7106	97	High Card: T
+10659	98	High Card: T
+21318	99	High Card: T
+17765	100	High Card: T
+35530	101	High Card: T
+53295	102	High Card: T
+24871	103	High Card: T
+49742	104	High Card: T
+74613	105	High Card: T
+124355	106	High Card: T
+8398	107	High Card: T
+12597	108	High Card: T
+25194	109	High Card: T
+20995	110	High Card: T
+41990	111	High Card: T
+62985	112	High Card: T
+29393	113	High Card: T
+58786	114	High Card: T
+88179	115	High Card: T
+146965	116	High Card: T
+46189	117	High Card: T
+92378	118	High Card: T
+138567	119	High Card: T
+230945	120	High Card: T
+690	121	High Card: J
+966	122	High Card: J
+1610	123	High Card: J
+2415	124	High Card: J
+4830	125	High Card: J
+1518	126	High Card: J
+2530	127	High Card: J
+3795	128	High Card: J
+7590	129	High Card: J
+3542	130	High Card: J
+5313	131	High Card: J
+10626	132	High Card: J
+8855	133	High Card: J
+17710	134	High Card: J
+26565	135	High Card: J
+1794	136	High Card: J
+2990	137	High Card: J
+4485	138	High Card: J
+8970	139	High Card: J
+4186	140	High Card: J
+6279	141	High Card: J
+12558	142	High Card: J
+10465	143	High Card: J
+20930	144	High Card: J
+31395	145	High Card: J
+6578	146	High Card: J
+9867	147	High Card: J
+19734	148	High Card: J
+16445	149	High Card: J
+32890	150	High Card: J
+49335	151	High Card: J
+23023	152	High Card: J
+46046	153	High Card: J
+69069	154	High Card: J
+115115	155	High Card: J
+2346	156	High Card: J
+3910	157	High Card: J
+5865	158	High Card: J
+11730	159	High Card: J
+5474	160	High Card: J
+8211	161	High Card: J
+16422	162	High Card: J
+13685	163	High Card: J
+27370	164	High Card: J
+41055	165	High Card: J
+8602	166	High Card: J
+12903	167	High Card: J
+25806	168	High Card: J
+21505	169	High Card: J
+43010	170	High Card: J
+64515	171	High Card: J
+30107	172	High Card: J
+60214	173	High Card: J
+90321	174	High Card: J
+150535	175	High Card: J
+10166	176	High Card: J
+15249	177	High Card: J
+30498	178	High Card: J
+25415	179	High Card: J
+50830	180	High Card: J
+76245	181	High Card: J
+35581	182	High Card: J
+71162	183	High Card: J
+106743	184	High Card: J
+177905	185	High Card: J
+55913	186	High Card: J
+111826	187	High Card: J
+167739	188	High Card: J
+279565	189	High Card: J
+391391	190	High Card: J
+2622	191	High Card: J
+4370	192	High Card: J
+6555	193	High Card: J
+13110	194	High Card: J
+6118	195	High Card: J
+9177	196	High Card: J
+18354	197	High Card: J
+15295	198	High Card: J
+30590	199	High Card: J
+45885	200	High Card: J
+9614	201	High Card: J
+14421	202	High Card: J
+28842	203	High Card: J
+24035	204	High Card: J
+48070	205	High Card: J
+72105	206	High Card: J
+33649	207	High Card: J
+67298	208	High Card: J
+100947	209	High Card: J
+168245	210	High Card: J
+11362	211	High Card: J
+17043	212	High Card: J
+34086	213	High Card: J
+28405	214	High Card: J
+56810	215	High Card: J
+85215	216	High Card: J
+39767	217	High Card: J
+79534	218	High Card: J
+119301	219	High Card: J
+198835	220	High Card: J
+62491	221	High Card: J
+124982	222	High Card: J
+187473	223	High Card: J
+312455	224	High Card: J
+437437	225	High Card: J
+14858	226	High Card: J
+22287	227	High Card: J
+44574	228	High Card: J
+37145	229	High Card: J
+74290	230	High Card: J
+111435	231	High Card: J
+52003	232	High Card: J
+104006	233	High Card: J
+156009	234	High Card: J
+260015	235	High Card: J
+81719	236	High Card: J
+163438	237	High Card: J
+245157	238	High Card: J
+408595	239	High Card: J
+572033	240	High Card: J
+96577	241	High Card: J
+193154	242	High Card: J
+289731	243	High Card: J
+482885	244	High Card: J
+676039	245	High Card: J
+870	246	High Card: Q
+1218	247	High Card: Q
+2030	248	High Card: Q
+3045	249	High Card: Q
+6090	250	High Card: Q
+1914	251	High Card: Q
+3190	252	High Card: Q
+4785	253	High Card: Q
+9570	254	High Card: Q
+4466	255	High Card: Q
+6699	256	High Card: Q
+13398	257	High Card: Q
+11165	258	High Card: Q
+22330	259	High Card: Q
+33495	260	High Card: Q
+2262	261	High Card: Q
+3770	262	High Card: Q
+5655	263	High Card: Q
+11310	264	High Card: Q
+5278	265	High Card: Q
+7917	266	High Card: Q
+15834	267	High Card: Q
+13195	268	High Card: Q
+26390	269	High Card: Q
+39585	270	High Card: Q
+8294	271	High Card: Q
+12441	272	High Card: Q
+24882	273	High Card: Q
+20735	274	High Card: Q
+41470	275	High Card: Q
+62205	276	High Card: Q
+29029	277	High Card: Q
+58058	278	High Card: Q
+87087	279	High Card: Q
+145145	280	High Card: Q
+2958	281	High Card: Q
+4930	282	High Card: Q
+7395	283	High Card: Q
+14790	284	High Card: Q
+6902	285	High Card: Q
+10353	286	High Card: Q
+20706	287	High Card: Q
+17255	288	High Card: Q
+34510	289	High Card: Q
+51765	290	High Card: Q
+10846	291	High Card: Q
+16269	292	High Card: Q
+32538	293	High Card: Q
+27115	294	High Card: Q
+54230	295	High Card: Q
+81345	296	High Card: Q
+37961	297	High Card: Q
+75922	298	High Card: Q
+113883	299	High Card: Q
+189805	300	High Card: Q
+12818	301	High Card: Q
+19227	302	High Card: Q
+38454	303	High Card: Q
+32045	304	High Card: Q
+64090	305	High Card: Q
+96135	306	High Card: Q
+44863	307	High Card: Q
+89726	308	High Card: Q
+134589	309	High Card: Q
+224315	310	High Card: Q
+70499	311	High Card: Q
+140998	312	High Card: Q
+211497	313	High Card: Q
+352495	314	High Card: Q
+493493	315	High Card: Q
+3306	316	High Card: Q
+5510	317	High Card: Q
+8265	318	High Card: Q
+16530	319	High Card: Q
+7714	320	High Card: Q
+11571	321	High Card: Q
+23142	322	High Card: Q
+19285	323	High Card: Q
+38570	324	High Card: Q
+57855	325	High Card: Q
+12122	326	High Card: Q
+18183	327	High Card: Q
+36366	328	High Card: Q
+30305	329	High Card: Q
+60610	330	High Card: Q
+90915	331	High Card: Q
+42427	332	High Card: Q
+84854	333	High Card: Q
+127281	334	High Card: Q
+212135	335	High Card: Q
+14326	336	High Card: Q
+21489	337	High Card: Q
+42978	338	High Card: Q
+35815	339	High Card: Q
+71630	340	High Card: Q
+107445	341	High Card: Q
+50141	342	High Card: Q
+100282	343	High Card: Q
+150423	344	High Card: Q
+250705	345	High Card: Q
+78793	346	High Card: Q
+157586	347	High Card: Q
+236379	348	High Card: Q
+393965	349	High Card: Q
+551551	350	High Card: Q
+18734	351	High Card: Q
+28101	352	High Card: Q
+56202	353	High Card: Q
+46835	354	High Card: Q
+93670	355	High Card: Q
+140505	356	High Card: Q
+65569	357	High Card: Q
+131138	358	High Card: Q
+196707	359	High Card: Q
+327845	360	High Card: Q
+103037	361	High Card: Q
+206074	362	High Card: Q
+309111	363	High Card: Q
+515185	364	High Card: Q
+721259	365	High Card: Q
+121771	366	High Card: Q
+243542	367	High Card: Q
+365313	368	High Card: Q
+608855	369	High Card: Q
+852397	370	High Card: Q
+1339481	371	High Card: Q
+4002	372	High Card: Q
+6670	373	High Card: Q
+10005	374	High Card: Q
+20010	375	High Card: Q
+9338	376	High Card: Q
+14007	377	High Card: Q
+28014	378	High Card: Q
+23345	379	High Card: Q
+46690	380	High Card: Q
+70035	381	High Card: Q
+14674	382	High Card: Q
+22011	383	High Card: Q
+44022	384	High Card: Q
+36685	385	High Card: Q
+73370	386	High Card: Q
+110055	387	High Card: Q
+51359	388	High Card: Q
+102718	389	High Card: Q
+154077	390	High Card: Q
+256795	391	High Card: Q
+17342	392	High Card: Q
+26013	393	High Card: Q
+52026	394	High Card: Q
+43355	395	High Card: Q
+86710	396	High Card: Q
+130065	397	High Card: Q
+60697	398	High Card: Q
+121394	399	High Card: Q
+182091	400	High Card: Q
+303485	401	High Card: Q
+95381	402	High Card: Q
+190762	403	High Card: Q
+286143	404	High Card: Q
+476905	405	High Card: Q
+667667	406	High Card: Q
+22678	407	High Card: Q
+34017	408	High Card: Q
+68034	409	High Card: Q
+56695	410	High Card: Q
+113390	411	High Card: Q
+170085	412	High Card: Q
+79373	413	High Card: Q
+158746	414	High Card: Q
+238119	415	High Card: Q
+396865	416	High Card: Q
+124729	417	High Card: Q
+249458	418	High Card: Q
+374187	419	High Card: Q
+623645	420	High Card: Q
+873103	421	High Card: Q
+147407	422	High Card: Q
+294814	423	High Card: Q
+442221	424	High Card: Q
+737035	425	High Card: Q
+1031849	426	High Card: Q
+1621477	427	High Card: Q
+25346	428	High Card: Q
+38019	429	High Card: Q
+76038	430	High Card: Q
+63365	431	High Card: Q
+126730	432	High Card: Q
+190095	433	High Card: Q
+88711	434	High Card: Q
+177422	435	High Card: Q
+266133	436	High Card: Q
+443555	437	High Card: Q
+139403	438	High Card: Q
+278806	439	High Card: Q
+418209	440	High Card: Q
+697015	441	High Card: Q
+975821	442	High Card: Q
+164749	443	High Card: Q
+329498	444	High Card: Q
+494247	445	High Card: Q
+823745	446	High Card: Q
+1153243	447	High Card: Q
+1812239	448	High Card: Q
+215441	449	High Card: Q
+430882	450	High Card: Q
+646323	451	High Card: Q
+1077205	452	High Card: Q
+1508087	453	High Card: Q
+2369851	454	High Card: Q
+930	455	High Card: K
+1302	456	High Card: K
+2170	457	High Card: K
+3255	458	High Card: K
+6510	459	High Card: K
+2046	460	High Card: K
+3410	461	High Card: K
+5115	462	High Card: K
+10230	463	High Card: K
+4774	464	High Card: K
+7161	465	High Card: K
+14322	466	High Card: K
+11935	467	High Card: K
+23870	468	High Card: K
+35805	469	High Card: K
+2418	470	High Card: K
+4030	471	High Card: K
+6045	472	High Card: K
+12090	473	High Card: K
+5642	474	High Card: K
+8463	475	High Card: K
+16926	476	High Card: K
+14105	477	High Card: K
+28210	478	High Card: K
+42315	479	High Card: K
+8866	480	High Card: K
+13299	481	High Card: K
+26598	482	High Card: K
+22165	483	High Card: K
+44330	484	High Card: K
+66495	485	High Card: K
+31031	486	High Card: K
+62062	487	High Card: K
+93093	488	High Card: K
+155155	489	High Card: K
+3162	490	High Card: K
+5270	491	High Card: K
+7905	492	High Card: K
+15810	493	High Card: K
+7378	494	High Card: K
+11067	495	High Card: K
+22134	496	High Card: K
+18445	497	High Card: K
+36890	498	High Card: K
+55335	499	High Card: K
+11594	500	High Card: K
+17391	501	High Card: K
+34782	502	High Card: K
+28985	503	High Card: K
+57970	504	High Card: K
+86955	505	High Card: K
+40579	506	High Card: K
+81158	507	High Card: K
+121737	508	High Card: K
+202895	509	High Card: K
+13702	510	High Card: K
+20553	511	High Card: K
+41106	512	High Card: K
+34255	513	High Card: K
+68510	514	High Card: K
+102765	515	High Card: K
+47957	516	High Card: K
+95914	517	High Card: K
+143871	518	High Card: K
+239785	519	High Card: K
+75361	520	High Card: K
+150722	521	High Card: K
+226083	522	High Card: K
+376805	523	High Card: K
+527527	524	High Card: K
+3534	525	High Card: K
+5890	526	High Card: K
+8835	527	High Card: K
+17670	528	High Card: K
+8246	529	High Card: K
+12369	530	High Card: K
+24738	531	High Card: K
+20615	532	High Card: K
+41230	533	High Card: K
+61845	534	High Card: K
+12958	535	High Card: K
+19437	536	High Card: K
+38874	537	High Card: K
+32395	538	High Card: K
+64790	539	High Card: K
+97185	540	High Card: K
+45353	541	High Card: K
+90706	542	High Card: K
+136059	543	High Card: K
+226765	544	High Card: K
+15314	545	High Card: K
+22971	546	High Card: K
+45942	547	High Card: K
+38285	548	High Card: K
+76570	549	High Card: K
+114855	550	High Card: K
+53599	551	High Card: K
+107198	552	High Card: K
+160797	553	High Card: K
+267995	554	High Card: K
+84227	555	High Card: K
+168454	556	High Card: K
+252681	557	High Card: K
+421135	558	High Card: K
+589589	559	High Card: K
+20026	560	High Card: K
+30039	561	High Card: K
+60078	562	High Card: K
+50065	563	High Card: K
+100130	564	High Card: K
+150195	565	High Card: K
+70091	566	High Card: K
+140182	567	High Card: K
+210273	568	High Card: K
+350455	569	High Card: K
+110143	570	High Card: K
+220286	571	High Card: K
+330429	572	High Card: K
+550715	573	High Card: K
+771001	574	High Card: K
+130169	575	High Card: K
+260338	576	High Card: K
+390507	577	High Card: K
+650845	578	High Card: K
+911183	579	High Card: K
+1431859	580	High Card: K
+4278	581	High Card: K
+7130	582	High Card: K
+10695	583	High Card: K
+21390	584	High Card: K
+9982	585	High Card: K
+14973	586	High Card: K
+29946	587	High Card: K
+24955	588	High Card: K
+49910	589	High Card: K
+74865	590	High Card: K
+15686	591	High Card: K
+23529	592	High Card: K
+47058	593	High Card: K
+39215	594	High Card: K
+78430	595	High Card: K
+117645	596	High Card: K
+54901	597	High Card: K
+109802	598	High Card: K
+164703	599	High Card: K
+274505	600	High Card: K
+18538	601	High Card: K
+27807	602	High Card: K
+55614	603	High Card: K
+46345	604	High Card: K
+92690	605	High Card: K
+139035	606	High Card: K
+64883	607	High Card: K
+129766	608	High Card: K
+194649	609	High Card: K
+324415	610	High Card: K
+101959	611	High Card: K
+203918	612	High Card: K
+305877	613	High Card: K
+509795	614	High Card: K
+713713	615	High Card: K
+24242	616	High Card: K
+36363	617	High Card: K
+72726	618	High Card: K
+60605	619	High Card: K
+121210	620	High Card: K
+181815	621	High Card: K
+84847	622	High Card: K
+169694	623	High Card: K
+254541	624	High Card: K
+424235	625	High Card: K
+133331	626	High Card: K
+266662	627	High Card: K
+399993	628	High Card: K
+666655	629	High Card: K
+933317	630	High Card: K
+157573	631	High Card: K
+315146	632	High Card: K
+472719	633	High Card: K
+787865	634	High Card: K
+1103011	635	High Card: K
+1733303	636	High Card: K
+27094	637	High Card: K
+40641	638	High Card: K
+81282	639	High Card: K
+67735	640	High Card: K
+135470	641	High Card: K
+203205	642	High Card: K
+94829	643	High Card: K
+189658	644	High Card: K
+284487	645	High Card: K
+474145	646	High Card: K
+149017	647	High Card: K
+298034	648	High Card: K
+447051	649	High Card: K
+745085	650	High Card: K
+1043119	651	High Card: K
+176111	652	High Card: K
+352222	653	High Card: K
+528333	654	High Card: K
+880555	655	High Card: K
+1232777	656	High Card: K
+1937221	657	High Card: K
+230299	658	High Card: K
+460598	659	High Card: K
+690897	660	High Card: K
+1151495	661	High Card: K
+1612093	662	High Card: K
+2533289	663	High Card: K
+2993887	664	High Card: K
+5394	665	High Card: K
+8990	666	High Card: K
+13485	667	High Card: K
+26970	668	High Card: K
+12586	669	High Card: K
+18879	670	High Card: K
+37758	671	High Card: K
+31465	672	High Card: K
+62930	673	High Card: K
+94395	674	High Card: K
+19778	675	High Card: K
+29667	676	High Card: K
+59334	677	High Card: K
+49445	678	High Card: K
+98890	679	High Card: K
+148335	680	High Card: K
+69223	681	High Card: K
+138446	682	High Card: K
+207669	683	High Card: K
+346115	684	High Card: K
+23374	685	High Card: K
+35061	686	High Card: K
+70122	687	High Card: K
+58435	688	High Card: K
+116870	689	High Card: K
+175305	690	High Card: K
+81809	691	High Card: K
+163618	692	High Card: K
+245427	693	High Card: K
+409045	694	High Card: K
+128557	695	High Card: K
+257114	696	High Card: K
+385671	697	High Card: K
+642785	698	High Card: K
+899899	699	High Card: K
+30566	700	High Card: K
+45849	701	High Card: K
+91698	702	High Card: K
+76415	703	High Card: K
+152830	704	High Card: K
+229245	705	High Card: K
+106981	706	High Card: K
+213962	707	High Card: K
+320943	708	High Card: K
+534905	709	High Card: K
+168113	710	High Card: K
+336226	711	High Card: K
+504339	712	High Card: K
+840565	713	High Card: K
+1176791	714	High Card: K
+198679	715	High Card: K
+397358	716	High Card: K
+596037	717	High Card: K
+993395	718	High Card: K
+1390753	719	High Card: K
+2185469	720	High Card: K
+34162	721	High Card: K
+51243	722	High Card: K
+102486	723	High Card: K
+85405	724	High Card: K
+170810	725	High Card: K
+256215	726	High Card: K
+119567	727	High Card: K
+239134	728	High Card: K
+358701	729	High Card: K
+597835	730	High Card: K
+187891	731	High Card: K
+375782	732	High Card: K
+563673	733	High Card: K
+939455	734	High Card: K
+1315237	735	High Card: K
+222053	736	High Card: K
+444106	737	High Card: K
+666159	738	High Card: K
+1110265	739	High Card: K
+1554371	740	High Card: K
+2442583	741	High Card: K
+290377	742	High Card: K
+580754	743	High Card: K
+871131	744	High Card: K
+1451885	745	High Card: K
+2032639	746	High Card: K
+3194147	747	High Card: K
+3774901	748	High Card: K
+41354	749	High Card: K
+62031	750	High Card: K
+124062	751	High Card: K
+103385	752	High Card: K
+206770	753	High Card: K
+310155	754	High Card: K
+144739	755	High Card: K
+289478	756	High Card: K
+434217	757	High Card: K
+723695	758	High Card: K
+227447	759	High Card: K
+454894	760	High Card: K
+682341	761	High Card: K
+1137235	762	High Card: K
+1592129	763	High Card: K
+268801	764	High Card: K
+537602	765	High Card: K
+806403	766	High Card: K
+1344005	767	High Card: K
+1881607	768	High Card: K
+2956811	769	High Card: K
+351509	770	High Card: K
+703018	771	High Card: K
+1054527	772	High Card: K
+1757545	773	High Card: K
+2460563	774	High Card: K
+3866599	775	High Card: K
+4569617	776	High Card: K
+392863	777	High Card: K
+785726	778	High Card: K
+1178589	779	High Card: K
+1964315	780	High Card: K
+2750041	781	High Card: K
+4321493	782	High Card: K
+5107219	783	High Card: K
+1554	784	High Card: A
+2590	785	High Card: A
+3885	786	High Card: A
+7770	787	High Card: A
+2442	788	High Card: A
+4070	789	High Card: A
+6105	790	High Card: A
+12210	791	High Card: A
+5698	792	High Card: A
+8547	793	High Card: A
+17094	794	High Card: A
+14245	795	High Card: A
+28490	796	High Card: A
+42735	797	High Card: A
+2886	798	High Card: A
+4810	799	High Card: A
+7215	800	High Card: A
+14430	801	High Card: A
+6734	802	High Card: A
+10101	803	High Card: A
+20202	804	High Card: A
+16835	805	High Card: A
+33670	806	High Card: A
+50505	807	High Card: A
+10582	808	High Card: A
+15873	809	High Card: A
+31746	810	High Card: A
+26455	811	High Card: A
+52910	812	High Card: A
+79365	813	High Card: A
+37037	814	High Card: A
+74074	815	High Card: A
+111111	816	High Card: A
+185185	817	High Card: A
+3774	818	High Card: A
+6290	819	High Card: A
+9435	820	High Card: A
+18870	821	High Card: A
+8806	822	High Card: A
+13209	823	High Card: A
+26418	824	High Card: A
+22015	825	High Card: A
+44030	826	High Card: A
+66045	827	High Card: A
+13838	828	High Card: A
+20757	829	High Card: A
+41514	830	High Card: A
+34595	831	High Card: A
+69190	832	High Card: A
+103785	833	High Card: A
+48433	834	High Card: A
+96866	835	High Card: A
+145299	836	High Card: A
+242165	837	High Card: A
+16354	838	High Card: A
+24531	839	High Card: A
+49062	840	High Card: A
+40885	841	High Card: A
+81770	842	High Card: A
+122655	843	High Card: A
+57239	844	High Card: A
+114478	845	High Card: A
+171717	846	High Card: A
+286195	847	High Card: A
+89947	848	High Card: A
+179894	849	High Card: A
+269841	850	High Card: A
+449735	851	High Card: A
+629629	852	High Card: A
+4218	853	High Card: A
+7030	854	High Card: A
+10545	855	High Card: A
+21090	856	High Card: A
+9842	857	High Card: A
+14763	858	High Card: A
+29526	859	High Card: A
+24605	860	High Card: A
+49210	861	High Card: A
+73815	862	High Card: A
+15466	863	High Card: A
+23199	864	High Card: A
+46398	865	High Card: A
+38665	866	High Card: A
+77330	867	High Card: A
+115995	868	High Card: A
+54131	869	High Card: A
+108262	870	High Card: A
+162393	871	High Card: A
+270655	872	High Card: A
+18278	873	High Card: A
+27417	874	High Card: A
+54834	875	High Card: A
+45695	876	High Card: A
+91390	877	High Card: A
+137085	878	High Card: A
+63973	879	High Card: A
+127946	880	High Card: A
+191919	881	High Card: A
+319865	882	High Card: A
+100529	883	High Card: A
+201058	884	High Card: A
+301587	885	High Card: A
+502645	886	High Card: A
+703703	887	High Card: A
+23902	888	High Card: A
+35853	889	High Card: A
+71706	890	High Card: A
+59755	891	High Card: A
+119510	892	High Card: A
+179265	893	High Card: A
+83657	894	High Card: A
+167314	895	High Card: A
+250971	896	High Card: A
+418285	897	High Card: A
+131461	898	High Card: A
+262922	899	High Card: A
+394383	900	High Card: A
+657305	901	High Card: A
+920227	902	High Card: A
+155363	903	High Card: A
+310726	904	High Card: A
+466089	905	High Card: A
+776815	906	High Card: A
+1087541	907	High Card: A
+1708993	908	High Card: A
+5106	909	High Card: A
+8510	910	High Card: A
+12765	911	High Card: A
+25530	912	High Card: A
+11914	913	High Card: A
+17871	914	High Card: A
+35742	915	High Card: A
+29785	916	High Card: A
+59570	917	High Card: A
+89355	918	High Card: A
+18722	919	High Card: A
+28083	920	High Card: A
+56166	921	High Card: A
+46805	922	High Card: A
+93610	923	High Card: A
+140415	924	High Card: A
+65527	925	High Card: A
+131054	926	High Card: A
+196581	927	High Card: A
+327635	928	High Card: A
+22126	929	High Card: A
+33189	930	High Card: A
+66378	931	High Card: A
+55315	932	High Card: A
+110630	933	High Card: A
+165945	934	High Card: A
+77441	935	High Card: A
+154882	936	High Card: A
+232323	937	High Card: A
+387205	938	High Card: A
+121693	939	High Card: A
+243386	940	High Card: A
+365079	941	High Card: A
+608465	942	High Card: A
+851851	943	High Card: A
+28934	944	High Card: A
+43401	945	High Card: A
+86802	946	High Card: A
+72335	947	High Card: A
+144670	948	High Card: A
+217005	949	High Card: A
+101269	950	High Card: A
+202538	951	High Card: A
+303807	952	High Card: A
+506345	953	High Card: A
+159137	954	High Card: A
+318274	955	High Card: A
+477411	956	High Card: A
+795685	957	High Card: A
+1113959	958	High Card: A
+188071	959	High Card: A
+376142	960	High Card: A
+564213	961	High Card: A
+940355	962	High Card: A
+1316497	963	High Card: A
+2068781	964	High Card: A
+32338	965	High Card: A
+48507	966	High Card: A
+97014	967	High Card: A
+80845	968	High Card: A
+161690	969	High Card: A
+242535	970	High Card: A
+113183	971	High Card: A
+226366	972	High Card: A
+339549	973	High Card: A
+565915	974	High Card: A
+177859	975	High Card: A
+355718	976	High Card: A
+533577	977	High Card: A
+889295	978	High Card: A
+1245013	979	High Card: A
+210197	980	High Card: A
+420394	981	High Card: A
+630591	982	High Card: A
+1050985	983	High Card: A
+1471379	984	High Card: A
+2312167	985	High Card: A
+274873	986	High Card: A
+549746	987	High Card: A
+824619	988	High Card: A
+1374365	989	High Card: A
+1924111	990	High Card: A
+3023603	991	High Card: A
+3573349	992	High Card: A
+6438	993	High Card: A
+10730	994	High Card: A
+16095	995	High Card: A
+32190	996	High Card: A
+15022	997	High Card: A
+22533	998	High Card: A
+45066	999	High Card: A
+37555	1000	High Card: A
+75110	1001	High Card: A
+112665	1002	High Card: A
+23606	1003	High Card: A
+35409	1004	High Card: A
+70818	1005	High Card: A
+59015	1006	High Card: A
+118030	1007	High Card: A
+177045	1008	High Card: A
+82621	1009	High Card: A
+165242	1010	High Card: A
+247863	1011	High Card: A
+413105	1012	High Card: A
+27898	1013	High Card: A
+41847	1014	High Card: A
+83694	1015	High Card: A
+69745	1016	High Card: A
+139490	1017	High Card: A
+209235	1018	High Card: A
+97643	1019	High Card: A
+195286	1020	High Card: A
+292929	1021	High Card: A
+488215	1022	High Card: A
+153439	1023	High Card: A
+306878	1024	High Card: A
+460317	1025	High Card: A
+767195	1026	High Card: A
+1074073	1027	High Card: A
+36482	1028	High Card: A
+54723	1029	High Card: A
+109446	1030	High Card: A
+91205	1031	High Card: A
+182410	1032	High Card: A
+273615	1033	High Card: A
+127687	1034	High Card: A
+255374	1035	High Card: A
+383061	1036	High Card: A
+638435	1037	High Card: A
+200651	1038	High Card: A
+401302	1039	High Card: A
+601953	1040	High Card: A
+1003255	1041	High Card: A
+1404557	1042	High Card: A
+237133	1043	High Card: A
+474266	1044	High Card: A
+711399	1045	High Card: A
+1185665	1046	High Card: A
+1659931	1047	High Card: A
+2608463	1048	High Card: A
+40774	1049	High Card: A
+61161	1050	High Card: A
+122322	1051	High Card: A
+101935	1052	High Card: A
+203870	1053	High Card: A
+305805	1054	High Card: A
+142709	1055	High Card: A
+285418	1056	High Card: A
+428127	1057	High Card: A
+713545	1058	High Card: A
+224257	1059	High Card: A
+448514	1060	High Card: A
+672771	1061	High Card: A
+1121285	1062	High Card: A
+1569799	1063	High Card: A
+265031	1064	High Card: A
+530062	1065	High Card: A
+795093	1066	High Card: A
+1325155	1067	High Card: A
+1855217	1068	High Card: A
+2915341	1069	High Card: A
+346579	1070	High Card: A
+693158	1071	High Card: A
+1039737	1072	High Card: A
+1732895	1073	High Card: A
+2426053	1074	High Card: A
+3812369	1075	High Card: A
+4505527	1076	High Card: A
+49358	1077	High Card: A
+74037	1078	High Card: A
+148074	1079	High Card: A
+123395	1080	High Card: A
+246790	1081	High Card: A
+370185	1082	High Card: A
+172753	1083	High Card: A
+345506	1084	High Card: A
+518259	1085	High Card: A
+863765	1086	High Card: A
+271469	1087	High Card: A
+542938	1088	High Card: A
+814407	1089	High Card: A
+1357345	1090	High Card: A
+1900283	1091	High Card: A
+320827	1092	High Card: A
+641654	1093	High Card: A
+962481	1094	High Card: A
+1604135	1095	High Card: A
+2245789	1096	High Card: A
+3529097	1097	High Card: A
+419543	1098	High Card: A
+839086	1099	High Card: A
+1258629	1100	High Card: A
+2097715	1101	High Card: A
+2936801	1102	High Card: A
+4614973	1103	High Card: A
+5454059	1104	High Card: A
+468901	1105	High Card: A
+937802	1106	High Card: A
+1406703	1107	High Card: A
+2344505	1108	High Card: A
+3282307	1109	High Card: A
+5157911	1110	High Card: A
+6095713	1111	High Card: A
+7971317	1112	High Card: A
+6882	1113	High Card: A
+11470	1114	High Card: A
+17205	1115	High Card: A
+34410	1116	High Card: A
+16058	1117	High Card: A
+24087	1118	High Card: A
+48174	1119	High Card: A
+40145	1120	High Card: A
+80290	1121	High Card: A
+120435	1122	High Card: A
+25234	1123	High Card: A
+37851	1124	High Card: A
+75702	1125	High Card: A
+63085	1126	High Card: A
+126170	1127	High Card: A
+189255	1128	High Card: A
+88319	1129	High Card: A
+176638	1130	High Card: A
+264957	1131	High Card: A
+441595	1132	High Card: A
+29822	1133	High Card: A
+44733	1134	High Card: A
+89466	1135	High Card: A
+74555	1136	High Card: A
+149110	1137	High Card: A
+223665	1138	High Card: A
+104377	1139	High Card: A
+208754	1140	High Card: A
+313131	1141	High Card: A
+521885	1142	High Card: A
+164021	1143	High Card: A
+328042	1144	High Card: A
+492063	1145	High Card: A
+820105	1146	High Card: A
+1148147	1147	High Card: A
+38998	1148	High Card: A
+58497	1149	High Card: A
+116994	1150	High Card: A
+97495	1151	High Card: A
+194990	1152	High Card: A
+292485	1153	High Card: A
+136493	1154	High Card: A
+272986	1155	High Card: A
+409479	1156	High Card: A
+682465	1157	High Card: A
+214489	1158	High Card: A
+428978	1159	High Card: A
+643467	1160	High Card: A
+1072445	1161	High Card: A
+1501423	1162	High Card: A
+253487	1163	High Card: A
+506974	1164	High Card: A
+760461	1165	High Card: A
+1267435	1166	High Card: A
+1774409	1167	High Card: A
+2788357	1168	High Card: A
+43586	1169	High Card: A
+65379	1170	High Card: A
+130758	1171	High Card: A
+108965	1172	High Card: A
+217930	1173	High Card: A
+326895	1174	High Card: A
+152551	1175	High Card: A
+305102	1176	High Card: A
+457653	1177	High Card: A
+762755	1178	High Card: A
+239723	1179	High Card: A
+479446	1180	High Card: A
+719169	1181	High Card: A
+1198615	1182	High Card: A
+1678061	1183	High Card: A
+283309	1184	High Card: A
+566618	1185	High Card: A
+849927	1186	High Card: A
+1416545	1187	High Card: A
+1983163	1188	High Card: A
+3116399	1189	High Card: A
+370481	1190	High Card: A
+740962	1191	High Card: A
+1111443	1192	High Card: A
+1852405	1193	High Card: A
+2593367	1194	High Card: A
+4075291	1195	High Card: A
+4816253	1196	High Card: A
+52762	1197	High Card: A
+79143	1198	High Card: A
+158286	1199	High Card: A
+131905	1200	High Card: A
+263810	1201	High Card: A
+395715	1202	High Card: A
+184667	1203	High Card: A
+369334	1204	High Card: A
+554001	1205	High Card: A
+923335	1206	High Card: A
+290191	1207	High Card: A
+580382	1208	High Card: A
+870573	1209	High Card: A
+1450955	1210	High Card: A
+2031337	1211	High Card: A
+342953	1212	High Card: A
+685906	1213	High Card: A
+1028859	1214	High Card: A
+1714765	1215	High Card: A
+2400671	1216	High Card: A
+3772483	1217	High Card: A
+448477	1218	High Card: A
+896954	1219	High Card: A
+1345431	1220	High Card: A
+2242385	1221	High Card: A
+3139339	1222	High Card: A
+4933247	1223	High Card: A
+5830201	1224	High Card: A
+501239	1225	High Card: A
+1002478	1226	High Card: A
+1503717	1227	High Card: A
+2506195	1228	High Card: A
+3508673	1229	High Card: A
+5513629	1230	High Card: A
+6516107	1231	High Card: A
+8521063	1232	High Card: A
+66526	1233	High Card: A
+99789	1234	High Card: A
+199578	1235	High Card: A
+166315	1236	High Card: A
+332630	1237	High Card: A
+498945	1238	High Card: A
+232841	1239	High Card: A
+465682	1240	High Card: A
+698523	1241	High Card: A
+1164205	1242	High Card: A
+365893	1243	High Card: A
+731786	1244	High Card: A
+1097679	1245	High Card: A
+1829465	1246	High Card: A
+2561251	1247	High Card: A
+432419	1248	High Card: A
+864838	1249	High Card: A
+1297257	1250	High Card: A
+2162095	1251	High Card: A
+3026933	1252	High Card: A
+4756609	1253	High Card: A
+565471	1254	High Card: A
+1130942	1255	High Card: A
+1696413	1256	High Card: A
+2827355	1257	High Card: A
+3958297	1258	High Card: A
+6220181	1259	High Card: A
+7351123	1260	High Card: A
+631997	1261	High Card: A
+1263994	1262	High Card: A
+1895991	1263	High Card: A
+3159985	1264	High Card: A
+4423979	1265	High Card: A
+6951967	1266	High Card: A
+8215961	1267	High Card: A
+10743949	1268	High Card: A
+765049	1269	High Card: A
+1530098	1270	High Card: A
+2295147	1271	High Card: A
+3825245	1272	High Card: A
+5355343	1273	High Card: A
+8415539	1274	High Card: A
+9945637	1275	High Card: A
+13005833	1276	High Card: A
+30	1277	Pair of 2s
+42	1278	Pair of 2s
+70	1279	Pair of 2s
+105	1280	Pair of 2s
+66	1281	Pair of 2s
+110	1282	Pair of 2s
+165	1283	Pair of 2s
+154	1284	Pair of 2s
+231	1285	Pair of 2s
+385	1286	Pair of 2s
+78	1287	Pair of 2s
+130	1288	Pair of 2s
+195	1289	Pair of 2s
+182	1290	Pair of 2s
+273	1291	Pair of 2s
+455	1292	Pair of 2s
+286	1293	Pair of 2s
+429	1294	Pair of 2s
+715	1295	Pair of 2s
+1001	1296	Pair of 2s
+102	1297	Pair of 2s
+170	1298	Pair of 2s
+255	1299	Pair of 2s
+238	1300	Pair of 2s
+357	1301	Pair of 2s
+595	1302	Pair of 2s
+374	1303	Pair of 2s
+561	1304	Pair of 2s
+935	1305	Pair of 2s
+1309	1306	Pair of 2s
+442	1307	Pair of 2s
+663	1308	Pair of 2s
+1105	1309	Pair of 2s
+1547	1310	Pair of 2s
+2431	1311	Pair of 2s
+114	1312	Pair of 2s
+190	1313	Pair of 2s
+285	1314	Pair of 2s
+266	1315	Pair of 2s
+399	1316	Pair of 2s
+665	1317	Pair of 2s
+418	1318	Pair of 2s
+627	1319	Pair of 2s
+1045	1320	Pair of 2s
+1463	1321	Pair of 2s
+494	1322	Pair of 2s
+741	1323	Pair of 2s
+1235	1324	Pair of 2s
+1729	1325	Pair of 2s
+2717	1326	Pair of 2s
+646	1327	Pair of 2s
+969	1328	Pair of 2s
+1615	1329	Pair of 2s
+2261	1330	Pair of 2s
+3553	1331	Pair of 2s
+4199	1332	Pair of 2s
+138	1333	Pair of 2s
+230	1334	Pair of 2s
+345	1335	Pair of 2s
+322	1336	Pair of 2s
+483	1337	Pair of 2s
+805	1338	Pair of 2s
+506	1339	Pair of 2s
+759	1340	Pair of 2s
+1265	1341	Pair of 2s
+1771	1342	Pair of 2s
+598	1343	Pair of 2s
+897	1344	Pair of 2s
+1495	1345	Pair of 2s
+2093	1346	Pair of 2s
+3289	1347	Pair of 2s
+782	1348	Pair of 2s
+1173	1349	Pair of 2s
+1955	1350	Pair of 2s
+2737	1351	Pair of 2s
+4301	1352	Pair of 2s
+5083	1353	Pair of 2s
+874	1354	Pair of 2s
+1311	1355	Pair of 2s
+2185	1356	Pair of 2s
+3059	1357	Pair of 2s
+4807	1358	Pair of 2s
+5681	1359	Pair of 2s
+7429	1360	Pair of 2s
+174	1361	Pair of 2s
+290	1362	Pair of 2s
+435	1363	Pair of 2s
+406	1364	Pair of 2s
+609	1365	Pair of 2s
+1015	1366	Pair of 2s
+638	1367	Pair of 2s
+957	1368	Pair of 2s
+1595	1369	Pair of 2s
+2233	1370	Pair of 2s
+754	1371	Pair of 2s
+1131	1372	Pair of 2s
+1885	1373	Pair of 2s
+2639	1374	Pair of 2s
+4147	1375	Pair of 2s
+986	1376	Pair of 2s
+1479	1377	Pair of 2s
+2465	1378	Pair of 2s
+3451	1379	Pair of 2s
+5423	1380	Pair of 2s
+6409	1381	Pair of 2s
+1102	1382	Pair of 2s
+1653	1383	Pair of 2s
+2755	1384	Pair of 2s
+3857	1385	Pair of 2s
+6061	1386	Pair of 2s
+7163	1387	Pair of 2s
+9367	1388	Pair of 2s
+1334	1389	Pair of 2s
+2001	1390	Pair of 2s
+3335	1391	Pair of 2s
+4669	1392	Pair of 2s
+7337	1393	Pair of 2s
+8671	1394	Pair of 2s
+11339	1395	Pair of 2s
+12673	1396	Pair of 2s
+186	1397	Pair of 2s
+310	1398	Pair of 2s
+465	1399	Pair of 2s
+434	1400	Pair of 2s
+651	1401	Pair of 2s
+1085	1402	Pair of 2s
+682	1403	Pair of 2s
+1023	1404	Pair of 2s
+1705	1405	Pair of 2s
+2387	1406	Pair of 2s
+806	1407	Pair of 2s
+1209	1408	Pair of 2s
+2015	1409	Pair of 2s
+2821	1410	Pair of 2s
+4433	1411	Pair of 2s
+1054	1412	Pair of 2s
+1581	1413	Pair of 2s
+2635	1414	Pair of 2s
+3689	1415	Pair of 2s
+5797	1416	Pair of 2s
+6851	1417	Pair of 2s
+1178	1418	Pair of 2s
+1767	1419	Pair of 2s
+2945	1420	Pair of 2s
+4123	1421	Pair of 2s
+6479	1422	Pair of 2s
+7657	1423	Pair of 2s
+10013	1424	Pair of 2s
+1426	1425	Pair of 2s
+2139	1426	Pair of 2s
+3565	1427	Pair of 2s
+4991	1428	Pair of 2s
+7843	1429	Pair of 2s
+9269	1430	Pair of 2s
+12121	1431	Pair of 2s
+13547	1432	Pair of 2s
+1798	1433	Pair of 2s
+2697	1434	Pair of 2s
+4495	1435	Pair of 2s
+6293	1436	Pair of 2s
+9889	1437	Pair of 2s
+11687	1438	Pair of 2s
+15283	1439	Pair of 2s
+17081	1440	Pair of 2s
+20677	1441	Pair of 2s
+222	1442	Pair of 2s
+370	1443	Pair of 2s
+555	1444	Pair of 2s
+518	1445	Pair of 2s
+777	1446	Pair of 2s
+1295	1447	Pair of 2s
+814	1448	Pair of 2s
+1221	1449	Pair of 2s
+2035	1450	Pair of 2s
+2849	1451	Pair of 2s
+962	1452	Pair of 2s
+1443	1453	Pair of 2s
+2405	1454	Pair of 2s
+3367	1455	Pair of 2s
+5291	1456	Pair of 2s
+1258	1457	Pair of 2s
+1887	1458	Pair of 2s
+3145	1459	Pair of 2s
+4403	1460	Pair of 2s
+6919	1461	Pair of 2s
+8177	1462	Pair of 2s
+1406	1463	Pair of 2s
+2109	1464	Pair of 2s
+3515	1465	Pair of 2s
+4921	1466	Pair of 2s
+7733	1467	Pair of 2s
+9139	1468	Pair of 2s
+11951	1469	Pair of 2s
+1702	1470	Pair of 2s
+2553	1471	Pair of 2s
+4255	1472	Pair of 2s
+5957	1473	Pair of 2s
+9361	1474	Pair of 2s
+11063	1475	Pair of 2s
+14467	1476	Pair of 2s
+16169	1477	Pair of 2s
+2146	1478	Pair of 2s
+3219	1479	Pair of 2s
+5365	1480	Pair of 2s
+7511	1481	Pair of 2s
+11803	1482	Pair of 2s
+13949	1483	Pair of 2s
+18241	1484	Pair of 2s
+20387	1485	Pair of 2s
+24679	1486	Pair of 2s
+2294	1487	Pair of 2s
+3441	1488	Pair of 2s
+5735	1489	Pair of 2s
+8029	1490	Pair of 2s
+12617	1491	Pair of 2s
+14911	1492	Pair of 2s
+19499	1493	Pair of 2s
+21793	1494	Pair of 2s
+26381	1495	Pair of 2s
+33263	1496	Pair of 2s
+60	1497	Pair of 3s
+84	1498	Pair of 3s
+140	1499	Pair of 3s
+420	1500	Pair of 3s
+132	1501	Pair of 3s
+220	1502	Pair of 3s
+660	1503	Pair of 3s
+308	1504	Pair of 3s
+924	1505	Pair of 3s
+1540	1506	Pair of 3s
+156	1507	Pair of 3s
+260	1508	Pair of 3s
+780	1509	Pair of 3s
+364	1510	Pair of 3s
+1092	1511	Pair of 3s
+1820	1512	Pair of 3s
+572	1513	Pair of 3s
+1716	1514	Pair of 3s
+2860	1515	Pair of 3s
+4004	1516	Pair of 3s
+204	1517	Pair of 3s
+340	1518	Pair of 3s
+1020	1519	Pair of 3s
+476	1520	Pair of 3s
+1428	1521	Pair of 3s
+2380	1522	Pair of 3s
+748	1523	Pair of 3s
+2244	1524	Pair of 3s
+3740	1525	Pair of 3s
+5236	1526	Pair of 3s
+884	1527	Pair of 3s
+2652	1528	Pair of 3s
+4420	1529	Pair of 3s
+6188	1530	Pair of 3s
+9724	1531	Pair of 3s
+228	1532	Pair of 3s
+380	1533	Pair of 3s
+1140	1534	Pair of 3s
+532	1535	Pair of 3s
+1596	1536	Pair of 3s
+2660	1537	Pair of 3s
+836	1538	Pair of 3s
+2508	1539	Pair of 3s
+4180	1540	Pair of 3s
+5852	1541	Pair of 3s
+988	1542	Pair of 3s
+2964	1543	Pair of 3s
+4940	1544	Pair of 3s
+6916	1545	Pair of 3s
+10868	1546	Pair of 3s
+1292	1547	Pair of 3s
+3876	1548	Pair of 3s
+6460	1549	Pair of 3s
+9044	1550	Pair of 3s
+14212	1551	Pair of 3s
+16796	1552	Pair of 3s
+276	1553	Pair of 3s
+460	1554	Pair of 3s
+1380	1555	Pair of 3s
+644	1556	Pair of 3s
+1932	1557	Pair of 3s
+3220	1558	Pair of 3s
+1012	1559	Pair of 3s
+3036	1560	Pair of 3s
+5060	1561	Pair of 3s
+7084	1562	Pair of 3s
+1196	1563	Pair of 3s
+3588	1564	Pair of 3s
+5980	1565	Pair of 3s
+8372	1566	Pair of 3s
+13156	1567	Pair of 3s
+1564	1568	Pair of 3s
+4692	1569	Pair of 3s
+7820	1570	Pair of 3s
+10948	1571	Pair of 3s
+17204	1572	Pair of 3s
+20332	1573	Pair of 3s
+1748	1574	Pair of 3s
+5244	1575	Pair of 3s
+8740	1576	Pair of 3s
+12236	1577	Pair of 3s
+19228	1578	Pair of 3s
+22724	1579	Pair of 3s
+29716	1580	Pair of 3s
+348	1581	Pair of 3s
+580	1582	Pair of 3s
+1740	1583	Pair of 3s
+812	1584	Pair of 3s
+2436	1585	Pair of 3s
+4060	1586	Pair of 3s
+1276	1587	Pair of 3s
+3828	1588	Pair of 3s
+6380	1589	Pair of 3s
+8932	1590	Pair of 3s
+1508	1591	Pair of 3s
+4524	1592	Pair of 3s
+7540	1593	Pair of 3s
+10556	1594	Pair of 3s
+16588	1595	Pair of 3s
+1972	1596	Pair of 3s
+5916	1597	Pair of 3s
+9860	1598	Pair of 3s
+13804	1599	Pair of 3s
+21692	1600	Pair of 3s
+25636	1601	Pair of 3s
+2204	1602	Pair of 3s
+6612	1603	Pair of 3s
+11020	1604	Pair of 3s
+15428	1605	Pair of 3s
+24244	1606	Pair of 3s
+28652	1607	Pair of 3s
+37468	1608	Pair of 3s
+2668	1609	Pair of 3s
+8004	1610	Pair of 3s
+13340	1611	Pair of 3s
+18676	1612	Pair of 3s
+29348	1613	Pair of 3s
+34684	1614	Pair of 3s
+45356	1615	Pair of 3s
+50692	1616	Pair of 3s
+372	1617	Pair of 3s
+620	1618	Pair of 3s
+1860	1619	Pair of 3s
+868	1620	Pair of 3s
+2604	1621	Pair of 3s
+4340	1622	Pair of 3s
+1364	1623	Pair of 3s
+4092	1624	Pair of 3s
+6820	1625	Pair of 3s
+9548	1626	Pair of 3s
+1612	1627	Pair of 3s
+4836	1628	Pair of 3s
+8060	1629	Pair of 3s
+11284	1630	Pair of 3s
+17732	1631	Pair of 3s
+2108	1632	Pair of 3s
+6324	1633	Pair of 3s
+10540	1634	Pair of 3s
+14756	1635	Pair of 3s
+23188	1636	Pair of 3s
+27404	1637	Pair of 3s
+2356	1638	Pair of 3s
+7068	1639	Pair of 3s
+11780	1640	Pair of 3s
+16492	1641	Pair of 3s
+25916	1642	Pair of 3s
+30628	1643	Pair of 3s
+40052	1644	Pair of 3s
+2852	1645	Pair of 3s
+8556	1646	Pair of 3s
+14260	1647	Pair of 3s
+19964	1648	Pair of 3s
+31372	1649	Pair of 3s
+37076	1650	Pair of 3s
+48484	1651	Pair of 3s
+54188	1652	Pair of 3s
+3596	1653	Pair of 3s
+10788	1654	Pair of 3s
+17980	1655	Pair of 3s
+25172	1656	Pair of 3s
+39556	1657	Pair of 3s
+46748	1658	Pair of 3s
+61132	1659	Pair of 3s
+68324	1660	Pair of 3s
+82708	1661	Pair of 3s
+444	1662	Pair of 3s
+740	1663	Pair of 3s
+2220	1664	Pair of 3s
+1036	1665	Pair of 3s
+3108	1666	Pair of 3s
+5180	1667	Pair of 3s
+1628	1668	Pair of 3s
+4884	1669	Pair of 3s
+8140	1670	Pair of 3s
+11396	1671	Pair of 3s
+1924	1672	Pair of 3s
+5772	1673	Pair of 3s
+9620	1674	Pair of 3s
+13468	1675	Pair of 3s
+21164	1676	Pair of 3s
+2516	1677	Pair of 3s
+7548	1678	Pair of 3s
+12580	1679	Pair of 3s
+17612	1680	Pair of 3s
+27676	1681	Pair of 3s
+32708	1682	Pair of 3s
+2812	1683	Pair of 3s
+8436	1684	Pair of 3s
+14060	1685	Pair of 3s
+19684	1686	Pair of 3s
+30932	1687	Pair of 3s
+36556	1688	Pair of 3s
+47804	1689	Pair of 3s
+3404	1690	Pair of 3s
+10212	1691	Pair of 3s
+17020	1692	Pair of 3s
+23828	1693	Pair of 3s
+37444	1694	Pair of 3s
+44252	1695	Pair of 3s
+57868	1696	Pair of 3s
+64676	1697	Pair of 3s
+4292	1698	Pair of 3s
+12876	1699	Pair of 3s
+21460	1700	Pair of 3s
+30044	1701	Pair of 3s
+47212	1702	Pair of 3s
+55796	1703	Pair of 3s
+72964	1704	Pair of 3s
+81548	1705	Pair of 3s
+98716	1706	Pair of 3s
+4588	1707	Pair of 3s
+13764	1708	Pair of 3s
+22940	1709	Pair of 3s
+32116	1710	Pair of 3s
+50468	1711	Pair of 3s
+59644	1712	Pair of 3s
+77996	1713	Pair of 3s
+87172	1714	Pair of 3s
+105524	1715	Pair of 3s
+133052	1716	Pair of 3s
+90	1717	Pair of 4s
+126	1718	Pair of 4s
+315	1719	Pair of 4s
+630	1720	Pair of 4s
+198	1721	Pair of 4s
+495	1722	Pair of 4s
+990	1723	Pair of 4s
+693	1724	Pair of 4s
+1386	1725	Pair of 4s
+3465	1726	Pair of 4s
+234	1727	Pair of 4s
+585	1728	Pair of 4s
+1170	1729	Pair of 4s
+819	1730	Pair of 4s
+1638	1731	Pair of 4s
+4095	1732	Pair of 4s
+1287	1733	Pair of 4s
+2574	1734	Pair of 4s
+6435	1735	Pair of 4s
+9009	1736	Pair of 4s
+306	1737	Pair of 4s
+765	1738	Pair of 4s
+1530	1739	Pair of 4s
+1071	1740	Pair of 4s
+2142	1741	Pair of 4s
+5355	1742	Pair of 4s
+1683	1743	Pair of 4s
+3366	1744	Pair of 4s
+8415	1745	Pair of 4s
+11781	1746	Pair of 4s
+1989	1747	Pair of 4s
+3978	1748	Pair of 4s
+9945	1749	Pair of 4s
+13923	1750	Pair of 4s
+21879	1751	Pair of 4s
+342	1752	Pair of 4s
+855	1753	Pair of 4s
+1710	1754	Pair of 4s
+1197	1755	Pair of 4s
+2394	1756	Pair of 4s
+5985	1757	Pair of 4s
+1881	1758	Pair of 4s
+3762	1759	Pair of 4s
+9405	1760	Pair of 4s
+13167	1761	Pair of 4s
+2223	1762	Pair of 4s
+4446	1763	Pair of 4s
+11115	1764	Pair of 4s
+15561	1765	Pair of 4s
+24453	1766	Pair of 4s
+2907	1767	Pair of 4s
+5814	1768	Pair of 4s
+14535	1769	Pair of 4s
+20349	1770	Pair of 4s
+31977	1771	Pair of 4s
+37791	1772	Pair of 4s
+414	1773	Pair of 4s
+1035	1774	Pair of 4s
+2070	1775	Pair of 4s
+1449	1776	Pair of 4s
+2898	1777	Pair of 4s
+7245	1778	Pair of 4s
+2277	1779	Pair of 4s
+4554	1780	Pair of 4s
+11385	1781	Pair of 4s
+15939	1782	Pair of 4s
+2691	1783	Pair of 4s
+5382	1784	Pair of 4s
+13455	1785	Pair of 4s
+18837	1786	Pair of 4s
+29601	1787	Pair of 4s
+3519	1788	Pair of 4s
+7038	1789	Pair of 4s
+17595	1790	Pair of 4s
+24633	1791	Pair of 4s
+38709	1792	Pair of 4s
+45747	1793	Pair of 4s
+3933	1794	Pair of 4s
+7866	1795	Pair of 4s
+19665	1796	Pair of 4s
+27531	1797	Pair of 4s
+43263	1798	Pair of 4s
+51129	1799	Pair of 4s
+66861	1800	Pair of 4s
+522	1801	Pair of 4s
+1305	1802	Pair of 4s
+2610	1803	Pair of 4s
+1827	1804	Pair of 4s
+3654	1805	Pair of 4s
+9135	1806	Pair of 4s
+2871	1807	Pair of 4s
+5742	1808	Pair of 4s
+14355	1809	Pair of 4s
+20097	1810	Pair of 4s
+3393	1811	Pair of 4s
+6786	1812	Pair of 4s
+16965	1813	Pair of 4s
+23751	1814	Pair of 4s
+37323	1815	Pair of 4s
+4437	1816	Pair of 4s
+8874	1817	Pair of 4s
+22185	1818	Pair of 4s
+31059	1819	Pair of 4s
+48807	1820	Pair of 4s
+57681	1821	Pair of 4s
+4959	1822	Pair of 4s
+9918	1823	Pair of 4s
+24795	1824	Pair of 4s
+34713	1825	Pair of 4s
+54549	1826	Pair of 4s
+64467	1827	Pair of 4s
+84303	1828	Pair of 4s
+6003	1829	Pair of 4s
+12006	1830	Pair of 4s
+30015	1831	Pair of 4s
+42021	1832	Pair of 4s
+66033	1833	Pair of 4s
+78039	1834	Pair of 4s
+102051	1835	Pair of 4s
+114057	1836	Pair of 4s
+558	1837	Pair of 4s
+1395	1838	Pair of 4s
+2790	1839	Pair of 4s
+1953	1840	Pair of 4s
+3906	1841	Pair of 4s
+9765	1842	Pair of 4s
+3069	1843	Pair of 4s
+6138	1844	Pair of 4s
+15345	1845	Pair of 4s
+21483	1846	Pair of 4s
+3627	1847	Pair of 4s
+7254	1848	Pair of 4s
+18135	1849	Pair of 4s
+25389	1850	Pair of 4s
+39897	1851	Pair of 4s
+4743	1852	Pair of 4s
+9486	1853	Pair of 4s
+23715	1854	Pair of 4s
+33201	1855	Pair of 4s
+52173	1856	Pair of 4s
+61659	1857	Pair of 4s
+5301	1858	Pair of 4s
+10602	1859	Pair of 4s
+26505	1860	Pair of 4s
+37107	1861	Pair of 4s
+58311	1862	Pair of 4s
+68913	1863	Pair of 4s
+90117	1864	Pair of 4s
+6417	1865	Pair of 4s
+12834	1866	Pair of 4s
+32085	1867	Pair of 4s
+44919	1868	Pair of 4s
+70587	1869	Pair of 4s
+83421	1870	Pair of 4s
+109089	1871	Pair of 4s
+121923	1872	Pair of 4s
+8091	1873	Pair of 4s
+16182	1874	Pair of 4s
+40455	1875	Pair of 4s
+56637	1876	Pair of 4s
+89001	1877	Pair of 4s
+105183	1878	Pair of 4s
+137547	1879	Pair of 4s
+153729	1880	Pair of 4s
+186093	1881	Pair of 4s
+666	1882	Pair of 4s
+1665	1883	Pair of 4s
+3330	1884	Pair of 4s
+2331	1885	Pair of 4s
+4662	1886	Pair of 4s
+11655	1887	Pair of 4s
+3663	1888	Pair of 4s
+7326	1889	Pair of 4s
+18315	1890	Pair of 4s
+25641	1891	Pair of 4s
+4329	1892	Pair of 4s
+8658	1893	Pair of 4s
+21645	1894	Pair of 4s
+30303	1895	Pair of 4s
+47619	1896	Pair of 4s
+5661	1897	Pair of 4s
+11322	1898	Pair of 4s
+28305	1899	Pair of 4s
+39627	1900	Pair of 4s
+62271	1901	Pair of 4s
+73593	1902	Pair of 4s
+6327	1903	Pair of 4s
+12654	1904	Pair of 4s
+31635	1905	Pair of 4s
+44289	1906	Pair of 4s
+69597	1907	Pair of 4s
+82251	1908	Pair of 4s
+107559	1909	Pair of 4s
+7659	1910	Pair of 4s
+15318	1911	Pair of 4s
+38295	1912	Pair of 4s
+53613	1913	Pair of 4s
+84249	1914	Pair of 4s
+99567	1915	Pair of 4s
+130203	1916	Pair of 4s
+145521	1917	Pair of 4s
+9657	1918	Pair of 4s
+19314	1919	Pair of 4s
+48285	1920	Pair of 4s
+67599	1921	Pair of 4s
+106227	1922	Pair of 4s
+125541	1923	Pair of 4s
+164169	1924	Pair of 4s
+183483	1925	Pair of 4s
+222111	1926	Pair of 4s
+10323	1927	Pair of 4s
+20646	1928	Pair of 4s
+51615	1929	Pair of 4s
+72261	1930	Pair of 4s
+113553	1931	Pair of 4s
+134199	1932	Pair of 4s
+175491	1933	Pair of 4s
+196137	1934	Pair of 4s
+237429	1935	Pair of 4s
+299367	1936	Pair of 4s
+150	1937	Pair of 5s
+350	1938	Pair of 5s
+525	1939	Pair of 5s
+1050	1940	Pair of 5s
+550	1941	Pair of 5s
+825	1942	Pair of 5s
+1650	1943	Pair of 5s
+1925	1944	Pair of 5s
+3850	1945	Pair of 5s
+5775	1946	Pair of 5s
+650	1947	Pair of 5s
+975	1948	Pair of 5s
+1950	1949	Pair of 5s
+2275	1950	Pair of 5s
+4550	1951	Pair of 5s
+6825	1952	Pair of 5s
+3575	1953	Pair of 5s
+7150	1954	Pair of 5s
+10725	1955	Pair of 5s
+25025	1956	Pair of 5s
+850	1957	Pair of 5s
+1275	1958	Pair of 5s
+2550	1959	Pair of 5s
+2975	1960	Pair of 5s
+5950	1961	Pair of 5s
+8925	1962	Pair of 5s
+4675	1963	Pair of 5s
+9350	1964	Pair of 5s
+14025	1965	Pair of 5s
+32725	1966	Pair of 5s
+5525	1967	Pair of 5s
+11050	1968	Pair of 5s
+16575	1969	Pair of 5s
+38675	1970	Pair of 5s
+60775	1971	Pair of 5s
+950	1972	Pair of 5s
+1425	1973	Pair of 5s
+2850	1974	Pair of 5s
+3325	1975	Pair of 5s
+6650	1976	Pair of 5s
+9975	1977	Pair of 5s
+5225	1978	Pair of 5s
+10450	1979	Pair of 5s
+15675	1980	Pair of 5s
+36575	1981	Pair of 5s
+6175	1982	Pair of 5s
+12350	1983	Pair of 5s
+18525	1984	Pair of 5s
+43225	1985	Pair of 5s
+67925	1986	Pair of 5s
+8075	1987	Pair of 5s
+16150	1988	Pair of 5s
+24225	1989	Pair of 5s
+56525	1990	Pair of 5s
+88825	1991	Pair of 5s
+104975	1992	Pair of 5s
+1150	1993	Pair of 5s
+1725	1994	Pair of 5s
+3450	1995	Pair of 5s
+4025	1996	Pair of 5s
+8050	1997	Pair of 5s
+12075	1998	Pair of 5s
+6325	1999	Pair of 5s
+12650	2000	Pair of 5s
+18975	2001	Pair of 5s
+44275	2002	Pair of 5s
+7475	2003	Pair of 5s
+14950	2004	Pair of 5s
+22425	2005	Pair of 5s
+52325	2006	Pair of 5s
+82225	2007	Pair of 5s
+9775	2008	Pair of 5s
+19550	2009	Pair of 5s
+29325	2010	Pair of 5s
+68425	2011	Pair of 5s
+107525	2012	Pair of 5s
+127075	2013	Pair of 5s
+10925	2014	Pair of 5s
+21850	2015	Pair of 5s
+32775	2016	Pair of 5s
+76475	2017	Pair of 5s
+120175	2018	Pair of 5s
+142025	2019	Pair of 5s
+185725	2020	Pair of 5s
+1450	2021	Pair of 5s
+2175	2022	Pair of 5s
+4350	2023	Pair of 5s
+5075	2024	Pair of 5s
+10150	2025	Pair of 5s
+15225	2026	Pair of 5s
+7975	2027	Pair of 5s
+15950	2028	Pair of 5s
+23925	2029	Pair of 5s
+55825	2030	Pair of 5s
+9425	2031	Pair of 5s
+18850	2032	Pair of 5s
+28275	2033	Pair of 5s
+65975	2034	Pair of 5s
+103675	2035	Pair of 5s
+12325	2036	Pair of 5s
+24650	2037	Pair of 5s
+36975	2038	Pair of 5s
+86275	2039	Pair of 5s
+135575	2040	Pair of 5s
+160225	2041	Pair of 5s
+13775	2042	Pair of 5s
+27550	2043	Pair of 5s
+41325	2044	Pair of 5s
+96425	2045	Pair of 5s
+151525	2046	Pair of 5s
+179075	2047	Pair of 5s
+234175	2048	Pair of 5s
+16675	2049	Pair of 5s
+33350	2050	Pair of 5s
+50025	2051	Pair of 5s
+116725	2052	Pair of 5s
+183425	2053	Pair of 5s
+216775	2054	Pair of 5s
+283475	2055	Pair of 5s
+316825	2056	Pair of 5s
+1550	2057	Pair of 5s
+2325	2058	Pair of 5s
+4650	2059	Pair of 5s
+5425	2060	Pair of 5s
+10850	2061	Pair of 5s
+16275	2062	Pair of 5s
+8525	2063	Pair of 5s
+17050	2064	Pair of 5s
+25575	2065	Pair of 5s
+59675	2066	Pair of 5s
+10075	2067	Pair of 5s
+20150	2068	Pair of 5s
+30225	2069	Pair of 5s
+70525	2070	Pair of 5s
+110825	2071	Pair of 5s
+13175	2072	Pair of 5s
+26350	2073	Pair of 5s
+39525	2074	Pair of 5s
+92225	2075	Pair of 5s
+144925	2076	Pair of 5s
+171275	2077	Pair of 5s
+14725	2078	Pair of 5s
+29450	2079	Pair of 5s
+44175	2080	Pair of 5s
+103075	2081	Pair of 5s
+161975	2082	Pair of 5s
+191425	2083	Pair of 5s
+250325	2084	Pair of 5s
+17825	2085	Pair of 5s
+35650	2086	Pair of 5s
+53475	2087	Pair of 5s
+124775	2088	Pair of 5s
+196075	2089	Pair of 5s
+231725	2090	Pair of 5s
+303025	2091	Pair of 5s
+338675	2092	Pair of 5s
+22475	2093	Pair of 5s
+44950	2094	Pair of 5s
+67425	2095	Pair of 5s
+157325	2096	Pair of 5s
+247225	2097	Pair of 5s
+292175	2098	Pair of 5s
+382075	2099	Pair of 5s
+427025	2100	Pair of 5s
+516925	2101	Pair of 5s
+1850	2102	Pair of 5s
+2775	2103	Pair of 5s
+5550	2104	Pair of 5s
+6475	2105	Pair of 5s
+12950	2106	Pair of 5s
+19425	2107	Pair of 5s
+10175	2108	Pair of 5s
+20350	2109	Pair of 5s
+30525	2110	Pair of 5s
+71225	2111	Pair of 5s
+12025	2112	Pair of 5s
+24050	2113	Pair of 5s
+36075	2114	Pair of 5s
+84175	2115	Pair of 5s
+132275	2116	Pair of 5s
+15725	2117	Pair of 5s
+31450	2118	Pair of 5s
+47175	2119	Pair of 5s
+110075	2120	Pair of 5s
+172975	2121	Pair of 5s
+204425	2122	Pair of 5s
+17575	2123	Pair of 5s
+35150	2124	Pair of 5s
+52725	2125	Pair of 5s
+123025	2126	Pair of 5s
+193325	2127	Pair of 5s
+228475	2128	Pair of 5s
+298775	2129	Pair of 5s
+21275	2130	Pair of 5s
+42550	2131	Pair of 5s
+63825	2132	Pair of 5s
+148925	2133	Pair of 5s
+234025	2134	Pair of 5s
+276575	2135	Pair of 5s
+361675	2136	Pair of 5s
+404225	2137	Pair of 5s
+26825	2138	Pair of 5s
+53650	2139	Pair of 5s
+80475	2140	Pair of 5s
+187775	2141	Pair of 5s
+295075	2142	Pair of 5s
+348725	2143	Pair of 5s
+456025	2144	Pair of 5s
+509675	2145	Pair of 5s
+616975	2146	Pair of 5s
+28675	2147	Pair of 5s
+57350	2148	Pair of 5s
+86025	2149	Pair of 5s
+200725	2150	Pair of 5s
+315425	2151	Pair of 5s
+372775	2152	Pair of 5s
+487475	2153	Pair of 5s
+544825	2154	Pair of 5s
+659525	2155	Pair of 5s
+831575	2156	Pair of 5s
+294	2157	Pair of 6s
+490	2158	Pair of 6s
+735	2159	Pair of 6s
+1470	2160	Pair of 6s
+1078	2161	Pair of 6s
+1617	2162	Pair of 6s
+3234	2163	Pair of 6s
+2695	2164	Pair of 6s
+5390	2165	Pair of 6s
+8085	2166	Pair of 6s
+1274	2167	Pair of 6s
+1911	2168	Pair of 6s
+3822	2169	Pair of 6s
+3185	2170	Pair of 6s
+6370	2171	Pair of 6s
+9555	2172	Pair of 6s
+7007	2173	Pair of 6s
+14014	2174	Pair of 6s
+21021	2175	Pair of 6s
+35035	2176	Pair of 6s
+1666	2177	Pair of 6s
+2499	2178	Pair of 6s
+4998	2179	Pair of 6s
+4165	2180	Pair of 6s
+8330	2181	Pair of 6s
+12495	2182	Pair of 6s
+9163	2183	Pair of 6s
+18326	2184	Pair of 6s
+27489	2185	Pair of 6s
+45815	2186	Pair of 6s
+10829	2187	Pair of 6s
+21658	2188	Pair of 6s
+32487	2189	Pair of 6s
+54145	2190	Pair of 6s
+119119	2191	Pair of 6s
+1862	2192	Pair of 6s
+2793	2193	Pair of 6s
+5586	2194	Pair of 6s
+4655	2195	Pair of 6s
+9310	2196	Pair of 6s
+13965	2197	Pair of 6s
+10241	2198	Pair of 6s
+20482	2199	Pair of 6s
+30723	2200	Pair of 6s
+51205	2201	Pair of 6s
+12103	2202	Pair of 6s
+24206	2203	Pair of 6s
+36309	2204	Pair of 6s
+60515	2205	Pair of 6s
+133133	2206	Pair of 6s
+15827	2207	Pair of 6s
+31654	2208	Pair of 6s
+47481	2209	Pair of 6s
+79135	2210	Pair of 6s
+174097	2211	Pair of 6s
+205751	2212	Pair of 6s
+2254	2213	Pair of 6s
+3381	2214	Pair of 6s
+6762	2215	Pair of 6s
+5635	2216	Pair of 6s
+11270	2217	Pair of 6s
+16905	2218	Pair of 6s
+12397	2219	Pair of 6s
+24794	2220	Pair of 6s
+37191	2221	Pair of 6s
+61985	2222	Pair of 6s
+14651	2223	Pair of 6s
+29302	2224	Pair of 6s
+43953	2225	Pair of 6s
+73255	2226	Pair of 6s
+161161	2227	Pair of 6s
+19159	2228	Pair of 6s
+38318	2229	Pair of 6s
+57477	2230	Pair of 6s
+95795	2231	Pair of 6s
+210749	2232	Pair of 6s
+249067	2233	Pair of 6s
+21413	2234	Pair of 6s
+42826	2235	Pair of 6s
+64239	2236	Pair of 6s
+107065	2237	Pair of 6s
+235543	2238	Pair of 6s
+278369	2239	Pair of 6s
+364021	2240	Pair of 6s
+2842	2241	Pair of 6s
+4263	2242	Pair of 6s
+8526	2243	Pair of 6s
+7105	2244	Pair of 6s
+14210	2245	Pair of 6s
+21315	2246	Pair of 6s
+15631	2247	Pair of 6s
+31262	2248	Pair of 6s
+46893	2249	Pair of 6s
+78155	2250	Pair of 6s
+18473	2251	Pair of 6s
+36946	2252	Pair of 6s
+55419	2253	Pair of 6s
+92365	2254	Pair of 6s
+203203	2255	Pair of 6s
+24157	2256	Pair of 6s
+48314	2257	Pair of 6s
+72471	2258	Pair of 6s
+120785	2259	Pair of 6s
+265727	2260	Pair of 6s
+314041	2261	Pair of 6s
+26999	2262	Pair of 6s
+53998	2263	Pair of 6s
+80997	2264	Pair of 6s
+134995	2265	Pair of 6s
+296989	2266	Pair of 6s
+350987	2267	Pair of 6s
+458983	2268	Pair of 6s
+32683	2269	Pair of 6s
+65366	2270	Pair of 6s
+98049	2271	Pair of 6s
+163415	2272	Pair of 6s
+359513	2273	Pair of 6s
+424879	2274	Pair of 6s
+555611	2275	Pair of 6s
+620977	2276	Pair of 6s
+3038	2277	Pair of 6s
+4557	2278	Pair of 6s
+9114	2279	Pair of 6s
+7595	2280	Pair of 6s
+15190	2281	Pair of 6s
+22785	2282	Pair of 6s
+16709	2283	Pair of 6s
+33418	2284	Pair of 6s
+50127	2285	Pair of 6s
+83545	2286	Pair of 6s
+19747	2287	Pair of 6s
+39494	2288	Pair of 6s
+59241	2289	Pair of 6s
+98735	2290	Pair of 6s
+217217	2291	Pair of 6s
+25823	2292	Pair of 6s
+51646	2293	Pair of 6s
+77469	2294	Pair of 6s
+129115	2295	Pair of 6s
+284053	2296	Pair of 6s
+335699	2297	Pair of 6s
+28861	2298	Pair of 6s
+57722	2299	Pair of 6s
+86583	2300	Pair of 6s
+144305	2301	Pair of 6s
+317471	2302	Pair of 6s
+375193	2303	Pair of 6s
+490637	2304	Pair of 6s
+34937	2305	Pair of 6s
+69874	2306	Pair of 6s
+104811	2307	Pair of 6s
+174685	2308	Pair of 6s
+384307	2309	Pair of 6s
+454181	2310	Pair of 6s
+593929	2311	Pair of 6s
+663803	2312	Pair of 6s
+44051	2313	Pair of 6s
+88102	2314	Pair of 6s
+132153	2315	Pair of 6s
+220255	2316	Pair of 6s
+484561	2317	Pair of 6s
+572663	2318	Pair of 6s
+748867	2319	Pair of 6s
+836969	2320	Pair of 6s
+1013173	2321	Pair of 6s
+3626	2322	Pair of 6s
+5439	2323	Pair of 6s
+10878	2324	Pair of 6s
+9065	2325	Pair of 6s
+18130	2326	Pair of 6s
+27195	2327	Pair of 6s
+19943	2328	Pair of 6s
+39886	2329	Pair of 6s
+59829	2330	Pair of 6s
+99715	2331	Pair of 6s
+23569	2332	Pair of 6s
+47138	2333	Pair of 6s
+70707	2334	Pair of 6s
+117845	2335	Pair of 6s
+259259	2336	Pair of 6s
+30821	2337	Pair of 6s
+61642	2338	Pair of 6s
+92463	2339	Pair of 6s
+154105	2340	Pair of 6s
+339031	2341	Pair of 6s
+400673	2342	Pair of 6s
+34447	2343	Pair of 6s
+68894	2344	Pair of 6s
+103341	2345	Pair of 6s
+172235	2346	Pair of 6s
+378917	2347	Pair of 6s
+447811	2348	Pair of 6s
+585599	2349	Pair of 6s
+41699	2350	Pair of 6s
+83398	2351	Pair of 6s
+125097	2352	Pair of 6s
+208495	2353	Pair of 6s
+458689	2354	Pair of 6s
+542087	2355	Pair of 6s
+708883	2356	Pair of 6s
+792281	2357	Pair of 6s
+52577	2358	Pair of 6s
+105154	2359	Pair of 6s
+157731	2360	Pair of 6s
+262885	2361	Pair of 6s
+578347	2362	Pair of 6s
+683501	2363	Pair of 6s
+893809	2364	Pair of 6s
+998963	2365	Pair of 6s
+1209271	2366	Pair of 6s
+56203	2367	Pair of 6s
+112406	2368	Pair of 6s
+168609	2369	Pair of 6s
+281015	2370	Pair of 6s
+618233	2371	Pair of 6s
+730639	2372	Pair of 6s
+955451	2373	Pair of 6s
+1067857	2374	Pair of 6s
+1292669	2375	Pair of 6s
+1629887	2376	Pair of 6s
+726	2377	Pair of 7s
+1210	2378	Pair of 7s
+1815	2379	Pair of 7s
+3630	2380	Pair of 7s
+1694	2381	Pair of 7s
+2541	2382	Pair of 7s
+5082	2383	Pair of 7s
+4235	2384	Pair of 7s
+8470	2385	Pair of 7s
+12705	2386	Pair of 7s
+3146	2387	Pair of 7s
+4719	2388	Pair of 7s
+9438	2389	Pair of 7s
+7865	2390	Pair of 7s
+15730	2391	Pair of 7s
+23595	2392	Pair of 7s
+11011	2393	Pair of 7s
+22022	2394	Pair of 7s
+33033	2395	Pair of 7s
+55055	2396	Pair of 7s
+4114	2397	Pair of 7s
+6171	2398	Pair of 7s
+12342	2399	Pair of 7s
+10285	2400	Pair of 7s
+20570	2401	Pair of 7s
+30855	2402	Pair of 7s
+14399	2403	Pair of 7s
+28798	2404	Pair of 7s
+43197	2405	Pair of 7s
+71995	2406	Pair of 7s
+26741	2407	Pair of 7s
+53482	2408	Pair of 7s
+80223	2409	Pair of 7s
+133705	2410	Pair of 7s
+187187	2411	Pair of 7s
+4598	2412	Pair of 7s
+6897	2413	Pair of 7s
+13794	2414	Pair of 7s
+11495	2415	Pair of 7s
+22990	2416	Pair of 7s
+34485	2417	Pair of 7s
+16093	2418	Pair of 7s
+32186	2419	Pair of 7s
+48279	2420	Pair of 7s
+80465	2421	Pair of 7s
+29887	2422	Pair of 7s
+59774	2423	Pair of 7s
+89661	2424	Pair of 7s
+149435	2425	Pair of 7s
+209209	2426	Pair of 7s
+39083	2427	Pair of 7s
+78166	2428	Pair of 7s
+117249	2429	Pair of 7s
+195415	2430	Pair of 7s
+273581	2431	Pair of 7s
+508079	2432	Pair of 7s
+5566	2433	Pair of 7s
+8349	2434	Pair of 7s
+16698	2435	Pair of 7s
+13915	2436	Pair of 7s
+27830	2437	Pair of 7s
+41745	2438	Pair of 7s
+19481	2439	Pair of 7s
+38962	2440	Pair of 7s
+58443	2441	Pair of 7s
+97405	2442	Pair of 7s
+36179	2443	Pair of 7s
+72358	2444	Pair of 7s
+108537	2445	Pair of 7s
+180895	2446	Pair of 7s
+253253	2447	Pair of 7s
+47311	2448	Pair of 7s
+94622	2449	Pair of 7s
+141933	2450	Pair of 7s
+236555	2451	Pair of 7s
+331177	2452	Pair of 7s
+615043	2453	Pair of 7s
+52877	2454	Pair of 7s
+105754	2455	Pair of 7s
+158631	2456	Pair of 7s
+264385	2457	Pair of 7s
+370139	2458	Pair of 7s
+687401	2459	Pair of 7s
+898909	2460	Pair of 7s
+7018	2461	Pair of 7s
+10527	2462	Pair of 7s
+21054	2463	Pair of 7s
+17545	2464	Pair of 7s
+35090	2465	Pair of 7s
+52635	2466	Pair of 7s
+24563	2467	Pair of 7s
+49126	2468	Pair of 7s
+73689	2469	Pair of 7s
+122815	2470	Pair of 7s
+45617	2471	Pair of 7s
+91234	2472	Pair of 7s
+136851	2473	Pair of 7s
+228085	2474	Pair of 7s
+319319	2475	Pair of 7s
+59653	2476	Pair of 7s
+119306	2477	Pair of 7s
+178959	2478	Pair of 7s
+298265	2479	Pair of 7s
+417571	2480	Pair of 7s
+775489	2481	Pair of 7s
+66671	2482	Pair of 7s
+133342	2483	Pair of 7s
+200013	2484	Pair of 7s
+333355	2485	Pair of 7s
+466697	2486	Pair of 7s
+866723	2487	Pair of 7s
+1133407	2488	Pair of 7s
+80707	2489	Pair of 7s
+161414	2490	Pair of 7s
+242121	2491	Pair of 7s
+403535	2492	Pair of 7s
+564949	2493	Pair of 7s
+1049191	2494	Pair of 7s
+1372019	2495	Pair of 7s
+1533433	2496	Pair of 7s
+7502	2497	Pair of 7s
+11253	2498	Pair of 7s
+22506	2499	Pair of 7s
+18755	2500	Pair of 7s
+37510	2501	Pair of 7s
+56265	2502	Pair of 7s
+26257	2503	Pair of 7s
+52514	2504	Pair of 7s
+78771	2505	Pair of 7s
+131285	2506	Pair of 7s
+48763	2507	Pair of 7s
+97526	2508	Pair of 7s
+146289	2509	Pair of 7s
+243815	2510	Pair of 7s
+341341	2511	Pair of 7s
+63767	2512	Pair of 7s
+127534	2513	Pair of 7s
+191301	2514	Pair of 7s
+318835	2515	Pair of 7s
+446369	2516	Pair of 7s
+828971	2517	Pair of 7s
+71269	2518	Pair of 7s
+142538	2519	Pair of 7s
+213807	2520	Pair of 7s
+356345	2521	Pair of 7s
+498883	2522	Pair of 7s
+926497	2523	Pair of 7s
+1211573	2524	Pair of 7s
+86273	2525	Pair of 7s
+172546	2526	Pair of 7s
+258819	2527	Pair of 7s
+431365	2528	Pair of 7s
+603911	2529	Pair of 7s
+1121549	2530	Pair of 7s
+1466641	2531	Pair of 7s
+1639187	2532	Pair of 7s
+108779	2533	Pair of 7s
+217558	2534	Pair of 7s
+326337	2535	Pair of 7s
+543895	2536	Pair of 7s
+761453	2537	Pair of 7s
+1414127	2538	Pair of 7s
+1849243	2539	Pair of 7s
+2066801	2540	Pair of 7s
+2501917	2541	Pair of 7s
+8954	2542	Pair of 7s
+13431	2543	Pair of 7s
+26862	2544	Pair of 7s
+22385	2545	Pair of 7s
+44770	2546	Pair of 7s
+67155	2547	Pair of 7s
+31339	2548	Pair of 7s
+62678	2549	Pair of 7s
+94017	2550	Pair of 7s
+156695	2551	Pair of 7s
+58201	2552	Pair of 7s
+116402	2553	Pair of 7s
+174603	2554	Pair of 7s
+291005	2555	Pair of 7s
+407407	2556	Pair of 7s
+76109	2557	Pair of 7s
+152218	2558	Pair of 7s
+228327	2559	Pair of 7s
+380545	2560	Pair of 7s
+532763	2561	Pair of 7s
+989417	2562	Pair of 7s
+85063	2563	Pair of 7s
+170126	2564	Pair of 7s
+255189	2565	Pair of 7s
+425315	2566	Pair of 7s
+595441	2567	Pair of 7s
+1105819	2568	Pair of 7s
+1446071	2569	Pair of 7s
+102971	2570	Pair of 7s
+205942	2571	Pair of 7s
+308913	2572	Pair of 7s
+514855	2573	Pair of 7s
+720797	2574	Pair of 7s
+1338623	2575	Pair of 7s
+1750507	2576	Pair of 7s
+1956449	2577	Pair of 7s
+129833	2578	Pair of 7s
+259666	2579	Pair of 7s
+389499	2580	Pair of 7s
+649165	2581	Pair of 7s
+908831	2582	Pair of 7s
+1687829	2583	Pair of 7s
+2207161	2584	Pair of 7s
+2466827	2585	Pair of 7s
+2986159	2586	Pair of 7s
+138787	2587	Pair of 7s
+277574	2588	Pair of 7s
+416361	2589	Pair of 7s
+693935	2590	Pair of 7s
+971509	2591	Pair of 7s
+1804231	2592	Pair of 7s
+2359379	2593	Pair of 7s
+2636953	2594	Pair of 7s
+3192101	2595	Pair of 7s
+4024823	2596	Pair of 7s
+1014	2597	Pair of 8s
+1690	2598	Pair of 8s
+2535	2599	Pair of 8s
+5070	2600	Pair of 8s
+2366	2601	Pair of 8s
+3549	2602	Pair of 8s
+7098	2603	Pair of 8s
+5915	2604	Pair of 8s
+11830	2605	Pair of 8s
+17745	2606	Pair of 8s
+3718	2607	Pair of 8s
+5577	2608	Pair of 8s
+11154	2609	Pair of 8s
+9295	2610	Pair of 8s
+18590	2611	Pair of 8s
+27885	2612	Pair of 8s
+13013	2613	Pair of 8s
+26026	2614	Pair of 8s
+39039	2615	Pair of 8s
+65065	2616	Pair of 8s
+5746	2617	Pair of 8s
+8619	2618	Pair of 8s
+17238	2619	Pair of 8s
+14365	2620	Pair of 8s
+28730	2621	Pair of 8s
+43095	2622	Pair of 8s
+20111	2623	Pair of 8s
+40222	2624	Pair of 8s
+60333	2625	Pair of 8s
+100555	2626	Pair of 8s
+31603	2627	Pair of 8s
+63206	2628	Pair of 8s
+94809	2629	Pair of 8s
+158015	2630	Pair of 8s
+221221	2631	Pair of 8s
+6422	2632	Pair of 8s
+9633	2633	Pair of 8s
+19266	2634	Pair of 8s
+16055	2635	Pair of 8s
+32110	2636	Pair of 8s
+48165	2637	Pair of 8s
+22477	2638	Pair of 8s
+44954	2639	Pair of 8s
+67431	2640	Pair of 8s
+112385	2641	Pair of 8s
+35321	2642	Pair of 8s
+70642	2643	Pair of 8s
+105963	2644	Pair of 8s
+176605	2645	Pair of 8s
+247247	2646	Pair of 8s
+54587	2647	Pair of 8s
+109174	2648	Pair of 8s
+163761	2649	Pair of 8s
+272935	2650	Pair of 8s
+382109	2651	Pair of 8s
+600457	2652	Pair of 8s
+7774	2653	Pair of 8s
+11661	2654	Pair of 8s
+23322	2655	Pair of 8s
+19435	2656	Pair of 8s
+38870	2657	Pair of 8s
+58305	2658	Pair of 8s
+27209	2659	Pair of 8s
+54418	2660	Pair of 8s
+81627	2661	Pair of 8s
+136045	2662	Pair of 8s
+42757	2663	Pair of 8s
+85514	2664	Pair of 8s
+128271	2665	Pair of 8s
+213785	2666	Pair of 8s
+299299	2667	Pair of 8s
+66079	2668	Pair of 8s
+132158	2669	Pair of 8s
+198237	2670	Pair of 8s
+330395	2671	Pair of 8s
+462553	2672	Pair of 8s
+726869	2673	Pair of 8s
+73853	2674	Pair of 8s
+147706	2675	Pair of 8s
+221559	2676	Pair of 8s
+369265	2677	Pair of 8s
+516971	2678	Pair of 8s
+812383	2679	Pair of 8s
+1255501	2680	Pair of 8s
+9802	2681	Pair of 8s
+14703	2682	Pair of 8s
+29406	2683	Pair of 8s
+24505	2684	Pair of 8s
+49010	2685	Pair of 8s
+73515	2686	Pair of 8s
+34307	2687	Pair of 8s
+68614	2688	Pair of 8s
+102921	2689	Pair of 8s
+171535	2690	Pair of 8s
+53911	2691	Pair of 8s
+107822	2692	Pair of 8s
+161733	2693	Pair of 8s
+269555	2694	Pair of 8s
+377377	2695	Pair of 8s
+83317	2696	Pair of 8s
+166634	2697	Pair of 8s
+249951	2698	Pair of 8s
+416585	2699	Pair of 8s
+583219	2700	Pair of 8s
+916487	2701	Pair of 8s
+93119	2702	Pair of 8s
+186238	2703	Pair of 8s
+279357	2704	Pair of 8s
+465595	2705	Pair of 8s
+651833	2706	Pair of 8s
+1024309	2707	Pair of 8s
+1583023	2708	Pair of 8s
+112723	2709	Pair of 8s
+225446	2710	Pair of 8s
+338169	2711	Pair of 8s
+563615	2712	Pair of 8s
+789061	2713	Pair of 8s
+1239953	2714	Pair of 8s
+1916291	2715	Pair of 8s
+2141737	2716	Pair of 8s
+10478	2717	Pair of 8s
+15717	2718	Pair of 8s
+31434	2719	Pair of 8s
+26195	2720	Pair of 8s
+52390	2721	Pair of 8s
+78585	2722	Pair of 8s
+36673	2723	Pair of 8s
+73346	2724	Pair of 8s
+110019	2725	Pair of 8s
+183365	2726	Pair of 8s
+57629	2727	Pair of 8s
+115258	2728	Pair of 8s
+172887	2729	Pair of 8s
+288145	2730	Pair of 8s
+403403	2731	Pair of 8s
+89063	2732	Pair of 8s
+178126	2733	Pair of 8s
+267189	2734	Pair of 8s
+445315	2735	Pair of 8s
+623441	2736	Pair of 8s
+979693	2737	Pair of 8s
+99541	2738	Pair of 8s
+199082	2739	Pair of 8s
+298623	2740	Pair of 8s
+497705	2741	Pair of 8s
+696787	2742	Pair of 8s
+1094951	2743	Pair of 8s
+1692197	2744	Pair of 8s
+120497	2745	Pair of 8s
+240994	2746	Pair of 8s
+361491	2747	Pair of 8s
+602485	2748	Pair of 8s
+843479	2749	Pair of 8s
+1325467	2750	Pair of 8s
+2048449	2751	Pair of 8s
+2289443	2752	Pair of 8s
+151931	2753	Pair of 8s
+303862	2754	Pair of 8s
+455793	2755	Pair of 8s
+759655	2756	Pair of 8s
+1063517	2757	Pair of 8s
+1671241	2758	Pair of 8s
+2582827	2759	Pair of 8s
+2886689	2760	Pair of 8s
+3494413	2761	Pair of 8s
+12506	2762	Pair of 8s
+18759	2763	Pair of 8s
+37518	2764	Pair of 8s
+31265	2765	Pair of 8s
+62530	2766	Pair of 8s
+93795	2767	Pair of 8s
+43771	2768	Pair of 8s
+87542	2769	Pair of 8s
+131313	2770	Pair of 8s
+218855	2771	Pair of 8s
+68783	2772	Pair of 8s
+137566	2773	Pair of 8s
+206349	2774	Pair of 8s
+343915	2775	Pair of 8s
+481481	2776	Pair of 8s
+106301	2777	Pair of 8s
+212602	2778	Pair of 8s
+318903	2779	Pair of 8s
+531505	2780	Pair of 8s
+744107	2781	Pair of 8s
+1169311	2782	Pair of 8s
+118807	2783	Pair of 8s
+237614	2784	Pair of 8s
+356421	2785	Pair of 8s
+594035	2786	Pair of 8s
+831649	2787	Pair of 8s
+1306877	2788	Pair of 8s
+2019719	2789	Pair of 8s
+143819	2790	Pair of 8s
+287638	2791	Pair of 8s
+431457	2792	Pair of 8s
+719095	2793	Pair of 8s
+1006733	2794	Pair of 8s
+1582009	2795	Pair of 8s
+2444923	2796	Pair of 8s
+2732561	2797	Pair of 8s
+181337	2798	Pair of 8s
+362674	2799	Pair of 8s
+544011	2800	Pair of 8s
+906685	2801	Pair of 8s
+1269359	2802	Pair of 8s
+1994707	2803	Pair of 8s
+3082729	2804	Pair of 8s
+3445403	2805	Pair of 8s
+4170751	2806	Pair of 8s
+193843	2807	Pair of 8s
+387686	2808	Pair of 8s
+581529	2809	Pair of 8s
+969215	2810	Pair of 8s
+1356901	2811	Pair of 8s
+2132273	2812	Pair of 8s
+3295331	2813	Pair of 8s
+3683017	2814	Pair of 8s
+4458389	2815	Pair of 8s
+5621447	2816	Pair of 8s
+1734	2817	Pair of 9s
+2890	2818	Pair of 9s
+4335	2819	Pair of 9s
+8670	2820	Pair of 9s
+4046	2821	Pair of 9s
+6069	2822	Pair of 9s
+12138	2823	Pair of 9s
+10115	2824	Pair of 9s
+20230	2825	Pair of 9s
+30345	2826	Pair of 9s
+6358	2827	Pair of 9s
+9537	2828	Pair of 9s
+19074	2829	Pair of 9s
+15895	2830	Pair of 9s
+31790	2831	Pair of 9s
+47685	2832	Pair of 9s
+22253	2833	Pair of 9s
+44506	2834	Pair of 9s
+66759	2835	Pair of 9s
+111265	2836	Pair of 9s
+7514	2837	Pair of 9s
+11271	2838	Pair of 9s
+22542	2839	Pair of 9s
+18785	2840	Pair of 9s
+37570	2841	Pair of 9s
+56355	2842	Pair of 9s
+26299	2843	Pair of 9s
+52598	2844	Pair of 9s
+78897	2845	Pair of 9s
+131495	2846	Pair of 9s
+41327	2847	Pair of 9s
+82654	2848	Pair of 9s
+123981	2849	Pair of 9s
+206635	2850	Pair of 9s
+289289	2851	Pair of 9s
+10982	2852	Pair of 9s
+16473	2853	Pair of 9s
+32946	2854	Pair of 9s
+27455	2855	Pair of 9s
+54910	2856	Pair of 9s
+82365	2857	Pair of 9s
+38437	2858	Pair of 9s
+76874	2859	Pair of 9s
+115311	2860	Pair of 9s
+192185	2861	Pair of 9s
+60401	2862	Pair of 9s
+120802	2863	Pair of 9s
+181203	2864	Pair of 9s
+302005	2865	Pair of 9s
+422807	2866	Pair of 9s
+71383	2867	Pair of 9s
+142766	2868	Pair of 9s
+214149	2869	Pair of 9s
+356915	2870	Pair of 9s
+499681	2871	Pair of 9s
+785213	2872	Pair of 9s
+13294	2873	Pair of 9s
+19941	2874	Pair of 9s
+39882	2875	Pair of 9s
+33235	2876	Pair of 9s
+66470	2877	Pair of 9s
+99705	2878	Pair of 9s
+46529	2879	Pair of 9s
+93058	2880	Pair of 9s
+139587	2881	Pair of 9s
+232645	2882	Pair of 9s
+73117	2883	Pair of 9s
+146234	2884	Pair of 9s
+219351	2885	Pair of 9s
+365585	2886	Pair of 9s
+511819	2887	Pair of 9s
+86411	2888	Pair of 9s
+172822	2889	Pair of 9s
+259233	2890	Pair of 9s
+432055	2891	Pair of 9s
+604877	2892	Pair of 9s
+950521	2893	Pair of 9s
+126293	2894	Pair of 9s
+252586	2895	Pair of 9s
+378879	2896	Pair of 9s
+631465	2897	Pair of 9s
+884051	2898	Pair of 9s
+1389223	2899	Pair of 9s
+1641809	2900	Pair of 9s
+16762	2901	Pair of 9s
+25143	2902	Pair of 9s
+50286	2903	Pair of 9s
+41905	2904	Pair of 9s
+83810	2905	Pair of 9s
+125715	2906	Pair of 9s
+58667	2907	Pair of 9s
+117334	2908	Pair of 9s
+176001	2909	Pair of 9s
+293335	2910	Pair of 9s
+92191	2911	Pair of 9s
+184382	2912	Pair of 9s
+276573	2913	Pair of 9s
+460955	2914	Pair of 9s
+645337	2915	Pair of 9s
+108953	2916	Pair of 9s
+217906	2917	Pair of 9s
+326859	2918	Pair of 9s
+544765	2919	Pair of 9s
+762671	2920	Pair of 9s
+1198483	2921	Pair of 9s
+159239	2922	Pair of 9s
+318478	2923	Pair of 9s
+477717	2924	Pair of 9s
+796195	2925	Pair of 9s
+1114673	2926	Pair of 9s
+1751629	2927	Pair of 9s
+2070107	2928	Pair of 9s
+192763	2929	Pair of 9s
+385526	2930	Pair of 9s
+578289	2931	Pair of 9s
+963815	2932	Pair of 9s
+1349341	2933	Pair of 9s
+2120393	2934	Pair of 9s
+2505919	2935	Pair of 9s
+3662497	2936	Pair of 9s
+17918	2937	Pair of 9s
+26877	2938	Pair of 9s
+53754	2939	Pair of 9s
+44795	2940	Pair of 9s
+89590	2941	Pair of 9s
+134385	2942	Pair of 9s
+62713	2943	Pair of 9s
+125426	2944	Pair of 9s
+188139	2945	Pair of 9s
+313565	2946	Pair of 9s
+98549	2947	Pair of 9s
+197098	2948	Pair of 9s
+295647	2949	Pair of 9s
+492745	2950	Pair of 9s
+689843	2951	Pair of 9s
+116467	2952	Pair of 9s
+232934	2953	Pair of 9s
+349401	2954	Pair of 9s
+582335	2955	Pair of 9s
+815269	2956	Pair of 9s
+1281137	2957	Pair of 9s
+170221	2958	Pair of 9s
+340442	2959	Pair of 9s
+510663	2960	Pair of 9s
+851105	2961	Pair of 9s
+1191547	2962	Pair of 9s
+1872431	2963	Pair of 9s
+2212873	2964	Pair of 9s
+206057	2965	Pair of 9s
+412114	2966	Pair of 9s
+618171	2967	Pair of 9s
+1030285	2968	Pair of 9s
+1442399	2969	Pair of 9s
+2266627	2970	Pair of 9s
+2678741	2971	Pair of 9s
+3915083	2972	Pair of 9s
+259811	2973	Pair of 9s
+519622	2974	Pair of 9s
+779433	2975	Pair of 9s
+1299055	2976	Pair of 9s
+1818677	2977	Pair of 9s
+2857921	2978	Pair of 9s
+3377543	2979	Pair of 9s
+4936409	2980	Pair of 9s
+5975653	2981	Pair of 9s
+21386	2982	Pair of 9s
+32079	2983	Pair of 9s
+64158	2984	Pair of 9s
+53465	2985	Pair of 9s
+106930	2986	Pair of 9s
+160395	2987	Pair of 9s
+74851	2988	Pair of 9s
+149702	2989	Pair of 9s
+224553	2990	Pair of 9s
+374255	2991	Pair of 9s
+117623	2992	Pair of 9s
+235246	2993	Pair of 9s
+352869	2994	Pair of 9s
+588115	2995	Pair of 9s
+823361	2996	Pair of 9s
+139009	2997	Pair of 9s
+278018	2998	Pair of 9s
+417027	2999	Pair of 9s
+695045	3000	Pair of 9s
+973063	3001	Pair of 9s
+1529099	3002	Pair of 9s
+203167	3003	Pair of 9s
+406334	3004	Pair of 9s
+609501	3005	Pair of 9s
+1015835	3006	Pair of 9s
+1422169	3007	Pair of 9s
+2234837	3008	Pair of 9s
+2641171	3009	Pair of 9s
+245939	3010	Pair of 9s
+491878	3011	Pair of 9s
+737817	3012	Pair of 9s
+1229695	3013	Pair of 9s
+1721573	3014	Pair of 9s
+2705329	3015	Pair of 9s
+3197207	3016	Pair of 9s
+4672841	3017	Pair of 9s
+310097	3018	Pair of 9s
+620194	3019	Pair of 9s
+930291	3020	Pair of 9s
+1550485	3021	Pair of 9s
+2170679	3022	Pair of 9s
+3411067	3023	Pair of 9s
+4031261	3024	Pair of 9s
+5891843	3025	Pair of 9s
+7132231	3026	Pair of 9s
+331483	3027	Pair of 9s
+662966	3028	Pair of 9s
+994449	3029	Pair of 9s
+1657415	3030	Pair of 9s
+2320381	3031	Pair of 9s
+3646313	3032	Pair of 9s
+4309279	3033	Pair of 9s
+6298177	3034	Pair of 9s
+7624109	3035	Pair of 9s
+9613007	3036	Pair of 9s
+2166	3037	Pair of Ts
+3610	3038	Pair of Ts
+5415	3039	Pair of Ts
+10830	3040	Pair of Ts
+5054	3041	Pair of Ts
+7581	3042	Pair of Ts
+15162	3043	Pair of Ts
+12635	3044	Pair of Ts
+25270	3045	Pair of Ts
+37905	3046	Pair of Ts
+7942	3047	Pair of Ts
+11913	3048	Pair of Ts
+23826	3049	Pair of Ts
+19855	3050	Pair of Ts
+39710	3051	Pair of Ts
+59565	3052	Pair of Ts
+27797	3053	Pair of Ts
+55594	3054	Pair of Ts
+83391	3055	Pair of Ts
+138985	3056	Pair of Ts
+9386	3057	Pair of Ts
+14079	3058	Pair of Ts
+28158	3059	Pair of Ts
+23465	3060	Pair of Ts
+46930	3061	Pair of Ts
+70395	3062	Pair of Ts
+32851	3063	Pair of Ts
+65702	3064	Pair of Ts
+98553	3065	Pair of Ts
+164255	3066	Pair of Ts
+51623	3067	Pair of Ts
+103246	3068	Pair of Ts
+154869	3069	Pair of Ts
+258115	3070	Pair of Ts
+361361	3071	Pair of Ts
+12274	3072	Pair of Ts
+18411	3073	Pair of Ts
+36822	3074	Pair of Ts
+30685	3075	Pair of Ts
+61370	3076	Pair of Ts
+92055	3077	Pair of Ts
+42959	3078	Pair of Ts
+85918	3079	Pair of Ts
+128877	3080	Pair of Ts
+214795	3081	Pair of Ts
+67507	3082	Pair of Ts
+135014	3083	Pair of Ts
+202521	3084	Pair of Ts
+337535	3085	Pair of Ts
+472549	3086	Pair of Ts
+79781	3087	Pair of Ts
+159562	3088	Pair of Ts
+239343	3089	Pair of Ts
+398905	3090	Pair of Ts
+558467	3091	Pair of Ts
+877591	3092	Pair of Ts
+16606	3093	Pair of Ts
+24909	3094	Pair of Ts
+49818	3095	Pair of Ts
+41515	3096	Pair of Ts
+83030	3097	Pair of Ts
+124545	3098	Pair of Ts
+58121	3099	Pair of Ts
+116242	3100	Pair of Ts
+174363	3101	Pair of Ts
+290605	3102	Pair of Ts
+91333	3103	Pair of Ts
+182666	3104	Pair of Ts
+273999	3105	Pair of Ts
+456665	3106	Pair of Ts
+639331	3107	Pair of Ts
+107939	3108	Pair of Ts
+215878	3109	Pair of Ts
+323817	3110	Pair of Ts
+539695	3111	Pair of Ts
+755573	3112	Pair of Ts
+1187329	3113	Pair of Ts
+141151	3114	Pair of Ts
+282302	3115	Pair of Ts
+423453	3116	Pair of Ts
+705755	3117	Pair of Ts
+988057	3118	Pair of Ts
+1552661	3119	Pair of Ts
+1834963	3120	Pair of Ts
+20938	3121	Pair of Ts
+31407	3122	Pair of Ts
+62814	3123	Pair of Ts
+52345	3124	Pair of Ts
+104690	3125	Pair of Ts
+157035	3126	Pair of Ts
+73283	3127	Pair of Ts
+146566	3128	Pair of Ts
+219849	3129	Pair of Ts
+366415	3130	Pair of Ts
+115159	3131	Pair of Ts
+230318	3132	Pair of Ts
+345477	3133	Pair of Ts
+575795	3134	Pair of Ts
+806113	3135	Pair of Ts
+136097	3136	Pair of Ts
+272194	3137	Pair of Ts
+408291	3138	Pair of Ts
+680485	3139	Pair of Ts
+952679	3140	Pair of Ts
+1497067	3141	Pair of Ts
+177973	3142	Pair of Ts
+355946	3143	Pair of Ts
+533919	3144	Pair of Ts
+889865	3145	Pair of Ts
+1245811	3146	Pair of Ts
+1957703	3147	Pair of Ts
+2313649	3148	Pair of Ts
+240787	3149	Pair of Ts
+481574	3150	Pair of Ts
+722361	3151	Pair of Ts
+1203935	3152	Pair of Ts
+1685509	3153	Pair of Ts
+2648657	3154	Pair of Ts
+3130231	3155	Pair of Ts
+4093379	3156	Pair of Ts
+22382	3157	Pair of Ts
+33573	3158	Pair of Ts
+67146	3159	Pair of Ts
+55955	3160	Pair of Ts
+111910	3161	Pair of Ts
+167865	3162	Pair of Ts
+78337	3163	Pair of Ts
+156674	3164	Pair of Ts
+235011	3165	Pair of Ts
+391685	3166	Pair of Ts
+123101	3167	Pair of Ts
+246202	3168	Pair of Ts
+369303	3169	Pair of Ts
+615505	3170	Pair of Ts
+861707	3171	Pair of Ts
+145483	3172	Pair of Ts
+290966	3173	Pair of Ts
+436449	3174	Pair of Ts
+727415	3175	Pair of Ts
+1018381	3176	Pair of Ts
+1600313	3177	Pair of Ts
+190247	3178	Pair of Ts
+380494	3179	Pair of Ts
+570741	3180	Pair of Ts
+951235	3181	Pair of Ts
+1331729	3182	Pair of Ts
+2092717	3183	Pair of Ts
+2473211	3184	Pair of Ts
+257393	3185	Pair of Ts
+514786	3186	Pair of Ts
+772179	3187	Pair of Ts
+1286965	3188	Pair of Ts
+1801751	3189	Pair of Ts
+2831323	3190	Pair of Ts
+3346109	3191	Pair of Ts
+4375681	3192	Pair of Ts
+324539	3193	Pair of Ts
+649078	3194	Pair of Ts
+973617	3195	Pair of Ts
+1622695	3196	Pair of Ts
+2271773	3197	Pair of Ts
+3569929	3198	Pair of Ts
+4219007	3199	Pair of Ts
+5517163	3200	Pair of Ts
+7464397	3201	Pair of Ts
+26714	3202	Pair of Ts
+40071	3203	Pair of Ts
+80142	3204	Pair of Ts
+66785	3205	Pair of Ts
+133570	3206	Pair of Ts
+200355	3207	Pair of Ts
+93499	3208	Pair of Ts
+186998	3209	Pair of Ts
+280497	3210	Pair of Ts
+467495	3211	Pair of Ts
+146927	3212	Pair of Ts
+293854	3213	Pair of Ts
+440781	3214	Pair of Ts
+734635	3215	Pair of Ts
+1028489	3216	Pair of Ts
+173641	3217	Pair of Ts
+347282	3218	Pair of Ts
+520923	3219	Pair of Ts
+868205	3220	Pair of Ts
+1215487	3221	Pair of Ts
+1910051	3222	Pair of Ts
+227069	3223	Pair of Ts
+454138	3224	Pair of Ts
+681207	3225	Pair of Ts
+1135345	3226	Pair of Ts
+1589483	3227	Pair of Ts
+2497759	3228	Pair of Ts
+2951897	3229	Pair of Ts
+307211	3230	Pair of Ts
+614422	3231	Pair of Ts
+921633	3232	Pair of Ts
+1536055	3233	Pair of Ts
+2150477	3234	Pair of Ts
+3379321	3235	Pair of Ts
+3993743	3236	Pair of Ts
+5222587	3237	Pair of Ts
+387353	3238	Pair of Ts
+774706	3239	Pair of Ts
+1162059	3240	Pair of Ts
+1936765	3241	Pair of Ts
+2711471	3242	Pair of Ts
+4260883	3243	Pair of Ts
+5035589	3244	Pair of Ts
+6585001	3245	Pair of Ts
+8909119	3246	Pair of Ts
+414067	3247	Pair of Ts
+828134	3248	Pair of Ts
+1242201	3249	Pair of Ts
+2070335	3250	Pair of Ts
+2898469	3251	Pair of Ts
+4554737	3252	Pair of Ts
+5382871	3253	Pair of Ts
+7039139	3254	Pair of Ts
+9523541	3255	Pair of Ts
+12007943	3256	Pair of Ts
+3174	3257	Pair of Js
+5290	3258	Pair of Js
+7935	3259	Pair of Js
+15870	3260	Pair of Js
+7406	3261	Pair of Js
+11109	3262	Pair of Js
+22218	3263	Pair of Js
+18515	3264	Pair of Js
+37030	3265	Pair of Js
+55545	3266	Pair of Js
+11638	3267	Pair of Js
+17457	3268	Pair of Js
+34914	3269	Pair of Js
+29095	3270	Pair of Js
+58190	3271	Pair of Js
+87285	3272	Pair of Js
+40733	3273	Pair of Js
+81466	3274	Pair of Js
+122199	3275	Pair of Js
+203665	3276	Pair of Js
+13754	3277	Pair of Js
+20631	3278	Pair of Js
+41262	3279	Pair of Js
+34385	3280	Pair of Js
+68770	3281	Pair of Js
+103155	3282	Pair of Js
+48139	3283	Pair of Js
+96278	3284	Pair of Js
+144417	3285	Pair of Js
+240695	3286	Pair of Js
+75647	3287	Pair of Js
+151294	3288	Pair of Js
+226941	3289	Pair of Js
+378235	3290	Pair of Js
+529529	3291	Pair of Js
+17986	3292	Pair of Js
+26979	3293	Pair of Js
+53958	3294	Pair of Js
+44965	3295	Pair of Js
+89930	3296	Pair of Js
+134895	3297	Pair of Js
+62951	3298	Pair of Js
+125902	3299	Pair of Js
+188853	3300	Pair of Js
+314755	3301	Pair of Js
+98923	3302	Pair of Js
+197846	3303	Pair of Js
+296769	3304	Pair of Js
+494615	3305	Pair of Js
+692461	3306	Pair of Js
+116909	3307	Pair of Js
+233818	3308	Pair of Js
+350727	3309	Pair of Js
+584545	3310	Pair of Js
+818363	3311	Pair of Js
+1285999	3312	Pair of Js
+20102	3313	Pair of Js
+30153	3314	Pair of Js
+60306	3315	Pair of Js
+50255	3316	Pair of Js
+100510	3317	Pair of Js
+150765	3318	Pair of Js
+70357	3319	Pair of Js
+140714	3320	Pair of Js
+211071	3321	Pair of Js
+351785	3322	Pair of Js
+110561	3323	Pair of Js
+221122	3324	Pair of Js
+331683	3325	Pair of Js
+552805	3326	Pair of Js
+773927	3327	Pair of Js
+130663	3328	Pair of Js
+261326	3329	Pair of Js
+391989	3330	Pair of Js
+653315	3331	Pair of Js
+914641	3332	Pair of Js
+1437293	3333	Pair of Js
+170867	3334	Pair of Js
+341734	3335	Pair of Js
+512601	3336	Pair of Js
+854335	3337	Pair of Js
+1196069	3338	Pair of Js
+1879537	3339	Pair of Js
+2221271	3340	Pair of Js
+30682	3341	Pair of Js
+46023	3342	Pair of Js
+92046	3343	Pair of Js
+76705	3344	Pair of Js
+153410	3345	Pair of Js
+230115	3346	Pair of Js
+107387	3347	Pair of Js
+214774	3348	Pair of Js
+322161	3349	Pair of Js
+536935	3350	Pair of Js
+168751	3351	Pair of Js
+337502	3352	Pair of Js
+506253	3353	Pair of Js
+843755	3354	Pair of Js
+1181257	3355	Pair of Js
+199433	3356	Pair of Js
+398866	3357	Pair of Js
+598299	3358	Pair of Js
+997165	3359	Pair of Js
+1396031	3360	Pair of Js
+2193763	3361	Pair of Js
+260797	3362	Pair of Js
+521594	3363	Pair of Js
+782391	3364	Pair of Js
+1303985	3365	Pair of Js
+1825579	3366	Pair of Js
+2868767	3367	Pair of Js
+3390361	3368	Pair of Js
+291479	3369	Pair of Js
+582958	3370	Pair of Js
+874437	3371	Pair of Js
+1457395	3372	Pair of Js
+2040353	3373	Pair of Js
+3206269	3374	Pair of Js
+3789227	3375	Pair of Js
+4955143	3376	Pair of Js
+32798	3377	Pair of Js
+49197	3378	Pair of Js
+98394	3379	Pair of Js
+81995	3380	Pair of Js
+163990	3381	Pair of Js
+245985	3382	Pair of Js
+114793	3383	Pair of Js
+229586	3384	Pair of Js
+344379	3385	Pair of Js
+573965	3386	Pair of Js
+180389	3387	Pair of Js
+360778	3388	Pair of Js
+541167	3389	Pair of Js
+901945	3390	Pair of Js
+1262723	3391	Pair of Js
+213187	3392	Pair of Js
+426374	3393	Pair of Js
+639561	3394	Pair of Js
+1065935	3395	Pair of Js
+1492309	3396	Pair of Js
+2345057	3397	Pair of Js
+278783	3398	Pair of Js
+557566	3399	Pair of Js
+836349	3400	Pair of Js
+1393915	3401	Pair of Js
+1951481	3402	Pair of Js
+3066613	3403	Pair of Js
+3624179	3404	Pair of Js
+311581	3405	Pair of Js
+623162	3406	Pair of Js
+934743	3407	Pair of Js
+1557905	3408	Pair of Js
+2181067	3409	Pair of Js
+3427391	3410	Pair of Js
+4050553	3411	Pair of Js
+5296877	3412	Pair of Js
+475571	3413	Pair of Js
+951142	3414	Pair of Js
+1426713	3415	Pair of Js
+2377855	3416	Pair of Js
+3328997	3417	Pair of Js
+5231281	3418	Pair of Js
+6182423	3419	Pair of Js
+8084707	3420	Pair of Js
+9035849	3421	Pair of Js
+39146	3422	Pair of Js
+58719	3423	Pair of Js
+117438	3424	Pair of Js
+97865	3425	Pair of Js
+195730	3426	Pair of Js
+293595	3427	Pair of Js
+137011	3428	Pair of Js
+274022	3429	Pair of Js
+411033	3430	Pair of Js
+685055	3431	Pair of Js
+215303	3432	Pair of Js
+430606	3433	Pair of Js
+645909	3434	Pair of Js
+1076515	3435	Pair of Js
+1507121	3436	Pair of Js
+254449	3437	Pair of Js
+508898	3438	Pair of Js
+763347	3439	Pair of Js
+1272245	3440	Pair of Js
+1781143	3441	Pair of Js
+2798939	3442	Pair of Js
+332741	3443	Pair of Js
+665482	3444	Pair of Js
+998223	3445	Pair of Js
+1663705	3446	Pair of Js
+2329187	3447	Pair of Js
+3660151	3448	Pair of Js
+4325633	3449	Pair of Js
+371887	3450	Pair of Js
+743774	3451	Pair of Js
+1115661	3452	Pair of Js
+1859435	3453	Pair of Js
+2603209	3454	Pair of Js
+4090757	3455	Pair of Js
+4834531	3456	Pair of Js
+6322079	3457	Pair of Js
+567617	3458	Pair of Js
+1135234	3459	Pair of Js
+1702851	3460	Pair of Js
+2838085	3461	Pair of Js
+3973319	3462	Pair of Js
+6243787	3463	Pair of Js
+7379021	3464	Pair of Js
+9649489	3465	Pair of Js
+10784723	3466	Pair of Js
+606763	3467	Pair of Js
+1213526	3468	Pair of Js
+1820289	3469	Pair of Js
+3033815	3470	Pair of Js
+4247341	3471	Pair of Js
+6674393	3472	Pair of Js
+7887919	3473	Pair of Js
+10314971	3474	Pair of Js
+11528497	3475	Pair of Js
+17596127	3476	Pair of Js
+5046	3477	Pair of Qs
+8410	3478	Pair of Qs
+12615	3479	Pair of Qs
+25230	3480	Pair of Qs
+11774	3481	Pair of Qs
+17661	3482	Pair of Qs
+35322	3483	Pair of Qs
+29435	3484	Pair of Qs
+58870	3485	Pair of Qs
+88305	3486	Pair of Qs
+18502	3487	Pair of Qs
+27753	3488	Pair of Qs
+55506	3489	Pair of Qs
+46255	3490	Pair of Qs
+92510	3491	Pair of Qs
+138765	3492	Pair of Qs
+64757	3493	Pair of Qs
+129514	3494	Pair of Qs
+194271	3495	Pair of Qs
+323785	3496	Pair of Qs
+21866	3497	Pair of Qs
+32799	3498	Pair of Qs
+65598	3499	Pair of Qs
+54665	3500	Pair of Qs
+109330	3501	Pair of Qs
+163995	3502	Pair of Qs
+76531	3503	Pair of Qs
+153062	3504	Pair of Qs
+229593	3505	Pair of Qs
+382655	3506	Pair of Qs
+120263	3507	Pair of Qs
+240526	3508	Pair of Qs
+360789	3509	Pair of Qs
+601315	3510	Pair of Qs
+841841	3511	Pair of Qs
+28594	3512	Pair of Qs
+42891	3513	Pair of Qs
+85782	3514	Pair of Qs
+71485	3515	Pair of Qs
+142970	3516	Pair of Qs
+214455	3517	Pair of Qs
+100079	3518	Pair of Qs
+200158	3519	Pair of Qs
+300237	3520	Pair of Qs
+500395	3521	Pair of Qs
+157267	3522	Pair of Qs
+314534	3523	Pair of Qs
+471801	3524	Pair of Qs
+786335	3525	Pair of Qs
+1100869	3526	Pair of Qs
+185861	3527	Pair of Qs
+371722	3528	Pair of Qs
+557583	3529	Pair of Qs
+929305	3530	Pair of Qs
+1301027	3531	Pair of Qs
+2044471	3532	Pair of Qs
+31958	3533	Pair of Qs
+47937	3534	Pair of Qs
+95874	3535	Pair of Qs
+79895	3536	Pair of Qs
+159790	3537	Pair of Qs
+239685	3538	Pair of Qs
+111853	3539	Pair of Qs
+223706	3540	Pair of Qs
+335559	3541	Pair of Qs
+559265	3542	Pair of Qs
+175769	3543	Pair of Qs
+351538	3544	Pair of Qs
+527307	3545	Pair of Qs
+878845	3546	Pair of Qs
+1230383	3547	Pair of Qs
+207727	3548	Pair of Qs
+415454	3549	Pair of Qs
+623181	3550	Pair of Qs
+1038635	3551	Pair of Qs
+1454089	3552	Pair of Qs
+2284997	3553	Pair of Qs
+271643	3554	Pair of Qs
+543286	3555	Pair of Qs
+814929	3556	Pair of Qs
+1358215	3557	Pair of Qs
+1901501	3558	Pair of Qs
+2988073	3559	Pair of Qs
+3531359	3560	Pair of Qs
+38686	3561	Pair of Qs
+58029	3562	Pair of Qs
+116058	3563	Pair of Qs
+96715	3564	Pair of Qs
+193430	3565	Pair of Qs
+290145	3566	Pair of Qs
+135401	3567	Pair of Qs
+270802	3568	Pair of Qs
+406203	3569	Pair of Qs
+677005	3570	Pair of Qs
+212773	3571	Pair of Qs
+425546	3572	Pair of Qs
+638319	3573	Pair of Qs
+1063865	3574	Pair of Qs
+1489411	3575	Pair of Qs
+251459	3576	Pair of Qs
+502918	3577	Pair of Qs
+754377	3578	Pair of Qs
+1257295	3579	Pair of Qs
+1760213	3580	Pair of Qs
+2766049	3581	Pair of Qs
+328831	3582	Pair of Qs
+657662	3583	Pair of Qs
+986493	3584	Pair of Qs
+1644155	3585	Pair of Qs
+2301817	3586	Pair of Qs
+3617141	3587	Pair of Qs
+4274803	3588	Pair of Qs
+367517	3589	Pair of Qs
+735034	3590	Pair of Qs
+1102551	3591	Pair of Qs
+1837585	3592	Pair of Qs
+2572619	3593	Pair of Qs
+4042687	3594	Pair of Qs
+4777721	3595	Pair of Qs
+6247789	3596	Pair of Qs
+52142	3597	Pair of Qs
+78213	3598	Pair of Qs
+156426	3599	Pair of Qs
+130355	3600	Pair of Qs
+260710	3601	Pair of Qs
+391065	3602	Pair of Qs
+182497	3603	Pair of Qs
+364994	3604	Pair of Qs
+547491	3605	Pair of Qs
+912485	3606	Pair of Qs
+286781	3607	Pair of Qs
+573562	3608	Pair of Qs
+860343	3609	Pair of Qs
+1433905	3610	Pair of Qs
+2007467	3611	Pair of Qs
+338923	3612	Pair of Qs
+677846	3613	Pair of Qs
+1016769	3614	Pair of Qs
+1694615	3615	Pair of Qs
+2372461	3616	Pair of Qs
+3728153	3617	Pair of Qs
+443207	3618	Pair of Qs
+886414	3619	Pair of Qs
+1329621	3620	Pair of Qs
+2216035	3621	Pair of Qs
+3102449	3622	Pair of Qs
+4875277	3623	Pair of Qs
+5761691	3624	Pair of Qs
+495349	3625	Pair of Qs
+990698	3626	Pair of Qs
+1486047	3627	Pair of Qs
+2476745	3628	Pair of Qs
+3467443	3629	Pair of Qs
+5448839	3630	Pair of Qs
+6439537	3631	Pair of Qs
+8420933	3632	Pair of Qs
+599633	3633	Pair of Qs
+1199266	3634	Pair of Qs
+1798899	3635	Pair of Qs
+2998165	3636	Pair of Qs
+4197431	3637	Pair of Qs
+6595963	3638	Pair of Qs
+7795229	3639	Pair of Qs
+10193761	3640	Pair of Qs
+11393027	3641	Pair of Qs
+62234	3642	Pair of Qs
+93351	3643	Pair of Qs
+186702	3644	Pair of Qs
+155585	3645	Pair of Qs
+311170	3646	Pair of Qs
+466755	3647	Pair of Qs
+217819	3648	Pair of Qs
+435638	3649	Pair of Qs
+653457	3650	Pair of Qs
+1089095	3651	Pair of Qs
+342287	3652	Pair of Qs
+684574	3653	Pair of Qs
+1026861	3654	Pair of Qs
+1711435	3655	Pair of Qs
+2396009	3656	Pair of Qs
+404521	3657	Pair of Qs
+809042	3658	Pair of Qs
+1213563	3659	Pair of Qs
+2022605	3660	Pair of Qs
+2831647	3661	Pair of Qs
+4449731	3662	Pair of Qs
+528989	3663	Pair of Qs
+1057978	3664	Pair of Qs
+1586967	3665	Pair of Qs
+2644945	3666	Pair of Qs
+3702923	3667	Pair of Qs
+5818879	3668	Pair of Qs
+6876857	3669	Pair of Qs
+591223	3670	Pair of Qs
+1182446	3671	Pair of Qs
+1773669	3672	Pair of Qs
+2956115	3673	Pair of Qs
+4138561	3674	Pair of Qs
+6503453	3675	Pair of Qs
+7685899	3676	Pair of Qs
+10050791	3677	Pair of Qs
+715691	3678	Pair of Qs
+1431382	3679	Pair of Qs
+2147073	3680	Pair of Qs
+3578455	3681	Pair of Qs
+5009837	3682	Pair of Qs
+7872601	3683	Pair of Qs
+9303983	3684	Pair of Qs
+12166747	3685	Pair of Qs
+13598129	3686	Pair of Qs
+964627	3687	Pair of Qs
+1929254	3688	Pair of Qs
+2893881	3689	Pair of Qs
+4823135	3690	Pair of Qs
+6752389	3691	Pair of Qs
+10610897	3692	Pair of Qs
+12540151	3693	Pair of Qs
+16398659	3694	Pair of Qs
+18327913	3695	Pair of Qs
+22186421	3696	Pair of Qs
+5766	3697	Pair of Ks
+9610	3698	Pair of Ks
+14415	3699	Pair of Ks
+28830	3700	Pair of Ks
+13454	3701	Pair of Ks
+20181	3702	Pair of Ks
+40362	3703	Pair of Ks
+33635	3704	Pair of Ks
+67270	3705	Pair of Ks
+100905	3706	Pair of Ks
+21142	3707	Pair of Ks
+31713	3708	Pair of Ks
+63426	3709	Pair of Ks
+52855	3710	Pair of Ks
+105710	3711	Pair of Ks
+158565	3712	Pair of Ks
+73997	3713	Pair of Ks
+147994	3714	Pair of Ks
+221991	3715	Pair of Ks
+369985	3716	Pair of Ks
+24986	3717	Pair of Ks
+37479	3718	Pair of Ks
+74958	3719	Pair of Ks
+62465	3720	Pair of Ks
+124930	3721	Pair of Ks
+187395	3722	Pair of Ks
+87451	3723	Pair of Ks
+174902	3724	Pair of Ks
+262353	3725	Pair of Ks
+437255	3726	Pair of Ks
+137423	3727	Pair of Ks
+274846	3728	Pair of Ks
+412269	3729	Pair of Ks
+687115	3730	Pair of Ks
+961961	3731	Pair of Ks
+32674	3732	Pair of Ks
+49011	3733	Pair of Ks
+98022	3734	Pair of Ks
+81685	3735	Pair of Ks
+163370	3736	Pair of Ks
+245055	3737	Pair of Ks
+114359	3738	Pair of Ks
+228718	3739	Pair of Ks
+343077	3740	Pair of Ks
+571795	3741	Pair of Ks
+179707	3742	Pair of Ks
+359414	3743	Pair of Ks
+539121	3744	Pair of Ks
+898535	3745	Pair of Ks
+1257949	3746	Pair of Ks
+212381	3747	Pair of Ks
+424762	3748	Pair of Ks
+637143	3749	Pair of Ks
+1061905	3750	Pair of Ks
+1486667	3751	Pair of Ks
+2336191	3752	Pair of Ks
+36518	3753	Pair of Ks
+54777	3754	Pair of Ks
+109554	3755	Pair of Ks
+91295	3756	Pair of Ks
+182590	3757	Pair of Ks
+273885	3758	Pair of Ks
+127813	3759	Pair of Ks
+255626	3760	Pair of Ks
+383439	3761	Pair of Ks
+639065	3762	Pair of Ks
+200849	3763	Pair of Ks
+401698	3764	Pair of Ks
+602547	3765	Pair of Ks
+1004245	3766	Pair of Ks
+1405943	3767	Pair of Ks
+237367	3768	Pair of Ks
+474734	3769	Pair of Ks
+712101	3770	Pair of Ks
+1186835	3771	Pair of Ks
+1661569	3772	Pair of Ks
+2611037	3773	Pair of Ks
+310403	3774	Pair of Ks
+620806	3775	Pair of Ks
+931209	3776	Pair of Ks
+1552015	3777	Pair of Ks
+2172821	3778	Pair of Ks
+3414433	3779	Pair of Ks
+4035239	3780	Pair of Ks
+44206	3781	Pair of Ks
+66309	3782	Pair of Ks
+132618	3783	Pair of Ks
+110515	3784	Pair of Ks
+221030	3785	Pair of Ks
+331545	3786	Pair of Ks
+154721	3787	Pair of Ks
+309442	3788	Pair of Ks
+464163	3789	Pair of Ks
+773605	3790	Pair of Ks
+243133	3791	Pair of Ks
+486266	3792	Pair of Ks
+729399	3793	Pair of Ks
+1215665	3794	Pair of Ks
+1701931	3795	Pair of Ks
+287339	3796	Pair of Ks
+574678	3797	Pair of Ks
+862017	3798	Pair of Ks
+1436695	3799	Pair of Ks
+2011373	3800	Pair of Ks
+3160729	3801	Pair of Ks
+375751	3802	Pair of Ks
+751502	3803	Pair of Ks
+1127253	3804	Pair of Ks
+1878755	3805	Pair of Ks
+2630257	3806	Pair of Ks
+4133261	3807	Pair of Ks
+4884763	3808	Pair of Ks
+419957	3809	Pair of Ks
+839914	3810	Pair of Ks
+1259871	3811	Pair of Ks
+2099785	3812	Pair of Ks
+2939699	3813	Pair of Ks
+4619527	3814	Pair of Ks
+5459441	3815	Pair of Ks
+7139269	3816	Pair of Ks
+55738	3817	Pair of Ks
+83607	3818	Pair of Ks
+167214	3819	Pair of Ks
+139345	3820	Pair of Ks
+278690	3821	Pair of Ks
+418035	3822	Pair of Ks
+195083	3823	Pair of Ks
+390166	3824	Pair of Ks
+585249	3825	Pair of Ks
+975415	3826	Pair of Ks
+306559	3827	Pair of Ks
+613118	3828	Pair of Ks
+919677	3829	Pair of Ks
+1532795	3830	Pair of Ks
+2145913	3831	Pair of Ks
+362297	3832	Pair of Ks
+724594	3833	Pair of Ks
+1086891	3834	Pair of Ks
+1811485	3835	Pair of Ks
+2536079	3836	Pair of Ks
+3985267	3837	Pair of Ks
+473773	3838	Pair of Ks
+947546	3839	Pair of Ks
+1421319	3840	Pair of Ks
+2368865	3841	Pair of Ks
+3316411	3842	Pair of Ks
+5211503	3843	Pair of Ks
+6159049	3844	Pair of Ks
+529511	3845	Pair of Ks
+1059022	3846	Pair of Ks
+1588533	3847	Pair of Ks
+2647555	3848	Pair of Ks
+3706577	3849	Pair of Ks
+5824621	3850	Pair of Ks
+6883643	3851	Pair of Ks
+9001687	3852	Pair of Ks
+640987	3853	Pair of Ks
+1281974	3854	Pair of Ks
+1922961	3855	Pair of Ks
+3204935	3856	Pair of Ks
+4486909	3857	Pair of Ks
+7050857	3858	Pair of Ks
+8332831	3859	Pair of Ks
+10896779	3860	Pair of Ks
+12178753	3861	Pair of Ks
+71114	3862	Pair of Ks
+106671	3863	Pair of Ks
+213342	3864	Pair of Ks
+177785	3865	Pair of Ks
+355570	3866	Pair of Ks
+533355	3867	Pair of Ks
+248899	3868	Pair of Ks
+497798	3869	Pair of Ks
+746697	3870	Pair of Ks
+1244495	3871	Pair of Ks
+391127	3872	Pair of Ks
+782254	3873	Pair of Ks
+1173381	3874	Pair of Ks
+1955635	3875	Pair of Ks
+2737889	3876	Pair of Ks
+462241	3877	Pair of Ks
+924482	3878	Pair of Ks
+1386723	3879	Pair of Ks
+2311205	3880	Pair of Ks
+3235687	3881	Pair of Ks
+5084651	3882	Pair of Ks
+604469	3883	Pair of Ks
+1208938	3884	Pair of Ks
+1813407	3885	Pair of Ks
+3022345	3886	Pair of Ks
+4231283	3887	Pair of Ks
+6649159	3888	Pair of Ks
+7858097	3889	Pair of Ks
+675583	3890	Pair of Ks
+1351166	3891	Pair of Ks
+2026749	3892	Pair of Ks
+3377915	3893	Pair of Ks
+4729081	3894	Pair of Ks
+7431413	3895	Pair of Ks
+8782579	3896	Pair of Ks
+11484911	3897	Pair of Ks
+817811	3898	Pair of Ks
+1635622	3899	Pair of Ks
+2453433	3900	Pair of Ks
+4089055	3901	Pair of Ks
+5724677	3902	Pair of Ks
+8995921	3903	Pair of Ks
+10631543	3904	Pair of Ks
+13902787	3905	Pair of Ks
+15538409	3906	Pair of Ks
+1031153	3907	Pair of Ks
+2062306	3908	Pair of Ks
+3093459	3909	Pair of Ks
+5155765	3910	Pair of Ks
+7218071	3911	Pair of Ks
+11342683	3912	Pair of Ks
+13404989	3913	Pair of Ks
+17529601	3914	Pair of Ks
+19591907	3915	Pair of Ks
+23716519	3916	Pair of Ks
+8214	3917	Pair of As
+13690	3918	Pair of As
+20535	3919	Pair of As
+41070	3920	Pair of As
+19166	3921	Pair of As
+28749	3922	Pair of As
+57498	3923	Pair of As
+47915	3924	Pair of As
+95830	3925	Pair of As
+143745	3926	Pair of As
+30118	3927	Pair of As
+45177	3928	Pair of As
+90354	3929	Pair of As
+75295	3930	Pair of As
+150590	3931	Pair of As
+225885	3932	Pair of As
+105413	3933	Pair of As
+210826	3934	Pair of As
+316239	3935	Pair of As
+527065	3936	Pair of As
+35594	3937	Pair of As
+53391	3938	Pair of As
+106782	3939	Pair of As
+88985	3940	Pair of As
+177970	3941	Pair of As
+266955	3942	Pair of As
+124579	3943	Pair of As
+249158	3944	Pair of As
+373737	3945	Pair of As
+622895	3946	Pair of As
+195767	3947	Pair of As
+391534	3948	Pair of As
+587301	3949	Pair of As
+978835	3950	Pair of As
+1370369	3951	Pair of As
+46546	3952	Pair of As
+69819	3953	Pair of As
+139638	3954	Pair of As
+116365	3955	Pair of As
+232730	3956	Pair of As
+349095	3957	Pair of As
+162911	3958	Pair of As
+325822	3959	Pair of As
+488733	3960	Pair of As
+814555	3961	Pair of As
+256003	3962	Pair of As
+512006	3963	Pair of As
+768009	3964	Pair of As
+1280015	3965	Pair of As
+1792021	3966	Pair of As
+302549	3967	Pair of As
+605098	3968	Pair of As
+907647	3969	Pair of As
+1512745	3970	Pair of As
+2117843	3971	Pair of As
+3328039	3972	Pair of As
+52022	3973	Pair of As
+78033	3974	Pair of As
+156066	3975	Pair of As
+130055	3976	Pair of As
+260110	3977	Pair of As
+390165	3978	Pair of As
+182077	3979	Pair of As
+364154	3980	Pair of As
+546231	3981	Pair of As
+910385	3982	Pair of As
+286121	3983	Pair of As
+572242	3984	Pair of As
+858363	3985	Pair of As
+1430605	3986	Pair of As
+2002847	3987	Pair of As
+338143	3988	Pair of As
+676286	3989	Pair of As
+1014429	3990	Pair of As
+1690715	3991	Pair of As
+2367001	3992	Pair of As
+3719573	3993	Pair of As
+442187	3994	Pair of As
+884374	3995	Pair of As
+1326561	3996	Pair of As
+2210935	3997	Pair of As
+3095309	3998	Pair of As
+4864057	3999	Pair of As
+5748431	4000	Pair of As
+62974	4001	Pair of As
+94461	4002	Pair of As
+188922	4003	Pair of As
+157435	4004	Pair of As
+314870	4005	Pair of As
+472305	4006	Pair of As
+220409	4007	Pair of As
+440818	4008	Pair of As
+661227	4009	Pair of As
+1102045	4010	Pair of As
+346357	4011	Pair of As
+692714	4012	Pair of As
+1039071	4013	Pair of As
+1731785	4014	Pair of As
+2424499	4015	Pair of As
+409331	4016	Pair of As
+818662	4017	Pair of As
+1227993	4018	Pair of As
+2046655	4019	Pair of As
+2865317	4020	Pair of As
+4502641	4021	Pair of As
+535279	4022	Pair of As
+1070558	4023	Pair of As
+1605837	4024	Pair of As
+2676395	4025	Pair of As
+3746953	4026	Pair of As
+5888069	4027	Pair of As
+6958627	4028	Pair of As
+598253	4029	Pair of As
+1196506	4030	Pair of As
+1794759	4031	Pair of As
+2991265	4032	Pair of As
+4187771	4033	Pair of As
+6580783	4034	Pair of As
+7777289	4035	Pair of As
+10170301	4036	Pair of As
+79402	4037	Pair of As
+119103	4038	Pair of As
+238206	4039	Pair of As
+198505	4040	Pair of As
+397010	4041	Pair of As
+595515	4042	Pair of As
+277907	4043	Pair of As
+555814	4044	Pair of As
+833721	4045	Pair of As
+1389535	4046	Pair of As
+436711	4047	Pair of As
+873422	4048	Pair of As
+1310133	4049	Pair of As
+2183555	4050	Pair of As
+3056977	4051	Pair of As
+516113	4052	Pair of As
+1032226	4053	Pair of As
+1548339	4054	Pair of As
+2580565	4055	Pair of As
+3612791	4056	Pair of As
+5677243	4057	Pair of As
+674917	4058	Pair of As
+1349834	4059	Pair of As
+2024751	4060	Pair of As
+3374585	4061	Pair of As
+4724419	4062	Pair of As
+7424087	4063	Pair of As
+8773921	4064	Pair of As
+754319	4065	Pair of As
+1508638	4066	Pair of As
+2262957	4067	Pair of As
+3771595	4068	Pair of As
+5280233	4069	Pair of As
+8297509	4070	Pair of As
+9806147	4071	Pair of As
+12823423	4072	Pair of As
+913123	4073	Pair of As
+1826246	4074	Pair of As
+2739369	4075	Pair of As
+4565615	4076	Pair of As
+6391861	4077	Pair of As
+10044353	4078	Pair of As
+11870599	4079	Pair of As
+15523091	4080	Pair of As
+17349337	4081	Pair of As
+84878	4082	Pair of As
+127317	4083	Pair of As
+254634	4084	Pair of As
+212195	4085	Pair of As
+424390	4086	Pair of As
+636585	4087	Pair of As
+297073	4088	Pair of As
+594146	4089	Pair of As
+891219	4090	Pair of As
+1485365	4091	Pair of As
+466829	4092	Pair of As
+933658	4093	Pair of As
+1400487	4094	Pair of As
+2334145	4095	Pair of As
+3267803	4096	Pair of As
+551707	4097	Pair of As
+1103414	4098	Pair of As
+1655121	4099	Pair of As
+2758535	4100	Pair of As
+3861949	4101	Pair of As
+6068777	4102	Pair of As
+721463	4103	Pair of As
+1442926	4104	Pair of As
+2164389	4105	Pair of As
+3607315	4106	Pair of As
+5050241	4107	Pair of As
+7936093	4108	Pair of As
+9379019	4109	Pair of As
+806341	4110	Pair of As
+1612682	4111	Pair of As
+2419023	4112	Pair of As
+4031705	4113	Pair of As
+5644387	4114	Pair of As
+8869751	4115	Pair of As
+10482433	4116	Pair of As
+13707797	4117	Pair of As
+976097	4118	Pair of As
+1952194	4119	Pair of As
+2928291	4120	Pair of As
+4880485	4121	Pair of As
+6832679	4122	Pair of As
+10737067	4123	Pair of As
+12689261	4124	Pair of As
+16593649	4125	Pair of As
+18545843	4126	Pair of As
+1230731	4127	Pair of As
+2461462	4128	Pair of As
+3692193	4129	Pair of As
+6153655	4130	Pair of As
+8615117	4131	Pair of As
+13538041	4132	Pair of As
+15999503	4133	Pair of As
+20922427	4134	Pair of As
+23383889	4135	Pair of As
+28306813	4136	Pair of As
+12	4137	Two Pair: 3s Over 2s
+20	4138	Two Pair: 3s Over 2s
+28	4139	Two Pair: 3s Over 2s
+44	4140	Two Pair: 3s Over 2s
+52	4141	Two Pair: 3s Over 2s
+68	4142	Two Pair: 3s Over 2s
+76	4143	Two Pair: 3s Over 2s
+92	4144	Two Pair: 3s Over 2s
+116	4145	Two Pair: 3s Over 2s
+124	4146	Two Pair: 3s Over 2s
+148	4147	Two Pair: 3s Over 2s
+18	4148	Two Pair: 4s Over 2s
+45	4149	Two Pair: 4s Over 2s
+63	4150	Two Pair: 4s Over 2s
+99	4151	Two Pair: 4s Over 2s
+117	4152	Two Pair: 4s Over 2s
+153	4153	Two Pair: 4s Over 2s
+171	4154	Two Pair: 4s Over 2s
+207	4155	Two Pair: 4s Over 2s
+261	4156	Two Pair: 4s Over 2s
+279	4157	Two Pair: 4s Over 2s
+333	4158	Two Pair: 4s Over 2s
+36	4159	Two Pair: 4s Over 3s
+180	4160	Two Pair: 4s Over 3s
+252	4161	Two Pair: 4s Over 3s
+396	4162	Two Pair: 4s Over 3s
+468	4163	Two Pair: 4s Over 3s
+612	4164	Two Pair: 4s Over 3s
+684	4165	Two Pair: 4s Over 3s
+828	4166	Two Pair: 4s Over 3s
+1044	4167	Two Pair: 4s Over 3s
+1116	4168	Two Pair: 4s Over 3s
+1332	4169	Two Pair: 4s Over 3s
+50	4170	Two Pair: 5s Over 2s
+75	4171	Two Pair: 5s Over 2s
+175	4172	Two Pair: 5s Over 2s
+275	4173	Two Pair: 5s Over 2s
+325	4174	Two Pair: 5s Over 2s
+425	4175	Two Pair: 5s Over 2s
+475	4176	Two Pair: 5s Over 2s
+575	4177	Two Pair: 5s Over 2s
+725	4178	Two Pair: 5s Over 2s
+775	4179	Two Pair: 5s Over 2s
+925	4180	Two Pair: 5s Over 2s
+100	4181	Two Pair: 5s Over 3s
+300	4182	Two Pair: 5s Over 3s
+700	4183	Two Pair: 5s Over 3s
+1100	4184	Two Pair: 5s Over 3s
+1300	4185	Two Pair: 5s Over 3s
+1700	4186	Two Pair: 5s Over 3s
+1900	4187	Two Pair: 5s Over 3s
+2300	4188	Two Pair: 5s Over 3s
+2900	4189	Two Pair: 5s Over 3s
+3100	4190	Two Pair: 5s Over 3s
+3700	4191	Two Pair: 5s Over 3s
+225	4192	Two Pair: 5s Over 4s
+450	4193	Two Pair: 5s Over 4s
+1575	4194	Two Pair: 5s Over 4s
+2475	4195	Two Pair: 5s Over 4s
+2925	4196	Two Pair: 5s Over 4s
+3825	4197	Two Pair: 5s Over 4s
+4275	4198	Two Pair: 5s Over 4s
+5175	4199	Two Pair: 5s Over 4s
+6525	4200	Two Pair: 5s Over 4s
+6975	4201	Two Pair: 5s Over 4s
+8325	4202	Two Pair: 5s Over 4s
+98	4203	Two Pair: 6s Over 2s
+147	4204	Two Pair: 6s Over 2s
+245	4205	Two Pair: 6s Over 2s
+539	4206	Two Pair: 6s Over 2s
+637	4207	Two Pair: 6s Over 2s
+833	4208	Two Pair: 6s Over 2s
+931	4209	Two Pair: 6s Over 2s
+1127	4210	Two Pair: 6s Over 2s
+1421	4211	Two Pair: 6s Over 2s
+1519	4212	Two Pair: 6s Over 2s
+1813	4213	Two Pair: 6s Over 2s
+196	4214	Two Pair: 6s Over 3s
+588	4215	Two Pair: 6s Over 3s
+980	4216	Two Pair: 6s Over 3s
+2156	4217	Two Pair: 6s Over 3s
+2548	4218	Two Pair: 6s Over 3s
+3332	4219	Two Pair: 6s Over 3s
+3724	4220	Two Pair: 6s Over 3s
+4508	4221	Two Pair: 6s Over 3s
+5684	4222	Two Pair: 6s Over 3s
+6076	4223	Two Pair: 6s Over 3s
+7252	4224	Two Pair: 6s Over 3s
+441	4225	Two Pair: 6s Over 4s
+882	4226	Two Pair: 6s Over 4s
+2205	4227	Two Pair: 6s Over 4s
+4851	4228	Two Pair: 6s Over 4s
+5733	4229	Two Pair: 6s Over 4s
+7497	4230	Two Pair: 6s Over 4s
+8379	4231	Two Pair: 6s Over 4s
+10143	4232	Two Pair: 6s Over 4s
+12789	4233	Two Pair: 6s Over 4s
+13671	4234	Two Pair: 6s Over 4s
+16317	4235	Two Pair: 6s Over 4s
+1225	4236	Two Pair: 6s Over 5s
+2450	4237	Two Pair: 6s Over 5s
+3675	4238	Two Pair: 6s Over 5s
+13475	4239	Two Pair: 6s Over 5s
+15925	4240	Two Pair: 6s Over 5s
+20825	4241	Two Pair: 6s Over 5s
+23275	4242	Two Pair: 6s Over 5s
+28175	4243	Two Pair: 6s Over 5s
+35525	4244	Two Pair: 6s Over 5s
+37975	4245	Two Pair: 6s Over 5s
+45325	4246	Two Pair: 6s Over 5s
+242	4247	Two Pair: 7s Over 2s
+363	4248	Two Pair: 7s Over 2s
+605	4249	Two Pair: 7s Over 2s
+847	4250	Two Pair: 7s Over 2s
+1573	4251	Two Pair: 7s Over 2s
+2057	4252	Two Pair: 7s Over 2s
+2299	4253	Two Pair: 7s Over 2s
+2783	4254	Two Pair: 7s Over 2s
+3509	4255	Two Pair: 7s Over 2s
+3751	4256	Two Pair: 7s Over 2s
+4477	4257	Two Pair: 7s Over 2s
+484	4258	Two Pair: 7s Over 3s
+1452	4259	Two Pair: 7s Over 3s
+2420	4260	Two Pair: 7s Over 3s
+3388	4261	Two Pair: 7s Over 3s
+6292	4262	Two Pair: 7s Over 3s
+8228	4263	Two Pair: 7s Over 3s
+9196	4264	Two Pair: 7s Over 3s
+11132	4265	Two Pair: 7s Over 3s
+14036	4266	Two Pair: 7s Over 3s
+15004	4267	Two Pair: 7s Over 3s
+17908	4268	Two Pair: 7s Over 3s
+1089	4269	Two Pair: 7s Over 4s
+2178	4270	Two Pair: 7s Over 4s
+5445	4271	Two Pair: 7s Over 4s
+7623	4272	Two Pair: 7s Over 4s
+14157	4273	Two Pair: 7s Over 4s
+18513	4274	Two Pair: 7s Over 4s
+20691	4275	Two Pair: 7s Over 4s
+25047	4276	Two Pair: 7s Over 4s
+31581	4277	Two Pair: 7s Over 4s
+33759	4278	Two Pair: 7s Over 4s
+40293	4279	Two Pair: 7s Over 4s
+3025	4280	Two Pair: 7s Over 5s
+6050	4281	Two Pair: 7s Over 5s
+9075	4282	Two Pair: 7s Over 5s
+21175	4283	Two Pair: 7s Over 5s
+39325	4284	Two Pair: 7s Over 5s
+51425	4285	Two Pair: 7s Over 5s
+57475	4286	Two Pair: 7s Over 5s
+69575	4287	Two Pair: 7s Over 5s
+87725	4288	Two Pair: 7s Over 5s
+93775	4289	Two Pair: 7s Over 5s
+111925	4290	Two Pair: 7s Over 5s
+5929	4291	Two Pair: 7s Over 6s
+11858	4292	Two Pair: 7s Over 6s
+17787	4293	Two Pair: 7s Over 6s
+29645	4294	Two Pair: 7s Over 6s
+77077	4295	Two Pair: 7s Over 6s
+100793	4296	Two Pair: 7s Over 6s
+112651	4297	Two Pair: 7s Over 6s
+136367	4298	Two Pair: 7s Over 6s
+171941	4299	Two Pair: 7s Over 6s
+183799	4300	Two Pair: 7s Over 6s
+219373	4301	Two Pair: 7s Over 6s
+338	4302	Two Pair: 8s Over 2s
+507	4303	Two Pair: 8s Over 2s
+845	4304	Two Pair: 8s Over 2s
+1183	4305	Two Pair: 8s Over 2s
+1859	4306	Two Pair: 8s Over 2s
+2873	4307	Two Pair: 8s Over 2s
+3211	4308	Two Pair: 8s Over 2s
+3887	4309	Two Pair: 8s Over 2s
+4901	4310	Two Pair: 8s Over 2s
+5239	4311	Two Pair: 8s Over 2s
+6253	4312	Two Pair: 8s Over 2s
+676	4313	Two Pair: 8s Over 3s
+2028	4314	Two Pair: 8s Over 3s
+3380	4315	Two Pair: 8s Over 3s
+4732	4316	Two Pair: 8s Over 3s
+7436	4317	Two Pair: 8s Over 3s
+11492	4318	Two Pair: 8s Over 3s
+12844	4319	Two Pair: 8s Over 3s
+15548	4320	Two Pair: 8s Over 3s
+19604	4321	Two Pair: 8s Over 3s
+20956	4322	Two Pair: 8s Over 3s
+25012	4323	Two Pair: 8s Over 3s
+1521	4324	Two Pair: 8s Over 4s
+3042	4325	Two Pair: 8s Over 4s
+7605	4326	Two Pair: 8s Over 4s
+10647	4327	Two Pair: 8s Over 4s
+16731	4328	Two Pair: 8s Over 4s
+25857	4329	Two Pair: 8s Over 4s
+28899	4330	Two Pair: 8s Over 4s
+34983	4331	Two Pair: 8s Over 4s
+44109	4332	Two Pair: 8s Over 4s
+47151	4333	Two Pair: 8s Over 4s
+56277	4334	Two Pair: 8s Over 4s
+4225	4335	Two Pair: 8s Over 5s
+8450	4336	Two Pair: 8s Over 5s
+12675	4337	Two Pair: 8s Over 5s
+29575	4338	Two Pair: 8s Over 5s
+46475	4339	Two Pair: 8s Over 5s
+71825	4340	Two Pair: 8s Over 5s
+80275	4341	Two Pair: 8s Over 5s
+97175	4342	Two Pair: 8s Over 5s
+122525	4343	Two Pair: 8s Over 5s
+130975	4344	Two Pair: 8s Over 5s
+156325	4345	Two Pair: 8s Over 5s
+8281	4346	Two Pair: 8s Over 6s
+16562	4347	Two Pair: 8s Over 6s
+24843	4348	Two Pair: 8s Over 6s
+41405	4349	Two Pair: 8s Over 6s
+91091	4350	Two Pair: 8s Over 6s
+140777	4351	Two Pair: 8s Over 6s
+157339	4352	Two Pair: 8s Over 6s
+190463	4353	Two Pair: 8s Over 6s
+240149	4354	Two Pair: 8s Over 6s
+256711	4355	Two Pair: 8s Over 6s
+306397	4356	Two Pair: 8s Over 6s
+20449	4357	Two Pair: 8s Over 7s
+40898	4358	Two Pair: 8s Over 7s
+61347	4359	Two Pair: 8s Over 7s
+102245	4360	Two Pair: 8s Over 7s
+143143	4361	Two Pair: 8s Over 7s
+347633	4362	Two Pair: 8s Over 7s
+388531	4363	Two Pair: 8s Over 7s
+470327	4364	Two Pair: 8s Over 7s
+593021	4365	Two Pair: 8s Over 7s
+633919	4366	Two Pair: 8s Over 7s
+756613	4367	Two Pair: 8s Over 7s
+578	4368	Two Pair: 9s Over 2s
+867	4369	Two Pair: 9s Over 2s
+1445	4370	Two Pair: 9s Over 2s
+2023	4371	Two Pair: 9s Over 2s
+3179	4372	Two Pair: 9s Over 2s
+3757	4373	Two Pair: 9s Over 2s
+5491	4374	Two Pair: 9s Over 2s
+6647	4375	Two Pair: 9s Over 2s
+8381	4376	Two Pair: 9s Over 2s
+8959	4377	Two Pair: 9s Over 2s
+10693	4378	Two Pair: 9s Over 2s
+1156	4379	Two Pair: 9s Over 3s
+3468	4380	Two Pair: 9s Over 3s
+5780	4381	Two Pair: 9s Over 3s
+8092	4382	Two Pair: 9s Over 3s
+12716	4383	Two Pair: 9s Over 3s
+15028	4384	Two Pair: 9s Over 3s
+21964	4385	Two Pair: 9s Over 3s
+26588	4386	Two Pair: 9s Over 3s
+33524	4387	Two Pair: 9s Over 3s
+35836	4388	Two Pair: 9s Over 3s
+42772	4389	Two Pair: 9s Over 3s
+2601	4390	Two Pair: 9s Over 4s
+5202	4391	Two Pair: 9s Over 4s
+13005	4392	Two Pair: 9s Over 4s
+18207	4393	Two Pair: 9s Over 4s
+28611	4394	Two Pair: 9s Over 4s
+33813	4395	Two Pair: 9s Over 4s
+49419	4396	Two Pair: 9s Over 4s
+59823	4397	Two Pair: 9s Over 4s
+75429	4398	Two Pair: 9s Over 4s
+80631	4399	Two Pair: 9s Over 4s
+96237	4400	Two Pair: 9s Over 4s
+7225	4401	Two Pair: 9s Over 5s
+14450	4402	Two Pair: 9s Over 5s
+21675	4403	Two Pair: 9s Over 5s
+50575	4404	Two Pair: 9s Over 5s
+79475	4405	Two Pair: 9s Over 5s
+93925	4406	Two Pair: 9s Over 5s
+137275	4407	Two Pair: 9s Over 5s
+166175	4408	Two Pair: 9s Over 5s
+209525	4409	Two Pair: 9s Over 5s
+223975	4410	Two Pair: 9s Over 5s
+267325	4411	Two Pair: 9s Over 5s
+14161	4412	Two Pair: 9s Over 6s
+28322	4413	Two Pair: 9s Over 6s
+42483	4414	Two Pair: 9s Over 6s
+70805	4415	Two Pair: 9s Over 6s
+155771	4416	Two Pair: 9s Over 6s
+184093	4417	Two Pair: 9s Over 6s
+269059	4418	Two Pair: 9s Over 6s
+325703	4419	Two Pair: 9s Over 6s
+410669	4420	Two Pair: 9s Over 6s
+438991	4421	Two Pair: 9s Over 6s
+523957	4422	Two Pair: 9s Over 6s
+34969	4423	Two Pair: 9s Over 7s
+69938	4424	Two Pair: 9s Over 7s
+104907	4425	Two Pair: 9s Over 7s
+174845	4426	Two Pair: 9s Over 7s
+244783	4427	Two Pair: 9s Over 7s
+454597	4428	Two Pair: 9s Over 7s
+664411	4429	Two Pair: 9s Over 7s
+804287	4430	Two Pair: 9s Over 7s
+1014101	4431	Two Pair: 9s Over 7s
+1084039	4432	Two Pair: 9s Over 7s
+1293853	4433	Two Pair: 9s Over 7s
+48841	4434	Two Pair: 9s Over 8s
+97682	4435	Two Pair: 9s Over 8s
+146523	4436	Two Pair: 9s Over 8s
+244205	4437	Two Pair: 9s Over 8s
+341887	4438	Two Pair: 9s Over 8s
+537251	4439	Two Pair: 9s Over 8s
+927979	4440	Two Pair: 9s Over 8s
+1123343	4441	Two Pair: 9s Over 8s
+1416389	4442	Two Pair: 9s Over 8s
+1514071	4443	Two Pair: 9s Over 8s
+1807117	4444	Two Pair: 9s Over 8s
+722	4445	Two Pair: Ts Over 2s
+1083	4446	Two Pair: Ts Over 2s
+1805	4447	Two Pair: Ts Over 2s
+2527	4448	Two Pair: Ts Over 2s
+3971	4449	Two Pair: Ts Over 2s
+4693	4450	Two Pair: Ts Over 2s
+6137	4451	Two Pair: Ts Over 2s
+8303	4452	Two Pair: Ts Over 2s
+10469	4453	Two Pair: Ts Over 2s
+11191	4454	Two Pair: Ts Over 2s
+13357	4455	Two Pair: Ts Over 2s
+1444	4456	Two Pair: Ts Over 3s
+4332	4457	Two Pair: Ts Over 3s
+7220	4458	Two Pair: Ts Over 3s
+10108	4459	Two Pair: Ts Over 3s
+15884	4460	Two Pair: Ts Over 3s
+18772	4461	Two Pair: Ts Over 3s
+24548	4462	Two Pair: Ts Over 3s
+33212	4463	Two Pair: Ts Over 3s
+41876	4464	Two Pair: Ts Over 3s
+44764	4465	Two Pair: Ts Over 3s
+53428	4466	Two Pair: Ts Over 3s
+3249	4467	Two Pair: Ts Over 4s
+6498	4468	Two Pair: Ts Over 4s
+16245	4469	Two Pair: Ts Over 4s
+22743	4470	Two Pair: Ts Over 4s
+35739	4471	Two Pair: Ts Over 4s
+42237	4472	Two Pair: Ts Over 4s
+55233	4473	Two Pair: Ts Over 4s
+74727	4474	Two Pair: Ts Over 4s
+94221	4475	Two Pair: Ts Over 4s
+100719	4476	Two Pair: Ts Over 4s
+120213	4477	Two Pair: Ts Over 4s
+9025	4478	Two Pair: Ts Over 5s
+18050	4479	Two Pair: Ts Over 5s
+27075	4480	Two Pair: Ts Over 5s
+63175	4481	Two Pair: Ts Over 5s
+99275	4482	Two Pair: Ts Over 5s
+117325	4483	Two Pair: Ts Over 5s
+153425	4484	Two Pair: Ts Over 5s
+207575	4485	Two Pair: Ts Over 5s
+261725	4486	Two Pair: Ts Over 5s
+279775	4487	Two Pair: Ts Over 5s
+333925	4488	Two Pair: Ts Over 5s
+17689	4489	Two Pair: Ts Over 6s
+35378	4490	Two Pair: Ts Over 6s
+53067	4491	Two Pair: Ts Over 6s
+88445	4492	Two Pair: Ts Over 6s
+194579	4493	Two Pair: Ts Over 6s
+229957	4494	Two Pair: Ts Over 6s
+300713	4495	Two Pair: Ts Over 6s
+406847	4496	Two Pair: Ts Over 6s
+512981	4497	Two Pair: Ts Over 6s
+548359	4498	Two Pair: Ts Over 6s
+654493	4499	Two Pair: Ts Over 6s
+43681	4500	Two Pair: Ts Over 7s
+87362	4501	Two Pair: Ts Over 7s
+131043	4502	Two Pair: Ts Over 7s
+218405	4503	Two Pair: Ts Over 7s
+305767	4504	Two Pair: Ts Over 7s
+567853	4505	Two Pair: Ts Over 7s
+742577	4506	Two Pair: Ts Over 7s
+1004663	4507	Two Pair: Ts Over 7s
+1266749	4508	Two Pair: Ts Over 7s
+1354111	4509	Two Pair: Ts Over 7s
+1616197	4510	Two Pair: Ts Over 7s
+61009	4511	Two Pair: Ts Over 8s
+122018	4512	Two Pair: Ts Over 8s
+183027	4513	Two Pair: Ts Over 8s
+305045	4514	Two Pair: Ts Over 8s
+427063	4515	Two Pair: Ts Over 8s
+671099	4516	Two Pair: Ts Over 8s
+1037153	4517	Two Pair: Ts Over 8s
+1403207	4518	Two Pair: Ts Over 8s
+1769261	4519	Two Pair: Ts Over 8s
+1891279	4520	Two Pair: Ts Over 8s
+2257333	4521	Two Pair: Ts Over 8s
+104329	4522	Two Pair: Ts Over 9s
+208658	4523	Two Pair: Ts Over 9s
+312987	4524	Two Pair: Ts Over 9s
+521645	4525	Two Pair: Ts Over 9s
+730303	4526	Two Pair: Ts Over 9s
+1147619	4527	Two Pair: Ts Over 9s
+1356277	4528	Two Pair: Ts Over 9s
+2399567	4529	Two Pair: Ts Over 9s
+3025541	4530	Two Pair: Ts Over 9s
+3234199	4531	Two Pair: Ts Over 9s
+3860173	4532	Two Pair: Ts Over 9s
+1058	4533	Two Pair: Js Over 2s
+1587	4534	Two Pair: Js Over 2s
+2645	4535	Two Pair: Js Over 2s
+3703	4536	Two Pair: Js Over 2s
+5819	4537	Two Pair: Js Over 2s
+6877	4538	Two Pair: Js Over 2s
+8993	4539	Two Pair: Js Over 2s
+10051	4540	Two Pair: Js Over 2s
+15341	4541	Two Pair: Js Over 2s
+16399	4542	Two Pair: Js Over 2s
+19573	4543	Two Pair: Js Over 2s
+2116	4544	Two Pair: Js Over 3s
+6348	4545	Two Pair: Js Over 3s
+10580	4546	Two Pair: Js Over 3s
+14812	4547	Two Pair: Js Over 3s
+23276	4548	Two Pair: Js Over 3s
+27508	4549	Two Pair: Js Over 3s
+35972	4550	Two Pair: Js Over 3s
+40204	4551	Two Pair: Js Over 3s
+61364	4552	Two Pair: Js Over 3s
+65596	4553	Two Pair: Js Over 3s
+78292	4554	Two Pair: Js Over 3s
+4761	4555	Two Pair: Js Over 4s
+9522	4556	Two Pair: Js Over 4s
+23805	4557	Two Pair: Js Over 4s
+33327	4558	Two Pair: Js Over 4s
+52371	4559	Two Pair: Js Over 4s
+61893	4560	Two Pair: Js Over 4s
+80937	4561	Two Pair: Js Over 4s
+90459	4562	Two Pair: Js Over 4s
+138069	4563	Two Pair: Js Over 4s
+147591	4564	Two Pair: Js Over 4s
+176157	4565	Two Pair: Js Over 4s
+13225	4566	Two Pair: Js Over 5s
+26450	4567	Two Pair: Js Over 5s
+39675	4568	Two Pair: Js Over 5s
+92575	4569	Two Pair: Js Over 5s
+145475	4570	Two Pair: Js Over 5s
+171925	4571	Two Pair: Js Over 5s
+224825	4572	Two Pair: Js Over 5s
+251275	4573	Two Pair: Js Over 5s
+383525	4574	Two Pair: Js Over 5s
+409975	4575	Two Pair: Js Over 5s
+489325	4576	Two Pair: Js Over 5s
+25921	4577	Two Pair: Js Over 6s
+51842	4578	Two Pair: Js Over 6s
+77763	4579	Two Pair: Js Over 6s
+129605	4580	Two Pair: Js Over 6s
+285131	4581	Two Pair: Js Over 6s
+336973	4582	Two Pair: Js Over 6s
+440657	4583	Two Pair: Js Over 6s
+492499	4584	Two Pair: Js Over 6s
+751709	4585	Two Pair: Js Over 6s
+803551	4586	Two Pair: Js Over 6s
+959077	4587	Two Pair: Js Over 6s
+64009	4588	Two Pair: Js Over 7s
+128018	4589	Two Pair: Js Over 7s
+192027	4590	Two Pair: Js Over 7s
+320045	4591	Two Pair: Js Over 7s
+448063	4592	Two Pair: Js Over 7s
+832117	4593	Two Pair: Js Over 7s
+1088153	4594	Two Pair: Js Over 7s
+1216171	4595	Two Pair: Js Over 7s
+1856261	4596	Two Pair: Js Over 7s
+1984279	4597	Two Pair: Js Over 7s
+2368333	4598	Two Pair: Js Over 7s
+89401	4599	Two Pair: Js Over 8s
+178802	4600	Two Pair: Js Over 8s
+268203	4601	Two Pair: Js Over 8s
+447005	4602	Two Pair: Js Over 8s
+625807	4603	Two Pair: Js Over 8s
+983411	4604	Two Pair: Js Over 8s
+1519817	4605	Two Pair: Js Over 8s
+1698619	4606	Two Pair: Js Over 8s
+2592629	4607	Two Pair: Js Over 8s
+2771431	4608	Two Pair: Js Over 8s
+3307837	4609	Two Pair: Js Over 8s
+152881	4610	Two Pair: Js Over 9s
+305762	4611	Two Pair: Js Over 9s
+458643	4612	Two Pair: Js Over 9s
+764405	4613	Two Pair: Js Over 9s
+1070167	4614	Two Pair: Js Over 9s
+1681691	4615	Two Pair: Js Over 9s
+1987453	4616	Two Pair: Js Over 9s
+2904739	4617	Two Pair: Js Over 9s
+4433549	4618	Two Pair: Js Over 9s
+4739311	4619	Two Pair: Js Over 9s
+5656597	4620	Two Pair: Js Over 9s
+190969	4621	Two Pair: Js Over Ts
+381938	4622	Two Pair: Js Over Ts
+572907	4623	Two Pair: Js Over Ts
+954845	4624	Two Pair: Js Over Ts
+1336783	4625	Two Pair: Js Over Ts
+2100659	4626	Two Pair: Js Over Ts
+2482597	4627	Two Pair: Js Over Ts
+3246473	4628	Two Pair: Js Over Ts
+5538101	4629	Two Pair: Js Over Ts
+5920039	4630	Two Pair: Js Over Ts
+7065853	4631	Two Pair: Js Over Ts
+1682	4632	Two Pair: Qs Over 2s
+2523	4633	Two Pair: Qs Over 2s
+4205	4634	Two Pair: Qs Over 2s
+5887	4635	Two Pair: Qs Over 2s
+9251	4636	Two Pair: Qs Over 2s
+10933	4637	Two Pair: Qs Over 2s
+14297	4638	Two Pair: Qs Over 2s
+15979	4639	Two Pair: Qs Over 2s
+19343	4640	Two Pair: Qs Over 2s
+26071	4641	Two Pair: Qs Over 2s
+31117	4642	Two Pair: Qs Over 2s
+3364	4643	Two Pair: Qs Over 3s
+10092	4644	Two Pair: Qs Over 3s
+16820	4645	Two Pair: Qs Over 3s
+23548	4646	Two Pair: Qs Over 3s
+37004	4647	Two Pair: Qs Over 3s
+43732	4648	Two Pair: Qs Over 3s
+57188	4649	Two Pair: Qs Over 3s
+63916	4650	Two Pair: Qs Over 3s
+77372	4651	Two Pair: Qs Over 3s
+104284	4652	Two Pair: Qs Over 3s
+124468	4653	Two Pair: Qs Over 3s
+7569	4654	Two Pair: Qs Over 4s
+15138	4655	Two Pair: Qs Over 4s
+37845	4656	Two Pair: Qs Over 4s
+52983	4657	Two Pair: Qs Over 4s
+83259	4658	Two Pair: Qs Over 4s
+98397	4659	Two Pair: Qs Over 4s
+128673	4660	Two Pair: Qs Over 4s
+143811	4661	Two Pair: Qs Over 4s
+174087	4662	Two Pair: Qs Over 4s
+234639	4663	Two Pair: Qs Over 4s
+280053	4664	Two Pair: Qs Over 4s
+21025	4665	Two Pair: Qs Over 5s
+42050	4666	Two Pair: Qs Over 5s
+63075	4667	Two Pair: Qs Over 5s
+147175	4668	Two Pair: Qs Over 5s
+231275	4669	Two Pair: Qs Over 5s
+273325	4670	Two Pair: Qs Over 5s
+357425	4671	Two Pair: Qs Over 5s
+399475	4672	Two Pair: Qs Over 5s
+483575	4673	Two Pair: Qs Over 5s
+651775	4674	Two Pair: Qs Over 5s
+777925	4675	Two Pair: Qs Over 5s
+41209	4676	Two Pair: Qs Over 6s
+82418	4677	Two Pair: Qs Over 6s
+123627	4678	Two Pair: Qs Over 6s
+206045	4679	Two Pair: Qs Over 6s
+453299	4680	Two Pair: Qs Over 6s
+535717	4681	Two Pair: Qs Over 6s
+700553	4682	Two Pair: Qs Over 6s
+782971	4683	Two Pair: Qs Over 6s
+947807	4684	Two Pair: Qs Over 6s
+1277479	4685	Two Pair: Qs Over 6s
+1524733	4686	Two Pair: Qs Over 6s
+101761	4687	Two Pair: Qs Over 7s
+203522	4688	Two Pair: Qs Over 7s
+305283	4689	Two Pair: Qs Over 7s
+508805	4690	Two Pair: Qs Over 7s
+712327	4691	Two Pair: Qs Over 7s
+1322893	4692	Two Pair: Qs Over 7s
+1729937	4693	Two Pair: Qs Over 7s
+1933459	4694	Two Pair: Qs Over 7s
+2340503	4695	Two Pair: Qs Over 7s
+3154591	4696	Two Pair: Qs Over 7s
+3765157	4697	Two Pair: Qs Over 7s
+142129	4698	Two Pair: Qs Over 8s
+284258	4699	Two Pair: Qs Over 8s
+426387	4700	Two Pair: Qs Over 8s
+710645	4701	Two Pair: Qs Over 8s
+994903	4702	Two Pair: Qs Over 8s
+1563419	4703	Two Pair: Qs Over 8s
+2416193	4704	Two Pair: Qs Over 8s
+2700451	4705	Two Pair: Qs Over 8s
+3268967	4706	Two Pair: Qs Over 8s
+4405999	4707	Two Pair: Qs Over 8s
+5258773	4708	Two Pair: Qs Over 8s
+243049	4709	Two Pair: Qs Over 9s
+486098	4710	Two Pair: Qs Over 9s
+729147	4711	Two Pair: Qs Over 9s
+1215245	4712	Two Pair: Qs Over 9s
+1701343	4713	Two Pair: Qs Over 9s
+2673539	4714	Two Pair: Qs Over 9s
+3159637	4715	Two Pair: Qs Over 9s
+4617931	4716	Two Pair: Qs Over 9s
+5590127	4717	Two Pair: Qs Over 9s
+7534519	4718	Two Pair: Qs Over 9s
+8992813	4719	Two Pair: Qs Over 9s
+303601	4720	Two Pair: Qs Over Ts
+607202	4721	Two Pair: Qs Over Ts
+910803	4722	Two Pair: Qs Over Ts
+1518005	4723	Two Pair: Qs Over Ts
+2125207	4724	Two Pair: Qs Over Ts
+3339611	4725	Two Pair: Qs Over Ts
+3946813	4726	Two Pair: Qs Over Ts
+5161217	4727	Two Pair: Qs Over Ts
+6982823	4728	Two Pair: Qs Over Ts
+9411631	4729	Two Pair: Qs Over Ts
+11233237	4730	Two Pair: Qs Over Ts
+444889	4731	Two Pair: Qs Over Js
+889778	4732	Two Pair: Qs Over Js
+1334667	4733	Two Pair: Qs Over Js
+2224445	4734	Two Pair: Qs Over Js
+3114223	4735	Two Pair: Qs Over Js
+4893779	4736	Two Pair: Qs Over Js
+5783557	4737	Two Pair: Qs Over Js
+7563113	4738	Two Pair: Qs Over Js
+8452891	4739	Two Pair: Qs Over Js
+13791559	4740	Two Pair: Qs Over Js
+16460893	4741	Two Pair: Qs Over Js
+1922	4742	Two Pair: Ks Over 2s
+2883	4743	Two Pair: Ks Over 2s
+4805	4744	Two Pair: Ks Over 2s
+6727	4745	Two Pair: Ks Over 2s
+10571	4746	Two Pair: Ks Over 2s
+12493	4747	Two Pair: Ks Over 2s
+16337	4748	Two Pair: Ks Over 2s
+18259	4749	Two Pair: Ks Over 2s
+22103	4750	Two Pair: Ks Over 2s
+27869	4751	Two Pair: Ks Over 2s
+35557	4752	Two Pair: Ks Over 2s
+3844	4753	Two Pair: Ks Over 3s
+11532	4754	Two Pair: Ks Over 3s
+19220	4755	Two Pair: Ks Over 3s
+26908	4756	Two Pair: Ks Over 3s
+42284	4757	Two Pair: Ks Over 3s
+49972	4758	Two Pair: Ks Over 3s
+65348	4759	Two Pair: Ks Over 3s
+73036	4760	Two Pair: Ks Over 3s
+88412	4761	Two Pair: Ks Over 3s
+111476	4762	Two Pair: Ks Over 3s
+142228	4763	Two Pair: Ks Over 3s
+8649	4764	Two Pair: Ks Over 4s
+17298	4765	Two Pair: Ks Over 4s
+43245	4766	Two Pair: Ks Over 4s
+60543	4767	Two Pair: Ks Over 4s
+95139	4768	Two Pair: Ks Over 4s
+112437	4769	Two Pair: Ks Over 4s
+147033	4770	Two Pair: Ks Over 4s
+164331	4771	Two Pair: Ks Over 4s
+198927	4772	Two Pair: Ks Over 4s
+250821	4773	Two Pair: Ks Over 4s
+320013	4774	Two Pair: Ks Over 4s
+24025	4775	Two Pair: Ks Over 5s
+48050	4776	Two Pair: Ks Over 5s
+72075	4777	Two Pair: Ks Over 5s
+168175	4778	Two Pair: Ks Over 5s
+264275	4779	Two Pair: Ks Over 5s
+312325	4780	Two Pair: Ks Over 5s
+408425	4781	Two Pair: Ks Over 5s
+456475	4782	Two Pair: Ks Over 5s
+552575	4783	Two Pair: Ks Over 5s
+696725	4784	Two Pair: Ks Over 5s
+888925	4785	Two Pair: Ks Over 5s
+47089	4786	Two Pair: Ks Over 6s
+94178	4787	Two Pair: Ks Over 6s
+141267	4788	Two Pair: Ks Over 6s
+235445	4789	Two Pair: Ks Over 6s
+517979	4790	Two Pair: Ks Over 6s
+612157	4791	Two Pair: Ks Over 6s
+800513	4792	Two Pair: Ks Over 6s
+894691	4793	Two Pair: Ks Over 6s
+1083047	4794	Two Pair: Ks Over 6s
+1365581	4795	Two Pair: Ks Over 6s
+1742293	4796	Two Pair: Ks Over 6s
+116281	4797	Two Pair: Ks Over 7s
+232562	4798	Two Pair: Ks Over 7s
+348843	4799	Two Pair: Ks Over 7s
+581405	4800	Two Pair: Ks Over 7s
+813967	4801	Two Pair: Ks Over 7s
+1511653	4802	Two Pair: Ks Over 7s
+1976777	4803	Two Pair: Ks Over 7s
+2209339	4804	Two Pair: Ks Over 7s
+2674463	4805	Two Pair: Ks Over 7s
+3372149	4806	Two Pair: Ks Over 7s
+4302397	4807	Two Pair: Ks Over 7s
+162409	4808	Two Pair: Ks Over 8s
+324818	4809	Two Pair: Ks Over 8s
+487227	4810	Two Pair: Ks Over 8s
+812045	4811	Two Pair: Ks Over 8s
+1136863	4812	Two Pair: Ks Over 8s
+1786499	4813	Two Pair: Ks Over 8s
+2760953	4814	Two Pair: Ks Over 8s
+3085771	4815	Two Pair: Ks Over 8s
+3735407	4816	Two Pair: Ks Over 8s
+4709861	4817	Two Pair: Ks Over 8s
+6009133	4818	Two Pair: Ks Over 8s
+277729	4819	Two Pair: Ks Over 9s
+555458	4820	Two Pair: Ks Over 9s
+833187	4821	Two Pair: Ks Over 9s
+1388645	4822	Two Pair: Ks Over 9s
+1944103	4823	Two Pair: Ks Over 9s
+3055019	4824	Two Pair: Ks Over 9s
+3610477	4825	Two Pair: Ks Over 9s
+5276851	4826	Two Pair: Ks Over 9s
+6387767	4827	Two Pair: Ks Over 9s
+8054141	4828	Two Pair: Ks Over 9s
+10275973	4829	Two Pair: Ks Over 9s
+346921	4830	Two Pair: Ks Over Ts
+693842	4831	Two Pair: Ks Over Ts
+1040763	4832	Two Pair: Ks Over Ts
+1734605	4833	Two Pair: Ks Over Ts
+2428447	4834	Two Pair: Ks Over Ts
+3816131	4835	Two Pair: Ks Over Ts
+4509973	4836	Two Pair: Ks Over Ts
+5897657	4837	Two Pair: Ks Over Ts
+7979183	4838	Two Pair: Ks Over Ts
+10060709	4839	Two Pair: Ks Over Ts
+12836077	4840	Two Pair: Ks Over Ts
+508369	4841	Two Pair: Ks Over Js
+1016738	4842	Two Pair: Ks Over Js
+1525107	4843	Two Pair: Ks Over Js
+2541845	4844	Two Pair: Ks Over Js
+3558583	4845	Two Pair: Ks Over Js
+5592059	4846	Two Pair: Ks Over Js
+6608797	4847	Two Pair: Ks Over Js
+8642273	4848	Two Pair: Ks Over Js
+9659011	4849	Two Pair: Ks Over Js
+14742701	4850	Two Pair: Ks Over Js
+18809653	4851	Two Pair: Ks Over Js
+808201	4852	Two Pair: Ks Over Qs
+1616402	4853	Two Pair: Ks Over Qs
+2424603	4854	Two Pair: Ks Over Qs
+4041005	4855	Two Pair: Ks Over Qs
+5657407	4856	Two Pair: Ks Over Qs
+8890211	4857	Two Pair: Ks Over Qs
+10506613	4858	Two Pair: Ks Over Qs
+13739417	4859	Two Pair: Ks Over Qs
+15355819	4860	Two Pair: Ks Over Qs
+18588623	4861	Two Pair: Ks Over Qs
+29903437	4862	Two Pair: Ks Over Qs
+2738	4863	Two Pair: As Over 2s
+4107	4864	Two Pair: As Over 2s
+6845	4865	Two Pair: As Over 2s
+9583	4866	Two Pair: As Over 2s
+15059	4867	Two Pair: As Over 2s
+17797	4868	Two Pair: As Over 2s
+23273	4869	Two Pair: As Over 2s
+26011	4870	Two Pair: As Over 2s
+31487	4871	Two Pair: As Over 2s
+39701	4872	Two Pair: As Over 2s
+42439	4873	Two Pair: As Over 2s
+5476	4874	Two Pair: As Over 3s
+16428	4875	Two Pair: As Over 3s
+27380	4876	Two Pair: As Over 3s
+38332	4877	Two Pair: As Over 3s
+60236	4878	Two Pair: As Over 3s
+71188	4879	Two Pair: As Over 3s
+93092	4880	Two Pair: As Over 3s
+104044	4881	Two Pair: As Over 3s
+125948	4882	Two Pair: As Over 3s
+158804	4883	Two Pair: As Over 3s
+169756	4884	Two Pair: As Over 3s
+12321	4885	Two Pair: As Over 4s
+24642	4886	Two Pair: As Over 4s
+61605	4887	Two Pair: As Over 4s
+86247	4888	Two Pair: As Over 4s
+135531	4889	Two Pair: As Over 4s
+160173	4890	Two Pair: As Over 4s
+209457	4891	Two Pair: As Over 4s
+234099	4892	Two Pair: As Over 4s
+283383	4893	Two Pair: As Over 4s
+357309	4894	Two Pair: As Over 4s
+381951	4895	Two Pair: As Over 4s
+34225	4896	Two Pair: As Over 5s
+68450	4897	Two Pair: As Over 5s
+102675	4898	Two Pair: As Over 5s
+239575	4899	Two Pair: As Over 5s
+376475	4900	Two Pair: As Over 5s
+444925	4901	Two Pair: As Over 5s
+581825	4902	Two Pair: As Over 5s
+650275	4903	Two Pair: As Over 5s
+787175	4904	Two Pair: As Over 5s
+992525	4905	Two Pair: As Over 5s
+1060975	4906	Two Pair: As Over 5s
+67081	4907	Two Pair: As Over 6s
+134162	4908	Two Pair: As Over 6s
+201243	4909	Two Pair: As Over 6s
+335405	4910	Two Pair: As Over 6s
+737891	4911	Two Pair: As Over 6s
+872053	4912	Two Pair: As Over 6s
+1140377	4913	Two Pair: As Over 6s
+1274539	4914	Two Pair: As Over 6s
+1542863	4915	Two Pair: As Over 6s
+1945349	4916	Two Pair: As Over 6s
+2079511	4917	Two Pair: As Over 6s
+165649	4918	Two Pair: As Over 7s
+331298	4919	Two Pair: As Over 7s
+496947	4920	Two Pair: As Over 7s
+828245	4921	Two Pair: As Over 7s
+1159543	4922	Two Pair: As Over 7s
+2153437	4923	Two Pair: As Over 7s
+2816033	4924	Two Pair: As Over 7s
+3147331	4925	Two Pair: As Over 7s
+3809927	4926	Two Pair: As Over 7s
+4803821	4927	Two Pair: As Over 7s
+5135119	4928	Two Pair: As Over 7s
+231361	4929	Two Pair: As Over 8s
+462722	4930	Two Pair: As Over 8s
+694083	4931	Two Pair: As Over 8s
+1156805	4932	Two Pair: As Over 8s
+1619527	4933	Two Pair: As Over 8s
+2544971	4934	Two Pair: As Over 8s
+3933137	4935	Two Pair: As Over 8s
+4395859	4936	Two Pair: As Over 8s
+5321303	4937	Two Pair: As Over 8s
+6709469	4938	Two Pair: As Over 8s
+7172191	4939	Two Pair: As Over 8s
+395641	4940	Two Pair: As Over 9s
+791282	4941	Two Pair: As Over 9s
+1186923	4942	Two Pair: As Over 9s
+1978205	4943	Two Pair: As Over 9s
+2769487	4944	Two Pair: As Over 9s
+4352051	4945	Two Pair: As Over 9s
+5143333	4946	Two Pair: As Over 9s
+7517179	4947	Two Pair: As Over 9s
+9099743	4948	Two Pair: As Over 9s
+11473589	4949	Two Pair: As Over 9s
+12264871	4950	Two Pair: As Over 9s
+494209	4951	Two Pair: As Over Ts
+988418	4952	Two Pair: As Over Ts
+1482627	4953	Two Pair: As Over Ts
+2471045	4954	Two Pair: As Over Ts
+3459463	4955	Two Pair: As Over Ts
+5436299	4956	Two Pair: As Over Ts
+6424717	4957	Two Pair: As Over Ts
+8401553	4958	Two Pair: As Over Ts
+11366807	4959	Two Pair: As Over Ts
+14332061	4960	Two Pair: As Over Ts
+15320479	4961	Two Pair: As Over Ts
+724201	4962	Two Pair: As Over Js
+1448402	4963	Two Pair: As Over Js
+2172603	4964	Two Pair: As Over Js
+3621005	4965	Two Pair: As Over Js
+5069407	4966	Two Pair: As Over Js
+7966211	4967	Two Pair: As Over Js
+9414613	4968	Two Pair: As Over Js
+12311417	4969	Two Pair: As Over Js
+13759819	4970	Two Pair: As Over Js
+21001829	4971	Two Pair: As Over Js
+22450231	4972	Two Pair: As Over Js
+1151329	4973	Two Pair: As Over Qs
+2302658	4974	Two Pair: As Over Qs
+3453987	4975	Two Pair: As Over Qs
+5756645	4976	Two Pair: As Over Qs
+8059303	4977	Two Pair: As Over Qs
+12664619	4978	Two Pair: As Over Qs
+14967277	4979	Two Pair: As Over Qs
+19572593	4980	Two Pair: As Over Qs
+21875251	4981	Two Pair: As Over Qs
+26480567	4982	Two Pair: As Over Qs
+35691199	4983	Two Pair: As Over Qs
+1315609	4984	Two Pair: As Over Ks
+2631218	4985	Two Pair: As Over Ks
+3946827	4986	Two Pair: As Over Ks
+6578045	4987	Two Pair: As Over Ks
+9209263	4988	Two Pair: As Over Ks
+14471699	4989	Two Pair: As Over Ks
+17102917	4990	Two Pair: As Over Ks
+22365353	4991	Two Pair: As Over Ks
+24996571	4992	Two Pair: As Over Ks
+30259007	4993	Two Pair: As Over Ks
+38152661	4994	Two Pair: As Over Ks
+6	4995	Trip 2s
+10	4996	Trip 2s
+15	4997	Trip 2s
+14	4998	Trip 2s
+21	4999	Trip 2s
+35	5000	Trip 2s
+22	5001	Trip 2s
+33	5002	Trip 2s
+55	5003	Trip 2s
+77	5004	Trip 2s
+26	5005	Trip 2s
+39	5006	Trip 2s
+65	5007	Trip 2s
+91	5008	Trip 2s
+143	5009	Trip 2s
+34	5010	Trip 2s
+51	5011	Trip 2s
+85	5012	Trip 2s
+119	5013	Trip 2s
+187	5014	Trip 2s
+221	5015	Trip 2s
+38	5016	Trip 2s
+57	5017	Trip 2s
+95	5018	Trip 2s
+133	5019	Trip 2s
+209	5020	Trip 2s
+247	5021	Trip 2s
+323	5022	Trip 2s
+46	5023	Trip 2s
+69	5024	Trip 2s
+115	5025	Trip 2s
+161	5026	Trip 2s
+253	5027	Trip 2s
+299	5028	Trip 2s
+391	5029	Trip 2s
+437	5030	Trip 2s
+58	5031	Trip 2s
+87	5032	Trip 2s
+145	5033	Trip 2s
+203	5034	Trip 2s
+319	5035	Trip 2s
+377	5036	Trip 2s
+493	5037	Trip 2s
+551	5038	Trip 2s
+667	5039	Trip 2s
+62	5040	Trip 2s
+93	5041	Trip 2s
+155	5042	Trip 2s
+217	5043	Trip 2s
+341	5044	Trip 2s
+403	5045	Trip 2s
+527	5046	Trip 2s
+589	5047	Trip 2s
+713	5048	Trip 2s
+899	5049	Trip 2s
+74	5050	Trip 2s
+111	5051	Trip 2s
+185	5052	Trip 2s
+259	5053	Trip 2s
+407	5054	Trip 2s
+481	5055	Trip 2s
+629	5056	Trip 2s
+703	5057	Trip 2s
+851	5058	Trip 2s
+1073	5059	Trip 2s
+1147	5060	Trip 2s
+24	5061	Trip 3s
+40	5062	Trip 3s
+120	5063	Trip 3s
+56	5064	Trip 3s
+168	5065	Trip 3s
+280	5066	Trip 3s
+88	5067	Trip 3s
+264	5068	Trip 3s
+440	5069	Trip 3s
+616	5070	Trip 3s
+104	5071	Trip 3s
+312	5072	Trip 3s
+520	5073	Trip 3s
+728	5074	Trip 3s
+1144	5075	Trip 3s
+136	5076	Trip 3s
+408	5077	Trip 3s
+680	5078	Trip 3s
+952	5079	Trip 3s
+1496	5080	Trip 3s
+1768	5081	Trip 3s
+152	5082	Trip 3s
+456	5083	Trip 3s
+760	5084	Trip 3s
+1064	5085	Trip 3s
+1672	5086	Trip 3s
+1976	5087	Trip 3s
+2584	5088	Trip 3s
+184	5089	Trip 3s
+552	5090	Trip 3s
+920	5091	Trip 3s
+1288	5092	Trip 3s
+2024	5093	Trip 3s
+2392	5094	Trip 3s
+3128	5095	Trip 3s
+3496	5096	Trip 3s
+232	5097	Trip 3s
+696	5098	Trip 3s
+1160	5099	Trip 3s
+1624	5100	Trip 3s
+2552	5101	Trip 3s
+3016	5102	Trip 3s
+3944	5103	Trip 3s
+4408	5104	Trip 3s
+5336	5105	Trip 3s
+248	5106	Trip 3s
+744	5107	Trip 3s
+1240	5108	Trip 3s
+1736	5109	Trip 3s
+2728	5110	Trip 3s
+3224	5111	Trip 3s
+4216	5112	Trip 3s
+4712	5113	Trip 3s
+5704	5114	Trip 3s
+7192	5115	Trip 3s
+296	5116	Trip 3s
+888	5117	Trip 3s
+1480	5118	Trip 3s
+2072	5119	Trip 3s
+3256	5120	Trip 3s
+3848	5121	Trip 3s
+5032	5122	Trip 3s
+5624	5123	Trip 3s
+6808	5124	Trip 3s
+8584	5125	Trip 3s
+9176	5126	Trip 3s
+54	5127	Trip 4s
+135	5128	Trip 4s
+270	5129	Trip 4s
+189	5130	Trip 4s
+378	5131	Trip 4s
+945	5132	Trip 4s
+297	5133	Trip 4s
+594	5134	Trip 4s
+1485	5135	Trip 4s
+2079	5136	Trip 4s
+351	5137	Trip 4s
+702	5138	Trip 4s
+1755	5139	Trip 4s
+2457	5140	Trip 4s
+3861	5141	Trip 4s
+459	5142	Trip 4s
+918	5143	Trip 4s
+2295	5144	Trip 4s
+3213	5145	Trip 4s
+5049	5146	Trip 4s
+5967	5147	Trip 4s
+513	5148	Trip 4s
+1026	5149	Trip 4s
+2565	5150	Trip 4s
+3591	5151	Trip 4s
+5643	5152	Trip 4s
+6669	5153	Trip 4s
+8721	5154	Trip 4s
+621	5155	Trip 4s
+1242	5156	Trip 4s
+3105	5157	Trip 4s
+4347	5158	Trip 4s
+6831	5159	Trip 4s
+8073	5160	Trip 4s
+10557	5161	Trip 4s
+11799	5162	Trip 4s
+783	5163	Trip 4s
+1566	5164	Trip 4s
+3915	5165	Trip 4s
+5481	5166	Trip 4s
+8613	5167	Trip 4s
+10179	5168	Trip 4s
+13311	5169	Trip 4s
+14877	5170	Trip 4s
+18009	5171	Trip 4s
+837	5172	Trip 4s
+1674	5173	Trip 4s
+4185	5174	Trip 4s
+5859	5175	Trip 4s
+9207	5176	Trip 4s
+10881	5177	Trip 4s
+14229	5178	Trip 4s
+15903	5179	Trip 4s
+19251	5180	Trip 4s
+24273	5181	Trip 4s
+999	5182	Trip 4s
+1998	5183	Trip 4s
+4995	5184	Trip 4s
+6993	5185	Trip 4s
+10989	5186	Trip 4s
+12987	5187	Trip 4s
+16983	5188	Trip 4s
+18981	5189	Trip 4s
+22977	5190	Trip 4s
+28971	5191	Trip 4s
+30969	5192	Trip 4s
+250	5193	Trip 5s
+375	5194	Trip 5s
+750	5195	Trip 5s
+875	5196	Trip 5s
+1750	5197	Trip 5s
+2625	5198	Trip 5s
+1375	5199	Trip 5s
+2750	5200	Trip 5s
+4125	5201	Trip 5s
+9625	5202	Trip 5s
+1625	5203	Trip 5s
+3250	5204	Trip 5s
+4875	5205	Trip 5s
+11375	5206	Trip 5s
+17875	5207	Trip 5s
+2125	5208	Trip 5s
+4250	5209	Trip 5s
+6375	5210	Trip 5s
+14875	5211	Trip 5s
+23375	5212	Trip 5s
+27625	5213	Trip 5s
+2375	5214	Trip 5s
+4750	5215	Trip 5s
+7125	5216	Trip 5s
+16625	5217	Trip 5s
+26125	5218	Trip 5s
+30875	5219	Trip 5s
+40375	5220	Trip 5s
+2875	5221	Trip 5s
+5750	5222	Trip 5s
+8625	5223	Trip 5s
+20125	5224	Trip 5s
+31625	5225	Trip 5s
+37375	5226	Trip 5s
+48875	5227	Trip 5s
+54625	5228	Trip 5s
+3625	5229	Trip 5s
+7250	5230	Trip 5s
+10875	5231	Trip 5s
+25375	5232	Trip 5s
+39875	5233	Trip 5s
+47125	5234	Trip 5s
+61625	5235	Trip 5s
+68875	5236	Trip 5s
+83375	5237	Trip 5s
+3875	5238	Trip 5s
+7750	5239	Trip 5s
+11625	5240	Trip 5s
+27125	5241	Trip 5s
+42625	5242	Trip 5s
+50375	5243	Trip 5s
+65875	5244	Trip 5s
+73625	5245	Trip 5s
+89125	5246	Trip 5s
+112375	5247	Trip 5s
+4625	5248	Trip 5s
+9250	5249	Trip 5s
+13875	5250	Trip 5s
+32375	5251	Trip 5s
+50875	5252	Trip 5s
+60125	5253	Trip 5s
+78625	5254	Trip 5s
+87875	5255	Trip 5s
+106375	5256	Trip 5s
+134125	5257	Trip 5s
+143375	5258	Trip 5s
+686	5259	Trip 6s
+1029	5260	Trip 6s
+2058	5261	Trip 6s
+1715	5262	Trip 6s
+3430	5263	Trip 6s
+5145	5264	Trip 6s
+3773	5265	Trip 6s
+7546	5266	Trip 6s
+11319	5267	Trip 6s
+18865	5268	Trip 6s
+4459	5269	Trip 6s
+8918	5270	Trip 6s
+13377	5271	Trip 6s
+22295	5272	Trip 6s
+49049	5273	Trip 6s
+5831	5274	Trip 6s
+11662	5275	Trip 6s
+17493	5276	Trip 6s
+29155	5277	Trip 6s
+64141	5278	Trip 6s
+75803	5279	Trip 6s
+6517	5280	Trip 6s
+13034	5281	Trip 6s
+19551	5282	Trip 6s
+32585	5283	Trip 6s
+71687	5284	Trip 6s
+84721	5285	Trip 6s
+110789	5286	Trip 6s
+7889	5287	Trip 6s
+15778	5288	Trip 6s
+23667	5289	Trip 6s
+39445	5290	Trip 6s
+86779	5291	Trip 6s
+102557	5292	Trip 6s
+134113	5293	Trip 6s
+149891	5294	Trip 6s
+9947	5295	Trip 6s
+19894	5296	Trip 6s
+29841	5297	Trip 6s
+49735	5298	Trip 6s
+109417	5299	Trip 6s
+129311	5300	Trip 6s
+169099	5301	Trip 6s
+188993	5302	Trip 6s
+228781	5303	Trip 6s
+10633	5304	Trip 6s
+21266	5305	Trip 6s
+31899	5306	Trip 6s
+53165	5307	Trip 6s
+116963	5308	Trip 6s
+138229	5309	Trip 6s
+180761	5310	Trip 6s
+202027	5311	Trip 6s
+244559	5312	Trip 6s
+308357	5313	Trip 6s
+12691	5314	Trip 6s
+25382	5315	Trip 6s
+38073	5316	Trip 6s
+63455	5317	Trip 6s
+139601	5318	Trip 6s
+164983	5319	Trip 6s
+215747	5320	Trip 6s
+241129	5321	Trip 6s
+291893	5322	Trip 6s
+368039	5323	Trip 6s
+393421	5324	Trip 6s
+2662	5325	Trip 7s
+3993	5326	Trip 7s
+7986	5327	Trip 7s
+6655	5328	Trip 7s
+13310	5329	Trip 7s
+19965	5330	Trip 7s
+9317	5331	Trip 7s
+18634	5332	Trip 7s
+27951	5333	Trip 7s
+46585	5334	Trip 7s
+17303	5335	Trip 7s
+34606	5336	Trip 7s
+51909	5337	Trip 7s
+86515	5338	Trip 7s
+121121	5339	Trip 7s
+22627	5340	Trip 7s
+45254	5341	Trip 7s
+67881	5342	Trip 7s
+113135	5343	Trip 7s
+158389	5344	Trip 7s
+294151	5345	Trip 7s
+25289	5346	Trip 7s
+50578	5347	Trip 7s
+75867	5348	Trip 7s
+126445	5349	Trip 7s
+177023	5350	Trip 7s
+328757	5351	Trip 7s
+429913	5352	Trip 7s
+30613	5353	Trip 7s
+61226	5354	Trip 7s
+91839	5355	Trip 7s
+153065	5356	Trip 7s
+214291	5357	Trip 7s
+397969	5358	Trip 7s
+520421	5359	Trip 7s
+581647	5360	Trip 7s
+38599	5361	Trip 7s
+77198	5362	Trip 7s
+115797	5363	Trip 7s
+192995	5364	Trip 7s
+270193	5365	Trip 7s
+501787	5366	Trip 7s
+656183	5367	Trip 7s
+733381	5368	Trip 7s
+887777	5369	Trip 7s
+41261	5370	Trip 7s
+82522	5371	Trip 7s
+123783	5372	Trip 7s
+206305	5373	Trip 7s
+288827	5374	Trip 7s
+536393	5375	Trip 7s
+701437	5376	Trip 7s
+783959	5377	Trip 7s
+949003	5378	Trip 7s
+1196569	5379	Trip 7s
+49247	5380	Trip 7s
+98494	5381	Trip 7s
+147741	5382	Trip 7s
+246235	5383	Trip 7s
+344729	5384	Trip 7s
+640211	5385	Trip 7s
+837199	5386	Trip 7s
+935693	5387	Trip 7s
+1132681	5388	Trip 7s
+1428163	5389	Trip 7s
+1526657	5390	Trip 7s
+4394	5391	Trip 8s
+6591	5392	Trip 8s
+13182	5393	Trip 8s
+10985	5394	Trip 8s
+21970	5395	Trip 8s
+32955	5396	Trip 8s
+15379	5397	Trip 8s
+30758	5398	Trip 8s
+46137	5399	Trip 8s
+76895	5400	Trip 8s
+24167	5401	Trip 8s
+48334	5402	Trip 8s
+72501	5403	Trip 8s
+120835	5404	Trip 8s
+169169	5405	Trip 8s
+37349	5406	Trip 8s
+74698	5407	Trip 8s
+112047	5408	Trip 8s
+186745	5409	Trip 8s
+261443	5410	Trip 8s
+410839	5411	Trip 8s
+41743	5412	Trip 8s
+83486	5413	Trip 8s
+125229	5414	Trip 8s
+208715	5415	Trip 8s
+292201	5416	Trip 8s
+459173	5417	Trip 8s
+709631	5418	Trip 8s
+50531	5419	Trip 8s
+101062	5420	Trip 8s
+151593	5421	Trip 8s
+252655	5422	Trip 8s
+353717	5423	Trip 8s
+555841	5424	Trip 8s
+859027	5425	Trip 8s
+960089	5426	Trip 8s
+63713	5427	Trip 8s
+127426	5428	Trip 8s
+191139	5429	Trip 8s
+318565	5430	Trip 8s
+445991	5431	Trip 8s
+700843	5432	Trip 8s
+1083121	5433	Trip 8s
+1210547	5434	Trip 8s
+1465399	5435	Trip 8s
+68107	5436	Trip 8s
+136214	5437	Trip 8s
+204321	5438	Trip 8s
+340535	5439	Trip 8s
+476749	5440	Trip 8s
+749177	5441	Trip 8s
+1157819	5442	Trip 8s
+1294033	5443	Trip 8s
+1566461	5444	Trip 8s
+1975103	5445	Trip 8s
+81289	5446	Trip 8s
+162578	5447	Trip 8s
+243867	5448	Trip 8s
+406445	5449	Trip 8s
+569023	5450	Trip 8s
+894179	5451	Trip 8s
+1381913	5452	Trip 8s
+1544491	5453	Trip 8s
+1869647	5454	Trip 8s
+2357381	5455	Trip 8s
+2519959	5456	Trip 8s
+9826	5457	Trip 9s
+14739	5458	Trip 9s
+29478	5459	Trip 9s
+24565	5460	Trip 9s
+49130	5461	Trip 9s
+73695	5462	Trip 9s
+34391	5463	Trip 9s
+68782	5464	Trip 9s
+103173	5465	Trip 9s
+171955	5466	Trip 9s
+54043	5467	Trip 9s
+108086	5468	Trip 9s
+162129	5469	Trip 9s
+270215	5470	Trip 9s
+378301	5471	Trip 9s
+63869	5472	Trip 9s
+127738	5473	Trip 9s
+191607	5474	Trip 9s
+319345	5475	Trip 9s
+447083	5476	Trip 9s
+702559	5477	Trip 9s
+93347	5478	Trip 9s
+186694	5479	Trip 9s
+280041	5480	Trip 9s
+466735	5481	Trip 9s
+653429	5482	Trip 9s
+1026817	5483	Trip 9s
+1213511	5484	Trip 9s
+112999	5485	Trip 9s
+225998	5486	Trip 9s
+338997	5487	Trip 9s
+564995	5488	Trip 9s
+790993	5489	Trip 9s
+1242989	5490	Trip 9s
+1468987	5491	Trip 9s
+2146981	5492	Trip 9s
+142477	5493	Trip 9s
+284954	5494	Trip 9s
+427431	5495	Trip 9s
+712385	5496	Trip 9s
+997339	5497	Trip 9s
+1567247	5498	Trip 9s
+1852201	5499	Trip 9s
+2707063	5500	Trip 9s
+3276971	5501	Trip 9s
+152303	5502	Trip 9s
+304606	5503	Trip 9s
+456909	5504	Trip 9s
+761515	5505	Trip 9s
+1066121	5506	Trip 9s
+1675333	5507	Trip 9s
+1979939	5508	Trip 9s
+2893757	5509	Trip 9s
+3502969	5510	Trip 9s
+4416787	5511	Trip 9s
+181781	5512	Trip 9s
+363562	5513	Trip 9s
+545343	5514	Trip 9s
+908905	5515	Trip 9s
+1272467	5516	Trip 9s
+1999591	5517	Trip 9s
+2363153	5518	Trip 9s
+3453839	5519	Trip 9s
+4180963	5520	Trip 9s
+5271649	5521	Trip 9s
+5635211	5522	Trip 9s
+13718	5523	Trip Ts
+20577	5524	Trip Ts
+41154	5525	Trip Ts
+34295	5526	Trip Ts
+68590	5527	Trip Ts
+102885	5528	Trip Ts
+48013	5529	Trip Ts
+96026	5530	Trip Ts
+144039	5531	Trip Ts
+240065	5532	Trip Ts
+75449	5533	Trip Ts
+150898	5534	Trip Ts
+226347	5535	Trip Ts
+377245	5536	Trip Ts
+528143	5537	Trip Ts
+89167	5538	Trip Ts
+178334	5539	Trip Ts
+267501	5540	Trip Ts
+445835	5541	Trip Ts
+624169	5542	Trip Ts
+980837	5543	Trip Ts
+116603	5544	Trip Ts
+233206	5545	Trip Ts
+349809	5546	Trip Ts
+583015	5547	Trip Ts
+816221	5548	Trip Ts
+1282633	5549	Trip Ts
+1515839	5550	Trip Ts
+157757	5551	Trip Ts
+315514	5552	Trip Ts
+473271	5553	Trip Ts
+788785	5554	Trip Ts
+1104299	5555	Trip Ts
+1735327	5556	Trip Ts
+2050841	5557	Trip Ts
+2681869	5558	Trip Ts
+198911	5559	Trip Ts
+397822	5560	Trip Ts
+596733	5561	Trip Ts
+994555	5562	Trip Ts
+1392377	5563	Trip Ts
+2188021	5564	Trip Ts
+2585843	5565	Trip Ts
+3381487	5566	Trip Ts
+4574953	5567	Trip Ts
+212629	5568	Trip Ts
+425258	5569	Trip Ts
+637887	5570	Trip Ts
+1063145	5571	Trip Ts
+1488403	5572	Trip Ts
+2338919	5573	Trip Ts
+2764177	5574	Trip Ts
+3614693	5575	Trip Ts
+4890467	5576	Trip Ts
+6166241	5577	Trip Ts
+253783	5578	Trip Ts
+507566	5579	Trip Ts
+761349	5580	Trip Ts
+1268915	5581	Trip Ts
+1776481	5582	Trip Ts
+2791613	5583	Trip Ts
+3299179	5584	Trip Ts
+4314311	5585	Trip Ts
+5837009	5586	Trip Ts
+7359707	5587	Trip Ts
+7867273	5588	Trip Ts
+24334	5589	Trip Js
+36501	5590	Trip Js
+73002	5591	Trip Js
+60835	5592	Trip Js
+121670	5593	Trip Js
+182505	5594	Trip Js
+85169	5595	Trip Js
+170338	5596	Trip Js
+255507	5597	Trip Js
+425845	5598	Trip Js
+133837	5599	Trip Js
+267674	5600	Trip Js
+401511	5601	Trip Js
+669185	5602	Trip Js
+936859	5603	Trip Js
+158171	5604	Trip Js
+316342	5605	Trip Js
+474513	5606	Trip Js
+790855	5607	Trip Js
+1107197	5608	Trip Js
+1739881	5609	Trip Js
+206839	5610	Trip Js
+413678	5611	Trip Js
+620517	5612	Trip Js
+1034195	5613	Trip Js
+1447873	5614	Trip Js
+2275229	5615	Trip Js
+2688907	5616	Trip Js
+231173	5617	Trip Js
+462346	5618	Trip Js
+693519	5619	Trip Js
+1155865	5620	Trip Js
+1618211	5621	Trip Js
+2542903	5622	Trip Js
+3005249	5623	Trip Js
+3929941	5624	Trip Js
+352843	5625	Trip Js
+705686	5626	Trip Js
+1058529	5627	Trip Js
+1764215	5628	Trip Js
+2469901	5629	Trip Js
+3881273	5630	Trip Js
+4586959	5631	Trip Js
+5998331	5632	Trip Js
+6704017	5633	Trip Js
+377177	5634	Trip Js
+754354	5635	Trip Js
+1131531	5636	Trip Js
+1885885	5637	Trip Js
+2640239	5638	Trip Js
+4148947	5639	Trip Js
+4903301	5640	Trip Js
+6412009	5641	Trip Js
+7166363	5642	Trip Js
+10938133	5643	Trip Js
+450179	5644	Trip Js
+900358	5645	Trip Js
+1350537	5646	Trip Js
+2250895	5647	Trip Js
+3151253	5648	Trip Js
+4951969	5649	Trip Js
+5852327	5650	Trip Js
+7653043	5651	Trip Js
+8553401	5652	Trip Js
+13055191	5653	Trip Js
+13955549	5654	Trip Js
+48778	5655	Trip Qs
+73167	5656	Trip Qs
+146334	5657	Trip Qs
+121945	5658	Trip Qs
+243890	5659	Trip Qs
+365835	5660	Trip Qs
+170723	5661	Trip Qs
+341446	5662	Trip Qs
+512169	5663	Trip Qs
+853615	5664	Trip Qs
+268279	5665	Trip Qs
+536558	5666	Trip Qs
+804837	5667	Trip Qs
+1341395	5668	Trip Qs
+1877953	5669	Trip Qs
+317057	5670	Trip Qs
+634114	5671	Trip Qs
+951171	5672	Trip Qs
+1585285	5673	Trip Qs
+2219399	5674	Trip Qs
+3487627	5675	Trip Qs
+414613	5676	Trip Qs
+829226	5677	Trip Qs
+1243839	5678	Trip Qs
+2073065	5679	Trip Qs
+2902291	5680	Trip Qs
+4560743	5681	Trip Qs
+5389969	5682	Trip Qs
+463391	5683	Trip Qs
+926782	5684	Trip Qs
+1390173	5685	Trip Qs
+2316955	5686	Trip Qs
+3243737	5687	Trip Qs
+5097301	5688	Trip Qs
+6024083	5689	Trip Qs
+7877647	5690	Trip Qs
+560947	5691	Trip Qs
+1121894	5692	Trip Qs
+1682841	5693	Trip Qs
+2804735	5694	Trip Qs
+3926629	5695	Trip Qs
+6170417	5696	Trip Qs
+7292311	5697	Trip Qs
+9536099	5698	Trip Qs
+10657993	5699	Trip Qs
+756059	5700	Trip Qs
+1512118	5701	Trip Qs
+2268177	5702	Trip Qs
+3780295	5703	Trip Qs
+5292413	5704	Trip Qs
+8316649	5705	Trip Qs
+9828767	5706	Trip Qs
+12853003	5707	Trip Qs
+14365121	5708	Trip Qs
+17389357	5709	Trip Qs
+902393	5710	Trip Qs
+1804786	5711	Trip Qs
+2707179	5712	Trip Qs
+4511965	5713	Trip Qs
+6316751	5714	Trip Qs
+9926323	5715	Trip Qs
+11731109	5716	Trip Qs
+15340681	5717	Trip Qs
+17145467	5718	Trip Qs
+20755039	5719	Trip Qs
+27974183	5720	Trip Qs
+59582	5721	Trip Ks
+89373	5722	Trip Ks
+178746	5723	Trip Ks
+148955	5724	Trip Ks
+297910	5725	Trip Ks
+446865	5726	Trip Ks
+208537	5727	Trip Ks
+417074	5728	Trip Ks
+625611	5729	Trip Ks
+1042685	5730	Trip Ks
+327701	5731	Trip Ks
+655402	5732	Trip Ks
+983103	5733	Trip Ks
+1638505	5734	Trip Ks
+2293907	5735	Trip Ks
+387283	5736	Trip Ks
+774566	5737	Trip Ks
+1161849	5738	Trip Ks
+1936415	5739	Trip Ks
+2710981	5740	Trip Ks
+4260113	5741	Trip Ks
+506447	5742	Trip Ks
+1012894	5743	Trip Ks
+1519341	5744	Trip Ks
+2532235	5745	Trip Ks
+3545129	5746	Trip Ks
+5570917	5747	Trip Ks
+6583811	5748	Trip Ks
+566029	5749	Trip Ks
+1132058	5750	Trip Ks
+1698087	5751	Trip Ks
+2830145	5752	Trip Ks
+3962203	5753	Trip Ks
+6226319	5754	Trip Ks
+7358377	5755	Trip Ks
+9622493	5756	Trip Ks
+685193	5757	Trip Ks
+1370386	5758	Trip Ks
+2055579	5759	Trip Ks
+3425965	5760	Trip Ks
+4796351	5761	Trip Ks
+7537123	5762	Trip Ks
+8907509	5763	Trip Ks
+11648281	5764	Trip Ks
+13018667	5765	Trip Ks
+863939	5766	Trip Ks
+1727878	5767	Trip Ks
+2591817	5768	Trip Ks
+4319695	5769	Trip Ks
+6047573	5770	Trip Ks
+9503329	5771	Trip Ks
+11231207	5772	Trip Ks
+14686963	5773	Trip Ks
+16414841	5774	Trip Ks
+19870597	5775	Trip Ks
+1102267	5776	Trip Ks
+2204534	5777	Trip Ks
+3306801	5778	Trip Ks
+5511335	5779	Trip Ks
+7715869	5780	Trip Ks
+12124937	5781	Trip Ks
+14329471	5782	Trip Ks
+18738539	5783	Trip Ks
+20943073	5784	Trip Ks
+25352141	5785	Trip Ks
+31965743	5786	Trip Ks
+101306	5787	Trip As
+151959	5788	Trip As
+303918	5789	Trip As
+253265	5790	Trip As
+506530	5791	Trip As
+759795	5792	Trip As
+354571	5793	Trip As
+709142	5794	Trip As
+1063713	5795	Trip As
+1772855	5796	Trip As
+557183	5797	Trip As
+1114366	5798	Trip As
+1671549	5799	Trip As
+2785915	5800	Trip As
+3900281	5801	Trip As
+658489	5802	Trip As
+1316978	5803	Trip As
+1975467	5804	Trip As
+3292445	5805	Trip As
+4609423	5806	Trip As
+7243379	5807	Trip As
+861101	5808	Trip As
+1722202	5809	Trip As
+2583303	5810	Trip As
+4305505	5811	Trip As
+6027707	5812	Trip As
+9472111	5813	Trip As
+11194313	5814	Trip As
+962407	5815	Trip As
+1924814	5816	Trip As
+2887221	5817	Trip As
+4812035	5818	Trip As
+6736849	5819	Trip As
+10586477	5820	Trip As
+12511291	5821	Trip As
+16360919	5822	Trip As
+1165019	5823	Trip As
+2330038	5824	Trip As
+3495057	5825	Trip As
+5825095	5826	Trip As
+8155133	5827	Trip As
+12815209	5828	Trip As
+15145247	5829	Trip As
+19805323	5830	Trip As
+22135361	5831	Trip As
+1468937	5832	Trip As
+2937874	5833	Trip As
+4406811	5834	Trip As
+7344685	5835	Trip As
+10282559	5836	Trip As
+16158307	5837	Trip As
+19096181	5838	Trip As
+24971929	5839	Trip As
+27909803	5840	Trip As
+33785551	5841	Trip As
+1570243	5842	Trip As
+3140486	5843	Trip As
+4710729	5844	Trip As
+7851215	5845	Trip As
+10991701	5846	Trip As
+17272673	5847	Trip As
+20413159	5848	Trip As
+26694131	5849	Trip As
+29834617	5850	Trip As
+36115589	5851	Trip As
+45537047	5852	Trip As
+1110	5853	Wheel Straight
+210	5854	6 High Straight
+2310	5855	7 High Straight
+15015	5856	8 High Straight
+85085	5857	9 High Straight
+323323	5858	T High Straight
+1062347	5859	J High Straight
+2800733	5860	Q High Straight
+6678671	5861	K High Straight
+14535931	5862	A High Straight
+13530	5863	7 High Flush
+18942	5864	7 High Flush
+31570	5865	7 High Flush
+47355	5866	7 High Flush
+15990	5867	8 High Flush
+22386	5868	8 High Flush
+37310	5869	8 High Flush
+55965	5870	8 High Flush
+111930	5871	8 High Flush
+35178	5872	8 High Flush
+58630	5873	8 High Flush
+87945	5874	8 High Flush
+175890	5875	8 High Flush
+82082	5876	8 High Flush
+123123	5877	8 High Flush
+246246	5878	8 High Flush
+205205	5879	8 High Flush
+410410	5880	8 High Flush
+20910	5881	9 High Flush
+29274	5882	9 High Flush
+48790	5883	9 High Flush
+73185	5884	9 High Flush
+146370	5885	9 High Flush
+46002	5886	9 High Flush
+76670	5887	9 High Flush
+115005	5888	9 High Flush
+230010	5889	9 High Flush
+107338	5890	9 High Flush
+161007	5891	9 High Flush
+322014	5892	9 High Flush
+268345	5893	9 High Flush
+536690	5894	9 High Flush
+805035	5895	9 High Flush
+54366	5896	9 High Flush
+90610	5897	9 High Flush
+135915	5898	9 High Flush
+271830	5899	9 High Flush
+126854	5900	9 High Flush
+190281	5901	9 High Flush
+380562	5902	9 High Flush
+317135	5903	9 High Flush
+634270	5904	9 High Flush
+951405	5905	9 High Flush
+199342	5906	9 High Flush
+299013	5907	9 High Flush
+598026	5908	9 High Flush
+498355	5909	9 High Flush
+996710	5910	9 High Flush
+1495065	5911	9 High Flush
+697697	5912	9 High Flush
+1395394	5913	9 High Flush
+2093091	5914	9 High Flush
+23370	5915	T High Flush
+32718	5916	T High Flush
+54530	5917	T High Flush
+81795	5918	T High Flush
+163590	5919	T High Flush
+51414	5920	T High Flush
+85690	5921	T High Flush
+128535	5922	T High Flush
+257070	5923	T High Flush
+119966	5924	T High Flush
+179949	5925	T High Flush
+359898	5926	T High Flush
+299915	5927	T High Flush
+599830	5928	T High Flush
+899745	5929	T High Flush
+60762	5930	T High Flush
+101270	5931	T High Flush
+151905	5932	T High Flush
+303810	5933	T High Flush
+141778	5934	T High Flush
+212667	5935	T High Flush
+425334	5936	T High Flush
+354445	5937	T High Flush
+708890	5938	T High Flush
+1063335	5939	T High Flush
+222794	5940	T High Flush
+334191	5941	T High Flush
+668382	5942	T High Flush
+556985	5943	T High Flush
+1113970	5944	T High Flush
+1670955	5945	T High Flush
+779779	5946	T High Flush
+1559558	5947	T High Flush
+2339337	5948	T High Flush
+3898895	5949	T High Flush
+79458	5950	T High Flush
+132430	5951	T High Flush
+198645	5952	T High Flush
+397290	5953	T High Flush
+185402	5954	T High Flush
+278103	5955	T High Flush
+556206	5956	T High Flush
+463505	5957	T High Flush
+927010	5958	T High Flush
+1390515	5959	T High Flush
+291346	5960	T High Flush
+437019	5961	T High Flush
+874038	5962	T High Flush
+728365	5963	T High Flush
+1456730	5964	T High Flush
+2185095	5965	T High Flush
+1019711	5966	T High Flush
+2039422	5967	T High Flush
+3059133	5968	T High Flush
+5098555	5969	T High Flush
+344318	5970	T High Flush
+516477	5971	T High Flush
+1032954	5972	T High Flush
+860795	5973	T High Flush
+1721590	5974	T High Flush
+2582385	5975	T High Flush
+1205113	5976	T High Flush
+2410226	5977	T High Flush
+3615339	5978	T High Flush
+6025565	5979	T High Flush
+1893749	5980	T High Flush
+3787498	5981	T High Flush
+5681247	5982	T High Flush
+9468745	5983	T High Flush
+28290	5984	J High Flush
+39606	5985	J High Flush
+66010	5986	J High Flush
+99015	5987	J High Flush
+198030	5988	J High Flush
+62238	5989	J High Flush
+103730	5990	J High Flush
+155595	5991	J High Flush
+311190	5992	J High Flush
+145222	5993	J High Flush
+217833	5994	J High Flush
+435666	5995	J High Flush
+363055	5996	J High Flush
+726110	5997	J High Flush
+1089165	5998	J High Flush
+73554	5999	J High Flush
+122590	6000	J High Flush
+183885	6001	J High Flush
+367770	6002	J High Flush
+171626	6003	J High Flush
+257439	6004	J High Flush
+514878	6005	J High Flush
+429065	6006	J High Flush
+858130	6007	J High Flush
+1287195	6008	J High Flush
+269698	6009	J High Flush
+404547	6010	J High Flush
+809094	6011	J High Flush
+674245	6012	J High Flush
+1348490	6013	J High Flush
+2022735	6014	J High Flush
+943943	6015	J High Flush
+1887886	6016	J High Flush
+2831829	6017	J High Flush
+4719715	6018	J High Flush
+96186	6019	J High Flush
+160310	6020	J High Flush
+240465	6021	J High Flush
+480930	6022	J High Flush
+224434	6023	J High Flush
+336651	6024	J High Flush
+673302	6025	J High Flush
+561085	6026	J High Flush
+1122170	6027	J High Flush
+1683255	6028	J High Flush
+352682	6029	J High Flush
+529023	6030	J High Flush
+1058046	6031	J High Flush
+881705	6032	J High Flush
+1763410	6033	J High Flush
+2645115	6034	J High Flush
+1234387	6035	J High Flush
+2468774	6036	J High Flush
+3703161	6037	J High Flush
+6171935	6038	J High Flush
+416806	6039	J High Flush
+625209	6040	J High Flush
+1250418	6041	J High Flush
+1042015	6042	J High Flush
+2084030	6043	J High Flush
+3126045	6044	J High Flush
+1458821	6045	J High Flush
+2917642	6046	J High Flush
+4376463	6047	J High Flush
+7294105	6048	J High Flush
+2292433	6049	J High Flush
+4584866	6050	J High Flush
+6877299	6051	J High Flush
+11462165	6052	J High Flush
+16047031	6053	J High Flush
+107502	6054	J High Flush
+179170	6055	J High Flush
+268755	6056	J High Flush
+537510	6057	J High Flush
+250838	6058	J High Flush
+376257	6059	J High Flush
+752514	6060	J High Flush
+627095	6061	J High Flush
+1254190	6062	J High Flush
+1881285	6063	J High Flush
+394174	6064	J High Flush
+591261	6065	J High Flush
+1182522	6066	J High Flush
+985435	6067	J High Flush
+1970870	6068	J High Flush
+2956305	6069	J High Flush
+1379609	6070	J High Flush
+2759218	6071	J High Flush
+4138827	6072	J High Flush
+6898045	6073	J High Flush
+465842	6074	J High Flush
+698763	6075	J High Flush
+1397526	6076	J High Flush
+1164605	6077	J High Flush
+2329210	6078	J High Flush
+3493815	6079	J High Flush
+1630447	6080	J High Flush
+3260894	6081	J High Flush
+4891341	6082	J High Flush
+8152235	6083	J High Flush
+2562131	6084	J High Flush
+5124262	6085	J High Flush
+7686393	6086	J High Flush
+12810655	6087	J High Flush
+17934917	6088	J High Flush
+609178	6089	J High Flush
+913767	6090	J High Flush
+1827534	6091	J High Flush
+1522945	6092	J High Flush
+3045890	6093	J High Flush
+4568835	6094	J High Flush
+2132123	6095	J High Flush
+4264246	6096	J High Flush
+6396369	6097	J High Flush
+10660615	6098	J High Flush
+3350479	6099	J High Flush
+6700958	6100	J High Flush
+10051437	6101	J High Flush
+16752395	6102	J High Flush
+23453353	6103	J High Flush
+3959657	6104	J High Flush
+7919314	6105	J High Flush
+11878971	6106	J High Flush
+19798285	6107	J High Flush
+27717599	6108	J High Flush
+35670	6109	Q High Flush
+49938	6110	Q High Flush
+83230	6111	Q High Flush
+124845	6112	Q High Flush
+249690	6113	Q High Flush
+78474	6114	Q High Flush
+130790	6115	Q High Flush
+196185	6116	Q High Flush
+392370	6117	Q High Flush
+183106	6118	Q High Flush
+274659	6119	Q High Flush
+549318	6120	Q High Flush
+457765	6121	Q High Flush
+915530	6122	Q High Flush
+1373295	6123	Q High Flush
+92742	6124	Q High Flush
+154570	6125	Q High Flush
+231855	6126	Q High Flush
+463710	6127	Q High Flush
+216398	6128	Q High Flush
+324597	6129	Q High Flush
+649194	6130	Q High Flush
+540995	6131	Q High Flush
+1081990	6132	Q High Flush
+1622985	6133	Q High Flush
+340054	6134	Q High Flush
+510081	6135	Q High Flush
+1020162	6136	Q High Flush
+850135	6137	Q High Flush
+1700270	6138	Q High Flush
+2550405	6139	Q High Flush
+1190189	6140	Q High Flush
+2380378	6141	Q High Flush
+3570567	6142	Q High Flush
+5950945	6143	Q High Flush
+121278	6144	Q High Flush
+202130	6145	Q High Flush
+303195	6146	Q High Flush
+606390	6147	Q High Flush
+282982	6148	Q High Flush
+424473	6149	Q High Flush
+848946	6150	Q High Flush
+707455	6151	Q High Flush
+1414910	6152	Q High Flush
+2122365	6153	Q High Flush
+444686	6154	Q High Flush
+667029	6155	Q High Flush
+1334058	6156	Q High Flush
+1111715	6157	Q High Flush
+2223430	6158	Q High Flush
+3335145	6159	Q High Flush
+1556401	6160	Q High Flush
+3112802	6161	Q High Flush
+4669203	6162	Q High Flush
+7782005	6163	Q High Flush
+525538	6164	Q High Flush
+788307	6165	Q High Flush
+1576614	6166	Q High Flush
+1313845	6167	Q High Flush
+2627690	6168	Q High Flush
+3941535	6169	Q High Flush
+1839383	6170	Q High Flush
+3678766	6171	Q High Flush
+5518149	6172	Q High Flush
+9196915	6173	Q High Flush
+2890459	6174	Q High Flush
+5780918	6175	Q High Flush
+8671377	6176	Q High Flush
+14452295	6177	Q High Flush
+20233213	6178	Q High Flush
+135546	6179	Q High Flush
+225910	6180	Q High Flush
+338865	6181	Q High Flush
+677730	6182	Q High Flush
+316274	6183	Q High Flush
+474411	6184	Q High Flush
+948822	6185	Q High Flush
+790685	6186	Q High Flush
+1581370	6187	Q High Flush
+2372055	6188	Q High Flush
+497002	6189	Q High Flush
+745503	6190	Q High Flush
+1491006	6191	Q High Flush
+1242505	6192	Q High Flush
+2485010	6193	Q High Flush
+3727515	6194	Q High Flush
+1739507	6195	Q High Flush
+3479014	6196	Q High Flush
+5218521	6197	Q High Flush
+8697535	6198	Q High Flush
+587366	6199	Q High Flush
+881049	6200	Q High Flush
+1762098	6201	Q High Flush
+1468415	6202	Q High Flush
+2936830	6203	Q High Flush
+4405245	6204	Q High Flush
+2055781	6205	Q High Flush
+4111562	6206	Q High Flush
+6167343	6207	Q High Flush
+10278905	6208	Q High Flush
+3230513	6209	Q High Flush
+6461026	6210	Q High Flush
+9691539	6211	Q High Flush
+16152565	6212	Q High Flush
+22613591	6213	Q High Flush
+768094	6214	Q High Flush
+1152141	6215	Q High Flush
+2304282	6216	Q High Flush
+1920235	6217	Q High Flush
+3840470	6218	Q High Flush
+5760705	6219	Q High Flush
+2688329	6220	Q High Flush
+5376658	6221	Q High Flush
+8064987	6222	Q High Flush
+13441645	6223	Q High Flush
+4224517	6224	Q High Flush
+8449034	6225	Q High Flush
+12673551	6226	Q High Flush
+21122585	6227	Q High Flush
+29571619	6228	Q High Flush
+4992611	6229	Q High Flush
+9985222	6230	Q High Flush
+14977833	6231	Q High Flush
+24963055	6232	Q High Flush
+34948277	6233	Q High Flush
+54918721	6234	Q High Flush
+164082	6235	Q High Flush
+273470	6236	Q High Flush
+410205	6237	Q High Flush
+820410	6238	Q High Flush
+382858	6239	Q High Flush
+574287	6240	Q High Flush
+1148574	6241	Q High Flush
+957145	6242	Q High Flush
+1914290	6243	Q High Flush
+2871435	6244	Q High Flush
+601634	6245	Q High Flush
+902451	6246	Q High Flush
+1804902	6247	Q High Flush
+1504085	6248	Q High Flush
+3008170	6249	Q High Flush
+4512255	6250	Q High Flush
+2105719	6251	Q High Flush
+4211438	6252	Q High Flush
+6317157	6253	Q High Flush
+10528595	6254	Q High Flush
+711022	6255	Q High Flush
+1066533	6256	Q High Flush
+2133066	6257	Q High Flush
+1777555	6258	Q High Flush
+3555110	6259	Q High Flush
+5332665	6260	Q High Flush
+2488577	6261	Q High Flush
+4977154	6262	Q High Flush
+7465731	6263	Q High Flush
+12442885	6264	Q High Flush
+3910621	6265	Q High Flush
+7821242	6266	Q High Flush
+11731863	6267	Q High Flush
+19553105	6268	Q High Flush
+27374347	6269	Q High Flush
+929798	6270	Q High Flush
+1394697	6271	Q High Flush
+2789394	6272	Q High Flush
+2324495	6273	Q High Flush
+4648990	6274	Q High Flush
+6973485	6275	Q High Flush
+3254293	6276	Q High Flush
+6508586	6277	Q High Flush
+9762879	6278	Q High Flush
+16271465	6279	Q High Flush
+5113889	6280	Q High Flush
+10227778	6281	Q High Flush
+15341667	6282	Q High Flush
+25569445	6283	Q High Flush
+35797223	6284	Q High Flush
+6043687	6285	Q High Flush
+12087374	6286	Q High Flush
+18131061	6287	Q High Flush
+30218435	6288	Q High Flush
+42305809	6289	Q High Flush
+66480557	6290	Q High Flush
+1039186	6291	Q High Flush
+1558779	6292	Q High Flush
+3117558	6293	Q High Flush
+2597965	6294	Q High Flush
+5195930	6295	Q High Flush
+7793895	6296	Q High Flush
+3637151	6297	Q High Flush
+7274302	6298	Q High Flush
+10911453	6299	Q High Flush
+18185755	6300	Q High Flush
+5715523	6301	Q High Flush
+11431046	6302	Q High Flush
+17146569	6303	Q High Flush
+28577615	6304	Q High Flush
+40008661	6305	Q High Flush
+6754709	6306	Q High Flush
+13509418	6307	Q High Flush
+20264127	6308	Q High Flush
+33773545	6309	Q High Flush
+47282963	6310	Q High Flush
+74301799	6311	Q High Flush
+8833081	6312	Q High Flush
+17666162	6313	Q High Flush
+26499243	6314	Q High Flush
+44165405	6315	Q High Flush
+61831567	6316	Q High Flush
+97163891	6317	Q High Flush
+38130	6318	K High Flush
+53382	6319	K High Flush
+88970	6320	K High Flush
+133455	6321	K High Flush
+266910	6322	K High Flush
+83886	6323	K High Flush
+139810	6324	K High Flush
+209715	6325	K High Flush
+419430	6326	K High Flush
+195734	6327	K High Flush
+293601	6328	K High Flush
+587202	6329	K High Flush
+489335	6330	K High Flush
+978670	6331	K High Flush
+1468005	6332	K High Flush
+99138	6333	K High Flush
+165230	6334	K High Flush
+247845	6335	K High Flush
+495690	6336	K High Flush
+231322	6337	K High Flush
+346983	6338	K High Flush
+693966	6339	K High Flush
+578305	6340	K High Flush
+1156610	6341	K High Flush
+1734915	6342	K High Flush
+363506	6343	K High Flush
+545259	6344	K High Flush
+1090518	6345	K High Flush
+908765	6346	K High Flush
+1817530	6347	K High Flush
+2726295	6348	K High Flush
+1272271	6349	K High Flush
+2544542	6350	K High Flush
+3816813	6351	K High Flush
+6361355	6352	K High Flush
+129642	6353	K High Flush
+216070	6354	K High Flush
+324105	6355	K High Flush
+648210	6356	K High Flush
+302498	6357	K High Flush
+453747	6358	K High Flush
+907494	6359	K High Flush
+756245	6360	K High Flush
+1512490	6361	K High Flush
+2268735	6362	K High Flush
+475354	6363	K High Flush
+713031	6364	K High Flush
+1426062	6365	K High Flush
+1188385	6366	K High Flush
+2376770	6367	K High Flush
+3565155	6368	K High Flush
+1663739	6369	K High Flush
+3327478	6370	K High Flush
+4991217	6371	K High Flush
+8318695	6372	K High Flush
+561782	6373	K High Flush
+842673	6374	K High Flush
+1685346	6375	K High Flush
+1404455	6376	K High Flush
+2808910	6377	K High Flush
+4213365	6378	K High Flush
+1966237	6379	K High Flush
+3932474	6380	K High Flush
+5898711	6381	K High Flush
+9831185	6382	K High Flush
+3089801	6383	K High Flush
+6179602	6384	K High Flush
+9269403	6385	K High Flush
+15449005	6386	K High Flush
+21628607	6387	K High Flush
+144894	6388	K High Flush
+241490	6389	K High Flush
+362235	6390	K High Flush
+724470	6391	K High Flush
+338086	6392	K High Flush
+507129	6393	K High Flush
+1014258	6394	K High Flush
+845215	6395	K High Flush
+1690430	6396	K High Flush
+2535645	6397	K High Flush
+531278	6398	K High Flush
+796917	6399	K High Flush
+1593834	6400	K High Flush
+1328195	6401	K High Flush
+2656390	6402	K High Flush
+3984585	6403	K High Flush
+1859473	6404	K High Flush
+3718946	6405	K High Flush
+5578419	6406	K High Flush
+9297365	6407	K High Flush
+627874	6408	K High Flush
+941811	6409	K High Flush
+1883622	6410	K High Flush
+1569685	6411	K High Flush
+3139370	6412	K High Flush
+4709055	6413	K High Flush
+2197559	6414	K High Flush
+4395118	6415	K High Flush
+6592677	6416	K High Flush
+10987795	6417	K High Flush
+3453307	6418	K High Flush
+6906614	6419	K High Flush
+10359921	6420	K High Flush
+17266535	6421	K High Flush
+24173149	6422	K High Flush
+821066	6423	K High Flush
+1231599	6424	K High Flush
+2463198	6425	K High Flush
+2052665	6426	K High Flush
+4105330	6427	K High Flush
+6157995	6428	K High Flush
+2873731	6429	K High Flush
+5747462	6430	K High Flush
+8621193	6431	K High Flush
+14368655	6432	K High Flush
+4515863	6433	K High Flush
+9031726	6434	K High Flush
+13547589	6435	K High Flush
+22579315	6436	K High Flush
+31611041	6437	K High Flush
+5336929	6438	K High Flush
+10673858	6439	K High Flush
+16010787	6440	K High Flush
+26684645	6441	K High Flush
+37358503	6442	K High Flush
+58706219	6443	K High Flush
+175398	6444	K High Flush
+292330	6445	K High Flush
+438495	6446	K High Flush
+876990	6447	K High Flush
+409262	6448	K High Flush
+613893	6449	K High Flush
+1227786	6450	K High Flush
+1023155	6451	K High Flush
+2046310	6452	K High Flush
+3069465	6453	K High Flush
+643126	6454	K High Flush
+964689	6455	K High Flush
+1929378	6456	K High Flush
+1607815	6457	K High Flush
+3215630	6458	K High Flush
+4823445	6459	K High Flush
+2250941	6460	K High Flush
+4501882	6461	K High Flush
+6752823	6462	K High Flush
+11254705	6463	K High Flush
+760058	6464	K High Flush
+1140087	6465	K High Flush
+2280174	6466	K High Flush
+1900145	6467	K High Flush
+3800290	6468	K High Flush
+5700435	6469	K High Flush
+2660203	6470	K High Flush
+5320406	6471	K High Flush
+7980609	6472	K High Flush
+13301015	6473	K High Flush
+4180319	6474	K High Flush
+8360638	6475	K High Flush
+12540957	6476	K High Flush
+20901595	6477	K High Flush
+29262233	6478	K High Flush
+993922	6479	K High Flush
+1490883	6480	K High Flush
+2981766	6481	K High Flush
+2484805	6482	K High Flush
+4969610	6483	K High Flush
+7454415	6484	K High Flush
+3478727	6485	K High Flush
+6957454	6486	K High Flush
+10436181	6487	K High Flush
+17393635	6488	K High Flush
+5466571	6489	K High Flush
+10933142	6490	K High Flush
+16399713	6491	K High Flush
+27332855	6492	K High Flush
+38265997	6493	K High Flush
+6460493	6494	K High Flush
+12920986	6495	K High Flush
+19381479	6496	K High Flush
+32302465	6497	K High Flush
+45223451	6498	K High Flush
+71065423	6499	K High Flush
+1110854	6500	K High Flush
+1666281	6501	K High Flush
+3332562	6502	K High Flush
+2777135	6503	K High Flush
+5554270	6504	K High Flush
+8331405	6505	K High Flush
+3887989	6506	K High Flush
+7775978	6507	K High Flush
+11663967	6508	K High Flush
+19439945	6509	K High Flush
+6109697	6510	K High Flush
+12219394	6511	K High Flush
+18329091	6512	K High Flush
+30548485	6513	K High Flush
+42767879	6514	K High Flush
+7220551	6515	K High Flush
+14441102	6516	K High Flush
+21661653	6517	K High Flush
+36102755	6518	K High Flush
+50543857	6519	K High Flush
+79426061	6520	K High Flush
+9442259	6521	K High Flush
+18884518	6522	K High Flush
+28326777	6523	K High Flush
+47211295	6524	K High Flush
+66095813	6525	K High Flush
+103864849	6526	K High Flush
+122749367	6527	K High Flush
+221154	6528	K High Flush
+368590	6529	K High Flush
+552885	6530	K High Flush
+1105770	6531	K High Flush
+516026	6532	K High Flush
+774039	6533	K High Flush
+1548078	6534	K High Flush
+1290065	6535	K High Flush
+2580130	6536	K High Flush
+3870195	6537	K High Flush
+810898	6538	K High Flush
+1216347	6539	K High Flush
+2432694	6540	K High Flush
+2027245	6541	K High Flush
+4054490	6542	K High Flush
+6081735	6543	K High Flush
+2838143	6544	K High Flush
+5676286	6545	K High Flush
+8514429	6546	K High Flush
+14190715	6547	K High Flush
+958334	6548	K High Flush
+1437501	6549	K High Flush
+2875002	6550	K High Flush
+2395835	6551	K High Flush
+4791670	6552	K High Flush
+7187505	6553	K High Flush
+3354169	6554	K High Flush
+6708338	6555	K High Flush
+10062507	6556	K High Flush
+16770845	6557	K High Flush
+5270837	6558	K High Flush
+10541674	6559	K High Flush
+15812511	6560	K High Flush
+26354185	6561	K High Flush
+36895859	6562	K High Flush
+1253206	6563	K High Flush
+1879809	6564	K High Flush
+3759618	6565	K High Flush
+3133015	6566	K High Flush
+6266030	6567	K High Flush
+9399045	6568	K High Flush
+4386221	6569	K High Flush
+8772442	6570	K High Flush
+13158663	6571	K High Flush
+21931105	6572	K High Flush
+6892633	6573	K High Flush
+13785266	6574	K High Flush
+20677899	6575	K High Flush
+34463165	6576	K High Flush
+48248431	6577	K High Flush
+8145839	6578	K High Flush
+16291678	6579	K High Flush
+24437517	6580	K High Flush
+40729195	6581	K High Flush
+57020873	6582	K High Flush
+89604229	6583	K High Flush
+1400642	6584	K High Flush
+2100963	6585	K High Flush
+4201926	6586	K High Flush
+3501605	6587	K High Flush
+7003210	6588	K High Flush
+10504815	6589	K High Flush
+4902247	6590	K High Flush
+9804494	6591	K High Flush
+14706741	6592	K High Flush
+24511235	6593	K High Flush
+7703531	6594	K High Flush
+15407062	6595	K High Flush
+23110593	6596	K High Flush
+38517655	6597	K High Flush
+53924717	6598	K High Flush
+9104173	6599	K High Flush
+18208346	6600	K High Flush
+27312519	6601	K High Flush
+45520865	6602	K High Flush
+63729211	6603	K High Flush
+100145903	6604	K High Flush
+11905457	6605	K High Flush
+23810914	6606	K High Flush
+35716371	6607	K High Flush
+59527285	6608	K High Flush
+83338199	6609	K High Flush
+130960027	6610	K High Flush
+154770941	6611	K High Flush
+1695514	6612	K High Flush
+2543271	6613	K High Flush
+5086542	6614	K High Flush
+4238785	6615	K High Flush
+8477570	6616	K High Flush
+12716355	6617	K High Flush
+5934299	6618	K High Flush
+11868598	6619	K High Flush
+17802897	6620	K High Flush
+29671495	6621	K High Flush
+9325327	6622	K High Flush
+18650654	6623	K High Flush
+27975981	6624	K High Flush
+46626635	6625	K High Flush
+65277289	6626	K High Flush
+11020841	6627	K High Flush
+22041682	6628	K High Flush
+33062523	6629	K High Flush
+55104205	6630	K High Flush
+77145887	6631	K High Flush
+121229251	6632	K High Flush
+14411869	6633	K High Flush
+28823738	6634	K High Flush
+43235607	6635	K High Flush
+72059345	6636	K High Flush
+100883083	6637	K High Flush
+158530559	6638	K High Flush
+187354297	6639	K High Flush
+16107383	6640	K High Flush
+32214766	6641	K High Flush
+48322149	6642	K High Flush
+80536915	6643	K High Flush
+112751681	6644	K High Flush
+177181213	6645	K High Flush
+209395979	6646	K High Flush
+63714	6647	A High Flush
+106190	6648	A High Flush
+159285	6649	A High Flush
+318570	6650	A High Flush
+100122	6651	A High Flush
+166870	6652	A High Flush
+250305	6653	A High Flush
+500610	6654	A High Flush
+233618	6655	A High Flush
+350427	6656	A High Flush
+700854	6657	A High Flush
+584045	6658	A High Flush
+1168090	6659	A High Flush
+1752135	6660	A High Flush
+118326	6661	A High Flush
+197210	6662	A High Flush
+295815	6663	A High Flush
+591630	6664	A High Flush
+276094	6665	A High Flush
+414141	6666	A High Flush
+828282	6667	A High Flush
+690235	6668	A High Flush
+1380470	6669	A High Flush
+2070705	6670	A High Flush
+433862	6671	A High Flush
+650793	6672	A High Flush
+1301586	6673	A High Flush
+1084655	6674	A High Flush
+2169310	6675	A High Flush
+3253965	6676	A High Flush
+1518517	6677	A High Flush
+3037034	6678	A High Flush
+4555551	6679	A High Flush
+7592585	6680	A High Flush
+154734	6681	A High Flush
+257890	6682	A High Flush
+386835	6683	A High Flush
+773670	6684	A High Flush
+361046	6685	A High Flush
+541569	6686	A High Flush
+1083138	6687	A High Flush
+902615	6688	A High Flush
+1805230	6689	A High Flush
+2707845	6690	A High Flush
+567358	6691	A High Flush
+851037	6692	A High Flush
+1702074	6693	A High Flush
+1418395	6694	A High Flush
+2836790	6695	A High Flush
+4255185	6696	A High Flush
+1985753	6697	A High Flush
+3971506	6698	A High Flush
+5957259	6699	A High Flush
+9928765	6700	A High Flush
+670514	6701	A High Flush
+1005771	6702	A High Flush
+2011542	6703	A High Flush
+1676285	6704	A High Flush
+3352570	6705	A High Flush
+5028855	6706	A High Flush
+2346799	6707	A High Flush
+4693598	6708	A High Flush
+7040397	6709	A High Flush
+11733995	6710	A High Flush
+3687827	6711	A High Flush
+7375654	6712	A High Flush
+11063481	6713	A High Flush
+18439135	6714	A High Flush
+25814789	6715	A High Flush
+172938	6716	A High Flush
+288230	6717	A High Flush
+432345	6718	A High Flush
+864690	6719	A High Flush
+403522	6720	A High Flush
+605283	6721	A High Flush
+1210566	6722	A High Flush
+1008805	6723	A High Flush
+2017610	6724	A High Flush
+3026415	6725	A High Flush
+634106	6726	A High Flush
+951159	6727	A High Flush
+1902318	6728	A High Flush
+1585265	6729	A High Flush
+3170530	6730	A High Flush
+4755795	6731	A High Flush
+2219371	6732	A High Flush
+4438742	6733	A High Flush
+6658113	6734	A High Flush
+11096855	6735	A High Flush
+749398	6736	A High Flush
+1124097	6737	A High Flush
+2248194	6738	A High Flush
+1873495	6739	A High Flush
+3746990	6740	A High Flush
+5620485	6741	A High Flush
+2622893	6742	A High Flush
+5245786	6743	A High Flush
+7868679	6744	A High Flush
+13114465	6745	A High Flush
+4121689	6746	A High Flush
+8243378	6747	A High Flush
+12365067	6748	A High Flush
+20608445	6749	A High Flush
+28851823	6750	A High Flush
+979982	6751	A High Flush
+1469973	6752	A High Flush
+2939946	6753	A High Flush
+2449955	6754	A High Flush
+4899910	6755	A High Flush
+7349865	6756	A High Flush
+3429937	6757	A High Flush
+6859874	6758	A High Flush
+10289811	6759	A High Flush
+17149685	6760	A High Flush
+5389901	6761	A High Flush
+10779802	6762	A High Flush
+16169703	6763	A High Flush
+26949505	6764	A High Flush
+37729307	6765	A High Flush
+6369883	6766	A High Flush
+12739766	6767	A High Flush
+19109649	6768	A High Flush
+31849415	6769	A High Flush
+44589181	6770	A High Flush
+70068713	6771	A High Flush
+209346	6772	A High Flush
+348910	6773	A High Flush
+523365	6774	A High Flush
+1046730	6775	A High Flush
+488474	6776	A High Flush
+732711	6777	A High Flush
+1465422	6778	A High Flush
+1221185	6779	A High Flush
+2442370	6780	A High Flush
+3663555	6781	A High Flush
+767602	6782	A High Flush
+1151403	6783	A High Flush
+2302806	6784	A High Flush
+1919005	6785	A High Flush
+3838010	6786	A High Flush
+5757015	6787	A High Flush
+2686607	6788	A High Flush
+5373214	6789	A High Flush
+8059821	6790	A High Flush
+13433035	6791	A High Flush
+907166	6792	A High Flush
+1360749	6793	A High Flush
+2721498	6794	A High Flush
+2267915	6795	A High Flush
+4535830	6796	A High Flush
+6803745	6797	A High Flush
+3175081	6798	A High Flush
+6350162	6799	A High Flush
+9525243	6800	A High Flush
+15875405	6801	A High Flush
+4989413	6802	A High Flush
+9978826	6803	A High Flush
+14968239	6804	A High Flush
+24947065	6805	A High Flush
+34925891	6806	A High Flush
+1186294	6807	A High Flush
+1779441	6808	A High Flush
+3558882	6809	A High Flush
+2965735	6810	A High Flush
+5931470	6811	A High Flush
+8897205	6812	A High Flush
+4152029	6813	A High Flush
+8304058	6814	A High Flush
+12456087	6815	A High Flush
+20760145	6816	A High Flush
+6524617	6817	A High Flush
+13049234	6818	A High Flush
+19573851	6819	A High Flush
+32623085	6820	A High Flush
+45672319	6821	A High Flush
+7710911	6822	A High Flush
+15421822	6823	A High Flush
+23132733	6824	A High Flush
+38554555	6825	A High Flush
+53976377	6826	A High Flush
+84820021	6827	A High Flush
+1325858	6828	A High Flush
+1988787	6829	A High Flush
+3977574	6830	A High Flush
+3314645	6831	A High Flush
+6629290	6832	A High Flush
+9943935	6833	A High Flush
+4640503	6834	A High Flush
+9281006	6835	A High Flush
+13921509	6836	A High Flush
+23202515	6837	A High Flush
+7292219	6838	A High Flush
+14584438	6839	A High Flush
+21876657	6840	A High Flush
+36461095	6841	A High Flush
+51045533	6842	A High Flush
+8618077	6843	A High Flush
+17236154	6844	A High Flush
+25854231	6845	A High Flush
+43090385	6846	A High Flush
+60326539	6847	A High Flush
+94798847	6848	A High Flush
+11269793	6849	A High Flush
+22539586	6850	A High Flush
+33809379	6851	A High Flush
+56348965	6852	A High Flush
+78888551	6853	A High Flush
+123967723	6854	A High Flush
+146507309	6855	A High Flush
+263958	6856	A High Flush
+439930	6857	A High Flush
+659895	6858	A High Flush
+1319790	6859	A High Flush
+615902	6860	A High Flush
+923853	6861	A High Flush
+1847706	6862	A High Flush
+1539755	6863	A High Flush
+3079510	6864	A High Flush
+4619265	6865	A High Flush
+967846	6866	A High Flush
+1451769	6867	A High Flush
+2903538	6868	A High Flush
+2419615	6869	A High Flush
+4839230	6870	A High Flush
+7258845	6871	A High Flush
+3387461	6872	A High Flush
+6774922	6873	A High Flush
+10162383	6874	A High Flush
+16937305	6875	A High Flush
+1143818	6876	A High Flush
+1715727	6877	A High Flush
+3431454	6878	A High Flush
+2859545	6879	A High Flush
+5719090	6880	A High Flush
+8578635	6881	A High Flush
+4003363	6882	A High Flush
+8006726	6883	A High Flush
+12010089	6884	A High Flush
+20016815	6885	A High Flush
+6290999	6886	A High Flush
+12581998	6887	A High Flush
+18872997	6888	A High Flush
+31454995	6889	A High Flush
+44036993	6890	A High Flush
+1495762	6891	A High Flush
+2243643	6892	A High Flush
+4487286	6893	A High Flush
+3739405	6894	A High Flush
+7478810	6895	A High Flush
+11218215	6896	A High Flush
+5235167	6897	A High Flush
+10470334	6898	A High Flush
+15705501	6899	A High Flush
+26175835	6900	A High Flush
+8226691	6901	A High Flush
+16453382	6902	A High Flush
+24680073	6903	A High Flush
+41133455	6904	A High Flush
+57586837	6905	A High Flush
+9722453	6906	A High Flush
+19444906	6907	A High Flush
+29167359	6908	A High Flush
+48612265	6909	A High Flush
+68057171	6910	A High Flush
+106946983	6911	A High Flush
+1671734	6912	A High Flush
+2507601	6913	A High Flush
+5015202	6914	A High Flush
+4179335	6915	A High Flush
+8358670	6916	A High Flush
+12538005	6917	A High Flush
+5851069	6918	A High Flush
+11702138	6919	A High Flush
+17553207	6920	A High Flush
+29255345	6921	A High Flush
+9194537	6922	A High Flush
+18389074	6923	A High Flush
+27583611	6924	A High Flush
+45972685	6925	A High Flush
+64361759	6926	A High Flush
+10866271	6927	A High Flush
+21732542	6928	A High Flush
+32598813	6929	A High Flush
+54331355	6930	A High Flush
+76063897	6931	A High Flush
+119528981	6932	A High Flush
+14209739	6933	A High Flush
+28419478	6934	A High Flush
+42629217	6935	A High Flush
+71048695	6936	A High Flush
+99468173	6937	A High Flush
+156307129	6938	A High Flush
+184726607	6939	A High Flush
+2023678	6940	A High Flush
+3035517	6941	A High Flush
+6071034	6942	A High Flush
+5059195	6943	A High Flush
+10118390	6944	A High Flush
+15177585	6945	A High Flush
+7082873	6946	A High Flush
+14165746	6947	A High Flush
+21248619	6948	A High Flush
+35414365	6949	A High Flush
+11130229	6950	A High Flush
+22260458	6951	A High Flush
+33390687	6952	A High Flush
+55651145	6953	A High Flush
+77911603	6954	A High Flush
+13153907	6955	A High Flush
+26307814	6956	A High Flush
+39461721	6957	A High Flush
+65769535	6958	A High Flush
+92077349	6959	A High Flush
+144692977	6960	A High Flush
+17201263	6961	A High Flush
+34402526	6962	A High Flush
+51603789	6963	A High Flush
+86006315	6964	A High Flush
+120408841	6965	A High Flush
+189213893	6966	A High Flush
+223616419	6967	A High Flush
+19224941	6968	A High Flush
+38449882	6969	A High Flush
+57674823	6970	A High Flush
+96124705	6971	A High Flush
+134574587	6972	A High Flush
+211474351	6973	A High Flush
+249924233	6974	A High Flush
+326823997	6975	A High Flush
+282162	6976	A High Flush
+470270	6977	A High Flush
+705405	6978	A High Flush
+1410810	6979	A High Flush
+658378	6980	A High Flush
+987567	6981	A High Flush
+1975134	6982	A High Flush
+1645945	6983	A High Flush
+3291890	6984	A High Flush
+4937835	6985	A High Flush
+1034594	6986	A High Flush
+1551891	6987	A High Flush
+3103782	6988	A High Flush
+2586485	6989	A High Flush
+5172970	6990	A High Flush
+7759455	6991	A High Flush
+3621079	6992	A High Flush
+7242158	6993	A High Flush
+10863237	6994	A High Flush
+18105395	6995	A High Flush
+1222702	6996	A High Flush
+1834053	6997	A High Flush
+3668106	6998	A High Flush
+3056755	6999	A High Flush
+6113510	7000	A High Flush
+9170265	7001	A High Flush
+4279457	7002	A High Flush
+8558914	7003	A High Flush
+12838371	7004	A High Flush
+21397285	7005	A High Flush
+6724861	7006	A High Flush
+13449722	7007	A High Flush
+20174583	7008	A High Flush
+33624305	7009	A High Flush
+47074027	7010	A High Flush
+1598918	7011	A High Flush
+2398377	7012	A High Flush
+4796754	7013	A High Flush
+3997295	7014	A High Flush
+7994590	7015	A High Flush
+11991885	7016	A High Flush
+5596213	7017	A High Flush
+11192426	7018	A High Flush
+16788639	7019	A High Flush
+27981065	7020	A High Flush
+8794049	7021	A High Flush
+17588098	7022	A High Flush
+26382147	7023	A High Flush
+43970245	7024	A High Flush
+61558343	7025	A High Flush
+10392967	7026	A High Flush
+20785934	7027	A High Flush
+31178901	7028	A High Flush
+51964835	7029	A High Flush
+72750769	7030	A High Flush
+114322637	7031	A High Flush
+1787026	7032	A High Flush
+2680539	7033	A High Flush
+5361078	7034	A High Flush
+4467565	7035	A High Flush
+8935130	7036	A High Flush
+13402695	7037	A High Flush
+6254591	7038	A High Flush
+12509182	7039	A High Flush
+18763773	7040	A High Flush
+31272955	7041	A High Flush
+9828643	7042	A High Flush
+19657286	7043	A High Flush
+29485929	7044	A High Flush
+49143215	7045	A High Flush
+68800501	7046	A High Flush
+11615669	7047	A High Flush
+23231338	7048	A High Flush
+34847007	7049	A High Flush
+58078345	7050	A High Flush
+81309683	7051	A High Flush
+127772359	7052	A High Flush
+15189721	7053	A High Flush
+30379442	7054	A High Flush
+45569163	7055	A High Flush
+75948605	7056	A High Flush
+106328047	7057	A High Flush
+167086931	7058	A High Flush
+197466373	7059	A High Flush
+2163242	7060	A High Flush
+3244863	7061	A High Flush
+6489726	7062	A High Flush
+5408105	7063	A High Flush
+10816210	7064	A High Flush
+16224315	7065	A High Flush
+7571347	7066	A High Flush
+15142694	7067	A High Flush
+22714041	7068	A High Flush
+37856735	7069	A High Flush
+11897831	7070	A High Flush
+23795662	7071	A High Flush
+35693493	7072	A High Flush
+59489155	7073	A High Flush
+83284817	7074	A High Flush
+14061073	7075	A High Flush
+28122146	7076	A High Flush
+42183219	7077	A High Flush
+70305365	7078	A High Flush
+98427511	7079	A High Flush
+154671803	7080	A High Flush
+18387557	7081	A High Flush
+36775114	7082	A High Flush
+55162671	7083	A High Flush
+91937785	7084	A High Flush
+128712899	7085	A High Flush
+202263127	7086	A High Flush
+239038241	7087	A High Flush
+20550799	7088	A High Flush
+41101598	7089	A High Flush
+61652397	7090	A High Flush
+102753995	7091	A High Flush
+143855593	7092	A High Flush
+226058789	7093	A High Flush
+267160387	7094	A High Flush
+349363583	7095	A High Flush
+2727566	7096	A High Flush
+4091349	7097	A High Flush
+8182698	7098	A High Flush
+6818915	7099	A High Flush
+13637830	7100	A High Flush
+20456745	7101	A High Flush
+9546481	7102	A High Flush
+19092962	7103	A High Flush
+28639443	7104	A High Flush
+47732405	7105	A High Flush
+15001613	7106	A High Flush
+30003226	7107	A High Flush
+45004839	7108	A High Flush
+75008065	7109	A High Flush
+105011291	7110	A High Flush
+17729179	7111	A High Flush
+35458358	7112	A High Flush
+53187537	7113	A High Flush
+88645895	7114	A High Flush
+124104253	7115	A High Flush
+195020969	7116	A High Flush
+23184311	7117	A High Flush
+46368622	7118	A High Flush
+69552933	7119	A High Flush
+115921555	7120	A High Flush
+162290177	7121	A High Flush
+255027421	7122	A High Flush
+301396043	7123	A High Flush
+25911877	7124	A High Flush
+51823754	7125	A High Flush
+77735631	7126	A High Flush
+129559385	7127	A High Flush
+181383139	7128	A High Flush
+285030647	7129	A High Flush
+336854401	7130	A High Flush
+440501909	7131	A High Flush
+31367009	7132	A High Flush
+62734018	7133	A High Flush
+94101027	7134	A High Flush
+156835045	7135	A High Flush
+219569063	7136	A High Flush
+345037099	7137	A High Flush
+407771117	7138	A High Flush
+533239153	7139	A High Flush
+4	7140	Full House: 2s Over 3s
+9	7141	Full House: 2s Over 4s
+25	7142	Full House: 2s Over 5s
+49	7143	Full House: 2s Over 6s
+121	7144	Full House: 2s Over 7s
+169	7145	Full House: 2s Over 8s
+289	7146	Full House: 2s Over 9s
+361	7147	Full House: 2s Over Ts
+529	7148	Full House: 2s Over Js
+841	7149	Full House: 2s Over Qs
+961	7150	Full House: 2s Over Ks
+1369	7151	Full House: 2s Over As
+8	7152	Full House: 3s Over 2s
+72	7153	Full House: 3s Over 4s
+200	7154	Full House: 3s Over 5s
+392	7155	Full House: 3s Over 6s
+968	7156	Full House: 3s Over 7s
+1352	7157	Full House: 3s Over 8s
+2312	7158	Full House: 3s Over 9s
+2888	7159	Full House: 3s Over Ts
+4232	7160	Full House: 3s Over Js
+6728	7161	Full House: 3s Over Qs
+7688	7162	Full House: 3s Over Ks
+10952	7163	Full House: 3s Over As
+27	7164	Full House: 4s Over 2s
+108	7165	Full House: 4s Over 3s
+675	7166	Full House: 4s Over 5s
+1323	7167	Full House: 4s Over 6s
+3267	7168	Full House: 4s Over 7s
+4563	7169	Full House: 4s Over 8s
+7803	7170	Full House: 4s Over 9s
+9747	7171	Full House: 4s Over Ts
+14283	7172	Full House: 4s Over Js
+22707	7173	Full House: 4s Over Qs
+25947	7174	Full House: 4s Over Ks
+36963	7175	Full House: 4s Over As
+125	7176	Full House: 5s Over 2s
+500	7177	Full House: 5s Over 3s
+1125	7178	Full House: 5s Over 4s
+6125	7179	Full House: 5s Over 6s
+15125	7180	Full House: 5s Over 7s
+21125	7181	Full House: 5s Over 8s
+36125	7182	Full House: 5s Over 9s
+45125	7183	Full House: 5s Over Ts
+66125	7184	Full House: 5s Over Js
+105125	7185	Full House: 5s Over Qs
+120125	7186	Full House: 5s Over Ks
+171125	7187	Full House: 5s Over As
+343	7188	Full House: 6s Over 2s
+1372	7189	Full House: 6s Over 3s
+3087	7190	Full House: 6s Over 4s
+8575	7191	Full House: 6s Over 5s
+41503	7192	Full House: 6s Over 7s
+57967	7193	Full House: 6s Over 8s
+99127	7194	Full House: 6s Over 9s
+123823	7195	Full House: 6s Over Ts
+181447	7196	Full House: 6s Over Js
+288463	7197	Full House: 6s Over Qs
+329623	7198	Full House: 6s Over Ks
+469567	7199	Full House: 6s Over As
+1331	7200	Full House: 7s Over 2s
+5324	7201	Full House: 7s Over 3s
+11979	7202	Full House: 7s Over 4s
+33275	7203	Full House: 7s Over 5s
+65219	7204	Full House: 7s Over 6s
+224939	7205	Full House: 7s Over 8s
+384659	7206	Full House: 7s Over 9s
+480491	7207	Full House: 7s Over Ts
+704099	7208	Full House: 7s Over Js
+1119371	7209	Full House: 7s Over Qs
+1279091	7210	Full House: 7s Over Ks
+1822139	7211	Full House: 7s Over As
+2197	7212	Full House: 8s Over 2s
+8788	7213	Full House: 8s Over 3s
+19773	7214	Full House: 8s Over 4s
+54925	7215	Full House: 8s Over 5s
+107653	7216	Full House: 8s Over 6s
+265837	7217	Full House: 8s Over 7s
+634933	7218	Full House: 8s Over 9s
+793117	7219	Full House: 8s Over Ts
+1162213	7220	Full House: 8s Over Js
+1847677	7221	Full House: 8s Over Qs
+2111317	7222	Full House: 8s Over Ks
+3007693	7223	Full House: 8s Over As
+4913	7224	Full House: 9s Over 2s
+19652	7225	Full House: 9s Over 3s
+44217	7226	Full House: 9s Over 4s
+122825	7227	Full House: 9s Over 5s
+240737	7228	Full House: 9s Over 6s
+594473	7229	Full House: 9s Over 7s
+830297	7230	Full House: 9s Over 8s
+1773593	7231	Full House: 9s Over Ts
+2598977	7232	Full House: 9s Over Js
+4131833	7233	Full House: 9s Over Qs
+4721393	7234	Full House: 9s Over Ks
+6725897	7235	Full House: 9s Over As
+6859	7236	Full House: Ts Over 2s
+27436	7237	Full House: Ts Over 3s
+61731	7238	Full House: Ts Over 4s
+171475	7239	Full House: Ts Over 5s
+336091	7240	Full House: Ts Over 6s
+829939	7241	Full House: Ts Over 7s
+1159171	7242	Full House: Ts Over 8s
+1982251	7243	Full House: Ts Over 9s
+3628411	7244	Full House: Ts Over Js
+5768419	7245	Full House: Ts Over Qs
+6591499	7246	Full House: Ts Over Ks
+9389971	7247	Full House: Ts Over As
+12167	7248	Full House: Js Over 2s
+48668	7249	Full House: Js Over 3s
+109503	7250	Full House: Js Over 4s
+304175	7251	Full House: Js Over 5s
+596183	7252	Full House: Js Over 6s
+1472207	7253	Full House: Js Over 7s
+2056223	7254	Full House: Js Over 8s
+3516263	7255	Full House: Js Over 9s
+4392287	7256	Full House: Js Over Ts
+10232447	7257	Full House: Js Over Qs
+11692487	7258	Full House: Js Over Ks
+16656623	7259	Full House: Js Over As
+24389	7260	Full House: Qs Over 2s
+97556	7261	Full House: Qs Over 3s
+219501	7262	Full House: Qs Over 4s
+609725	7263	Full House: Qs Over 5s
+1195061	7264	Full House: Qs Over 6s
+2951069	7265	Full House: Qs Over 7s
+4121741	7266	Full House: Qs Over 8s
+7048421	7267	Full House: Qs Over 9s
+8804429	7268	Full House: Qs Over Ts
+12901781	7269	Full House: Qs Over Js
+23437829	7270	Full House: Qs Over Ks
+33388541	7271	Full House: Qs Over As
+29791	7272	Full House: Ks Over 2s
+119164	7273	Full House: Ks Over 3s
+268119	7274	Full House: Ks Over 4s
+744775	7275	Full House: Ks Over 5s
+1459759	7276	Full House: Ks Over 6s
+3604711	7277	Full House: Ks Over 7s
+5034679	7278	Full House: Ks Over 8s
+8609599	7279	Full House: Ks Over 9s
+10754551	7280	Full House: Ks Over Ts
+15759439	7281	Full House: Ks Over Js
+25054231	7282	Full House: Ks Over Qs
+40783879	7283	Full House: Ks Over As
+50653	7284	Full House: As Over 2s
+202612	7285	Full House: As Over 3s
+455877	7286	Full House: As Over 4s
+1266325	7287	Full House: As Over 5s
+2481997	7288	Full House: As Over 6s
+6129013	7289	Full House: As Over 7s
+8560357	7290	Full House: As Over 8s
+14638717	7291	Full House: As Over 9s
+18285733	7292	Full House: As Over Ts
+26795437	7293	Full House: As Over Js
+42599173	7294	Full House: As Over Qs
+48677533	7295	Full House: As Over Ks
+2	7296	Quad 2s
+3	7297	Quad 2s
+5	7298	Quad 2s
+7	7299	Quad 2s
+11	7300	Quad 2s
+13	7301	Quad 2s
+17	7302	Quad 2s
+19	7303	Quad 2s
+23	7304	Quad 2s
+29	7305	Quad 2s
+31	7306	Quad 2s
+37	7307	Quad 2s
+16	7308	Quad 3s
+48	7309	Quad 3s
+80	7310	Quad 3s
+112	7311	Quad 3s
+176	7312	Quad 3s
+208	7313	Quad 3s
+272	7314	Quad 3s
+304	7315	Quad 3s
+368	7316	Quad 3s
+464	7317	Quad 3s
+496	7318	Quad 3s
+592	7319	Quad 3s
+81	7320	Quad 4s
+162	7321	Quad 4s
+405	7322	Quad 4s
+567	7323	Quad 4s
+891	7324	Quad 4s
+1053	7325	Quad 4s
+1377	7326	Quad 4s
+1539	7327	Quad 4s
+1863	7328	Quad 4s
+2349	7329	Quad 4s
+2511	7330	Quad 4s
+2997	7331	Quad 4s
+625	7332	Quad 5s
+1250	7333	Quad 5s
+1875	7334	Quad 5s
+4375	7335	Quad 5s
+6875	7336	Quad 5s
+8125	7337	Quad 5s
+10625	7338	Quad 5s
+11875	7339	Quad 5s
+14375	7340	Quad 5s
+18125	7341	Quad 5s
+19375	7342	Quad 5s
+23125	7343	Quad 5s
+2401	7344	Quad 6s
+4802	7345	Quad 6s
+7203	7346	Quad 6s
+12005	7347	Quad 6s
+26411	7348	Quad 6s
+31213	7349	Quad 6s
+40817	7350	Quad 6s
+45619	7351	Quad 6s
+55223	7352	Quad 6s
+69629	7353	Quad 6s
+74431	7354	Quad 6s
+88837	7355	Quad 6s
+14641	7356	Quad 7s
+29282	7357	Quad 7s
+43923	7358	Quad 7s
+73205	7359	Quad 7s
+102487	7360	Quad 7s
+190333	7361	Quad 7s
+248897	7362	Quad 7s
+278179	7363	Quad 7s
+336743	7364	Quad 7s
+424589	7365	Quad 7s
+453871	7366	Quad 7s
+541717	7367	Quad 7s
+28561	7368	Quad 8s
+57122	7369	Quad 8s
+85683	7370	Quad 8s
+142805	7371	Quad 8s
+199927	7372	Quad 8s
+314171	7373	Quad 8s
+485537	7374	Quad 8s
+542659	7375	Quad 8s
+656903	7376	Quad 8s
+828269	7377	Quad 8s
+885391	7378	Quad 8s
+1056757	7379	Quad 8s
+83521	7380	Quad 9s
+167042	7381	Quad 9s
+250563	7382	Quad 9s
+417605	7383	Quad 9s
+584647	7384	Quad 9s
+918731	7385	Quad 9s
+1085773	7386	Quad 9s
+1586899	7387	Quad 9s
+1920983	7388	Quad 9s
+2422109	7389	Quad 9s
+2589151	7390	Quad 9s
+3090277	7391	Quad 9s
+130321	7392	Quad Ts
+260642	7393	Quad Ts
+390963	7394	Quad Ts
+651605	7395	Quad Ts
+912247	7396	Quad Ts
+1433531	7397	Quad Ts
+1694173	7398	Quad Ts
+2215457	7399	Quad Ts
+2997383	7400	Quad Ts
+3779309	7401	Quad Ts
+4039951	7402	Quad Ts
+4821877	7403	Quad Ts
+279841	7404	Quad Js
+559682	7405	Quad Js
+839523	7406	Quad Js
+1399205	7407	Quad Js
+1958887	7408	Quad Js
+3078251	7409	Quad Js
+3637933	7410	Quad Js
+4757297	7411	Quad Js
+5316979	7412	Quad Js
+8115389	7413	Quad Js
+8675071	7414	Quad Js
+10354117	7415	Quad Js
+707281	7416	Quad Qs
+1414562	7417	Quad Qs
+2121843	7418	Quad Qs
+3536405	7419	Quad Qs
+4950967	7420	Quad Qs
+7780091	7421	Quad Qs
+9194653	7422	Quad Qs
+12023777	7423	Quad Qs
+13438339	7424	Quad Qs
+16267463	7425	Quad Qs
+21925711	7426	Quad Qs
+26169397	7427	Quad Qs
+923521	7428	Quad Ks
+1847042	7429	Quad Ks
+2770563	7430	Quad Ks
+4617605	7431	Quad Ks
+6464647	7432	Quad Ks
+10158731	7433	Quad Ks
+12005773	7434	Quad Ks
+15699857	7435	Quad Ks
+17546899	7436	Quad Ks
+21240983	7437	Quad Ks
+26782109	7438	Quad Ks
+34170277	7439	Quad Ks
+1874161	7440	Quad As
+3748322	7441	Quad As
+5622483	7442	Quad As
+9370805	7443	Quad As
+13119127	7444	Quad As
+20615771	7445	Quad As
+24364093	7446	Quad As
+31860737	7447	Quad As
+35609059	7448	Quad As
+43105703	7449	Quad As
+54350669	7450	Quad As
+58098991	7451	Quad As
+45510	7452	Wheel Straight Flush
+8610	7453	6 High Straight Flush
+94710	7454	7 High Straight Flush
+615615	7455	8 High Straight Flush
+3488485	7456	9 High Straight Flush
+13256243	7457	T High Straight Flush
+43556227	7458	J High Straight Flush
+114830053	7459	Q High Straight Flush
+273825511	7460	K High Straight Flush
+595973171	7461	Royal Flush

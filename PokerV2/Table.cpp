@@ -312,6 +312,7 @@ void OmahaTable::Flop()
 void DrawTable::PlayersShowCards() 
 {
 	Evaluator E;
+
 	vector<Player*>::iterator p_it = m_players.begin();
 	CUE bestCue = (*p_it)->GetBestCUE();
 
