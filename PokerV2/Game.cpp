@@ -3,7 +3,7 @@
 
 using namespace std;
 
-Game::Game()
+Game::Game() : _evaluator(1) //Default evaluator set to Sorted
 {
 	StartGame();
 }
@@ -41,9 +41,14 @@ int Game::MainMenu()
 			<< "(2) Ohmaha High\n"
 			<< "(3) Seven Card Stud\n"
 			<< "(4) Five Card Draw\n"
-			<< "(0) Quit\n"
-			<< "\nGameType:";
-		choice = getLegitInt(0, 4);
+			<< "(5) Evaluator Type: " << _evaluatorName
+			<< "\n(0) Quit\n";
+			
+		choice = getLegitInt(0, 5);
+		if (choice == 5)
+		{
+			SetEvaluator();
+		}
 		if (choice >= 0 && choice < 5)
 		{
 			break;
@@ -62,19 +67,42 @@ int Game::GetPlayers() const
 {
 	return _players;
 };
+void Game::SetEvaluator()
+{
+	int choice;
+	while (true)
+	{
+		cout << "\n(1) Sorted Evaluator\n"
+			 << "(2) Hash Evaluator\n ";
+		choice = getLegitInt(1, 2);
+		if (choice == 1)
+		{
+			_evaluator = 1;
+			_evaluatorName = "Sorted";
+			break;
+		}
+		if (choice == 2)
+		{
+			_evaluator = 2;
+			_evaluatorName = "Hash";
+			break;
+		}
+	}
+};
+
 
 Table* Game::CreateTable(int gametype)
 {
 	switch (gametype)
 	{
 	case 1:
-		return new  TexasTable(_players, _gameType); //Pass by Value ..players and gametype.
+		return new  TexasTable(_players, _evaluator); //Pass by Value ..players and gametype.
 	case 2:
-		return new OmahaTable(_players, _gameType);
+		return new OmahaTable(_players, _evaluator);
 	case 3:
-		return new StudTable(_players, _gameType);
+		return new StudTable(_players, _evaluator);
 	case 4:
-		return new DrawTable(_players, _gameType);
+		return new DrawTable(_players, _evaluator);
 	}
 	return NULL;
 }
@@ -85,9 +113,15 @@ void Game::TableMenu()
 	while (true)
 	{
 		cout << "\n(0) Quit\n"
-			 << "(1) Main Menu\n"
-		     << "(2) Re-Play ! ";
-		choice = getLegitInt(0, 2);
+			<< "(1) Main Menu\n"
+			<< "(2) Re-Play ! \n"
+			<< "(3) Change Evaluator, Current: " << _evaluatorName
+			<< "\n";
+		choice = getLegitInt(0, 3);
+		if (choice == 3)
+		{
+			SetEvaluator();
+		}
 		if (choice == 1) //Break to main menu 
 		{
 			_players = 0;

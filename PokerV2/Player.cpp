@@ -209,7 +209,7 @@ vector<CUE> OmahaPlayer::BuildCUEs()
 					CUE c;
 					for (int i = 0; i < CUEBuilder.size(); ++i)
 					{
-						if (i != pointer1 && i != pointer2 && i != pointer3 && i != pointer4)//WOW NEED TO FIX THIS NOT TAKING IN CONSIDERATION OTHER POINTERS...
+						if (i != pointer1 && i != pointer2 && i != pointer3 && i != pointer4)
 						{
 							c.push_back(CUEBuilder[i]);
 						}
