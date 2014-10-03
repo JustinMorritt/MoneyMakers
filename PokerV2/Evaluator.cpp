@@ -363,3 +363,59 @@ int Evaluator::GetPipValueofOnePair(const CUE& c)  //Helper function
 }
 
 
+
+
+
+//HASH EVALUATOR **************************************
+
+void HashEvaluator::MakeHashTable() const
+{
+	
+	//MAKE ALL THE VECTORS
+	void HashStraightFlushes();
+	void HashQuads();
+	void HashBoats();
+	void HashFlushs();
+	void HashStraights();
+	void HashTrips();
+	void HashTwoPair();
+	void HashOnePair();
+	void HashHighCards();
+}
+
+void HashEvaluator::HashStraightFlushes()
+{
+
+}
+void HashEvaluator::HashQuads()
+{
+
+}
+void HashEvaluator::HashBoats()
+{
+
+}
+void HashEvaluator::HashFlushs()
+{
+
+}
+void HashEvaluator::HashStraights()
+{
+
+}
+void HashEvaluator::HashTrips()
+{
+
+}
+void HashEvaluator::HashTwoPair()
+{
+
+}
+void HashEvaluator::HashOnePair()
+{
+
+}
+void HashEvaluator::HashHighCards()
+{
+
+}
