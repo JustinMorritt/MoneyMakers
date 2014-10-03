@@ -9,12 +9,12 @@
 class Table
 {
 public:
-	Table(unsigned players): _players(players){};
+	Table(unsigned players) : _players(players){};
 	virtual ~Table(){};	
 private:
 protected:
+	
 	unsigned _players;
-
 };
 
 
@@ -29,23 +29,23 @@ public:
 	virtual ~DrawTable();
 
 private:
+	int _evaluator;
 	const int _maxCards = 5;
 	Dealer * m_dealer;
 	vector<Player*> m_players;
-
 };
 
 class StudTable : public Table
 {
 public:
-	StudTable(int players, int gametype);
+	StudTable(int players, int evaluator);
 	void AddPlayers();
 	void DealToPlayers();
 	void PlayersShowCards();
 	virtual ~StudTable();
 
 private:
-	int _gameType;
+	int _evaluator;
 	Dealer * m_dealer;
 	const int _maxCards = 7;
 	vector<Player*> m_players;
@@ -55,7 +55,7 @@ class OmahaTable : public Table
 {
 public:
 
-	OmahaTable(int players, int gametype);
+	OmahaTable(int players, int evaluator);
 	void AddPlayers();
 	void DealToPlayers();
 	void Flop();
@@ -63,39 +63,32 @@ public:
 	virtual ~OmahaTable();
 
 private:
-	int _gameType;
-
+	int _evaluator;
 	const int _maxCards = 4;
 	Dealer * m_dealer;
 	vector<const Card*> m_communityCards;
 	vector<const Card*> m_burnPile;
 	vector<Player*> m_players;
-
 };
 
 class TexasTable : public Table
 {
 public:
 
-	TexasTable(int players, int gametype);
+	TexasTable(int players, int evaluator);
 	void AddPlayers();
 	void DealToPlayers();
 	void Flop();
 	void PlayersShowCards();
-
-
 	virtual ~TexasTable();
-	
 
 private:
-	int _gameType;
-	
+	int _evaluator;
 	const int _maxCards = 2;
 	Dealer * m_dealer;
 	vector<const Card*> m_communityCards;
 	vector<const Card*> m_burnPile;
 	vector<Player*> m_players;
-
 };
 
 

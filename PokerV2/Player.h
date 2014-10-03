@@ -46,6 +46,7 @@ private:
 	vector<CUE> m_Cues;
 	CUE _bestCUE;
 	string m_HandName;
+	int _evaluator;
 };
 
 
@@ -67,6 +68,7 @@ private:
 	CUE _bestCUE;
 	vector<CUE> m_Cues;
 	string m_HandName;
+	int _evaluator;
 };
 
 class OmahaPlayer : public Player
@@ -90,6 +92,7 @@ private:
 	CUE _bestCUE;
 	string m_HandName;
 	vector<CUE> m_Cues;
+	int _evaluator;
 };
 
 class TexasPlayer : public Player
@@ -113,6 +116,7 @@ private:
 	vector<CUE> m_Cues;
 	CUE _bestCUE;
 	string m_HandName;
+	int _evaluator;
 };
 
 

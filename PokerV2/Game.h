@@ -18,12 +18,15 @@ public:
 	int getLegitInt(int low, int high) const;
 	int GetGameType() const;
 	int SetPlayers();
+	void SetEvaluator();
 	int GetPlayers() const;
 	Table* CreateTable(int gametype);
 	void TableMenu();
 	void GoodBye() const;
 
 private:
+	int _evaluator;
+	string _evaluatorName = "Sorted";
 	int _gameType;
 	int _players;
 };

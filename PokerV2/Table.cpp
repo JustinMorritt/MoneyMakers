@@ -9,8 +9,9 @@ using namespace std;
 
 
 //CONSTRUCTORS
-TexasTable::TexasTable(int players, int gametype) :
+TexasTable::TexasTable(int players, int evaluator) :
 Table(players),
+_evaluator(evaluator),
 m_dealer(new TexasDealer(players))	//CREATE NEW DEALER				
 {
 	//CREATE PLAYERS
@@ -22,11 +23,19 @@ m_dealer(new TexasDealer(players))	//CREATE NEW DEALER
 	//THE FLOP
 	Flop();
 	cout << "\n";
-	//PLAYERS SHOW THIER CARDS
-	PlayersShowCards();
+	//PLAYERS SHOW THIER CARDS -- DEPENDS ON EVALUATOR TYPE
+	if (_evaluator == 1)
+	{
+		PlayersShowCards();
+	}
+	if (_evaluator == 2)
+	{
+		PlayersShowCards();
+	}
 };
-OmahaTable::OmahaTable(int players, int gametype) :
+OmahaTable::OmahaTable(int players, int evaluator) :
 Table(players),
+_evaluator(evaluator),
 m_dealer(new OmahaDealer(players))		//CREATE NEW DEALER
 {
 	//ADD PLAYERS TO PLAYER VECTOR
@@ -38,11 +47,19 @@ m_dealer(new OmahaDealer(players))		//CREATE NEW DEALER
 	//THE FLOP
 	Flop();
 	cout << "\n";
-	//PLAYERS SHOW THIER CARDS
-	PlayersShowCards();
+	//PLAYERS SHOW THIER CARDS -- DEPENDS ON EVALUATOR TYPE
+	if (_evaluator == 1)
+	{
+		PlayersShowCards();
+	}
+	if (_evaluator == 2)
+	{
+		PlayersShowCards();
+	}
 };
-DrawTable::DrawTable(int players, int gametype):
+DrawTable::DrawTable(int players, int evaluator) :
 Table(players),
+_evaluator(evaluator),
 m_dealer(new DrawDealer(players))		//CREATE NEW DEALER			
 {
 	//ADD PLAYERS TO PLAYER VECTOR
@@ -51,14 +68,19 @@ m_dealer(new DrawDealer(players))		//CREATE NEW DEALER
 	//DEAL CARDS TO PLAYER VECTORS
 	DealToPlayers();
 
-	//EVALUATE BEST HANDS 
-
-	//PLAYERS SHOW THIER CARDS
-	PlayersShowCards();
-
+	//PLAYERS SHOW THIER CARDS -- DEPENDS ON EVALUATOR TYPE
+	if (_evaluator == 1)
+	{
+		PlayersShowCards();
+	}
+	if (_evaluator == 2)
+	{
+		PlayersShowCards();
+	}
 };
-StudTable::StudTable(int players, int gametype):
+StudTable::StudTable(int players, int evaluator) :
 Table(players),
+_evaluator(evaluator),
 m_dealer(new StudDealer(players))	//CREATE NEW DEALER
 {
 	//ADD PLAYERS TO PLAYER VECTOR
@@ -66,9 +88,16 @@ m_dealer(new StudDealer(players))	//CREATE NEW DEALER
 
 	//DEAL CARDS TO PLAYER VECTORS
 	DealToPlayers();
-
-	//PLAYERS SHOW THIER CARDS
-	PlayersShowCards();
+	
+	//PLAYERS SHOW THIER CARDS -- DEPENDS ON EVALUATOR TYPE
+	if (_evaluator == 1)
+	{
+		PlayersShowCards();
+	}
+	if (_evaluator == 2)
+	{
+		PlayersShowCards();
+	}
 };
 
 //ADD PLAYERS
@@ -282,16 +311,15 @@ void OmahaTable::Flop()
 //PLAYER SHOW HAND
 void DrawTable::PlayersShowCards() 
 {
-	//GET WINNER
 	Evaluator E;
+
 	vector<Player*>::iterator p_it = m_players.begin();
 	CUE bestCue = (*p_it)->GetBestCUE();
-	
+
 	for (p_it = m_players.begin() +1; p_it != m_players.end(); p_it++)
 	{
 		CUE& comparedCUE = (*p_it)->GetBestCUE();
 		int Compare = E.CompareCues(bestCue, comparedCUE);
-		cout << "Compaired :" << Compare << "\n";
 		if (Compare != 1)
 		{
 			bestCue.clear();
@@ -312,7 +340,7 @@ void DrawTable::PlayersShowCards()
 		cout << "---------->";
 		(*p_it)->GetHandName();
 		
-		if (E.CompareCues(bestCue, diffCue) == 0)
+		if (E.CompareCues(bestCue, diffCue) == 0 )
 		{
 			cout << " <------WINNER-";
 		}
@@ -368,7 +396,6 @@ void OmahaTable::PlayersShowCards()
 	(*p_it)->GetComCards(m_communityCards);
 	CUE bestCue = (*p_it)->GetBestCUE();
 
-
 	for (p_it = m_players.begin() + 1; p_it != m_players.end(); p_it++)
 	{
 		(*p_it)->GetComCards(m_communityCards);
@@ -394,7 +421,6 @@ void OmahaTable::PlayersShowCards()
 		(*p_it)->ShowBestHand(diffCue);
 		cout << "---------->";
 		(*p_it)->GetHandName();
-
 		if (E.CompareCues(bestCue, diffCue) == 0)
 		{
 			cout << " <---WINNER!";
@@ -410,7 +436,6 @@ void TexasTable::PlayersShowCards()
 	vector<Player*>::iterator p_it = m_players.begin();
 	(*p_it)->GetComCards(m_communityCards);
 	CUE bestCue = (*p_it)->GetBestCUE();
-
 
 	for (p_it = m_players.begin() + 1; p_it != m_players.end(); p_it++)
 	{
