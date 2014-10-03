@@ -3,18 +3,17 @@
 
 #include "cue.h"
 
-
 class Evaluator
 {
 public:
 	Evaluator();
 	~Evaluator();
 
-	bool IsWheelStraight(const CUE& c);
-	bool IsStraight(const CUE& c);	
 	bool IsQuad(const  CUE& c);
 	bool IsBoat(const CUE& c); //FULL HOUSE 
-	bool IsFlush(const CUE& c);	
+	bool IsFlush(const CUE& c);
+	bool IsStraight(const CUE& c);
+	bool IsWheelStraight(const CUE& c);
 	bool IsTrips(const CUE& c);
 	bool IsTwoPair(const CUE& c);
 	bool IsOnePair(const CUE& c);
@@ -31,5 +30,4 @@ public:
 	int CompareKickers(const CUE& c1, const CUE& c2);
 	int GetPipValueofOnePair(const CUE& c);
 };
-
 #endif
