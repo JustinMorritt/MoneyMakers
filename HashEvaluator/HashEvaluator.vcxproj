@@ -64,6 +64,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="card.cpp" />
+    <ClCompile Include="deal.cpp" />
+    <ClCompile Include="Dealer.cpp" />
+    <ClCompile Include="deck.cpp" />
+    <ClCompile Include="HashEvaluator.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="randgen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="card.h" />
+    <ClInclude Include="deal.h" />
+    <ClInclude Include="Dealer.h" />
+    <ClInclude Include="deck.h" />
+    <ClInclude Include="HashEvaluator.h" />
+    <ClInclude Include="randgen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
