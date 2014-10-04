@@ -52,7 +52,7 @@ public:
 	void HashHighCards();
 
 private : 
-
+	static int TableMade;
 	static vector<unsigned> m_StraightFlushes;
 	static vector<unsigned> m_Quads;
 	static vector<unsigned> m_Boats;

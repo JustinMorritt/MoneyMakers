@@ -367,10 +367,11 @@ int Evaluator::GetPipValueofOnePair(const CUE& c)  //Helper function
 
 
 //HASH EVALUATOR **************************************
-
+int HashEvaluator::TableMade = 0;
 void HashEvaluator::MakeHashTable() const
 {
-	
+	if (TableMade == 0)//Making sure only one hash table is made.
+	{
 	//MAKE ALL THE VECTORS
 	void HashStraightFlushes();
 	void HashQuads();
@@ -381,6 +382,10 @@ void HashEvaluator::MakeHashTable() const
 	void HashTwoPair();
 	void HashOnePair();
 	void HashHighCards();
+	TableMade = 1;
+	}
+	
+	
 }
 
 void HashEvaluator::HashStraightFlushes()
