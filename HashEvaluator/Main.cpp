@@ -12,6 +12,10 @@ int main()
 	cout << "Welcome to the HashEvaluator Test Platform\n"
 		 << " To Do:  Need To Create Each combination of all the hands.\n\n\n";
 
+
+	HashEvaluator H;
+
+	cout << "\n\n";
 	int HandNum = 1;
 	while (true)
 	{

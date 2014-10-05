@@ -1,19 +1,19 @@
 #if !defined(EVAL_H__)
 #define EVAL_H__
 #include <vector>
+#include <map>
 
 using namespace std;
 
 class HashEvaluator
 {
 public:
-	HashEvaluator(){ MakeHashTable(); };
+	HashEvaluator();
 	~HashEvaluator();
 	
 
 
-	void MakeHashTable() const;
-
+	void MakeHashTable();
 
 	void HashStraightFlushes();
 	void HashQuads();
@@ -30,6 +30,7 @@ private:
 	const static unsigned PrimeNumbers[];
 	const static unsigned FlushPrimeNum[];
 	const static unsigned HandSize;
+	static map<unsigned, pair<unsigned, string>> m_HashTable; //first create the pair then insert the unsigned and pair together .
 	static vector<unsigned> m_StraightFlushes;
 	static vector<unsigned> m_Quads;
 	static vector<unsigned> m_Boats;

@@ -80,6 +80,9 @@
     <ClInclude Include="HashEvaluator.h" />
     <ClInclude Include="randgen.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="hashOutput.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
