@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+# include <algorithm>
 #include "HashEvaluator.h"
 #include "card.h"
 
@@ -265,8 +266,11 @@ void HashEvaluator::HashOnePair()
 								hashOutput << Card::PIP_CHARS[m] << " * ";
 								hashResult *= PrimeNumbers[l];
 								hashOutput << Card::PIP_CHARS[l] << " * ";
-								this->m_OnePair.push_back(hashResult);
-								hashOutput << " = " << hashResult << " <---One Pair " << endl;
+								//if (find(m_OnePair.begin(), m_OnePair.end(), hashResult) != m_OnePair.end())
+								//{http://www.cplusplus.com/reference/algorithm/none_of/
+									this->m_OnePair.push_back(hashResult);
+									hashOutput << " = " << hashResult << " <---One Pair " << endl;
+								//}
 								hashResult = 1;
 							}
 						}
