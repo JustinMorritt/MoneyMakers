@@ -126,7 +126,7 @@ void HashEvaluator::HashBoats()
 						hashOutput << Card::PIP_CHARS[i] << " * ";
 					}
 				}
-				this->m_Quads.push_back(hashResult);
+				this->m_Boats.push_back(hashResult);
 				hashOutput << " = " << hashResult << " <---Boat " << endl;
 				hashResult = 1;
 			}
@@ -191,7 +191,7 @@ void HashEvaluator::HashTrips()
 						hashOutput << Card::PIP_CHARS[j] << " * ";
 						hashResult *= PrimeNumbers[l];
 						hashOutput << Card::PIP_CHARS[l] << " * ";
-						this->m_TwoPair.push_back(hashResult);
+						this->m_Trips.push_back(hashResult);
 						hashOutput << " = " << hashResult << " <--- Three - o - Kind " << endl;
 						hashResult = 1;
 					}
@@ -265,7 +265,7 @@ void HashEvaluator::HashOnePair()
 								hashOutput << Card::PIP_CHARS[m] << " * ";
 								hashResult *= PrimeNumbers[l];
 								hashOutput << Card::PIP_CHARS[l] << " * ";
-								this->m_TwoPair.push_back(hashResult);
+								this->m_OnePair.push_back(hashResult);
 								hashOutput << " = " << hashResult << " <---One Pair " << endl;
 								hashResult = 1;
 							}
