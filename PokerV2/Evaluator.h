@@ -30,4 +30,45 @@ public:
 	int CompareKickers(const CUE& c1, const CUE& c2);
 	int GetPipValueofOnePair(const CUE& c);
 };
+<<<<<<< HEAD
+=======
+
+
+
+class HashEvaluator
+{
+public:
+	HashEvaluator(){ MakeHashTable(); };
+	void MakeHashTable() const;
+
+
+	void HashStraightFlushes();
+	void HashQuads();
+	void HashBoats();
+	void HashFlushs();
+	void HashStraights();
+	void HashTrips();
+	void HashTwoPair();
+	void HashOnePair();
+	void HashHighCards();
+
+private : 
+	static int TableMade;
+	static vector<unsigned> m_StraightFlushes;
+	static vector<unsigned> m_Quads;
+	static vector<unsigned> m_Boats;
+	static vector<unsigned> m_Flushs;
+	static vector<unsigned> m_Straights;
+	static vector<unsigned> m_Trips;
+	static vector<unsigned> m_TwoPair;
+	static vector<unsigned> m_OnePair;
+	static vector<unsigned> m_HighCards;
+
+};
+
+
+
+
+
+>>>>>>> 2bdf8cd33046e01c83c7c5a57a704f0483534327
 #endif

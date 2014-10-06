@@ -72,21 +72,25 @@ Dealer::~Dealer()
 
 DrawDealer::~DrawDealer()
 {
+	delete m_DealerCards;
 	//cout << "DrawDealer destructor called\n";
 };
 
 StudDealer::~StudDealer()
 {
+	delete m_DealerCards;
 	//cout << "StudDealer destructor called\n";
 }
 
 OmahaDealer::~OmahaDealer()
 {
+	delete m_DealerCards;
 	//cout << "OmahaDealer destructor called\n";
 }
 
 TexasDealer::~TexasDealer()
 {
+	delete m_DealerCards;
 	//cout << "TexasDealer destructor called\n";
 }
 
