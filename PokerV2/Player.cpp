@@ -20,12 +20,11 @@ string Player::GetCUEName(const CUE& c)
 {
 	Evaluator E;
 	string cueName;
-	if (E.IsStraight(c) && E.IsFlush(c))
+	if (E.IsStraight(c) && E.IsFlush(c) && E.IsWheelStraight(c))
 	{
 		char value = c[0]->GetPip();
 		char value2 = c[4]->GetPip();
 		char value3 = c[3]->GetSuit();
-		
 		cueName = "Wheel Straight Flush: ";
 		cueName += Card::PIP_CHARS[value];
 		cueName += " to ";

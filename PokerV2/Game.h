@@ -1,6 +1,7 @@
 #if !defined(GAME_H__)
 #define GAME_H__
 #include <iostream>
+#include <map>
 #include <string>
 #include <sstream>
 #include <cstdio>

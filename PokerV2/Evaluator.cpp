@@ -17,7 +17,6 @@ bool Evaluator::IsQuad(const  CUE& c)
 			(c[1]->GetPip() == c[4]->GetPip());
 };
 
-
 bool Evaluator::IsFlush(const CUE& c)
 {
 	return  (c[0]->GetSuit() == c[1]->GetSuit()) &&
