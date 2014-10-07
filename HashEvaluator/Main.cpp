@@ -46,7 +46,7 @@ int main()
 
 		unsigned hash = H->GetHash(Cards);
 		unsigned value = H->GetValue(hash);
-		string  name = H->GetName(hash);
+		string  name = H->GetName(hash,Cards);
 
 		cout << "--> Hash#: " << hash << setw(5) << right << " Rank:" << value << " Name: " << name;
 		cin.get();

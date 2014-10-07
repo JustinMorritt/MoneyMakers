@@ -17,7 +17,7 @@ public:
 	void MakeHashTable();
 	unsigned GetHash(vector<const Card*>& cards) const;
 	unsigned GetValue(unsigned hash) const;
-	string GetName(unsigned hash) const;
+	string GetName(unsigned hash, vector<const Card*>& cards) const;
 	map<unsigned, pair<unsigned, string>>& GetMap()const;
 	void HashStraightFlushes();
 	void HashQuads();
