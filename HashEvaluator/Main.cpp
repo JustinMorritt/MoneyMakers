@@ -13,7 +13,7 @@ int main()
 		 << " To Do:  Need To Create Each combination of all the hands.\n\n\n";
 
 
-	HashEvaluator H;
+	HashEvaluator* H = new HashEvaluator;
 
 	cout << "\n\n";
 	int HandNum = 1;
@@ -34,6 +34,11 @@ int main()
 		{
 			cout << " " << (*c_it)->ToString() ;
 		}
+
+		unsigned hash = H->GetHash(Cards);
+	
+		cout << hash;
+
 		cout << "--> Value:    Rank:     Name:    ";
 		cin.get();
 		++HandNum;

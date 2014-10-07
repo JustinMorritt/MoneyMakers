@@ -1,4 +1,5 @@
 #include <iostream>
+#include <utility> 
 #include <fstream>
 #include "HashEvaluator.h"
 #include "card.h"
@@ -19,6 +20,7 @@ HashEvaluator::~HashEvaluator()
 {
 }
 //HASH EVALUATOR **************************************
+map<unsigned, pair<unsigned, string>>  HashEvaluator::m_HashTable;
 vector<unsigned> HashEvaluator::m_StraightFlushes;
 vector<unsigned> HashEvaluator::m_Quads;
 vector<unsigned> HashEvaluator::m_Boats;
@@ -260,22 +262,9 @@ void HashEvaluator::HashOnePair()
 								hashResult *= PrimeNumbers[m];
 								hashResult *= PrimeNumbers[l];
 								//thinking of pushing values onto the map here .. check if duplicates..
-								
-								/*
-								pair<map<string, unsigned>::iterator, bool> check;
-								pair<unsigned, string> rankName;
-								check = m_HashTable.insert(pair<unsigned, rankName>(ret, 1));
-								if (check.second == false)
-								{
-									check.first->second++;
-								}
-								else
-								{
-									m.insert(pair<string, unsigned>(ret, 1));
-								}
 
-								*/
-								this->m_OnePair.push_back(hashResult);
+								string rankName =  " -->One Pair";
+								m_HashTable.insert(make_pair(hashResult, make_pair(2, rankName)));
 								hashOutput << " = " << hashResult << " <---One Pair " << endl;
 								hashResult = 1;
 							}
@@ -289,4 +278,30 @@ void HashEvaluator::HashOnePair()
 void HashEvaluator::HashHighCards()
 {
 
+}
+
+
+unsigned HashEvaluator::GetHash(vector<const Card*>& cards) const
+{
+	unsigned ret = 1;
+	for (unsigned i = 0; i < cards.size(); ++i )
+	{
+
+		//cout << cards[i]->GetPip();
+		ret *= HashEvaluator::PrimeNumbers[cards[i]->GetPip()];
+	}
+	/*
+	pair<map<unsigned, pair<unsigned, string>>::iterator, bool> check;
+	check = m_HashTable.insert(make_pair(ret, make_pair(1, " ")));
+	if (check.second == false)
+	{
+		cout << *m_HashTable._Getpfirst();
+	}
+	*/
+	return ret;
+}
+
+map<unsigned, pair<unsigned, string>>& HashEvaluator::GetMap() const
+{
+	return m_HashTable;
 }
