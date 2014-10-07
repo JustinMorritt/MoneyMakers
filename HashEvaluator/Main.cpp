@@ -37,9 +37,8 @@ int main()
 
 		unsigned hash = H->GetHash(Cards);
 	
-		cout << hash;
 
-		cout << "--> Value:    Rank:     Name:    ";
+		cout << "--> Value: " << hash << "      Rank:     Name:    ";
 		cin.get();
 		++HandNum;
 		delete D;
