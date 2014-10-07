@@ -197,13 +197,13 @@ vector<CUE> OmahaPlayer::BuildCUEs()
 		CUEBuilder.push_back(m_CommunityCards[i]);
 	}
 
-	for (int pointer1 = 0; pointer1 < 6; ++pointer1)
+	for (int pointer1 = 0; pointer1 <= 2; ++pointer1)
 	{
-		for (int pointer2 = pointer1 + 1; pointer2 < 7; ++pointer2)
+		for (int pointer2 = pointer1 + 1; pointer2 <= 3; ++pointer2)
 		{
-			for (int pointer3 = pointer1 + 2; pointer3 < 8; ++pointer3)
+			for (int pointer3 = 4; pointer3 <= 7; ++pointer3)
 			{
-				for (int pointer4 = pointer1 + 3; pointer4 < 9; ++pointer4)
+				for (int pointer4 = pointer3 + 1; pointer4 <= 8; ++pointer4)
 				{
 					CUE c;
 					for (int i = 0; i < CUEBuilder.size(); ++i)

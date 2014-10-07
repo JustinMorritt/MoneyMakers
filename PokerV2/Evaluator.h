@@ -30,8 +30,7 @@ public:
 	int CompareKickers(const CUE& c1, const CUE& c2);
 	int GetPipValueofOnePair(const CUE& c);
 };
-<<<<<<< HEAD
-=======
+
 
 
 
@@ -66,9 +65,4 @@ private :
 
 };
 
-
-
-
-
->>>>>>> 2bdf8cd33046e01c83c7c5a57a704f0483534327
 #endif
