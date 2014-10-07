@@ -1,17 +1,26 @@
 #include <iostream>
 #include <map>
+#include <iomanip>
 #include "Dealer.h"
 #include "HashEvaluator.h"
-
-
 
 using namespace std;
 
 int main()
 {
-	cout << "Welcome to the HashEvaluator Test Platform\n"
-		 << " To Do:  Need To Create Each combination of all the hands.\n\n\n";
-
+	cout
+		<< "____    ____       _        ____   ____    ____  \n"
+		<< "`MM'    `MM'      dM.      6MMMMb\  `MM'    `MM'  \n"
+		<< " MM      MM      ,MMb     6M'    `  MM      MM   \n"
+		<< " MM      MM      d'YM.    MM        MM      MM   \n"
+		<< " MM      MM     ,P `Mb    YM.       MM      MM   \n"
+		<< " MMMMMMMMMM     d'  YM.    YMMMMb   MMMMMMMMMM   \n"
+		<< " MM      MM    ,P   `Mb        `Mb  MM      MM   \n"
+		<< " MM      MM    d'    YM.        MM  MM      MM   \n"
+		<< " MM      MM   ,MMMMMMMMb        MM  MM      MM   \n"
+		<< " MM      MM   d'      YM. L    ,M9  MM      MM   \n"
+		<< "_MM_    _MM__dM_     _dMM_MYMMMM9  _MM_    _MM_  By:Justin\n";
+                                                                                                                      
 
 	HashEvaluator* H = new HashEvaluator;
 
@@ -36,9 +45,10 @@ int main()
 		}
 
 		unsigned hash = H->GetHash(Cards);
-	
+		unsigned value = H->GetValue(hash);
+		string  name = H->GetName(hash);
 
-		cout << "--> Value: " << hash << "      Rank:     Name:    ";
+		cout << "--> Hash#: " << hash << setw(5) << right << " Rank:" << value << " Name: " << name;
 		cin.get();
 		++HandNum;
 		delete D;
