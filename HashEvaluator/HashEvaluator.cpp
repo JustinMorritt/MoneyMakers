@@ -254,17 +254,27 @@ void HashEvaluator::HashOnePair()
 						{
 							if (l != i  && l != j && l != m)
 							{
-								hashOutput << "Hand ";
 								hashResult *= PrimeNumbers[i];
-								hashOutput << Card::PIP_CHARS[i] << " * ";
 								hashResult *= PrimeNumbers[i];
-								hashOutput << Card::PIP_CHARS[i] << " * ";
 								hashResult *= PrimeNumbers[j];
-								hashOutput << Card::PIP_CHARS[j] << " * ";
 								hashResult *= PrimeNumbers[m];
-								hashOutput << Card::PIP_CHARS[m] << " * ";
 								hashResult *= PrimeNumbers[l];
-								hashOutput << Card::PIP_CHARS[l] << " * ";
+								//thinking of pushing values onto the map here .. check if duplicates..
+								
+								/*
+								pair<map<string, unsigned>::iterator, bool> check;
+								pair<unsigned, string> rankName;
+								check = m_HashTable.insert(pair<unsigned, rankName>(ret, 1));
+								if (check.second == false)
+								{
+									check.first->second++;
+								}
+								else
+								{
+									m.insert(pair<string, unsigned>(ret, 1));
+								}
+
+								*/
 								this->m_OnePair.push_back(hashResult);
 								hashOutput << " = " << hashResult << " <---One Pair " << endl;
 								hashResult = 1;
