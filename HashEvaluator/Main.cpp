@@ -19,7 +19,7 @@ int main()
 		<< " MM      MM    d'    YM.        MM  MM      MM   \n"
 		<< " MM      MM   ,MMMMMMMMb        MM  MM      MM   \n"
 		<< " MM      MM   d'      YM. L    ,M9  MM      MM   \n"
-		<< "_MM_    _MM__dM_     _dMM_MYMMMM9  _MM_    _MM_  By:Justin\n";
+		<< "_MM_    _MM__dM_     _dMM_MYMMMM9  _MM_    _MM_  \n";
                                                                                                                       
 
 	HashEvaluator* H = new HashEvaluator;
