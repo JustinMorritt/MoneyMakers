@@ -9,17 +9,17 @@ using namespace std;
 int main()
 {
 	cout
-		<< "____    ____       _        ____   ____    ____  \n"
-		<< "`MM'    `MM'      dM.      6MMMMb\  `MM'    `MM'  \n"
-		<< " MM      MM      ,MMb     6M'    `  MM      MM   \n"
-		<< " MM      MM      d'YM.    MM        MM      MM   \n"
-		<< " MM      MM     ,P `Mb    YM.       MM      MM   \n"
-		<< " MMMMMMMMMM     d'  YM.    YMMMMb   MMMMMMMMMM   \n"
-		<< " MM      MM    ,P   `Mb        `Mb  MM      MM   \n"
-		<< " MM      MM    d'    YM.        MM  MM      MM   \n"
-		<< " MM      MM   ,MMMMMMMMb        MM  MM      MM   \n"
-		<< " MM      MM   d'      YM. L    ,M9  MM      MM   \n"
-		<< "_MM_    _MM__dM_     _dMM_MYMMMM9  _MM_    _MM_  \n";
+		<< "\t\t____    ____       _        ____   ____    ____  \n"
+		<< "\t\t`MM'    `MM'      dM.      6MMMMb\  `MM'    `MM'  \n"
+		<< "\t\t MM      MM      ,MMb     6M'    `  MM      MM   \n"
+		<< "\t\t MM      MM      d'YM.    MM        MM      MM   \n"
+		<< "\t\t MM      MM     ,P `Mb    YM.       MM      MM   \n"
+		<< "\t\t MMMMMMMMMM     d'  YM.    YMMMMb   MMMMMMMMMM   \n"
+		<< "\t\t MM      MM    ,P   `Mb        `Mb  MM      MM   \n"
+		<< "\t\t MM      MM    d'    YM.        MM  MM      MM   \n"
+		<< "\t\t MM      MM   ,MMMMMMMMb        MM  MM      MM   \n"
+		<< "\t\t MM      MM   d'      YM. L    ,M9  MM      MM   \n"
+		<< "\t\t_MM_    _MM__dM_     _dMM_MYMMMM9  _MM_    _MM_  \n";
                                                                                                                       
 
 	HashEvaluator* H = new HashEvaluator;
@@ -49,7 +49,7 @@ int main()
 		string  name = H->GetName(hash,Cards);
 
 		cout << "--> Hash#: " << hash << setw(5) << right << " Rank:" << value << " Name: " << name << endl;
-		system("pause");
+		cin.get();
 		++HandNum;
 		delete D;
 	}

@@ -11,14 +11,14 @@ class HashEvaluator
 public:
 	HashEvaluator();
 	~HashEvaluator();
-	
-
 
 	void MakeHashTable();
+	void OutPutMap() const;
 	unsigned GetHash(vector<const Card*>& cards) const;
 	unsigned GetValue(unsigned hash) const;
 	string GetName(unsigned hash, vector<const Card*>& cards) const;
 	map<unsigned, pair<unsigned, string>>& GetMap()const;
+
 	void HashStraightFlushes();
 	void HashQuads();
 	void HashBoats();
@@ -45,7 +45,6 @@ private:
 	static vector<unsigned> m_TwoPair;
 	static vector<unsigned> m_OnePair;
 	static vector<unsigned> m_HighCards;
-
 };
 
 

@@ -1,5 +1,4 @@
 #include <iostream>
-#include <utility> 
 #include <string>
 #include <fstream>
 #include "HashEvaluator.h"
@@ -86,7 +85,7 @@ void HashEvaluator::HashStraightFlushes()
 			//hashOutput << Card::PIP_CHARS[j] << " * ";
 		}
 		//this->m_Straights.push_back(hashResult);
-		//cout << " = " << hashResult << " Straight Flush " << Card::PIP_CHARS[i] << " to " << Card::PIP_CHARS[last] << endl;
+		cout << " = " << hashResult << " Straight Flush " << Card::PIP_CHARS[i] << " to " << Card::PIP_CHARS[last] << endl;
 
 		if (last == 12)
 		{
