@@ -48,8 +48,8 @@ int main()
 		unsigned value = H->GetValue(hash);
 		string  name = H->GetName(hash,Cards);
 
-		cout << "--> Hash#: " << hash << setw(5) << right << " Rank:" << value << " Name: " << name;
-		cin.get();
+		cout << "--> Hash#: " << hash << setw(5) << right << " Rank:" << value << " Name: " << name << endl;
+		system("pause");
 		++HandNum;
 		delete D;
 	}
