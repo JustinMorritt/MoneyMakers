@@ -62,14 +62,29 @@ string Player::GetCUEName(const CUE& c)
 	}
 	if (E.IsBoat(c))
 	{
-		char value = c[0]->GetPip();
-		char value2 = c[3]->GetPip();
-		cueName = "Full House: ";
-		cueName += Card::PIP_CHARS[value];
-		cueName += "'s & ";
-		cueName += Card::PIP_CHARS[value2];
-		cueName += "'s";
-		return cueName;
+		if (c[0]->GetPip() == c[2]->GetPip())
+		{
+			char value = c[0]->GetPip();
+			char value2 = c[3]->GetPip();
+			cueName = "Full House: ";
+			cueName += Card::PIP_CHARS[value];
+			cueName += "'s Full of ";
+			cueName += Card::PIP_CHARS[value2];
+			cueName += "'s";
+			return cueName;
+		}
+		if (c[2]->GetPip() == c[4]->GetPip())
+		{
+			char value = c[3]->GetPip();
+			char value2 = c[0]->GetPip();
+			cueName = "Full House: ";
+			cueName += Card::PIP_CHARS[value];
+			cueName += "'s Full of ";
+			cueName += Card::PIP_CHARS[value2];
+			cueName += "'s";
+			return cueName;
+		}
+	
 	}
 	if (E.IsFlush(c))
 	{

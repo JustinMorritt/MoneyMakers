@@ -97,7 +97,6 @@ int Evaluator::CompareCues(const CUE& c1, const CUE& c2)
 	bool st1 = IsStraight(c1);
 	bool st2 = IsStraight(c2);
 
-
 	if (f1 && st1) //c1 is a straight flush
 	{
 		if (f2 && st2)//c2 is a straight flush
@@ -266,11 +265,11 @@ int Evaluator::CompareStraights(const CUE& c1, const CUE& c2)
 
 	if (c1[0]->GetPip() < c2[0]->GetPip())
 	{
-		return -2; //any negative number .. C2 is greater
+		return -1; //any negative number .. C2 is greater
 	}
 	if (c1[0]->GetPip() > c2[0]->GetPip())
 	{
-		return 10; //any positive number.. C1 is greater 
+		return 1; //any positive number.. C1 is greater 
 	}
 	return 0; //Same
 }
@@ -291,7 +290,39 @@ int Evaluator::CompareQuads(const CUE& c1, const CUE& c2)
 
 int Evaluator::CompareBoats(const CUE& c1, const CUE& c2)
 {
-	return CompareQuads(c1, c2); // you can use the same comparison algorithm and it works.
+	//THE 3 ARE IN FIRST POSITIONS	
+
+		if (c1[2]->GetPip() < c2[2]->GetPip())
+		{
+			return -1; //second hand higher
+		}
+		if (c1[2]->GetPip() > c2[2]->GetPip())
+		{
+			return 1;
+		}
+		//SAME
+		if (c1[3]->GetPip() < c2[3]->GetPip())
+		{
+			return -1;
+		}
+		if (c1[3]->GetPip() > c2[3]->GetPip())
+		{
+			return 1;
+		}
+
+		//SAME
+		if (c1[1]->GetPip() < c2[1]->GetPip())
+		{
+			return -1;
+		}
+		if (c1[1]->GetPip() > c2[1]->GetPip())
+		{
+			return 1;
+		}
+	
+	return 0;
+	//BOTH HIGHER PAIRS ARE SAME THEN -->
+
 }
 
 int Evaluator::CompareFlushs(const CUE& c1, const CUE& c2)
@@ -308,20 +339,20 @@ int Evaluator::CompareTwoPair(const CUE& c1, const CUE& c2)
 {
 	if (c1[3]->GetPip() < c2[3]->GetPip())
 	{
-		return 1; //second hand higher
+		return -1; //second hand higher
 	}
 	if (c1[3]->GetPip() > c2[3]->GetPip())
 	{
-		return -1;
+		return 1;
 	}
 	//BOTH HIGHER PAIRS ARE SAME THEN -->
 	if (c1[1]->GetPip() < c2[1]->GetPip())
 	{
-		return 1;
+		return -1;
 	}
 	if (c1[1]->GetPip() > c2[1]->GetPip())
 	{
-		return -1;
+		return 1;
 	}
 	return CompareKickers(c1, c2);
 }
@@ -487,7 +518,7 @@ void HashEvaluator::HashQuads()
 }
 void HashEvaluator::HashBoats()
 {
-	unsigned maxPIP = 12;
+	unsigned maxPIP = 13;
 	unsigned hashResult = 1;
 	hashResult = 1;
 	for (unsigned i = 0; i < maxPIP; ++i)
@@ -513,7 +544,7 @@ void HashEvaluator::HashBoats()
 				//this->m_Boats.push_back(hashResult);
 				//	hashOutput << " = " << hashResult << " <---Boat " << endl;
 
-				string rankName = "Full House "; rankName += Card::PIP_CHARS[j]; rankName += "'s & "; rankName += Card::PIP_CHARS[i]; rankName += "'s ";
+				string rankName = "Full House "; rankName += Card::PIP_CHARS[i]; rankName += "'s Full of "; rankName += Card::PIP_CHARS[j]; rankName += "'s ";
 				m_HashTable.insert(make_pair(hashResult, make_pair(7, rankName)));
 
 				hashResult = 1;
@@ -594,7 +625,7 @@ void HashEvaluator::HashStraights()
 }
 void HashEvaluator::HashTrips()
 {
-	unsigned maxPIP = 12;
+	unsigned maxPIP = 13;
 	unsigned hashResult = 1;
 	hashResult = 1;
 	for (unsigned i = 0; i < maxPIP; ++i)
@@ -632,7 +663,7 @@ void HashEvaluator::HashTrips()
 }
 void HashEvaluator::HashTwoPair()
 {
-	unsigned maxPIP = 12;
+	unsigned maxPIP = 13;
 	unsigned hashResult = 1;
 	hashResult = 1;
 	for (unsigned i = 0; i < maxPIP; ++i)
@@ -708,35 +739,33 @@ void HashEvaluator::HashHighCards()
 }
 
 
-unsigned HashEvaluator::GetHash(CUE& cards) const
+unsigned HashEvaluator::GetHash(vector<const Card*>& cards) const
 {
-	
+	//cout << "\n";
 	if (cards[0]->GetSuit() == cards[1]->GetSuit() &&
 		cards[0]->GetSuit() == cards[2]->GetSuit() &&
 		cards[0]->GetSuit() == cards[3]->GetSuit() &&
 		cards[0]->GetSuit() == cards[4]->GetSuit())
 	{
-
-	unsigned ret = 1;
-	for (unsigned i = 0; i < cards.size(); ++i)
-	{
-	//cout << cards[i]->GetPip();
-	ret *= HashEvaluator::PrimeNumbers[cards[i]->GetPip()];
-	ret *= HashEvaluator::FlushPrimeNum[0];
-	}
-	return ret;
+		unsigned ret = 1;
+		for (unsigned i = 0; i < 5; ++i)
+		{
+			//cout << cards[i]->GetPip();
+			ret *= HashEvaluator::PrimeNumbers[cards[i]->GetPip()];
+			ret *= HashEvaluator::FlushPrimeNum[0];
+		}
+		return ret;
 
 	}
 	else
 	{
-	unsigned ret = 1;
-	for (unsigned i = 0; i < cards.size(); ++i)
-	{
-		//cout << cards[i]->GetPip();
-		ret *= HashEvaluator::PrimeNumbers[cards[i]->GetPip()];
-	}
-	return ret;
-
+		unsigned ret = 1;
+		for (unsigned i = 0; i < 5; ++i)
+		{
+			//cout << " CARDS PIP : " << cards[i]->GetPip() << "   RET VAL: " << ret << endl;
+			ret *= HashEvaluator::PrimeNumbers[cards[i]->GetPip()];
+		}
+		return ret;
 	}
 	
 }
@@ -750,7 +779,7 @@ unsigned HashEvaluator::GetValue(unsigned hash) const
 	unsigned Rank = get<0>(rank);
 	return Rank;
 }
-string HashEvaluator::GetName(unsigned hash, CUE& cards) const
+string HashEvaluator::GetName(unsigned hash, vector<const Card*>& cards) const
 {
 	if (GetValue(hash) < 1)
 	{

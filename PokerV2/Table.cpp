@@ -500,15 +500,25 @@ void DrawTable::PlayersShowHashCards()
 		(*p_it)->ShowCards();
 		cout << "\n";
 		(*p_it)->ShowBestHand(diffCue);
-		cout << "---------->";
-		
-		unsigned hash = H.GetHash(diffCue);
-		string Name = H.GetName(hash, diffCue);
-		cout << hash <<"---------->" << Name;
+		cout << "-->Hash# ";
+
+		vector<const Card*> cards;
+		for (unsigned i = 0; i < diffCue.size(); ++i)
+		{
+			cards.push_back(diffCue[i]);
+		}
+
+
+		unsigned hash = H.GetHash(cards);
+		string Name = H.GetName(hash, cards);
+		unsigned rank = H.GetValue(hash);
+
+
+		cout << hash <<" Value: "<< rank << " Name:" << Name;
 
 		if (E.CompareCues(bestCue, diffCue) == 0)
 		{
-			cout << " <------WINNER-";
+			cout << " <---WINNER-";
 		}
 		player++;
 		cout << endl;
@@ -544,8 +554,18 @@ void StudTable::PlayersShowHashCards()
 		(*p_it)->ShowCards();
 		cout << "\n";
 		(*p_it)->ShowBestHand(diffCue);
-		cout << "---------->";
-		(*p_it)->GetHandName();
+		cout << "-->Hash# ";
+
+		vector<const Card*> cards;
+		for (unsigned i = 0; i < diffCue.size(); ++i)
+		{
+			cards.push_back(diffCue[i]);
+		}
+
+		unsigned hash = H.GetHash(cards);
+		string Name = H.GetName(hash, cards);
+		unsigned rank = H.GetValue(hash);
+		cout << hash << " Value: " << rank << " Name:" << Name;
 
 		if (E.CompareCues(bestCue, diffCue) == 0)
 		{
@@ -587,8 +607,19 @@ void OmahaTable::PlayersShowHashCards()
 		(*p_it)->ShowCards();
 		cout << "\n";
 		(*p_it)->ShowBestHand(diffCue);
-		cout << "---------->";
-		(*p_it)->GetHandName();
+		cout << "-->Hash# ";
+
+		vector<const Card*> cards;
+		for (unsigned i = 0; i < diffCue.size(); ++i)
+		{
+			cards.push_back(diffCue[i]);
+		}
+
+		unsigned hash = H.GetHash(cards);
+		string Name = H.GetName(hash, cards);
+		unsigned rank = H.GetValue(hash);
+		cout << hash << " Value: " << rank << " Name:" << Name;
+
 		if (E.CompareCues(bestCue, diffCue) == 0)
 		{
 			cout << " <---WINNER!";
@@ -629,8 +660,19 @@ void TexasTable::PlayersShowHashCards()
 		(*p_it)->ShowCards();
 		cout << "\n";
 		(*p_it)->ShowBestHand(diffCue);
-		cout << "---------->";
-		(*p_it)->GetHandName();
+		cout << "-->Hash# ";
+
+		vector<const Card*> cards;
+		for (unsigned i = 0; i < diffCue.size(); ++i)
+		{
+			cards.push_back(diffCue[i]);
+		}
+
+		unsigned hash = H.GetHash(cards);
+		string Name = H.GetName(hash, cards);
+		unsigned rank = H.GetValue(hash);
+		cout << hash << " Value: " << rank << " Name:" << Name;
+
 
 		if (E.CompareCues(bestCue, diffCue) == 0)
 		{
@@ -640,7 +682,6 @@ void TexasTable::PlayersShowHashCards()
 		cout << endl;
 	}
 }
-
 
 
 //DESTRUCTORS

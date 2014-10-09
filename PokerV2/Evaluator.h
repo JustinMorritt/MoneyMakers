@@ -41,9 +41,9 @@ public:
 
 	void MakeHashTable();
 	void OutPutMap() const;
-	unsigned GetHash(CUE& cards) const;
+	unsigned GetHash(vector<const Card*>& cards) const;
 	unsigned GetValue(unsigned hash) const;
-	string GetName(unsigned hash, CUE& cards) const;
+	string GetName(unsigned hash, vector<const Card*>& cards) const;
 	map<unsigned, pair<unsigned, string>>& GetMap()const;
 
 	void HashStraightFlushes();
