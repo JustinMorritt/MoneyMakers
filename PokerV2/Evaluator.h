@@ -1,6 +1,6 @@
 #if !defined(EVAL_H__)
 #define EVAL_H__
-
+#include <map>
 #include "cue.h"
 
 class Evaluator
@@ -33,13 +33,18 @@ public:
 
 
 
-
 class HashEvaluator
 {
 public:
-	HashEvaluator(){ MakeHashTable(); };
-	void MakeHashTable() const;
+	HashEvaluator();
+	~HashEvaluator();
 
+	void MakeHashTable();
+	void OutPutMap() const;
+	unsigned GetHash(CUE& cards) const;
+	unsigned GetValue(unsigned hash) const;
+	string GetName(unsigned hash, CUE& cards) const;
+	map<unsigned, pair<unsigned, string>>& GetMap()const;
 
 	void HashStraightFlushes();
 	void HashQuads();
@@ -51,18 +56,14 @@ public:
 	void HashOnePair();
 	void HashHighCards();
 
-private : 
+private:
 	static int TableMade;
-	static vector<unsigned> m_StraightFlushes;
-	static vector<unsigned> m_Quads;
-	static vector<unsigned> m_Boats;
-	static vector<unsigned> m_Flushs;
-	static vector<unsigned> m_Straights;
-	static vector<unsigned> m_Trips;
-	static vector<unsigned> m_TwoPair;
-	static vector<unsigned> m_OnePair;
-	static vector<unsigned> m_HighCards;
-
+	const static unsigned PrimeNumbers[];
+	const static unsigned FlushPrimeNum[];
+	const static unsigned HandSize;
+	static map<unsigned, pair<unsigned, string>> m_HashTable; //first create the pair then insert the unsigned and pair together .
 };
+
+
 
 #endif

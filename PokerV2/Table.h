@@ -25,7 +25,8 @@ public:
 	DrawTable(int players, int gametype);
 	void DealToPlayers();
 	void AddPlayers();
-	void PlayersShowCards(); //note .. tried to make const but iterator prevented that ...
+	void PlayersShowCards();
+	void PlayersShowHashCards();
 	virtual ~DrawTable();
 
 private:
@@ -42,6 +43,7 @@ public:
 	void AddPlayers();
 	void DealToPlayers();
 	void PlayersShowCards();
+	void PlayersShowHashCards();
 	virtual ~StudTable();
 
 private:
@@ -60,6 +62,7 @@ public:
 	void DealToPlayers();
 	void Flop();
 	void PlayersShowCards();
+	void PlayersShowHashCards();
 	virtual ~OmahaTable();
 
 private:
@@ -80,6 +83,7 @@ public:
 	void DealToPlayers();
 	void Flop();
 	void PlayersShowCards();
+	void PlayersShowHashCards();
 	virtual ~TexasTable();
 
 private:
@@ -110,11 +114,6 @@ catch (PlayerException ex)
 {
 cout << ex.what() << endl;
 }*/
-
-
-
-
-
 
 
 
