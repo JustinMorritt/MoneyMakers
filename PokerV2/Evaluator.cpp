@@ -1,6 +1,7 @@
 #include "Evaluator.h"
 #include <vector>
-
+#include <string>
+#include "card.h"
 
 Evaluator::Evaluator()
 {

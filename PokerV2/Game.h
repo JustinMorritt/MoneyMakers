@@ -27,7 +27,7 @@ public:
 
 private:
 	int _evaluator;
-	HashEvaluator* pHash;
+	
 	string _evaluatorName = "Sorted";
 	int _gameType;
 	int _players;

@@ -85,7 +85,7 @@ void Game::SetEvaluator()
 		{
 			_evaluator = 2;
 			_evaluatorName = "Hash";
-			pHash = new HashEvaluator;
+			HashEvaluator H;
 			break;
 		}
 	}
