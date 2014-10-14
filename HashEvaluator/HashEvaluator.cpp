@@ -6,8 +6,6 @@
 
 using namespace std;
 
-ofstream hashOutput("hashOutput.txt");
-
 
 HashEvaluator::HashEvaluator()
 {
@@ -17,16 +15,17 @@ HashEvaluator::~HashEvaluator()
 {
 }
 //HASH EVALUATOR **************************************
-map<unsigned, pair<unsigned, string>>  HashEvaluator::m_HashTable;
+map<unsigned, pair<unsigned, string>> HashEvaluator::m_HashTable;
 const unsigned HashEvaluator::PrimeNumbers[]{1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37 };
 const unsigned HashEvaluator::FlushPrimeNum[]{41};
 const unsigned HashEvaluator::HandSize = 5;
 int HashEvaluator::TableMade = 0;
+int HashEvaluator::rank = 1;
 
 
 void HashEvaluator::MakeHashTable() 
 {
-	if (TableMade == 0)//Making sure only one hash table is made.
+	if (TableMade == 0)
 	{
 		//MAKE ALL THE VECTORS
 		HashStraightFlushes();
@@ -40,13 +39,15 @@ void HashEvaluator::MakeHashTable()
 	    HashHighCards();
 
 		TableMade = 1;
-		hashOutput.close();
+		cout << "\n\nOutputing map ... . ";
+		OutPutMap();
+		cout << "Complete..." << m_HashTable.size() << " elements..\n";
 	}
 }
 
 void HashEvaluator::HashStraightFlushes()
 {
-	unsigned maxPIP = 12;
+	unsigned maxPIP = 13;
 	unsigned hashResult = 1;
 	//TAKE CARE OF THE WHEEL STRAIGHT
 	hashResult *= PrimeNumbers[12];
@@ -61,17 +62,13 @@ void HashEvaluator::HashStraightFlushes()
 	hashResult = 1;
 	for (unsigned i = 0; i < maxPIP - 3; ++i)
 	{
-		//hashOutput << "Hand ";
 		unsigned last;
 		for (unsigned j = i; j < (i + 5); ++j)
 		{
 			hashResult *= PrimeNumbers[j];
 			hashResult *= FlushPrimeNum[0];
 			last = j;
-			//hashOutput << Card::PIP_CHARS[j] << " * ";
 		}
-		//this->m_Straights.push_back(hashResult);
-		//cout << " = " << hashResult << " Straight Flush " << Card::PIP_CHARS[i] << " to " << Card::PIP_CHARS[last] << endl;
 
 		if (last == 12)
 		{
@@ -94,22 +91,19 @@ void HashEvaluator::HashQuads()
 		{
 			if (j != i)
 			{
-				//hashOutput << "Hand ";
 				for (unsigned k = 0; k < HandSize; ++k)
 				{
 					if (k == 4)
 					{
 						hashResult *= PrimeNumbers[j];
-					//	hashOutput << Card::PIP_CHARS[j] << " * ";
 					}
 					else
 					{
 						hashResult *= PrimeNumbers[i];
-					//	hashOutput << Card::PIP_CHARS[i] << " * ";
 					}
 				}
-				//this->m_Quads.push_back(hashResult);
-				//cout << " = " << hashResult << " <---Quad " << Card::PIP_CHARS[i] << "'s " << endl;
+
+			
 				string rankName = " Four-O-Kind "; rankName += Card::PIP_CHARS[i]; rankName += "'s  "; rankName += Card::PIP_CHARS[j]; rankName += " High";
 				m_HashTable.insert(make_pair(hashResult, make_pair(8, rankName)));
 
@@ -129,22 +123,18 @@ void HashEvaluator::HashBoats()
 		{
 			if (j != i)
 			{
-				//hashOutput << "Hand ";
 				for (unsigned k = 0; k < HandSize; ++k)
 				{
 					if (k == 4 || k == 3)
 					{
 						hashResult *= PrimeNumbers[j];
-					//	hashOutput << Card::PIP_CHARS[j] << " * ";
 					}
 					else
 					{
 						hashResult *= PrimeNumbers[i];
-					//	hashOutput << Card::PIP_CHARS[i] << " * ";
 					}
 				}
-				//this->m_Boats.push_back(hashResult);
-			//	hashOutput << " = " << hashResult << " <---Boat " << endl;
+
 				
 				string rankName = "Full House "; rankName += Card::PIP_CHARS[j]; rankName += "'s & "; rankName += Card::PIP_CHARS[i]; rankName += "'s ";
 				m_HashTable.insert(make_pair(hashResult, make_pair(7, rankName)));
@@ -179,11 +169,8 @@ void HashEvaluator::HashFlushs()
 								hashResult *= PrimeNumbers[j]; hashResult *= FlushPrimeNum[0];
 								hashResult *= PrimeNumbers[m]; hashResult *= FlushPrimeNum[0];
 								hashResult *= PrimeNumbers[l]; hashResult *= FlushPrimeNum[0];
-								//thinking of pushing values onto the map here .. check if duplicates..
-
-								string rankName = "Flush "; //rankName += Card::SUIT_CHARS[i]; rankName += "'s ";
+								string rankName = "Flush "; 
 								m_HashTable.insert(make_pair(hashResult, make_pair(6, rankName)));
-								//cout << " = " << hashResult << " <---Flush of " << Card::SUIT_CHARS[i] << "'s" << endl;
 								hashResult = 1;
 							}
 						}
@@ -209,16 +196,12 @@ void HashEvaluator::HashStraights()
 	hashResult = 1;
 	for (unsigned i = 0; i < maxPIP - 3; ++i)
 	{
-		//hashOutput << "Hand ";
 		unsigned last;
 		for (unsigned j = i ; j < (i + 5); ++j)
 		{
 			hashResult *= PrimeNumbers[j];
 			last = j;
-			//hashOutput << Card::PIP_CHARS[j] << " * ";
 		}
-		//this->m_Straights.push_back(hashResult);
-		//hashOutput << " = " << hashResult << " <---Straight " << endl;
 		
 		string rankName = "Straight "; rankName += Card::PIP_CHARS[i]; rankName += " to "; rankName += Card::PIP_CHARS[last]; 
 		m_HashTable.insert(make_pair(hashResult, make_pair(5, rankName)));
@@ -240,20 +223,11 @@ void HashEvaluator::HashTrips()
 				{
 					if (l != i  && l != j)
 					{
-						//hashOutput << "Hand ";
 						hashResult *= PrimeNumbers[i];
-					    //hashOutput << Card::PIP_CHARS[i] << " * ";
 						hashResult *= PrimeNumbers[i];
-						//hashOutput << Card::PIP_CHARS[i] << " * ";
 						hashResult *= PrimeNumbers[i];
-					    //hashOutput << Card::PIP_CHARS[i] << " * ";
 						hashResult *= PrimeNumbers[j];
-						//hashOutput << Card::PIP_CHARS[j] << " * ";
 						hashResult *= PrimeNumbers[l];
-						//hashOutput << Card::PIP_CHARS[l] << " * ";
-						//this->m_Trips.push_back(hashResult);
-						//hashOutput << " = " << hashResult << " <--- Three - o - Kind " << endl;
-
 						string rankName = "Three-o-Kind "; rankName += Card::PIP_CHARS[i]; rankName += "'s ";
 						m_HashTable.insert(make_pair(hashResult, make_pair(3, rankName)));
 						hashResult = 1;
@@ -265,7 +239,7 @@ void HashEvaluator::HashTrips()
 }
 void HashEvaluator::HashTwoPair()
 {
-	unsigned maxPIP = 12;
+	unsigned maxPIP = 13;
 	unsigned hashResult = 1;
 	hashResult = 1;
 	for (unsigned i = 0; i < maxPIP; ++i)
@@ -283,9 +257,6 @@ void HashEvaluator::HashTwoPair()
 						hashResult *= PrimeNumbers[j];
 						hashResult *= PrimeNumbers[j];
 						hashResult *= PrimeNumbers[l];
-						//hashOutput << Card::PIP_CHARS[l] << " * ";
-						//this->m_TwoPair.push_back(hashResult);
-						//hashOutput << " = " << hashResult << " <---Two Pair " << endl;
 						string rankName = "2 Pairs "; rankName += Card::PIP_CHARS[i]; rankName += "'s "; 
 						rankName += "& "; rankName += Card::PIP_CHARS[j]; rankName += "'s ";
 						m_HashTable.insert(make_pair(hashResult, make_pair(2, rankName)));
@@ -325,7 +296,6 @@ void HashEvaluator::HashOnePair()
 								
 								string rankName = "Pair of "; rankName += Card::PIP_CHARS[i]; rankName += "'s ";
 								m_HashTable.insert(make_pair(hashResult, make_pair(1, rankName)));
-								//hashOutput << " = " << hashResult << " <---One Pair " << endl;
 								hashResult = 1;
 							}
 						}
@@ -353,7 +323,6 @@ unsigned HashEvaluator::GetHash(vector<const Card*>& cards) const
 		unsigned ret = 1;
 		for (unsigned i = 0; i < cards.size(); ++i)
 		{
-			//cout << cards[i]->GetPip();
 			ret *= HashEvaluator::PrimeNumbers[cards[i]->GetPip()];
 			ret *= HashEvaluator::FlushPrimeNum[0];
 		}
@@ -365,7 +334,6 @@ unsigned HashEvaluator::GetHash(vector<const Card*>& cards) const
 		unsigned ret = 1;
 		for (unsigned i = 0; i < cards.size(); ++i)
 		{
-			//cout << cards[i]->GetPip();
 			ret *= HashEvaluator::PrimeNumbers[cards[i]->GetPip()];
 		}
 		return ret;
@@ -399,4 +367,19 @@ string HashEvaluator::GetName(unsigned hash, vector<const Card*>& cards) const
 	pair<unsigned, string> rank = m_HashTable[hash];
 	string name = get<1>(rank);
 	return name;
+}
+void HashEvaluator::OutPutMap() const
+{
+	ofstream hashOutput("hashOutput.txt");
+	
+	for (map<unsigned, pair<unsigned, string>>::iterator it = m_HashTable.begin(); it != m_HashTable.end(); ++it)
+	{
+		hashOutput << "Hash #: ";
+		hashOutput << it->first << " Rank=> ";
+		hashOutput << it->second.first << "Name=>";
+		hashOutput << it->second.second << "\n";
+	}
+
+	hashOutput.close();
+		
 }

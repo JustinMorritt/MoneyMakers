@@ -31,6 +31,7 @@ public:
 
 private:
 	static int TableMade;
+	static int rank;
 	const static unsigned PrimeNumbers[];
 	const static unsigned FlushPrimeNum[];
 	const static unsigned HandSize;
